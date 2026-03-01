@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beggining"
+	group: "0533E7D3AAC0F7A0"
+	id: "50FF257EEC89C9D0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "7589184664913D7D"
+		rewards: [{
+			id: "4B3FE65D6A287915"
+			item: {
+				count: 1
+				id: "minecraft:crafting_table"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			count: 4L
+			id: "6D8F6B277395A1A3"
+			item: { count: 1, id: "minecraft:oak_log" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

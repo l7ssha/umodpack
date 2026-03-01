@@ -1,0 +1,64 @@
+#Speed multiplier for Allthemodium Grinding Ball
+# Default: 1.8
+# Range: 0.1 ~ 10.0
+allthemodium_speed = 1.8
+#Efficiency multiplier for Allthemodium Grinding Ball
+# Default: 2.0
+# Range: 0.1 ~ 10.0
+allthemodium_efficiency = 2.0
+#Unbreaking level multiplier for Allthemodium Grinding Ball
+# Default: 1.4
+# Range: 0.1 ~ 10.0
+allthemodium_unbreaking = 1.4
+#Durability (in uses) for Allthemodium Grinding Ball
+# Default: 360000
+# Range: > 1
+allthemodium_durability = 360000
+#Speed multiplier for Vibranium Grinding Ball
+# Default: 2.0
+# Range: 0.1 ~ 10.0
+vibranium_speed = 2.0
+#Efficiency multiplier for Vibranium Grinding Ball
+# Default: 4.0
+# Range: 0.1 ~ 10.0
+vibranium_efficiency = 4.0
+#Unbreaking level multiplier for Vibranium Grinding Ball
+# Default: 2.0
+# Range: 0.1 ~ 10.0
+vibranium_unbreaking = 2.0
+#Durability (in uses) for Vibranium Grinding Ball
+# Default: 1060000
+# Range: > 1
+vibranium_durability = 1060000
+#Speed multiplier for Unobtainium Grinding Ball
+# Default: 3.0
+# Range: 0.1 ~ 10.0
+unobtainium_speed = 3.0
+#Efficiency multiplier for Unobtainium Grinding Ball
+# Default: 2.0
+# Range: 0.1 ~ 10.0
+unobtainium_efficiency = 2.0
+#Unbreaking level multiplier for Unobtainium Grinding Ball
+# Default: 1.0
+# Range: 0.1 ~ 10.0
+unobtainium_unbreaking = 1.0
+#Durability (in uses) for Unobtainium Grinding Ball
+# Default: 1600000
+# Range: > 1
+unobtainium_durability = 1600000
+#Speed multiplier for Infinite Grinding Ball
+# Default: 3.0
+# Range: 0.1 ~ 10.0
+infinite_speed = 3.0
+#Efficiency multiplier for Infinite Grinding Ball
+# Default: 3.0
+# Range: 0.1 ~ 10.0
+infinite_efficiency = 3.0
+#Unbreaking level multiplier for Infinite Grinding Ball
+# Default: 3.0
+# Range: 0.1 ~ 10.0
+infinite_unbreaking = 3.0
+#Durability (in uses) for Infinite Grinding Ball (use Integer.MAX_VALUE for infinite)
+# Default: 2147483647
+# Range: > 1
+infinite_durability = 2147483647

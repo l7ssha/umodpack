@@ -1,0 +1,25 @@
+#Factory General Settings
+[factory_general]
+	#Enable tier shard drops from factories and allow shard-based recipes for structure blocks
+	allowShardRecipes = true
+	#Percentage chance (0-100) for Tier II shard to drop per factory spawn cycle
+	# Default: 15
+	# Range: 0 ~ 100
+	tier2ShardDropChance = 15
+	#Percentage chance (0-100) for Tier III shard to drop per factory spawn cycle
+	# Default: 8
+	# Range: 0 ~ 100
+	tier3ShardDropChance = 8
+	#Percentage chance (0-100) for Tier IV shard to drop per factory spawn cycle
+	# Default: 5
+	# Range: 0 ~ 100
+	tier4ShardDropChance = 5
+
+#Factory Upgrade Settings
+[factory_upgrades]
+	#Base XP value per mob for XP upgrade calculations (default: 5)
+	# Default: 5
+	# Range: 1 ~ 100
+	xpBasePerMob = 5
+	#Enable additional power costs for upgrades (80/160/240 RF/t per tier)
+	enableUpgradePowerCosts = true

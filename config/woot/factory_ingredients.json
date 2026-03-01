@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "default": {
+    "efficiency": true,
+    "items": [],
+    "fluids": [],
+    "drops": []
+  },
+  "ingredients": [
+    {
+      "mobName": "minecraft:wither",
+      "tier": 3,
+      "efficiency": true,
+      "items": [
+        {
+          "item": "minecraft:soul_sand",
+          "count": 4
+        },
+        {
+          "item": "minecraft:wither_skeleton_skull",
+          "count": 3
+        }
+      ],
+      "fluids": [],
+      "drops": [
+        {
+          "item": "minecraft:nether_star",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "mobName": "minecraft:ender_dragon",
+      "tier": 4,
+      "efficiency": true,
+      "items": [
+        {
+          "item": "minecraft:end_crystal",
+          "count": 4
+        }
+      ],
+      "fluids": [],
+      "drops": [
+        {
+          "item": "minecraft:dragon_egg",
+          "count": 1
+        },
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 64
+        }
+      ]
+    }
+  ]
+}
