@@ -25,4 +25,5 @@ patchouli_data.json
 usercache.json
 usernamecache.json
 kubejs/config/**
-.probe
+.idea/
+*.iml
