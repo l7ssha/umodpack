@@ -25,6 +25,37 @@ ServerEvents.recipes(event => {
         },
     );
 
+    event.remove({ id: "avaritia:infinity_sword" });
+    avaritia.shaped_table(
+        4,
+         "avaritia:infinity_sword",
+         [
+            "      cII",
+            "     nIaI",
+            "    sIuIc",
+            "  CSIUIn ",
+            "CCAIUIs  ",
+            " CAXIS   ",
+            "  NAAC   ",
+            " N CC    ",
+            "A   C    "
+        ],
+        {
+            A: "avaritia:crystal_matrix",
+            C: "avaritia:crystal_matrix_ingot",
+            I: "avaritia:infinity_ingot",
+            N: "avaritia:neutron_ingot",
+            X: "avaritia:infinity_catalyst",
+            S: "allthemodium:alloy_sword",
+            U: "allthemodium:unobtainium_allthemodium_alloy_block",
+            u: "allthemodium:unobtainium_vibranium_alloy_block",
+            a: "allthemodium:vibranium_allthemodium_alloy_block",
+            s: "mysticalagriculture:awakened_supremium_sword",
+            n: "avaritia_expand:neutron_sword",
+            c: "avaritia:crystal_sword",
+        },
+    );
+
     // Mekanism and addons
     event.remove({ id: /evolvedmekanism.*creative.*/ });
     event.remove({ id: /ocultism:crushing\/.*alloy.*/ });
