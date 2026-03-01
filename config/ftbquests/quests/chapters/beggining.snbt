@@ -7,9 +7,9 @@
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
-		id: "7589184664913D7D"
+		id: "0D300E394E7B7F5E"
 		rewards: [{
-			id: "4B3FE65D6A287915"
+			id: "5EA63325B71C8AE6"
 			item: {
 				count: 1
 				id: "minecraft:crafting_table"
@@ -18,11 +18,11 @@
 		}]
 		tasks: [{
 			count: 4L
-			id: "6D8F6B277395A1A3"
-			item: { count: 1, id: "minecraft:oak_log" }
+			id: "4CF5B05735AA7DBF"
+			item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 			type: "item"
 		}]
-		x: 0.0d
-		y: 0.0d
+		x: 0.5d
+		y: 0.5d
 	}]
 }
