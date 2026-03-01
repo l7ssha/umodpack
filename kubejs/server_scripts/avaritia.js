@@ -56,14 +56,8 @@ ServerEvents.recipes(event => {
         },
     );
 
-    // Mekanism and addons
-    event.remove({ id: /evolvedmekanism.*creative.*/ });
-    event.remove({ id: /ocultism:crushing\/.*alloy.*/ });
-    event.remove({ id: "emextras:alloying/circuit/creative"});
-
     // AE2
     event.remove({ id: "aeinfinitybooster:dimension_card" });
-
     avaritia.shaped_table(
         2,
          "aeinfinitybooster:dimension_card",
@@ -99,9 +93,6 @@ ServerEvents.recipes(event => {
         },
     );
 
-    // Draconic Evolution
-    event.remove({ input: "draconicevolution:awakened_draconium_dust"});
-    
     // Mystical Agriculture
     avaritia.shaped_table(
         1,
@@ -161,6 +152,7 @@ AvaritiaEvents.singularity(event => {
 
     // Other
     singularityRecipe("brass", "alltheores:brass_ingot", [0xecb63d, 0xb98e2f]);
+    singularityRecipe("log", "#logs", [0xac8b54, 0x453620], 50000);
 });
 
 
