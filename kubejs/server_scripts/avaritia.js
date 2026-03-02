@@ -39,4 +39,73 @@ ServerEvents.recipes(event => {
       "id": "avaritia:neutron_pile"
     }
   });
+
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "       AA",
+      "      ABA",
+      "     ABA ",
+      " A  ABA  ",
+      " AAABA   ",
+      "  ABA    ",
+      " CAAA    ",
+      "CAC AA   ",
+      "AC       "
+    ],
+    "tier": 4,
+    "key": {
+      "A": {
+        "item": "avaritia:neutron_ingot"
+      },
+      "B": {
+        "item": "minecraft:netherite_block"
+      },
+      "C": {
+        "item": "avaritia:neutron_nugget"
+      }
+    },
+    "result": {
+      "id": "avaritia_expand:neutron_sword"
+    }
+  });
+
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "         ",
+      "         ",
+      "         ",
+      "ABBBBBBBA",
+      "BCCCCCCCB",
+      "ADEFFFEDA",
+      "AFDDDDDFA",
+      "FAAAAAAAF",
+      "         "
+    ],
+    "tier": 4,
+    "key": {
+      "A": {
+        "item": "mekanism:steel_casing"
+      },
+      "B": {
+        "item": "ae2:quartz_vibrant_glass"
+      },
+      "C": {
+        "item": "mekmm:large_solar_neutron_activator"
+      },
+      "D": {
+        "item": "extendedcrafting:ender_catalyst"
+      },
+      "E": {
+        "item": "minecraft:piston"
+      },
+      "F": {
+        "item": "industrialforegoing:machine_frame_supreme"
+      }
+    },
+    "result": {
+      "id": "avaritia:neutron_collector"
+    }
+  });
 });

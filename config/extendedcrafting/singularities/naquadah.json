@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.naquadah",
+  "colors": [
+    "505a44",
+    "303829"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/naquadah"
+  },
+  "materialCount": 250
+}

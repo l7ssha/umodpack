@@ -15,9 +15,20 @@ ServerEvents.recipes(event => {
     event.remove({ type: "avaritia:shapeless_table" });
     event.remove({ id: /avaritia:.*/ });
     event.remove({ id: /avaritia_expand:.*/ });
+    event.remove({ id: "minecraft:neutron" });
+    event.remove({ id: "minecraft:neutron_nugget" });
+    event.remove({ id: "minecraft:neutron_nugget_from_ingot" });
 
     // Mystical Agriculture
     event.remove({ id: "mysticalagradditions:essence/neutron_nugget" });
+
+    // AE2
+    event.remove({ id: "aeinfinitybooster:dimension_card" });
+    event.remove({ id: "ae2:network/blocks/controller" });
+
+    // Other
+    event.remove({ id: "igleelib:modium_ingot"});
+    event.remove({ id: "igleelib:modium_block"});
 });
 
 AvaritiaEvents.singularity(event => {
