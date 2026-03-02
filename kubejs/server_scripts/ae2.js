@@ -65,4 +65,53 @@ ServerEvents.recipes(event => {
             "id": "ae2:controller"
         }
     });
+    
+    event.replaceInput(
+        { id: 'ae2:network/cables/glass_fluix' },
+        'ae2:fluix_crystal',
+        'ae2:fluix_dust'
+    );
+
+    event.shapeless({
+        "ingredients": [
+            {
+            "item": "ae2:fluix_covered_cable"
+            },
+            {
+            "item": "minecraft:glowstone_dust"
+            },
+            {
+            "item": "minecraft:redstone"
+            },
+            {
+            "item": "ae2:engineering_processor"
+            }
+        ],
+        "result": {
+            "id": "ae2:fluix_smart_cable"
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            " A ",
+            "BCB",
+            " A "
+        ],
+        "key": {
+            "A": {
+            "item": "minecraft:white_wool"
+            },
+            "B": {
+            "item": "minecraft:string"
+            },
+            "C": {
+            "item": "ae2:fluix_glass_cable"
+            }
+        },
+        "result": {
+            "id": "ae2:fluix_covered_cable",
+        }
+    });
+
 });

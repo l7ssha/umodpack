@@ -1,6 +1,4 @@
 ServerEvents.recipes(event => {
-    event.remove({ id: "extendedcrafting:compressor" });
-
     event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
@@ -67,33 +65,6 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "avaritia:neutron_ingot"
-        }
-    });
-
-    event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "tier": 4,
-        "pattern": [
-            "         ",
-            "         ",
-            "  AAAAA  ",
-            "  AAAAA  ",
-            "  AABAA  ",
-            "  AAAAA  ",
-            "  AAAAA  ",
-            "         ",
-            "         "
-        ],
-        "key": {
-            "A": {
-             "item": "minecraft:bedrock"
-            },
-            "B": {
-                "item": "extendedcrafting:ultimate_singularity"
-            }
-        },
-        "result": {
-            "id": "avaritia:infinity_catalyst"
         }
     });
 

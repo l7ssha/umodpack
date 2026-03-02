@@ -1,36 +1,65 @@
-ServerEvents.recipes(event => {
+const recipesById = [
     // Mekanism and addons
-    event.remove({ id: /evolvedmekanism.*creative.*/ });
-    event.remove({ id: /ocultism:crushing\/.*alloy.*/ });
-    event.remove({ id: "emextras:alloying/circuit/creative"});
+    /evolvedmekanism.*creative.*/,
+    "emextras:alloying/circuit/creative",
+    /evolvedmekanism:solidifying.*/,
+    /evolvedmekanism:melting.*/,
 
-    event.remove({ id: /evolvedmekanism:solidifying.*/ });
-    event.remove({ id: /evolvedmekanism:melting.*/ });
-
-    // Draconic Evolution
-    event.remove({ input: "draconicevolution:awakened_draconium_dust"});
+    // Occultism
+    /occultism:crushing\/.*/,
+    /occultism:smelting\/.*/,
+    /occultism:crafting\/.*/,
 
     // Avaritia related
-    event.remove({ type: "avaritia:shaped_table" });
-    event.remove({ type: "avaritia:shapeless_table" });
-    event.remove({ id: /avaritia:.*/ });
-    event.remove({ id: /avaritia_expand:.*/ });
-    event.remove({ id: "minecraft:neutron" });
-    event.remove({ id: "minecraft:neutron_nugget" });
-    event.remove({ id: "minecraft:neutron_nugget_from_ingot" });
+    /avaritia:.*/,
+    /avaritia_expand:.*/,
+    "minecraft:neutron",
+    "minecraft:neutron_nugget",
+    "minecraft:neutron_nugget_from_ingot",
+
+    // Extended Crafting
+    "extendedcrafting:compressor",
 
     // Mystical Agriculture
-    event.remove({ id: "mysticalagradditions:essence/neutron_nugget" });
+    "mysticalagradditions:essence/neutron_nugget",
 
     // AE2
-    event.remove({ id: "aeinfinitybooster:dimension_card" });
-    event.remove({ id: "ae2:network/blocks/controller" });
+  "aeinfinitybooster:dimension_card",
+    "ae2:network/blocks/controller",
+    "ae2:network/cables/covered_fluix",
+    "ae2:network/cables/smart_fluix",
 
     // Other
-    event.remove({ id: "igleelib:modium_ingot"});
-    event.remove({ id: "igleelib:modium_block"});
+  "igleelib:modium_ingot",
+  "igleelib:modium_block",
+];
+
+const recipesByType = [
+    // Avaritia related
+    "avaritia:shaped_table",
+    "avaritia:shapeless_table",
+];
+
+const recipesByInput = [
+    // Draconic Evolution
+    "draconicevolution:awakened_draconium_dust",
+];
+
+ServerEvents.recipes(event => {
+    recipesById.forEach(recipeId => {
+        event.remove({ id: recipeId });
+    });
+
+    recipesByType.forEach(recipeType => {
+        event.remove({ type: recipeType });
+    });
+
+    recipesByInput.forEach(recipeInput => {
+        event.remove({ input: recipeInput });
+    });
 });
 
+// Remove all Avaritia singularities since we are using Extended Crafting ones
 AvaritiaEvents.singularity(event => {
     event.removeAll();
 });

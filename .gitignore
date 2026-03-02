@@ -29,3 +29,5 @@ kubejs/config/**
 *.iml
 
 .probe
+*.bak
+*-sort-order.ini
