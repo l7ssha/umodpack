@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.spectrum",
+  "colors": [
+    "ff0000",
+    "0000ff"
+  ],
+  "ingredient": {
+    "item": "mekanism_extras:alloy_spectrum"
+  }
+}

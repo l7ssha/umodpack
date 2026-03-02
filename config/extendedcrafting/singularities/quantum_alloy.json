@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.infused_entro",
+  "colors": [
+    "6f3f8f",
+    "43286a"
+  ],
+  "ingredient": {
+    "item": "advanced_ae:quantum_alloy"
+  }
+}

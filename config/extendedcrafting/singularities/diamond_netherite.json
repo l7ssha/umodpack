@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.netherite_diamond",
+  "colors": [
+    "49ead6",
+    "112211"
+  ],
+  "ingredient": {
+    "tag": "advancednetherite:ingot/netherites_diamond"
+  }
+}

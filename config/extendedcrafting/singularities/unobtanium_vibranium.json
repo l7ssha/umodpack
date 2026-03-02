@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.unobtainium_vibranium",
+  "colors": [
+    "63f5ae",
+    "c347e0"
+  ],
+  "ingredient": {
+    "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+  }
+}

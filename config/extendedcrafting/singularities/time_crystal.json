@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.time_crystal",
+  "colors": [
+    "c7fc6e",
+    "21e51b"
+  ],
+  "ingredient": {
+    "item": "justdirethings:time_crystal"
+  },
+  "materialCount": 1000
+}

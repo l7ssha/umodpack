@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.eclipsealloy",
+  "colors": [
+    "4c626b",
+    "1f222d"
+  ],
+  "ingredient": {
+    "item": "justdirethings:eclipsealloy_ingot"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.log",
+  "colors": [
+    "ac8b54",
+    "453620"
+  ],
+  "ingredient": {
+    "tag": "minecraft:logs"
+  },
+  "materialCount": 100000
+}

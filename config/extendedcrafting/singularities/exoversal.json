@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.exoversal",
+  "colors": [
+    "b0afa9",
+    "525253"
+  ],
+  "ingredient": {
+    "item": "evolvedmekanism:alloy_exoversal"
+  }
+}

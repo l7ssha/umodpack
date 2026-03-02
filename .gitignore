@@ -27,3 +27,5 @@ usernamecache.json
 kubejs/config/**
 .idea/
 *.iml
+
+.probe

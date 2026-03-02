@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.infused_entro",
+  "colors": [
+    "5fe189",
+    "038181"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/infused_entro"
+  }
+}

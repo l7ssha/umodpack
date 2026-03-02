@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.sky_replica",
+  "colors": [
+    "FFFFFF",
+    "112211"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/sky_replica"
+  }
+}
