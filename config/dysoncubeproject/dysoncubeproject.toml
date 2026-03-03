@@ -6,7 +6,7 @@
 	#How many solar panels each beam can support
 	# Default: 6
 	# Range: > 1
-	BEAM_TO_SOLAR_PANEL_RATIO = 6
+	BEAM_TO_SOLAR_PANEL_RATIO = 8
 	#The amount of power generated per sail
 	# Default: 20
 	# Range: > 0
@@ -28,4 +28,4 @@
 	#The power that the em railejector consumes each tick per sent item
 	# Default: 40
 	# Range: > 1
-	RAIL_EJECTOR_CONSUME = 40
+	RAIL_EJECTOR_CONSUME = 4160

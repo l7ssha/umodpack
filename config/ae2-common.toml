@@ -31,10 +31,10 @@
 [spatialio]
 	# Default: 1250.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	spatialPowerMultiplier = 1250.0
+	spatialPowerMultiplier = 10000.0
 	# Default: 1.35
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	spatialPowerExponent = 1.35
+	spatialPowerExponent = 1.45
 
 [logging]
 	blockUpdateLog = false
@@ -48,7 +48,7 @@
 	#The chargers charging rate factor, which is applied to the charged items charge rate. 2 means it charges everything twice as fast. 0.5 half as fast.
 	# Default: 1.0
 	# Range: 0.1 ~ 10.0
-	chargerChargeRate = 1.0
+	chargerChargeRate = 0.5
 	# Default: 1600000
 	# Range: > -2147483648
 	wirelessTerminal = 1600000
@@ -75,10 +75,10 @@
 [wireless]
 	# Default: 8.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	wirelessBaseCost = 8.0
+	wirelessBaseCost = 24.0
 	# Default: 1.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	wirelessCostMultiplier = 1.0
+	wirelessCostMultiplier = 2.0
 	# Default: 16.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
 	wirelessBaseRange = 16.0
@@ -93,7 +93,7 @@
 	wirelessHighWirelessCount = 64.0
 	# Default: 1.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	wirelessTerminalDrainMultiplier = 1.0
+	wirelessTerminalDrainMultiplier = 1.25
 
 [powerRatios]
 	# Default: 0.5
@@ -101,7 +101,7 @@
 	forgeEnergy = 0.5
 	# Default: 1.0
 	# Range: 0.01 ~ 1.7976931348623157E308
-	usageMultiplier = 1.0
+	usageMultiplier = 2.0
 	#How much energy can the internal grid buffer storage per node attached to the grid.
 	# Default: 25.0
 	# Range: 1.0 ~ 1000000.0
@@ -113,19 +113,19 @@
 	#The cost to transport energy through an energy P2P tunnel expressed as a factor of the transported energy.
 	# Default: 0.025
 	# Range: 0.0 ~ 1.0
-	p2pTunnelEnergyTax = 0.025
+	p2pTunnelEnergyTax = 0.05
 	#The cost to transport items/fluids/etc. through P2P tunnels, expressed in AE energy per equivalent I/O bus operation for the transported object type (i.e. items=per 1 item, fluids=per 125mb).
 	# Default: 0.025
 	# Range: 0.0 ~ 1.0
-	p2pTunnelTransportTax = 0.025
+	p2pTunnelTransportTax = 0.05
 
 [condenser]
 	# Default: 256
 	# Range: > -2147483648
-	matterBalls = 256
+	matterBalls = 1024
 	# Default: 256000
 	# Range: > -2147483648
-	singularity = 256000
+	singularity = 1000000
 
 # Min / Max Tickrates for dynamic ticking, most of these components also use sleeping, to prevent constant ticking, adjust with care, non standard rates are not supported or tested.
 [tickRates]

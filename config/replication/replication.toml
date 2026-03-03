@@ -15,7 +15,7 @@
 		MAX_PROGRESS = 100
 		# Default: 5000
 		# Range: > 1
-		POWER_USAGE = 5000
+		POWER_USAGE = 50000
 		# Default: 0.5
 		# Range: 0.0 ~ 1.0
 		IDENTIFICATION_PROGRESS = 0.5
@@ -24,10 +24,10 @@
 		#Setting this to 0 will disable the recipe calculation
 		# Default: 11
 		# Range: > 0
-		MAX_RECIPE_DEPTH = 11
+		MAX_RECIPE_DEPTH = 12
 		# Default: 50
 		# Range: > 1
-		MAX_VISITED_RECIPES = 50
+		MAX_VISITED_RECIPES = 80
 		#If enabled, values of items that have a crafting remaining item like milk buckets in the cake recipe, will subtract their remaining item matter value from the calculation
 		SUBTRACT_CRAFTING_REMAINING_ITEM = true
 
@@ -37,7 +37,7 @@
 		MAX_PROGRESS = 40
 		# Default: 1500
 		# Range: > 1
-		POWER_USAGE = 1500
+		POWER_USAGE = 15000
 		# Default: 16000
 		# Range: > 1
 		TANK_CAPACITY = 16000
@@ -49,7 +49,7 @@
 		MAX_PROGRESS = 100
 		# Default: 80
 		# Range: > 1
-		POWER_TICK = 80
+		POWER_TICK = 240
 		# Default: 0.8
 		# Range: 0.0 ~ 1.0
 		ENCLOSURE_SPEED_MULTIPLIER = 0.8

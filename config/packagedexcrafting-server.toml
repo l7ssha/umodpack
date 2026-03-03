@@ -2,15 +2,15 @@
 	#How much FE the Basic Package Crafter should hold.
 	# Default: 5000
 	# Range: > 0
-	energy_capacity = 5000
+	energy_capacity = 50000
 	#How much total FE the Basic Package Crafter should use per operation.
 	# Default: 500
 	# Range: > 0
-	energy_req = 500
+	energy_req = 5000
 	#How much FE/t maximum the Basic Package Crafter can use.
 	# Default: 100
 	# Range: > 0
-	energy_usage = 100
+	energy_usage = 1000
 	#Should the Basic Package Crafter draw energy from ME systems.
 	draw_me_energy = true
 
@@ -18,15 +18,15 @@
 	#How much FE the Advanced Package Crafter should hold.
 	# Default: 5000
 	# Range: > 0
-	energy_capacity = 5000
+	energy_capacity = 50000
 	#How much total FE the Advanced Package Crafter should use per operation.
 	# Default: 1000
 	# Range: > 0
-	energy_req = 1000
+	energy_req = 10000
 	#How much FE/t maximum the Advanced Package Crafter can use.
 	# Default: 125
 	# Range: > 0
-	energy_usage = 125
+	energy_usage = 1250
 	#Should the Advanced Package Crafter draw energy from ME systems.
 	draw_me_energy = true
 
@@ -34,15 +34,15 @@
 	#How much FE the Elite Package Crafter should hold.
 	# Default: 5000
 	# Range: > 0
-	energy_capacity = 5000
+	energy_capacity = 50000
 	#How much total FE the Elite Package Crafter should use per operation.
 	# Default: 2500
 	# Range: > 0
-	energy_req = 2500
+	energy_req = 25000
 	#How much FE/t maximum the Elite Package Crafter can use.
 	# Default: 250
 	# Range: > 0
-	energy_usage = 250
+	energy_usage = 2500
 	#Should the Elite Package Crafter draw energy from ME systems.
 	draw_me_energy = true
 
@@ -50,15 +50,15 @@
 	#How much FE the Ultimate Package Crafter should hold.
 	# Default: 5000
 	# Range: > 0
-	energy_capacity = 5000
+	energy_capacity = 50000
 	#How much total FE the Ultimate Package Crafter should use per operation.
 	# Default: 5000
 	# Range: > 0
-	energy_req = 5000
+	energy_req = 50000
 	#How much FE/t maximum the Ultimate Package Crafter can use.
 	# Default: 500
 	# Range: > 0
-	energy_usage = 500
+	energy_usage = 5000
 	#Should the Ultimate Package Crafter draw energy from ME systems.
 	draw_me_energy = true
 
@@ -66,7 +66,7 @@
 	#How much FE the Ender Package Crafter should hold.
 	# Default: 5000
 	# Range: > 0
-	energy_capacity = 5000
+	energy_capacity = 50000
 	#How much each alternator should reduce the waiting time of the Ender Package Crafter. This is a percentage of the time required.
 	# Default: 0.02
 	# Range: 0.0 ~ 1.7976931348623157E308
@@ -74,11 +74,11 @@
 	#How much total FE the Ender Package Crafter should use per operation.
 	# Default: 500
 	# Range: > 0
-	energy_req = 500
+	energy_req = 5000
 	#How much FE/t maximum the Ender Package Crafter can use.
 	# Default: 100
 	# Range: > 0
-	energy_usage = 100
+	energy_usage = 1000
 	#Should the Ender Package Crafter draw energy from ME systems.
 	draw_me_energy = true
 
@@ -86,15 +86,15 @@
 	#How much FE the Flux Package Crafter should hold.
 	# Default: 5000
 	# Range: > 0
-	energy_capacity = 5000
+	energy_capacity = 50000
 	#How much total FE the Flux Package Crafter should use per operation.
 	# Default: 500
 	# Range: > 0
-	energy_req = 500
+	energy_req = 5000
 	#How much FE/t maximum the Flux Package Crafter can use.
 	# Default: 100
 	# Range: > 0
-	energy_usage = 100
+	energy_usage = 1000
 	#Should the Flux Package Crafter draw energy from ME systems.
 	draw_me_energy = false
 
@@ -102,6 +102,6 @@
 		#How much FE the Combination Package Crafter should hold.
 		# Default: 5000000
 		# Range: > 0
-		energy_capacity = 5000000
+		energy_capacity = 50000000
 		#Should the Combination Package Crafter draw energy from ME systems.
 		draw_me_energy = false

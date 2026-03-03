@@ -10,7 +10,7 @@
 	#Power usage multiplier for wireless connectors
 	# Default: 1.0
 	# Range: 0.0 ~ 100.0
-	wireless_connector_power_multiplier = 1.0
+	wireless_connector_power_multiplier = 12.0
 	#Size multiplier of oversize interface
 	# Default: 16
 	# Range: 2 ~ 4096
@@ -22,13 +22,13 @@
 	#The max size of Assembler Matrix
 	# Default: 6
 	# Range: 3 ~ 16
-	assembler_matrix_max_size = 6
+	assembler_matrix_max_size = 12
 
 [item]
 	#ME Infinity Cell idle energy cost (unit: AE/t)
 	# Default: 8.0
 	# Range: 0.1 ~ 64.0
-	infinity_cell_energy_cost = 8.0
+	infinity_cell_energy_cost = 64
 	#Pattern modifier multipliers
 	pattern_modifier_multipliers = [2, 3, 5, 7]
 	#The AE device/part that can be packed by ME Packing Tape

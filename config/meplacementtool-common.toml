@@ -6,7 +6,7 @@
 	#Energy cost per placement for ME Placement Tool (in AE)
 	# Default: 50.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	mePlacementToolEnergyCost = 50.0
+	mePlacementToolEnergyCost = 100
 	#Energy capacity for Multiblock Placement Tool (in AE)
 	# Default: 3200000.0
 	# Range: 0.0 ~ 1.7976931348623157E308
@@ -14,7 +14,7 @@
 	#Base energy cost per placement for Multiblock Placement Tool (in AE)
 	# Default: 200.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	multiblockPlacementToolBaseEnergyCost = 200.0
+	multiblockPlacementToolBaseEnergyCost = 400
 	#Energy capacity for Cable Placement Tool (in AE)
 	# Default: 1600000.0
 	# Range: 0.0 ~ 1.7976931348623157E308
@@ -22,7 +22,7 @@
 	#Energy cost per cable for Cable Placement Tool (in AE)
 	# Default: 10.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	cablePlacementToolEnergyCost = 10.0
+	cablePlacementToolEnergyCost = 20
 
 [nbt]
 	#List of mod IDs whose items should NOT ignore NBT when placing.

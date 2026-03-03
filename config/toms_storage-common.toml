@@ -6,6 +6,6 @@
 #This may appear confusing to many of you, but it is a new sensible way to handle configuration, because the server configuration is synced when playing multiplayer.
 importantInfo = true
 #List of mod ids whose blocks is ignored by the inventory connector
-blockedMods = []
+blockedMods = ['ae2']
 #List of block ids ignored by the inventory connector
 blockedBlocks = []

@@ -1,7 +1,7 @@
 #The maximum teleportation distance of the Neutronium Sword
 # Default: 64
 # Range: 0 ~ 64
-neutron_sword_max_range = 64
+neutron_sword_max_range = 0
 
 #Avaritia Expand Common Config
 [blocks]

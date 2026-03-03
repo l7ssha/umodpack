@@ -29,7 +29,7 @@
 	#The default transfer limit of a Flux Plug, Point and Controller
 	# Default: 800000
 	# Range: 0 ~ 9223372036854775807
-	defaultLimit = 800000
+	defaultLimit = 1000000
 	#The maximum energy storage of a Basic Flux Storage
 	# Default: 2000000
 	# Range: 0 ~ 9223372036854775807

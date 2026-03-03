@@ -1,6 +1,6 @@
 [General]
 	#Should elevators have the same color in order to teleport ?
-	sameColor = false
+	sameColor = true
 	#Elevator range
 	# Default: 384
 	# Range: 3 ~ 4064
