@@ -17,4 +17,17 @@ ServerEvents.recipes(event => {
             "id": "mekanism:cardboard_box"
         }
     });
+
+    // event.custom({
+    //     "type": "mekanism:compressing",
+    //     "chemical_input": null,
+    //     "item_input": {
+    //         "count": 1,
+    //         "tag": "c:ingots/iron"
+    //     },
+    //     "output": {
+    //         "count": 1,
+    //         "tag": "c:plates/iron"
+    //     }
+    // });
 });

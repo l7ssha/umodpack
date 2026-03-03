@@ -30,4 +30,4 @@ kubejs/config/**
 
 .probe
 *.bak
-*-sort-order.ini
+**/*-sort-order.ini

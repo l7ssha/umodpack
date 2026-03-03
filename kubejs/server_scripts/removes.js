@@ -7,6 +7,9 @@ const recipesById = [
     /evolvedmekanism:molds.*/,
     'mekanism:cardboard_box',
 
+    // Xycraft
+    /xycraft_machines:compat\/mek\/.*/,
+
     // Occultism
     /occultism:crushing\/.*/,
     /occultism:smelting\/.*/,
