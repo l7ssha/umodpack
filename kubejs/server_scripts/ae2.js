@@ -1,3 +1,14 @@
+const replaceWithIronPlatesRecipes = [
+    'ae2:network/blocks/pattern_providers_interface',
+    'ae2:materials/basiccard',
+    'ae2:materials/advancedcard',
+    'ae2:network/blocks/storage_drive',
+    'ae2:network/blocks/interfaces_interface',
+    'ae2:network/crafting/molecular_assembler',
+    'ae2:network/crafting/cpu_crafting_unit',
+    'ae2:network/blocks/cell_workbench'
+];
+
 ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",
@@ -114,4 +125,11 @@ ServerEvents.recipes(event => {
         }
     });
 
+    replaceWithIronPlatesRecipes.forEach(id => {
+        event.replaceInput(
+            { id: id },
+            'minecraft:iron_ingot',
+            {tag: 'c:plates/iron'}
+        );
+    });
 });

@@ -4,6 +4,8 @@ const recipesById = [
     "emextras:alloying/circuit/creative",
     /evolvedmekanism:solidifying.*/,
     /evolvedmekanism:melting.*/,
+    /evolvedmekanism:molds.*/,
+    'mekanism:cardboard_box',
 
     // Occultism
     /occultism:crushing\/.*/,

@@ -83,4 +83,19 @@ ServerEvents.recipes(event => {
             "id": "minecraft:bedrock"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:compressor",
+        "power_cost": 50000000,
+        "ingredient": {
+            "tag": "enderio:grains_of_infinity",
+            "count": 100000
+        },
+        "catalyst": {
+            "item": "extendedcrafting:ender_catalyst"
+        },
+        "result": {
+            "id": "minecraft:bedrock"
+        }
+    });
 });
