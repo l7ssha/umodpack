@@ -31,3 +31,4 @@ kubejs/config/**
 .probe
 *.bak
 **/*-sort-order.ini
+jade/sort-order.json
