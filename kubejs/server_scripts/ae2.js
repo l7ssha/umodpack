@@ -125,11 +125,343 @@ ServerEvents.recipes(event => {
         }
     });
 
-    replaceWithIronPlatesRecipes.forEach(id => {
-        event.replaceInput(
-            { id: id },
-            'minecraft:iron_ingot',
-            {tag: 'c:plates/iron'}
-        );
+    event.replaceInput(
+        { id: replaceWithIronPlatesRecipes },
+        'minecraft:iron_ingot',
+        {tag: 'c:plates/iron'}
+    );
+
+    event.shaped({
+        "pattern": [
+            "ABA",
+            "BCB",
+            "ABA"
+        ],
+        "key": {
+            "B": {
+                "tag": "minecraft:trim_materials"
+            },
+            "A": {
+                "tag": "ae2:all_certus_quartz"
+            },
+            "C": {
+                "tag": "c:chests"
+            }
+        },
+        "result": {
+            "id": "ae2:cell_component_1k"
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            "DBD",
+            "BAB",
+            "DBD"
+        ],
+        "key": {
+            "A": {
+            "item": "ae2:logic_processor"
+            },
+            "B": {
+            "item": "ae2:cell_component_1k"
+            },
+            "D": {
+            "tag": "ae2:glass_cable"
+            }
+        },
+        "result": {
+            "id": "ae2:cell_component_4k"
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            "ABA",
+            "BCB",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+            "tag": "ae2:glass_cable"
+            },
+            "B": {
+            "item": "ae2:cell_component_4k"
+            },
+            "C": {
+            "item": "ae2:calculation_processor"
+            }
+        },
+        "result": {
+           "id": "ae2:cell_component_16k"
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            "ABA",
+            "BCB",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+            "tag": "ae2:glass_cable"
+            },
+            "B": {
+            "item": "ae2:cell_component_16k"
+            },
+            "C": {
+            "item": "ae2:engineering_processor"
+            }
+        },
+        "result": {
+            "id": "ae2:cell_component_64k"
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            "ACA",
+            "CDC",
+            "ACA"
+        ],
+        "key": {
+            "A": {
+            "tag": "ae2:glass_cable"
+            },
+            "C": {
+            "item": "ae2:cell_component_64k"
+            },
+            "D": {
+            "item": "ae2:logic_processor"
+            }
+        },
+        "result": {
+            "id": "ae2:cell_component_256k"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "tier": 2,
+        "pattern": [
+            "EABAE",
+            "ACDCA",
+            "BDCDB",
+            "ACDCA",
+            "EABAE"
+        ],
+        "key": {
+            "A": {
+            "tag": "c:dusts/sky_stone"
+            },
+            "B": {
+            "item": "megacells:accumulation_processor"
+            },
+            "C": {
+            "tag": "ae2:smart_cable"
+            },
+            "D": {
+            "item": "ae2:cell_component_256k"
+            },
+            "E": {
+            "item": "ae2:quartz_vibrant_glass"
+            },
+        },
+        "result": {
+            "id": "megacells:cell_component_1m"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "tier": 2,
+        "pattern": [
+            "ABABA",
+            "BDEDB",
+            "AEDEA",
+            "BDEDB",
+            "ABABA"
+        ],
+        "key": {
+            "A": {
+            "item": "ae2:quartz_vibrant_glass"
+            },
+            "B": {
+            "item": "megacells:accumulation_processor"
+            },
+            "D": {
+            "tag": "ae2:smart_cable"
+            },
+            "E": {
+            "item": "megacells:cell_component_1m"
+            }
+        },
+        "result": {
+            "id": "megacells:cell_component_4m"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "tier": 2,
+        "pattern": [
+            "ABABA",
+            "BDEDB",
+            "AEDEA",
+            "BDEDB",
+            "ABABA"
+        ],
+        "key": {
+            "A": {
+            "item": "ae2:quartz_vibrant_glass"
+            },
+            "B": {
+            "item": "megacells:accumulation_processor"
+            },
+            "D": {
+            "tag": "ae2:smart_cable"
+            },
+            "E": {
+            "item": "megacells:cell_component_4m"
+            }
+        },
+        "result": {
+            "id": "megacells:cell_component_16m"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "tier": 2,
+        "pattern": [
+            "ABABA",
+            "BDEDB",
+            "AEDEA",
+            "BDEDB",
+            "ABABA"
+        ],
+        "key": {
+            "A": {
+            "item": "ae2:quartz_vibrant_glass"
+            },
+            "B": {
+            "item": "megacells:accumulation_processor"
+            },
+            "D": {
+            "tag": "ae2:smart_cable"
+            },
+            "E": {
+            "item": "megacells:cell_component_16m"
+            }
+        },
+        "result": {
+            "id": "megacells:cell_component_64m"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "tier": 2,
+        "pattern": [
+            "ABABA",
+            "BDEDB",
+            "AEDEA",
+            "BDEDB",
+            "ABABA"
+        ],
+        "key": {
+            "A": {
+            "item": "ae2:quartz_vibrant_glass"
+            },
+            "B": {
+            "item": "megacells:accumulation_processor"
+            },
+            "D": {
+            "tag": "ae2:smart_cable"
+            },
+            "E": {
+            "item": "megacells:cell_component_64m"
+            }
+        },
+        "result": {
+            "id": "megacells:cell_component_256m"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            " ABBBBBA ",
+            "ACADADACA",
+            "BAEFEFEAB",
+            "BDFDGDFDB",
+            "BAEGJGEAB",
+            "BDFDGDFDB",
+            "AAEFEFEAB",
+            " CADADACA",
+            " ABBBBA  "
+        ],
+        "key": {
+            "A": {
+            "item": "ae2:quartz_vibrant_glass"
+            },
+            "B": {
+            "tag": "ae2:smart_cable"
+            },
+            "C": {
+            "item": "advanced_ae:quantum_processor"
+            },
+            "D": {
+            "item": "extendedae:smart_annihilation_plane"
+            },
+            "E": {
+            "item": "mekanism:module_hydrostatic_repulsor_unit"
+            },
+            "F": {
+            "tag": "c:buckets/water"
+            },
+            "G": {
+            "item": "advanced_ae:quantum_storage_component"
+            },
+            "J": {
+            "item": "megacells:mega_fluid_cell_housing"
+            }
+        },
+        "result": {
+            "id": "extendedae:infinity_water_cell"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "tier": 2,
+        "pattern": [
+            "ABABA",
+            "BCDCB",
+            "ADEDA",
+            "BCDCB",
+            "ABABA"
+        ],
+        "key": {
+            "A": {
+            "item": "ae2:quartz_vibrant_glass"
+            },
+            "B": {
+            "item": "advanced_ae:quantum_processor"
+            },
+            "C": {
+            "item": "megacells:cell_component_256m"
+            },
+            "D": {
+            "item": "ae2:spatial_cell_component_128"
+            },
+            "E": {
+            "item": "megacells:accumulation_processor"
+            }
+        },
+        "result": {
+            "id": "advanced_ae:quantum_storage_component"
+        }
     });
 });

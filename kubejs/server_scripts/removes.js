@@ -33,6 +33,10 @@ const recipesById = [
     "ae2:network/blocks/controller",
     "ae2:network/cables/covered_fluix",
     "ae2:network/cables/smart_fluix",
+    /megacells:cell_component_.*/,
+    /ae2:cell_component_.*/,
+    /extendedae:water_.*/,
+    'advanced_ae:quantum_storage_component',
 
     // Other
   "igleelib:modium_ingot",
