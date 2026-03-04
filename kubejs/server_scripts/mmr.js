@@ -5,9 +5,9 @@ MMREvents.machines(event => {
         .structure(
             MMRStructureBuilder.create()
                 .pattern([
-                    ["rfr", "fpf", "rir"],
-                    ["rmr", "i i", "rer"],
-                    ["rfr", "fpf", "rir"],
+                    ["rrr", "rpr", "iii"],
+                    ["rmr", "r r", "rrr"],
+                    ["rrr", "rrr", "rer"],
                 ])
                 .keys(
                     {
@@ -16,11 +16,32 @@ MMREvents.machines(event => {
                         "p": "modular_machinery_reborn:casing_plain",
                         "e": "#modular_machinery_reborn:energyinputhatch",
                         "i": [
-                            "#modular_machinery_reborn:inputbus",
-                            "#modular_machinery_reborn:outputbus",
+                            "#modular_machinery_reborn:itembus",
+                            "#modular_machinery_reborn:fluidhatch"
                         ]
                     }
                 )
+        );
+
+    event
+        .create("mmr:advanced_implosion_compressor")
+        .name("Advanced Implosion Processor")
+        .structure(
+            MMRStructureBuilder.create()
+                .pattern([
+                    ["  b c", " bbb ", "bbbbb", " bbb ", "  b  "],
+                    [" bmb ", "b   b", "d   d", "b   b", " bdb "],
+                    [" bbb ", "b   b", "d   d", "b   b", " bdb "],
+                    ["  b  ", " bbb ", "bbbbb", " bbb ", "  b  "]
+                ])
+                .keys({
+                    "b": "minecraft:netherite_block",
+                    "d": [
+                        "#modular_machinery_reborn:itembus",
+                        "#modular_machinery_reborn:energyinputhatch",
+                        "minecraft:netherite_block",
+                    ]
+                })
         );
 });
 
@@ -39,58 +60,64 @@ ServerEvents.recipes(event => {
     const mmrRecipe = (name, recipeId, recipeLength, energyPerTick, inputItems, inputFluids, outputItems, outputFluids) => {
         outputFluids = outputFluids || [];
 
-        // ===================
-        // Configuration
-        // ===================
         const SLOT_SIZE = 18;
-        const SLOT_MARGIN = 2;
+        const SLOT_MARGIN = 0;
         const SLOT_STEP = SLOT_SIZE + SLOT_MARGIN;
 
-        // Grid dimensions
         const ITEM_GRID_WIDTH = 3;
         const ITEM_GRID_HEIGHT = 3;
         const FLUID_GRID_WIDTH = 1;
         const FLUID_GRID_HEIGHT = 3;
 
-        // Progress bar dimensions
+        const OUTPUT_ITEM_GRID_WIDTH = 1;
+        const OUTPUT_ITEM_GRID_HEIGHT = 3;
+        const OUTPUT_FLUID_GRID_WIDTH = 1;
+        const OUTPUT_FLUID_GRID_HEIGHT = 3;
+
         const PROGRESS_WIDTH = 22;
         const PROGRESS_HEIGHT = 16;
 
-        // Gaps between sections
-        const GAP_AFTER_ITEMS = 10;
-        const GAP_AFTER_FLUIDS = 10;
-        const GAP_AFTER_PROGRESS = 20;
+        const GAP_AFTER_ITEMS = 5;
+        const GAP_AFTER_FLUIDS = 5;
+        const GAP_AFTER_PROGRESS = 10;
+        const GAP_BETWEEN_OUTPUT_ITEMS_AND_FLUIDS = 5;
 
-        // Starting positions
-        const ITEM_START_X = 20;
-        const ITEM_START_Y = 10;
+        const ITEM_START_X = 25;
+        const ITEM_START_Y = 0;
 
         const FLUID_START_X = ITEM_START_X + (ITEM_GRID_WIDTH * SLOT_STEP) + GAP_AFTER_ITEMS;
         const FLUID_START_Y = ITEM_START_Y;
 
-        // Progress bar position (vertically centered)
         const GRID_TOTAL_HEIGHT = SLOT_STEP * 3 - SLOT_MARGIN;
         const PROGRESS_X = FLUID_START_X + SLOT_SIZE + GAP_AFTER_FLUIDS;
         const PROGRESS_Y = ITEM_START_Y + (GRID_TOTAL_HEIGHT - PROGRESS_HEIGHT) / 2;
 
-        // Output position (after progress bar)
-        const OUTPUT_START_X = PROGRESS_X + PROGRESS_WIDTH + GAP_AFTER_PROGRESS;
-        const OUTPUT_START_Y = ITEM_START_Y;
+        const OUTPUT_ITEM_START_X = PROGRESS_X + PROGRESS_WIDTH + GAP_AFTER_PROGRESS;
+        const OUTPUT_ITEM_START_Y = ITEM_START_Y;
 
-        // ===================
-        // Recipe building
-        // ===================
+        const OUTPUT_FLUID_START_X = OUTPUT_ITEM_START_X + (OUTPUT_ITEM_GRID_WIDTH * SLOT_STEP) + GAP_BETWEEN_OUTPUT_ITEMS_AND_FLUIDS;
+        const OUTPUT_FLUID_START_Y = ITEM_START_Y;
+
         let recipe = event.recipes.modular_machinery_reborn
             .machine_recipe(name, recipeLength)
             .requireEnergyPerTick(energyPerTick);
 
-        // Store empty slot positions
-        const emptyItems = [];
-        const emptyFluids = [];
+        for (let i = 0; i < inputItems.length; i++) {
+            recipe.requireItem(inputItems[i]);
+        }
+        for (let j = 0; j < inputFluids.length; j++) {
+            recipe.requireFluid(inputFluids[j]);
+        }
+        for (let k = 0; k < outputItems.length; k++) {
+            recipe.produceItem(outputItems[k]);
+        }
+        for (let m = 0; m < outputFluids.length; m++) {
+            recipe.produceFluid(outputFluids[m]);
+        }
+
+        recipe.jei();
 
         let posX, posY;
-
-        // Place input items in 3x3 grid
         for (let i = 0; i < ITEM_GRID_WIDTH * ITEM_GRID_HEIGHT; i++) {
             posX = ITEM_START_X + (i % ITEM_GRID_WIDTH) * SLOT_STEP;
             posY = ITEM_START_Y + Math.floor(i / ITEM_GRID_WIDTH) * SLOT_STEP;
@@ -98,11 +125,10 @@ ServerEvents.recipes(event => {
             if (i < inputItems.length) {
                 recipe.requireItem(inputItems[i], posX, posY);
             } else {
-                emptyItems.push({ x: posX, y: posY });
+                recipe.emptyItem(posX, posY);
             }
         }
 
-        // Place input fluids in 1x3 grid (1 column, 3 rows)
         for (let j = 0; j < FLUID_GRID_WIDTH * FLUID_GRID_HEIGHT; j++) {
             posX = FLUID_START_X + (j % FLUID_GRID_WIDTH) * SLOT_STEP;
             posY = FLUID_START_Y + Math.floor(j / FLUID_GRID_WIDTH) * SLOT_STEP;
@@ -110,55 +136,164 @@ ServerEvents.recipes(event => {
             if (j < inputFluids.length) {
                 recipe.requireFluid(inputFluids[j], posX, posY);
             } else {
-                emptyFluids.push({ x: posX, y: posY });
+                recipe.emptyFluid(posX, posY);
             }
         }
 
-        // Place output items
-        for (let k = 0; k < outputItems.length; k++) {
-            posX = OUTPUT_START_X + (k % 3) * SLOT_STEP;
-            posY = OUTPUT_START_Y + Math.floor(k / 3) * SLOT_STEP;
-            recipe.produceItem(outputItems[k], posX, posY);
+        for (let k = 0; k < OUTPUT_ITEM_GRID_WIDTH * OUTPUT_ITEM_GRID_HEIGHT; k++) {
+            posX = OUTPUT_ITEM_START_X + (k % OUTPUT_ITEM_GRID_WIDTH) * SLOT_STEP;
+            posY = OUTPUT_ITEM_START_Y + Math.floor(k / OUTPUT_ITEM_GRID_WIDTH) * SLOT_STEP;
+
+            if (k < outputItems.length) {
+                recipe.produceItem(outputItems[k], posX, posY);
+            } else {
+                recipe.emptyItem(posX, posY);
+            }
         }
 
-        // Place output fluids (if any)
-        for (let m = 0; m < outputFluids.length; m++) {
-            posX = OUTPUT_START_X + ((outputItems.length % 3) + m) * SLOT_STEP;
-            posY = OUTPUT_START_Y + Math.floor((outputItems.length + m) / 3) * SLOT_STEP;
-            recipe.produceFluid(outputFluids[m], posX, posY);
+        for (let m = 0; m < OUTPUT_FLUID_GRID_WIDTH * OUTPUT_FLUID_GRID_HEIGHT; m++) {
+            posX = OUTPUT_FLUID_START_X + (m % OUTPUT_FLUID_GRID_WIDTH) * SLOT_STEP;
+            posY = OUTPUT_FLUID_START_Y + Math.floor(m / OUTPUT_FLUID_GRID_WIDTH) * SLOT_STEP;
+
+            if (m < outputFluids.length) {
+                recipe.produceFluid(outputFluids[m], posX, posY);
+            } else {
+                recipe.emptyFluid(posX, posY);
+            }
         }
 
-        // // Call .jei() first, then add empty slots
-        // if (emptyItems.length > 0 || emptyFluids.length > 0) {
-        //     recipe.jei();
-        //
-        //     for (let e = 0; e < emptyItems.length; e++) {
-        //         recipe.emptyItem(emptyItems[e].x, emptyItems[e].y);
-        //     }
-        //
-        //     for (let f = 0; f < emptyFluids.length; f++) {
-        //         recipe.emptyFluid(emptyFluids[f].x, emptyFluids[f].y);
-        //     }
-        // }
-
-        // recipe.progressData({x: })
+        recipe
+            .requireEnergyPerTick(energyPerTick)
+            .progressData(ProgressData.create().x(PROGRESS_X).y(PROGRESS_Y))
+            .width(178)
+            .height(52);
     };
 
     mmrRecipe(
         "mmr:assembly_line",
-        "kubejs:assembly_line/quantum_storage",
-        200,
-        1000,
+        "kubejs:assembly_line/quantum_storage_component",
+        3600,
+        159744,
         [
             "4x megacells:cell_component_256m",
             "4x ae2:spatial_cell_component_128",
             "8x ae2:quartz_vibrant_glass",
             "8x advanced_ae:quantum_processor",
-            "8x megacells:accumulation_processor"
+            "8x megacells:accumulation_processor",
+            "4x emextras:cosmic_dense_control_circuit",
+            "24x #ae2:smart_cable"
         ],
-        [],
+        [
+            "250x industrialforegoing:latex",
+            "1000x advanced_ae:quantum_infusion_source",
+        ],
         [
             "1x advanced_ae:quantum_storage_component"
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        "kubejs:assembly_line/quantum_storage",
+        1200,
+        63000,
+        [
+            "4x ae2:cell_component_256k",
+            "1x ae2:quartz_vibrant_glass",
+            "2x mekanism:module_base",
+            "12x #ae2:smart_cable",
+            "8x megacells:accumulation_processor",
+            "8x #c:dusts/sky_stone"
+        ],
+        [
+            "250x industrialforegoing:latex",
+        ],
+        [
+            "1x megacells:cell_component_1m"
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        "kubejs:assembly_line/cell_component_4m",
+        1200,
+        63000,
+        [
+            "4x megacells:cell_component_1m",
+            "1x ae2:quartz_vibrant_glass",
+            "2x mekanism:module_base",
+            "12x #ae2:smart_cable",
+            "8x megacells:accumulation_processor",
+            "8x #c:dusts/sky_stone"
+        ],
+        [
+            "250x industrialforegoing:latex",
+        ],
+        [
+            "1x megacells:cell_component_4m"
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        "kubejs:assembly_line/cell_component_16m",
+        1200,
+        98304,
+        [
+            "4x megacells:cell_component_4m",
+            "1x ae2:quartz_vibrant_glass",
+            "2x mekanism:module_base",
+            "12x #ae2:smart_cable",
+            "8x megacells:accumulation_processor",
+            "8x #c:dusts/sky_stone"
+        ],
+        [
+            "250x industrialforegoing:latex",
+        ],
+        [
+            "1x megacells:cell_component_16m"
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        "kubejs:assembly_line/cell_component_64m",
+        1200,
+        98304,
+        [
+            "4x megacells:cell_component_16m",
+            "1x ae2:quartz_vibrant_glass",
+            "2x mekanism:module_base",
+            "12x #ae2:smart_cable",
+            "8x megacells:accumulation_processor",
+            "8x #c:dusts/sky_stone"
+        ],
+        [
+            "250x industrialforegoing:latex",
+        ],
+        [
+            "1x megacells:cell_component_64m"
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        "kubejs:assembly_line/cell_component_256m",
+        1200,
+        98304,
+        [
+            "4x megacells:cell_component_64m",
+            "1x ae2:quartz_vibrant_glass",
+            "2x mekanism:module_base",
+            "12x #ae2:smart_cable",
+            "8x megacells:accumulation_processor",
+            "8x #c:dusts/sky_stone"
+        ],
+        [
+            "250x industrialforegoing:latex",
+        ],
+        [
+            "1x megacells:cell_component_256m"
         ]
     );
 });

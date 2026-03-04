@@ -2,13 +2,13 @@
 	#Defines the tank size of fluid hatch in mB
 	# Default: 100
 	# Range: > 1
-	size = 100
+	size = 250
 
 [small]
 	#Defines the tank size of fluid hatch in mB
 	# Default: 400
 	# Range: > 1
-	size = 400
+	size = 500
 
 [normal]
 	#Defines the tank size of fluid hatch in mB
@@ -26,7 +26,7 @@
 	#Defines the tank size of fluid hatch in mB
 	# Default: 4500
 	# Range: > 1
-	size = 4500
+	size = 4000
 
 [huge]
 	#Defines the tank size of fluid hatch in mB

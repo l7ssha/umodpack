@@ -2,13 +2,13 @@
 	#Defines the chemical tank size
 	# Default: 100
 	# Range: 1 ~ 9223372036854775807
-	size = 100
+	size = 250
 
 [small]
 	#Defines the chemical tank size
 	# Default: 400
 	# Range: 1 ~ 9223372036854775807
-	size = 400
+	size = 500
 
 [normal]
 	#Defines the chemical tank size

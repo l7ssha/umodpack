@@ -30,5 +30,7 @@ kubejs/config/**
 
 .probe
 *.bak
-**/*-sort-order.ini
+
 jade/sort-order.json
+config/Mekanism/client.toml
+config/jei/*-sort-order.ini
