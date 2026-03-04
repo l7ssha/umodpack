@@ -432,36 +432,4 @@ ServerEvents.recipes(event => {
             "id": "extendedae:infinity_water_cell"
         }
     });
-
-    event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "tier": 2,
-        "pattern": [
-            "ABABA",
-            "BCDCB",
-            "ADEDA",
-            "BCDCB",
-            "ABABA"
-        ],
-        "key": {
-            "A": {
-            "item": "ae2:quartz_vibrant_glass"
-            },
-            "B": {
-            "item": "advanced_ae:quantum_processor"
-            },
-            "C": {
-            "item": "megacells:cell_component_256m"
-            },
-            "D": {
-            "item": "ae2:spatial_cell_component_128"
-            },
-            "E": {
-            "item": "megacells:accumulation_processor"
-            }
-        },
-        "result": {
-            "id": "advanced_ae:quantum_storage_component"
-        }
-    });
 });
