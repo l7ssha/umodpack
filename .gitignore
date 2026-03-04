@@ -31,6 +31,6 @@ kubejs/config/**
 .probe
 *.bak
 
-jade/sort-order.json
 config/Mekanism/client.toml
 config/jei/*-sort-order.ini
+config/jade/sort-order.json

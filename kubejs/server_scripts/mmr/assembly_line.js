@@ -22,42 +22,10 @@ MMREvents.machines(event => {
                     }
                 )
         );
-
-    event
-        .create("mmr:advanced_implosion_compressor")
-        .name("Advanced Implosion Processor")
-        .structure(
-            MMRStructureBuilder.create()
-                .pattern([
-                    ["  b c", " bbb ", "bbbbb", " bbb ", "  b  "],
-                    [" bmb ", "b   b", "d   d", "b   b", " bdb "],
-                    [" bbb ", "b   b", "d   d", "b   b", " bdb "],
-                    ["  b  ", " bbb ", "bbbbb", " bbb ", "  b  "]
-                ])
-                .keys({
-                    "b": "minecraft:netherite_block",
-                    "d": [
-                        "#modular_machinery_reborn:itembus",
-                        "#modular_machinery_reborn:energyinputhatch",
-                        "minecraft:netherite_block",
-                    ]
-                })
-        );
 });
 
 ServerEvents.recipes(event => {
-    /**
-     * Creates a MMR recipe with items arranged in a 3x3 grid and fluids in a 1x3 column
-     * @param {string} name - Machine ID (e.g., "mmr:assembly_line")
-     * @param {string} recipeId - Unique recipe identifier
-     * @param {integer} recipeLength - Length of recipe in ticks
-     * @param {integer} energyPerTick - Energy usage per recipe tick
-     * @param {string[]} inputItems - Input items (max 9, format: "4x minecraft:item")
-     * @param {string[]} inputFluids - Input fluids (max 3, format: "1000x minecraft:water")
-     * @param {string[]} outputItems - Output items
-     * @param {string[]} outputFluids - Output fluids (optional)
-     */
-    const mmrRecipe = (name, recipeId, recipeLength, energyPerTick, inputItems, inputFluids, outputItems, outputFluids) => {
+    const mmrRecipe = (name, recipeLength, energyPerTick, inputItems, inputFluids, outputItems, outputFluids) => {
         outputFluids = outputFluids || [];
 
         const SLOT_SIZE = 18;
@@ -171,7 +139,6 @@ ServerEvents.recipes(event => {
 
     mmrRecipe(
         "mmr:assembly_line",
-        "kubejs:assembly_line/quantum_storage_component",
         3600,
         159744,
         [
@@ -194,7 +161,6 @@ ServerEvents.recipes(event => {
 
     mmrRecipe(
         "mmr:assembly_line",
-        "kubejs:assembly_line/quantum_storage",
         1200,
         63000,
         [
@@ -215,7 +181,6 @@ ServerEvents.recipes(event => {
 
     mmrRecipe(
         "mmr:assembly_line",
-        "kubejs:assembly_line/cell_component_4m",
         1200,
         63000,
         [
@@ -236,7 +201,6 @@ ServerEvents.recipes(event => {
 
     mmrRecipe(
         "mmr:assembly_line",
-        "kubejs:assembly_line/cell_component_16m",
         1200,
         98304,
         [
@@ -257,7 +221,6 @@ ServerEvents.recipes(event => {
 
     mmrRecipe(
         "mmr:assembly_line",
-        "kubejs:assembly_line/cell_component_64m",
         1200,
         98304,
         [
@@ -278,7 +241,6 @@ ServerEvents.recipes(event => {
 
     mmrRecipe(
         "mmr:assembly_line",
-        "kubejs:assembly_line/cell_component_256m",
         1200,
         98304,
         [

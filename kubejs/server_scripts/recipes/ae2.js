@@ -43,9 +43,9 @@ ServerEvents.recipes(event => {
         "type": "extendedcrafting:shaped_table",
         "pattern": [
             "AAAAA",
-            "ABCDA",
+            "AOCDA",
             "AEBCA",
-            "ADEBA",
+            "ADEOA",
             "FGFGF"
         ],
         "tier": 2,
@@ -70,6 +70,9 @@ ServerEvents.recipes(event => {
             },
             "G": {
                 "item": "ae2:fluix_block"
+            },
+            "O": {
+                "tag": "c:circuits/overclocked"
             }
         },
         "result": {

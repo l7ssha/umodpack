@@ -108,4 +108,34 @@ ServerEvents.recipes(event => {
       "id": "avaritia:neutron_collector"
     }
   });
+
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "         ",
+      "         ",
+      "         ",
+      "   ABA   ",
+      "   BCB   ",
+      "   ABA   ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    "tier": 4,
+    "key": {
+      "A": {
+        "tag": "c:circuits/infinite_multiversal"
+      },
+      "B": {
+        "tag": "justdirethings:paradox_deny"
+      },
+      "C": {
+        "item": "extendedcrafting:ultimate_singularity"
+      }
+    },
+    "result": {
+      "id": "kubejs:unrefined_infinity"
+    }
+  });
 });
