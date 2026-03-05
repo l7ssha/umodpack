@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.dry_ice",
+  "colors": [
+    "deedf1",
+    "8c979b"
+  ],
+  "ingredient": {
+    "item": "powah:dry_ice"
+  }
+}

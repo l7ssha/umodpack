@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.dust_of_frost",
+  "colors": [
+    "4f756d",
+    "355a63"
+  ],
+  "ingredient": {
+    "item": "tombstone:dust_of_frost"
+  }
+}

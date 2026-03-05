@@ -134,21 +134,25 @@ ServerEvents.recipes(event => {
         { tag: 'c:plates/iron' }
     );
 
-    event.shaped({
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
         "pattern": [
             "ABA",
-            "BCB",
+            "CDC",
             "ABA"
         ],
         "key": {
-            "B": {
-                "tag": "minecraft:trim_materials"
-            },
             "A": {
                 "tag": "ae2:all_certus_quartz"
             },
+            "B": {
+                "item": "enderio:conduit_binder"
+            },
             "C": {
-                "tag": "c:chests"
+                "tag": "c:circuits/ultimate"
+            },
+            "D": {
+                "item": "ae2:logic_processor"
             }
         },
         "result": {
@@ -291,6 +295,97 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "extendedae:infinity_water_cell"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "tier": 2,
+        "pattern": [
+            "     ",
+            " AAA ",
+            " BCB ",
+            " BHB ",
+            " DDD "
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "item": "ae2:quartz_vibrant_glass"
+            },
+            "B": {
+                "tag": "c:alloys/absolute"
+            },
+            "C": {
+                "tag": "c:dusts/sky_stone"
+            },
+            "D": {
+                "tag": "c:ingots/sky_steel"
+            },
+            "H": {
+                "item": "ae2:item_cell_housing"
+            }
+        },
+        "result": {
+            "id": "megacells:mega_item_cell_housing"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "     ",
+            " AAA ",
+            " BCB ",
+            " B B ",
+            " DDD "
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "item": "ae2:quartz_glass"
+            },
+            "B": {
+                "tag": "c:alloys/elite"
+            },
+            "C": {
+                "tag": "c:dusts/redstone"
+            },
+            "D": {
+                "tag": "c:ingots/copper"
+            }
+        },
+        "result": {
+            "id": "ae2:item_cell_housing"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "     ",
+            " AAA ",
+            " BCB ",
+            " B B ",
+            " DDD "
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "item": "ae2:quartz_glass"
+            },
+            "B": {
+                "tag": "c:alloys/elite"
+            },
+            "C": {
+                "tag": "c:dusts/redstone"
+            },
+            "D": {
+                "tag": "c:ingots/bronze"
+            }
+        },
+        "result": {
+            "id": "ae2:fluid_cell_housing"
         }
     });
 });

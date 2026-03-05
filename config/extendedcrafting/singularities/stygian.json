@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.stygian",
+  "colors": [
+    "d5a4a4",
+    "944242"
+  ],
+  "ingredient": {
+    "item": "woot:stygianironingot"
+  }
+}

@@ -106,4 +106,56 @@ ServerEvents.recipes(event => {
             "1x avaritia:infinity_catalyst"
         ]
     );
+
+    mmrRecipe(
+        "mmr:electric_implosion_compressor",
+        10,
+        2097152,
+        [
+            "1x kubejs:ultimate_explosive_primer",
+            "25x mysticalagriculture:neutronium_essence",
+        ],
+        [
+            "1x avaritia:neutron_pile"
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:electric_implosion_compressor",
+        10,
+        2097152,
+        [
+            "1x kubejs:ultimate_explosive_primer",
+            "25x mysticalagriculture:neutronium_essence",
+        ],
+        [
+            "1x avaritia:neutron_pile"
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:electric_implosion_compressor",
+        20,
+        2097152,
+        [
+            "4x kubejs:ultimate_explosive_primer",
+            "25x avaritia:neutron_nugget",
+        ],
+        [
+            "1x avaritia:neutron_ingot"
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:electric_implosion_compressor",
+        40,
+        2097152,
+        [
+            "4x kubejs:ultimate_explosive_primer",
+            "25x avaritia:neutron_ingot",
+        ],
+        [
+            "1x avaritia:neutron"
+        ]
+    );
 });

@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.shrieker",
+  "colors": [
+    "717a6f",
+    "04252c"
+  ],
+  "ingredient": {
+    "item": "minecraft:sculk_shrieker"
+  },
+  "materialCount": 8000
+}

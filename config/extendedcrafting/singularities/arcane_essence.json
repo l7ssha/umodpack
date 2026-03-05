@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.arcane_essence",
+  "colors": [
+    "6196d9",
+    "7e5ccb"
+  ],
+  "ingredient": {
+    "item": "irons_spellbooks:arcane_ingot"
+  }
+}

@@ -37,6 +37,8 @@ const recipesById = [
     /ae2:network\/cells\/item_storage_components_cell_.*/,
     /extendedae:.*_cell/,
     'advanced_ae:quantum_storage_component',
+    'megacells:cells/mega_item_cell_housing',
+    'ae2:network/cells/item_cell_housing',
 
     // Other
   "igleelib:modium_ingot",

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.awakened_supremium_ingot",
+  "colors": [
+    "d07a00",
+    "915500"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:awakened_supremium_ingot"
+  }
+}

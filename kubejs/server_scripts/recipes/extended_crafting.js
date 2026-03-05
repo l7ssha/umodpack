@@ -28,46 +28,6 @@ ServerEvents.recipes(event => {
         }
     });
 
-    event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-            "AAAAA",
-            "AAAAA",
-            "AAAAA",
-            "AAAAA",
-            "AAAAA"
-        ],
-        "tier": 2,
-        "key": {
-            "A": {
-            "item": "avaritia:neutron_ingot"
-            }
-        },
-        "result": {
-            "id": "avaritia:neutron",
-        }
-    });
-
-    event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-            "AAAAA",
-            "AAAAA",
-            "AAAAA",
-            "AAAAA",
-            "AAAAA"
-        ],
-        "tier": 2,
-        "key": {
-            "A": {
-            "item": "avaritia:neutron_nugget"
-            }
-        },
-        "result": {
-            "id": "avaritia:neutron_ingot"
-        }
-    });
-
     // Compressor
     event.custom({
         "type": "extendedcrafting:compressor",
@@ -88,7 +48,7 @@ ServerEvents.recipes(event => {
         "type": "extendedcrafting:compressor",
         "power_cost": 50000000,
         "ingredient": {
-            "tag": "enderio:grains_of_infinity",
+            "tag": "c:dusts/grains_of_infinity",
             "count": 100000
         },
         "catalyst": {
