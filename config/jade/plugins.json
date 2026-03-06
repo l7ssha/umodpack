@@ -66,6 +66,9 @@
     "crafting_table": true,
     "compressor": true
   },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -169,6 +172,10 @@
   },
   "balm": {
     "jade": true
+  },
+  "functionalstorage": {
+    "armory": true,
+    "drawer": true
   },
   "productivebees": {
     "bee": true,

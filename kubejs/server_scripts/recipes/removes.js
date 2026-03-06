@@ -39,6 +39,13 @@ const recipesById = [
     'advanced_ae:quantum_storage_component',
     'megacells:cells/mega_item_cell_housing',
     'ae2:network/cells/item_cell_housing',
+    'ae2:misc/fluixpearl',
+    'ae2:network/wireless_access_point',
+    'ae2:materials/formationcore',
+    'ae2:materials/annihilationcore',
+    'ae2:network/parts/terminals',
+    'ae2:network/blocks/storage_drive',
+    'ae2:network/parts/panels_semi_dark_monitor',
 
     // Other
   "igleelib:modium_ingot",

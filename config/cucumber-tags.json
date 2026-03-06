@@ -2,7 +2,7 @@
   "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
   "c:silicon": "ae2:silicon",
   "c:gems/apatite": "null",
-  "c:dusts/saltpeter": "null",
+  "c:dusts/saltpeter": "immersiveengineering:dust_saltpeter",
   "c:ingots/iridium": "alltheores:iridium_ingot",
   "c:ingots/zinc": "alltheores:zinc_ingot",
   "c:ingots/invar": "alltheores:invar_ingot",

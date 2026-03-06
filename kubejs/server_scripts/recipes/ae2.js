@@ -141,6 +141,7 @@ ServerEvents.recipes(event => {
             "CDC",
             "ABA"
         ],
+        "tier": 1,
         "key": {
             "A": {
                 "tag": "ae2:all_certus_quartz"
@@ -160,21 +161,23 @@ ServerEvents.recipes(event => {
         }
     });
 
-    event.shaped({
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
         "pattern": [
-            "DBD",
-            "BAB",
-            "DBD"
+            "ABA",
+            "BCB",
+            "ABA"
         ],
+        "tier": 1,
         "key": {
             "A": {
-                "item": "ae2:logic_processor"
+                "tag": "c:circuits/advanced"
             },
             "B": {
                 "item": "ae2:cell_component_1k"
             },
-            "D": {
-                "tag": "ae2:glass_cable"
+            "C": {
+                "item": "ae2:logic_processor"
             }
         },
         "result": {
@@ -182,15 +185,18 @@ ServerEvents.recipes(event => {
         }
     });
 
-    event.shaped({
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
         "pattern": [
             "ABA",
             "BCB",
             "ABA"
         ],
+        "tier": 1,
         "key": {
             "A": {
-                "tag": "ae2:glass_cable"
+                "tag": "c:circuits/elite"
             },
             "B": {
                 "item": "ae2:cell_component_4k"
@@ -204,21 +210,23 @@ ServerEvents.recipes(event => {
         }
     });
 
-    event.shaped({
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
         "pattern": [
             "ABA",
             "BCB",
             "ABA"
         ],
+        "tier": 1,
         "key": {
             "A": {
-                "tag": "ae2:glass_cable"
+                "tag": "c:circuits/ultimate"
             },
             "B": {
                 "item": "ae2:cell_component_16k"
             },
             "C": {
-                "item": "ae2:engineering_processor"
+                "item": "ae2:calculation_processor"
             }
         },
         "result": {
@@ -226,21 +234,64 @@ ServerEvents.recipes(event => {
         }
     });
 
-    event.shaped({
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
         "pattern": [
-            "ACA",
-            "CDC",
-            "ACA"
+            "AAAAA",
+            "BCDEF",
+            "GDHDG",
+            "BIDJF",
+            "KKLKK"
         ],
+        "tier": 2,
         "key": {
             "A": {
-                "tag": "ae2:glass_cable"
+                "item": "ae2:quartz_vibrant_glass"
+            },
+            "B": {
+                "items": "mifa:efficiency_addon_3",
+                "components": {
+                    "titanium:augments": {
+                        "Efficiency": 0.7
+                    }
+                },
+                "type": "neoforge:components"
             },
             "C": {
-                "item": "ae2:cell_component_64k"
+                "item": "ae2:logic_processor"
             },
             "D": {
-                "item": "ae2:logic_processor"
+                "item": "ae2:cell_component_64k"
+            },
+            "E": {
+                "item": "ae2:calculation_processor"
+            },
+            "F": {
+                "items": "mifa:processing_addon_3",
+                "components": {
+                    "titanium:augments": {
+                        "Processing": 4.0
+                    }
+                },
+                "type": "neoforge:components"
+            },
+            "G": {
+                "item": "actuallyadditions:empowered_restonia_crystal"
+            },
+            "H": {
+                "item": "extendedae:concurrent_processor"
+            },
+            "I": {
+                "item": "ae2:engineering_processor"
+            },
+            "J": {
+                "item": "appflux:energy_processor"
+            },
+            "K": {
+                "item": "actuallyadditions:empowered_enori_crystal"
+            },
+            "L": {
+                "tag": "advancednetherite:ingot/netherites_diamond"
             }
         },
         "result": {
@@ -334,25 +385,28 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
-            "     ",
-            " AAA ",
-            " BCB ",
-            " B B ",
-            " DDD "
+            "AABAA",
+            "BBBBB",
+            "BCDEB",
+            "BCDEB",
+            "AAAAA"
         ],
         "tier": 2,
         "key": {
             "A": {
-                "item": "ae2:quartz_glass"
+                "tag": "c:storage_blocks/empowered_enori_crystal"
             },
             "B": {
-                "tag": "c:alloys/elite"
+                "tag": "c:ingots/iron"
             },
             "C": {
-                "tag": "c:dusts/redstone"
+                "item": "ae2:logic_processor"
             },
             "D": {
-                "tag": "c:ingots/copper"
+                "item": "ae2:engineering_processor"
+            },
+            "E": {
+                "item": "ae2:calculation_processor"
             }
         },
         "result": {
@@ -363,29 +417,290 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
+            "AAAAB",
+            "ACCCB",
+            "ADEFB",
+            "ACCCB",
+            "AAAAB"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "actuallyadditions:crystals"
+            },
+            "B": {
+                "tag": "c:glass_blocks"
+            },
+            "C": {
+                "item": "actuallyadditions:empowered_restonia_crystal"
+            },
+            "D": {
+                "item": "ae2:engineering_processor"
+            },
+            "E": {
+                "item": "ae2:calculation_processor"
+            },
+            "F": {
+                "item": "ae2:logic_processor"
+            }
+        },
+        "result": {
+            "id": "ae2:semi_dark_monitor"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AABAA",
+            "BBBBB",
+            "BCDEB",
+            "BCDEB",
+            "AAAAA"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:storage_blocks/empowered_enori_crystal"
+            },
+            "B": {
+                "tag": "c:ingots/bronze"
+            },
+            "C": {
+                "item": "ae2:logic_processor"
+            },
+            "D": {
+                "item": "ae2:engineering_processor"
+            },
+            "E": {
+                "item": "ae2:calculation_processor"
+            }
+        },
+        "result": {
+            "id": "ae2:item_cell_housing"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABCBA",
+            "DEFGD",
+            "DHIHD",
+            "DEFGD",
+            "ABCBA"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:storage_blocks/empowered_enori_crystal"
+            },
+            "B": {
+                "tag": "c:storage_blocks/compressed_iron"
+            },
+            "C": {
+                "tag": "c:ingots/iron"
+            },
+            "D": {
+                "item": "ae2:item_cell_housing"
+            },
+            "E": {
+                "item": "ae2:engineering_processor"
+            },
+            "F": {
+                "item": "ae2:calculation_processor"
+            },
+            "G": {
+                "item": "ae2:logic_processor"
+            },
+            "H": {
+                "item": "appflux:energy_processor"
+            },
+            "I": {
+                "tag": "ae2:smart_dense_cable"
+            }
+        },
+        "result": {
+            "id": "ae2:drive"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABCDA",
+            "ABEDA",
+            "ABFDA",
+            "GBHDG",
+            "GIIIG"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:storage_blocks/compressed_iron"
+            },
+            "B": {
+                "item": "ae2:formation_core"
+            },
+            "C": {
+                "items": "industrialforegoing:efficiency_addon_tier_2",
+                "components": {
+                    "titanium:augments": {
+                        "Efficiency": 0.8
+                    }
+                },
+                "type": "neoforge:components"
+            },
+            "D": {
+                "item": "ae2:annihilation_core"
+            },
+            "E": {
+                "item": "ae2:engineering_processor"
+            },
+            "F": {
+                "item": "ae2:calculation_processor"
+            },
+            "G": {
+                "item": "ae2:quartz_vibrant_glass"
+            },
+            "H": {
+                "item": "ae2:logic_processor"
+            },
+            "I": {
+                "tag": "ae2:illuminated_panel"
+            }
+        },
+        "result": {
+            "id": "ae2:terminal"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
             "     ",
-            " AAA ",
+            "ABCDE",
+            "ABCDE",
+            "ABCDE",
+            "     "
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "item": "ae2:charged_certus_quartz_crystal"
+            },
+            "B": {
+                "tag": "c:circuits/ultimate"
+            },
+            "C": {
+                "tag": "c:alloys/ultimate"
+            },
+            "D": {
+                "item": "ae2:fluix_dust"
+            },
+            "E": {
+                "item": "ae2:logic_processor"
+            }
+        },
+        "result": {
+            "id": "ae2:annihilation_core"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "     ",
+            "ABCDE",
+            "ABCDE",
+            "ABCDE",
+            "     "
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "item": "actuallyadditions:black_quartz"
+            },
+            "B": {
+                "tag": "c:circuits/ultimate"
+            },
+            "C": {
+                "tag": "c:alloys/ultimate"
+            },
+            "D": {
+                "item": "ae2:fluix_dust"
+            },
+            "E": {
+                "item": "ae2:logic_processor"
+            }
+        },
+        "result": {
+            "id": "ae2:formation_core"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "  A  ",
             " BCB ",
-            " B B ",
+            "DCECD",
+            "DFGFD",
             " DDD "
         ],
         "tier": 2,
         "key": {
             "A": {
-                "item": "ae2:quartz_glass"
+                "item": "ae2:fluix_pearl"
             },
             "B": {
-                "tag": "c:alloys/elite"
+                "tag": "ae2:smart_dense_cable"
             },
             "C": {
-                "tag": "c:dusts/redstone"
+                "item": "ae2:charged_certus_quartz_crystal"
             },
             "D": {
-                "tag": "c:ingots/bronze"
+                "item": "actuallyadditions:empowered_enori_crystal"
+            },
+            "E": {
+                "item": "ae2:logic_processor"
+            },
+            "F": {
+                "item": "ae2:engineering_processor"
+            },
+            "G": {
+                "item": "ae2:calculation_processor"
             }
         },
         "result": {
-            "id": "ae2:fluid_cell_housing"
+            "id": "ae2:wireless_access_point"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            " ABA ",
+            "ACDCA",
+            "BDDDB",
+            "ACDCA",
+            " ABA "
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "item": "ae2:fluix_dust"
+            },
+            "B": {
+                "item": "ae2:fluix_crystal"
+            },
+            "C": {
+                "item": "ae2:fluix_block"
+            },
+            "D": {
+                "item": "minecraft:ender_pearl"
+            }
+        },
+        "result": {
+            "id": "ae2:fluix_pearl"
         }
     });
 });

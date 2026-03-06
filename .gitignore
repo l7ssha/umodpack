@@ -35,3 +35,4 @@ config/Mekanism/client.toml
 config/jei/*-sort-order.ini
 config/jade/sort-order.json
 user-prefs.json
+.mixin.out/
