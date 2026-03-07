@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.sapphire",
+  "colors": [
+    "bbdefb",
+    "5293f5"
+  ],
+  "ingredient": {
+    "tag": "c:gems/sapphire"
+  }
+}

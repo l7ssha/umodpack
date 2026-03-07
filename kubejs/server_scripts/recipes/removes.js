@@ -6,6 +6,16 @@ const recipesById = [
     /evolvedmekanism:melting.*/,
     /evolvedmekanism:molds.*/,
     'mekanism:cardboard_box',
+    'mekanism:steel_casing',
+    'mekanism:steel_casing',
+    'mekanism:energized_smelter',
+    'mekanism:crusher',
+    'mekanism:enrichment_chamber',
+    'mekanism:metallurgic_infuser',
+    'mekanism:purification_chamber',
+    'mekanism:electrolytic_separator',
+    'mekanism:electrolytic_core',
+    'mekanism:chemical_injection_chamber',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -29,7 +39,7 @@ const recipesById = [
     "mysticalagradditions:essence/neutron_nugget",
 
     // AE2
-  "aeinfinitybooster:dimension_card",
+    "aeinfinitybooster:dimension_card",
     "ae2:network/blocks/controller",
     "ae2:network/cables/covered_fluix",
     "ae2:network/cables/smart_fluix",
@@ -48,8 +58,8 @@ const recipesById = [
     'ae2:network/parts/panels_semi_dark_monitor',
 
     // Other
-  "igleelib:modium_ingot",
-  "igleelib:modium_block",
+    "igleelib:modium_ingot",
+    "igleelib:modium_block",
 ];
 
 const recipesByType = [

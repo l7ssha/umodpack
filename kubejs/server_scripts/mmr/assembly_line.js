@@ -151,8 +151,8 @@ ServerEvents.recipes(event => {
             "24x #ae2:smart_cable"
         ],
         [
-            "250x industrialforegoing:latex",
-            "1000x advanced_ae:quantum_infusion_source",
+            "1000x pneumaticcraft:plastic",
+            "4000x advanced_ae:quantum_infusion_source",
         ],
         [
             "1x advanced_ae:quantum_storage_component"
@@ -172,7 +172,7 @@ ServerEvents.recipes(event => {
             "8x #c:dusts/sky_stone"
         ],
         [
-            "250x industrialforegoing:latex",
+            "1000x pneumaticcraft:plastic",
         ],
         [
             "1x megacells:cell_component_1m"
@@ -192,7 +192,7 @@ ServerEvents.recipes(event => {
             "8x #c:dusts/sky_stone"
         ],
         [
-            "250x industrialforegoing:latex",
+            "1000x pneumaticcraft:plastic",
         ],
         [
             "1x megacells:cell_component_4m"
@@ -212,7 +212,7 @@ ServerEvents.recipes(event => {
             "8x #c:dusts/sky_stone"
         ],
         [
-            "250x industrialforegoing:latex",
+            "1000x pneumaticcraft:plastic",
         ],
         [
             "1x megacells:cell_component_16m"
@@ -232,7 +232,7 @@ ServerEvents.recipes(event => {
             "8x #c:dusts/sky_stone"
         ],
         [
-            "250x industrialforegoing:latex",
+            "1000x pneumaticcraft:plastic",
         ],
         [
             "1x megacells:cell_component_64m"
@@ -252,7 +252,7 @@ ServerEvents.recipes(event => {
             "8x #c:dusts/sky_stone"
         ],
         [
-            "250x industrialforegoing:latex",
+            "1000x pneumaticcraft:plastic",
         ],
         [
             "1x megacells:cell_component_256m"

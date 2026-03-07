@@ -36,3 +36,6 @@ config/jei/*-sort-order.ini
 config/jade/sort-order.json
 user-prefs.json
 .mixin.out/
+config/jei_mekanism_multiblocks-saved_data.nbt
+*.log
+config/fzzy_config/keybinds.toml

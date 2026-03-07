@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.ruby",
+  "colors": [
+    "9b253f",
+    "c60230"
+  ],
+  "ingredient": {
+    "tag": "c:gems/ruby"
+  }
+}

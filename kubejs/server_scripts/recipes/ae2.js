@@ -312,6 +312,7 @@ ServerEvents.recipes(event => {
             " BBCDCBB ",
             "   AAA   "
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "item": "ae2:quartz_vibrant_glass"
@@ -490,6 +491,7 @@ ServerEvents.recipes(event => {
             "DEFGD",
             "ABCBA"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "tag": "c:storage_blocks/empowered_enori_crystal"
@@ -533,6 +535,7 @@ ServerEvents.recipes(event => {
             "GBHDG",
             "GIIIG"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "tag": "c:storage_blocks/compressed_iron"

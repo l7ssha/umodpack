@@ -126,6 +126,6 @@
 	#Should the Recipe Maker be enabled?
 	enabled = true
 	#Should the recipe maker try to use tags when possible?
-	useTags = true
+	useTags = false
 	#Should the recipe maker add data components when possible?
 	useDataComponents = true
