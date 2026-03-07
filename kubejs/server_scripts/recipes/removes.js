@@ -31,6 +31,7 @@ const recipesById = [
     "minecraft:neutron",
     "minecraft:neutron_nugget",
     "minecraft:neutron_nugget_from_ingot",
+    'minecraft:neutron_pile_from_ingots',
 
     // Extended Crafting
     "extendedcrafting:compressor",

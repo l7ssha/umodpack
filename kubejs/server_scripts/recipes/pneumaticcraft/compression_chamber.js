@@ -52,15 +52,15 @@ ServerEvents.recipes(event => {
       inputs: [
         {
           count: 25,
-          item: 'avaritia:neutron_ingot',
+          item: 'avaritia:neutron_pile',
         },
       ],
       pressure: 19.2,
       results: [
         {
-          id: 'avaritia:neutron',
+          id: 'avaritia:neutron_nugget',
         },
       ],
     })
-    .id('kubejs:pressure_chamber/neutron');
+    .id('kubejs:pressure_chamber/neutron_nugget');
 });
