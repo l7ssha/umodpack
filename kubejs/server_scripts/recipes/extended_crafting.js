@@ -1,3 +1,5 @@
+/** @type {typeof import("com.thevortex.allthemodium.items.Allthemodium_Apple").$Allthemodium_Apple } */
+let $Allthemodium_Apple = Java.loadClass("com.thevortex.allthemodium.items.Allthemodium_Apple")
 ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",
@@ -56,6 +58,40 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "minecraft:bedrock"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_ender_crafter",
+        "pattern": [
+            " A ",
+            "ABA",
+            " A "
+        ],
+        "key": {
+            "A": {
+                "item": "extendedcrafting:ender_ingot"
+            },
+            "B": {
+                "item": "appliedsoul:ender_star"
+            }
+        },
+        "result": {
+            "id": "extendedcrafting:enhanced_ender_ingot"
+        }
+    });
+
+    const allIngots = [];
+    Ingredient.of('#c:ingots/the_ultimate_ingots').itemIds.forEach(ingot => {
+        allIngots.push({ "item": ingot });
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shapeless_table",
+        "ingredients": allIngots,
+        "tier": 4,
+        "result": {
+            "id": "extendedcrafting:the_ultimate_ingot"
         }
     });
 });

@@ -282,6 +282,7 @@ ServerEvents.recipes(event => {
             "BDEDB",
             "ABCBA"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "item": "immersiveengineering:component_steel"
@@ -319,6 +320,7 @@ ServerEvents.recipes(event => {
             "HAEAH",
             "AHCHA"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "tag": "mekanism:alloys/supreme"
@@ -359,6 +361,7 @@ ServerEvents.recipes(event => {
             "KLAMN",
             "AOOOA"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "item": "immersiveengineering:component_steel"

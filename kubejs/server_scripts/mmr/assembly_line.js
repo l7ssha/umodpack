@@ -258,4 +258,57 @@ ServerEvents.recipes(event => {
             "1x megacells:cell_component_256m"
         ]
     );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        600,
+        20000,
+        [
+            '1x evolvedmekanism:ultimate_personal_chest',
+            '2x mekanism:structural_glass',
+            '4x #c:alloys/supreme',
+            '1x sophisticatedstorage:stack_upgrade_tier_3',
+        ],
+        [
+            '1000x justdirethings:polymorphic_fluid_source'
+        ],
+        [
+            '1x mekanism_extras:upgrade_stack',
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        600,
+        20000,
+        [
+            '1x mekanism:ingot_refined_glowstone',
+            '2x mekanism:structural_glass',
+            '4x #c:alloys/dense',
+            '4x dysoncubeproject:solar_sail_package',
+        ],
+        [
+            '1000x justdirethings:polymorphic_fluid_source'
+        ],
+        [
+            '1x evolvedmekanism:upgrade_solar',
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        600,
+        20000,
+        [
+            '4x mekanism:hdpe_sheet',
+            '2x mekanism:structural_glass',
+            '4x #c:alloys/cosmic',
+        ],
+        [
+            '1000x justdirethings:polymorphic_fluid_source'
+        ],
+        [
+            '1x mekanism_extras:upgrade_ionic_membrane',
+        ]
+    );
 });

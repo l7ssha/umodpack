@@ -56,11 +56,11 @@ ServerEvents.recipes(event => {
         for (let i = 0; i < inputItems.length; i++) {
             recipe.requireItem(inputItems[i]);
         }
-        
+
         for (let k = 0; k < outputItems.length; k++) {
             recipe.produceItem(outputItems[k]);
         }
-    
+
 
         recipe.jei();
 
@@ -104,6 +104,20 @@ ServerEvents.recipes(event => {
         ],
         [
             "1x avaritia:infinity_catalyst"
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:electric_implosion_compressor",
+        40,
+        10000,
+        [
+            "2x ae2:singularity",
+            "2x #c:nether_stars",
+            "2x #c:ender_pearls"
+        ],
+        [
+            "1x appliedsoul:ender_star"
         ]
     );
 });

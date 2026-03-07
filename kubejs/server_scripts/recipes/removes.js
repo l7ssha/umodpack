@@ -16,6 +16,10 @@ const recipesById = [
     'mekanism:electrolytic_separator',
     'mekanism:electrolytic_core',
     'mekanism:chemical_injection_chamber',
+    'mekanism_extras:upgrade/stack',
+    'evolvedmekanism:upgrade/solar',
+    'mekanism:upgrade/anchor',
+    'mekanism_extras:upgrade/ionic_membrane',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -38,6 +42,7 @@ const recipesById = [
 
     // Mystical Agriculture
     "mysticalagradditions:essence/neutron_nugget",
+    /mysticalagradditions:.*_crux/,
 
     // AE2
     "aeinfinitybooster:dimension_card",
@@ -58,10 +63,14 @@ const recipesById = [
     'ae2:network/blocks/storage_drive',
     'ae2:network/parts/panels_semi_dark_monitor',
     'ae2:network/crafting/molecular_assembler',
+    'appliedsoul:ender_star',
 
     // Other
     "igleelib:modium_ingot",
     "igleelib:modium_block",
+
+    // Actually Additions
+    'actuallyadditions:ender_star',
 
     'deeperdarker:coal_from_smelting_gloomslate_coal_ore',
     'deeperdarker:coal_from_blasting_gloomslate_coal_ore',
@@ -79,14 +88,12 @@ const recipesById = [
     'deeperdarker:lapis_lazuli_from_blasting_gloomslate_lapis_ore',
     'deeperdarker:diamond_from_smelting_gloomslate_diamond_ore',
     'deeperdarker:diamond_from_blasting_gloomslate_diamond_ore',
-    'mekanism:processing/lead/ingot/from_ore_smelting',
-    'mekanism:processing/lead/ingot/from_ore_blasting',
-    'mekanism:processing/osmium/ingot/from_ore_smelting',
-    'mekanism:processing/osmium/ingot/from_ore_blasting',
-    'mekanism:processing/tin/ingot/from_ore_smelting',
-    'mekanism:processing/tin/ingot/from_ore_blasting',
     'immersiveengineering:smelting/ingot_uranium',
     'bigreactors:blasting/yellorium_from_ore',
+
+    // Extended crafting
+    'extendedcrafting:ender_star',
+    'extendedcrafting:enhanced_ender_ingot',
 ];
 
 const recipesByType = [
