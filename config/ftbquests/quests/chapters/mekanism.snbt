@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "49F2E18779389636"
+	icon: {
+		id: "mekanism:basic_energy_cube"
+	}
+	id: "55F8A5E3F4521501"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

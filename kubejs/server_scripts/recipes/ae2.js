@@ -2,14 +2,20 @@ const replaceWithIronPlatesRecipes = [
     'ae2:network/blocks/pattern_providers_interface',
     'ae2:materials/basiccard',
     'ae2:materials/advancedcard',
-    'ae2:network/blocks/storage_drive',
     'ae2:network/blocks/interfaces_interface',
-    'ae2:network/crafting/molecular_assembler',
     'ae2:network/crafting/cpu_crafting_unit',
     'ae2:network/blocks/cell_workbench'
 ];
 
 ServerEvents.recipes(event => {
+    replaceWithIronPlatesRecipes.forEach(recipeId => {
+        event.replaceInput(
+            { id: recipeId },
+            'minecraft:iron_ingot',
+            { tag: 'c:plates/steel' }
+        );
+    });
+
     event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
@@ -128,11 +134,37 @@ ServerEvents.recipes(event => {
         }
     });
 
-    event.replaceInput(
-        { id: replaceWithIronPlatesRecipes },
-        'minecraft:iron_ingot',
-        { tag: 'c:plates/iron' }
-    );
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AA AA",
+            "ABCBA",
+            " DAD ",
+            "ABEBA",
+            "AA AA"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:ingots/steel"
+            },
+            "B": {
+                "tag": "c:rods/steel"
+            },
+            "C": {
+                "item": "ae2:formation_core"
+            },
+            "D": {
+                "item": "minecraft:crafter"
+            },
+            "E": {
+                "item": "ae2:annihilation_core"
+            }
+        },
+        "result": {
+            "id": "ae2:molecular_assembler"
+        }
+    });
 
     event.custom({
         "type": "extendedcrafting:shaped_table",

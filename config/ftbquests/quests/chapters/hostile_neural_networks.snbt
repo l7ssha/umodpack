@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hostile_neural_networks"
+	group: "7F41D1727D879568"
+	icon: {
+		id: "hostilenetworks:sim_chamber"
+	}
+	id: "6E3B8451E7A878CF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

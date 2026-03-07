@@ -1,1 +1,14 @@
-{}
+{
+  "mysticalagriculture:copper_alloy": {
+    "enabled": false
+  },
+  "mysticalagriculture:saltpeter": {
+    "enabled": false
+  },
+  "mysticalagriculture:limestone": {
+    "enabled": false
+  },
+  "mysticalagriculture:basalt": {
+    "enabled": false
+  }
+}

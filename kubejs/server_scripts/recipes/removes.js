@@ -57,10 +57,36 @@ const recipesById = [
     'ae2:network/parts/terminals',
     'ae2:network/blocks/storage_drive',
     'ae2:network/parts/panels_semi_dark_monitor',
+    'ae2:network/crafting/molecular_assembler',
 
     // Other
     "igleelib:modium_ingot",
     "igleelib:modium_block",
+
+    'deeperdarker:coal_from_smelting_gloomslate_coal_ore',
+    'deeperdarker:coal_from_blasting_gloomslate_coal_ore',
+    'deeperdarker:iron_ingot_from_smelting_gloomslate_iron_ore',
+    'deeperdarker:iron_ingot_from_blasting_gloomslate_iron_ore',
+    'deeperdarker:copper_ingot_from_smelting_gloomslate_copper_ore',
+    'deeperdarker:copper_ingot_from_blasting_gloomslate_copper_ore',
+    'deeperdarker:gold_ingot_from_smelting_gloomslate_gold_ore',
+    'deeperdarker:gold_ingot_from_blasting_gloomslate_gold_ore',
+    'deeperdarker:redstone_from_smelting_gloomslate_redstone_ore',
+    'deeperdarker:redstone_from_blasting_gloomslate_redstone_ore',
+    'deeperdarker:emerald_from_smelting_gloomslate_emerald_ore',
+    'deeperdarker:emerald_from_blasting_gloomslate_emerald_ore',
+    'deeperdarker:lapis_lazuli_from_smelting_gloomslate_lapis_ore',
+    'deeperdarker:lapis_lazuli_from_blasting_gloomslate_lapis_ore',
+    'deeperdarker:diamond_from_smelting_gloomslate_diamond_ore',
+    'deeperdarker:diamond_from_blasting_gloomslate_diamond_ore',
+    'mekanism:processing/lead/ingot/from_ore_smelting',
+    'mekanism:processing/lead/ingot/from_ore_blasting',
+    'mekanism:processing/osmium/ingot/from_ore_smelting',
+    'mekanism:processing/osmium/ingot/from_ore_blasting',
+    'mekanism:processing/tin/ingot/from_ore_smelting',
+    'mekanism:processing/tin/ingot/from_ore_blasting',
+    'immersiveengineering:smelting/ingot_uranium',
+    'bigreactors:blasting/yellorium_from_ore',
 ];
 
 const recipesByType = [

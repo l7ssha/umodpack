@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "49F2E18779389636"
+	id: "67A74F0D07C090B1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

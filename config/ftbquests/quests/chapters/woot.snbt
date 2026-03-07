@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "woot"
+	group: "7F41D1727D879568"
+	icon: {
+		id: "woot:upgrade_looting_i"
+	}
+	id: "11803234F1C9738E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}
