@@ -2,31 +2,31 @@
     "neoforge:conditions": [
         {
             "type": "neoforge:mod_loaded",
-            "modid": "jitl"
+            "modid": "deeperdarker"
         }
     ],
-    "entity": "jitl:shivering_shrieker",
+    "entity": "deeperdarker:stalker",
     "variants": [],
     "name": {
-        "translate": "entity.jitl.shivering_shrieker",
-        "color": "#333355"
+        "translate": "entity.deeperdarker.stalker",
+        "color": "#1a1e24"
     },
     "display": {
         "scale": 0.85
     },
-    "sim_cost": 384,
+    "sim_cost": 128,
     "input": {
         "item": "hostilenetworks:prediction_matrix"
     },
     "base_drop": {
-        "id": "kubejs:jitl_prediction",
+        "id": "hostilenetworks:overworld_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.shivering_shrieker",
+    "trivia": "hostilenetworks.trivia.stalker",
     "fabricator_drops": [
         {
-            "id": "jitl:crystal_flake",
-            "count": 6
+            "id": "deeperdarker:soul_crystal",
+            "count": 2
         }
     ]
 }

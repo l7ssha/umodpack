@@ -41,3 +41,5 @@ config/jei_mekanism_multiblocks-saved_data.nbt
 config/fzzy_config/keybinds.toml
 config/explorerscompass-client.toml
 screenshots/
+config/firesenderexpansion-client.toml
+config/twilightforest-client.toml

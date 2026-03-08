@@ -1,0 +1,44 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "jitl"
+        }
+    ],
+    "entity": "jitl:stonewalker",
+    "variants": [],
+    "name": {
+        "translate": "entity.jitl.stonewalker",
+        "color": "#706d60"
+    },
+    "display": {
+        "scale": 0.85
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:jitl_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.stonewalker",
+    "fabricator_drops": [
+        {
+            "id": "jitl:cave_dust",
+            "count": 2
+        },
+        {
+            "id": "jitl:cave_crystal",
+            "count": 2
+        },
+        {
+            "id": "jitl:shadium_ingot",
+            "count": 1
+        },
+        {
+            "id": "jitl:lunium_ingot",
+            "count": 1
+        }
+    ]
+}

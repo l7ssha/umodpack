@@ -5,16 +5,16 @@
             "modid": "jitl"
         }
     ],
-    "entity": "jitl:shivering_shrieker",
+    "entity": "jitl:hellbot",
     "variants": [],
     "name": {
-        "translate": "entity.jitl.shivering_shrieker",
-        "color": "#333355"
+        "translate": "entity.jitl.hellbot",
+        "color": "#1c1004"
     },
     "display": {
         "scale": 0.85
     },
-    "sim_cost": 384,
+    "sim_cost": 256,
     "input": {
         "item": "hostilenetworks:prediction_matrix"
     },
@@ -22,11 +22,15 @@
         "id": "kubejs:jitl_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.shivering_shrieker",
+    "trivia": "hostilenetworks.trivia.hellbot",
     "fabricator_drops": [
         {
-            "id": "jitl:crystal_flake",
-            "count": 6
+            "id": "jitl:flaming_sprocket",
+            "count": 1
+        },
+        {
+            "id": "jitl:flaming_spring",
+            "count": 1
         }
     ]
 }

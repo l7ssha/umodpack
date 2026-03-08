@@ -5,16 +5,16 @@
             "modid": "jitl"
         }
     ],
-    "entity": "jitl:shivering_shrieker",
+    "entity": "jitl:hell_serpent",
     "variants": [],
     "name": {
-        "translate": "entity.jitl.shivering_shrieker",
-        "color": "#333355"
+        "translate": "entity.jitl.hell_serpent",
+        "color": "#ff9d2a"
     },
     "display": {
         "scale": 0.85
     },
-    "sim_cost": 384,
+    "sim_cost": 512,
     "input": {
         "item": "hostilenetworks:prediction_matrix"
     },
@@ -22,11 +22,19 @@
         "id": "kubejs:jitl_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.shivering_shrieker",
+    "trivia": "hostilenetworks.trivia.hell_serpent",
     "fabricator_drops": [
         {
-            "id": "jitl:crystal_flake",
-            "count": 6
+            "id": "jitl:snake_skin",
+            "count": 2
+        },
+        {
+            "id": "jitl:snake_flesh",
+            "count": 1
+        },
+        {
+            "id": "jitl:blood",
+            "count": 1
         }
     ]
 }

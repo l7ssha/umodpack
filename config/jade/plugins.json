@@ -55,6 +55,9 @@
   "ae2_autorequester": {
     "autorequester_info": true
   },
+  "apothic_spawners": {
+    "spawner": true
+  },
   "entangled": {
     "entangled_block_component": true
   },
@@ -129,9 +132,6 @@
   "pipez": {
     "pipe": true
   },
-  "woot_revived": {
-    "machines": true
-  },
   "waystones": {
     "waystone": true
   },
@@ -170,6 +170,9 @@
     "dragon": true,
     "dragon_egg_block": true
   },
+  "apothic_enchanting": {
+    "ench": true
+  },
   "balm": {
     "jade": true
   },
@@ -201,6 +204,11 @@
   },
   "mysticalagradditions": {
     "infused_farmland": true
+  },
+  "twilightforest": {
+    "drying_rack": true,
+    "chiseled_bookshelf_spawner": true,
+    "quest_ram_wool": true
   },
   "dynamictrees": {
     "rooty_water": true,
