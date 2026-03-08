@@ -431,4 +431,36 @@ ServerEvents.recipes(event => {
             "id": "mekanism:chemical_injection_chamber"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABBBA",
+            "A   A",
+            "ACDCA",
+            "ACECA",
+            "ABBBA"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "item": "minecraft:smooth_stone"
+            },
+            "B": {
+                "item": "minecraft:smooth_stone_slab"
+            },
+            "C": {
+                "tag": "c:circuits/basic"
+            },
+            "D": {
+                "tag": "c:shulker_boxes"
+            },
+            "E": {
+                "item": "ae2:cell_component_4k"
+            }
+        },
+        "result": {
+            "id": "mekanism:basic_bin"
+        }
+    });
 });

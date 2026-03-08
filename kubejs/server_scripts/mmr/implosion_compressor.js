@@ -120,4 +120,17 @@ ServerEvents.recipes(event => {
             "1x appliedsoul:ender_star"
         ]
     );
+
+    mmrRecipe(
+        "mmr:electric_implosion_compressor",
+        40,
+        15000,
+        [
+            "2x kubejs:ultimate_explosive_primer",
+            "8x avaritia:diamond_lattice",
+        ],
+        [
+            '1x avaritia:crystal_matrix_ingot'
+        ]
+    );
 });

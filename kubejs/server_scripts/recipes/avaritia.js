@@ -118,4 +118,35 @@ ServerEvents.recipes(event => {
       "id": "kubejs:unrefined_infinity"
     }
   });
+
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABC CBA",
+      "BADADAB",
+      "CDDCDDC",
+      " ACACA ",
+      "CDDCDDC",
+      "BADADAB",
+      "ABC CBA"
+    ],
+    "tier": 3,
+    "key": {
+      "A": {
+        "tag": "c:ingots/platinum"
+      },
+      "B": {
+        "tag": "c:dusts/diamond"
+      },
+      "C": {
+        "item": "industrialforegoing:pink_slime"
+      },
+      "D": {
+        "tag": "c:gems/diamond"
+      }
+    },
+    "result": {
+      "id": "avaritia:diamond_lattice"
+    }
+  });
 });

@@ -4,4 +4,5 @@ StartupEvents.registry('item', event => {
   event.create('ultimate_explosive_primer');
   event.create('unrefined_infinity');
   event.create('nether_core');
+  event.create("jitl_prediction");
 })

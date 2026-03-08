@@ -1,0 +1,32 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "jitl"
+        }
+    ],
+    "entity": "jitl:shivering_shrieker",
+    "variants": [],
+    "name": {
+        "translate": "entity.jitl.shivering_shrieker",
+        "color": "#333355"
+    },
+    "display": {
+        "scale": 0.85
+    },
+    "sim_cost": 384,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:jitl_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.shivering_shrieker",
+    "fabricator_drops": [
+        {
+            "id": "jitl:crystal_flake",
+            "count": 4
+        }
+    ]
+}

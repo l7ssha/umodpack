@@ -1,5 +1,3 @@
-/** @type {typeof import("com.thevortex.allthemodium.items.Allthemodium_Apple").$Allthemodium_Apple } */
-let $Allthemodium_Apple = Java.loadClass("com.thevortex.allthemodium.items.Allthemodium_Apple")
 ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",

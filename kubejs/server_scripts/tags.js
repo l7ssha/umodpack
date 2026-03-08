@@ -61,7 +61,6 @@ ServerEvents.tags('item', tags => {
         'allthemodium:unobtainium_vibranium_alloy_ingot',
         'allthemodium:vibranium_allthemodium_alloy_ingot',
         'occultism:iesnium_ingot',
-        'replication:replica_ingot',
         'justdirethings:eclipsealloy_ingot',
         'mekanism_extras:ingot_naquadah',
         'draconicevolution:awakened_draconium_ingot',
@@ -89,6 +88,7 @@ ServerEvents.tags('item', tags => {
         'extendedcrafting:crystaltine_ingot',
         'extendedcrafting:enhanced_ender_ingot',
         'extendedcrafting:enhanced_redstone_ingot',
+        'avaritia:crystal_matrix_ingot',
         'advancednetherite:netherite_diamond_ingot',
         'immersiveengineering:ingot_hop_graphite',
         'industrialforegoing:pink_slime_ingot',
@@ -107,6 +107,8 @@ ServerEvents.tags('item', tags => {
         'enderio:energetic_alloy_ingot',
         'enderio:pulsating_alloy_ingot',
         'enderio:vibrant_alloy_ingot',
+        'cataclysm:cursium_ingot',
+        'cataclysm:witherite_ingot',
     ]);
 });
 

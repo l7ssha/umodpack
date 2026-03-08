@@ -1,4 +1,8 @@
 const recipesById = [
+    // Minecraft
+    'minecraft:shulker_box',
+    'minecraft:ender_eye',
+
     // Mekanism and addons
     /evolvedmekanism.*creative.*/,
     "emextras:alloying/circuit/creative",
@@ -20,6 +24,8 @@ const recipesById = [
     'evolvedmekanism:upgrade/solar',
     'mekanism:upgrade/anchor',
     'mekanism_extras:upgrade/ionic_membrane',
+    'mekanism:basic_bin',
+    'evolvedmekanism:alloying/compat/enderio/conductive_alloy_ingot',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -65,12 +71,13 @@ const recipesById = [
     'ae2:network/crafting/molecular_assembler',
     'appliedsoul:ender_star',
 
+    // Actually Additions
+    'actuallyadditions:ender_star',
+
     // Other
     "igleelib:modium_ingot",
     "igleelib:modium_block",
-
-    // Actually Additions
-    'actuallyadditions:ender_star',
+    'endermanoverhaul:ender_eye',
 
     'deeperdarker:coal_from_smelting_gloomslate_coal_ore',
     'deeperdarker:coal_from_blasting_gloomslate_coal_ore',
@@ -94,6 +101,25 @@ const recipesById = [
     // Extended crafting
     'extendedcrafting:ender_star',
     'extendedcrafting:enhanced_ender_ingot',
+
+    // Cataclysm
+    'cataclysm:void_eye',
+
+    // Productive Bees
+    'modularbees:fill_dragon_breath',
+
+    // Allthemodium
+    'allthemodium:teleport_pad',
+
+    //Avaritia
+    'minecraft:neutron_ingot_from_nuggets',
+
+    // Powah
+    /powah:crafting\/capacitor_.*/,
+
+    // Flux networks
+    'fluxnetworks:flux_plug',
+    'fluxnetworks:flux_point',
 ];
 
 const recipesByType = [
