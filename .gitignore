@@ -43,3 +43,6 @@ config/explorerscompass-client.toml
 screenshots/
 config/firesenderexpansion-client.toml
 config/twilightforest-client.toml
+
+build/
+.build/
