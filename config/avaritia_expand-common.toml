@@ -9,7 +9,7 @@ neutron_sword_max_range = 0
 	# Default: 8000
 	# Range: > 0
 	infinity_tnt_max_explosion_time = 8000
-	#The maximum range of the Infinity TNT
-	# Default: 256
+	#Hey,I don't recommend this value to be greater than 256
+	# Default: 128
 	# Range: 0 ~ 9223372036854775807
 	infinity_tnt_max_range = 256
