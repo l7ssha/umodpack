@@ -463,4 +463,47 @@ ServerEvents.recipes(event => {
             "id": "mekanism:basic_bin"
         }
     });
+
+    event.replaceInput(
+        { id: 'mekanism:personal_chest' },
+        '#c:ingots/steel',
+        { tag: 'c:plates/steel' },
+    );
+
+    event.replaceInput(
+        { id: 'mekanism:personal_chest' },
+        '#c:chests',
+        'pneumaticcraft:reinforced_chest',
+    );
+
+    event.findRecipes([{ id: /evolvedmekanism:control_circuit\/.*/ }, { id: /mekanism_extras:control_circuit\/.*/, type: 'minecraft:crafting_shaped'}]).forEach(recipe => {
+        event.custom({
+            "type": "extendedcrafting:shaped_flux_crafter",
+            "power_required": 1000000,
+            "power_rate": 20000,
+            "pattern": recipe.originalJson.get('pattern'),
+            "key": recipe.originalJson.get('key'),
+            "result": recipe.originalJson.get('result'),
+        });
+    });
+
+    event.findRecipes({ id: /mekanism:control_circuit\/(advanced|elite|ultimate)/ }).forEach(recipe => {
+        let energyRequired = 10000;
+
+        const recipeId = recipe.getId();
+        if (recipeId.includes('advanced')) {
+            energyRequired *= 2;
+        } else if (recipeId.includes('elite')) {
+            energyRequired *= 6;
+        }
+
+        event.custom({
+            "type": "extendedcrafting:shaped_flux_crafter",
+            "power_required": energyRequired,
+            "power_rate": energyRequired / 1000,
+            "pattern": recipe.originalJson.get('pattern'),
+            "key": recipe.originalJson.get('key'),
+            "result": recipe.originalJson.get('result'),
+        });
+    });
 });

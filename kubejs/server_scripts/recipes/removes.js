@@ -2,6 +2,7 @@ const recipesById = [
     // Minecraft
     'minecraft:shulker_box',
     'minecraft:ender_eye',
+    'minecraft:netherite_ingot',
 
     // Mekanism and addons
     /evolvedmekanism.*creative.*/,
@@ -26,6 +27,10 @@ const recipesById = [
     'mekanism_extras:upgrade/ionic_membrane',
     'mekanism:basic_bin',
     'evolvedmekanism:alloying/compat/enderio/conductive_alloy_ingot',
+    'mekanism:bin/basic',
+    /evolvedmekanism:control_circuit\/.*/,
+    /mekanism_extras:control_circuit\/.*/,
+    /mekanism:control_circuit\/(advanced|elite|ultimate)/,
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -70,6 +75,13 @@ const recipesById = [
     'ae2:network/parts/panels_semi_dark_monitor',
     'ae2:network/crafting/molecular_assembler',
     'appliedsoul:ender_star',
+    'ae2:network/wireless_booster',
+    'megacells:crafting/bulk_cell_component',
+    'ae2:network/crafting/patterns_blank',
+    'ae2:network/blocks/pattern_providers_interface',
+
+    // Ender Drives
+    'enderdrives:ender_storage_component_1k_advanced',
 
     // Actually Additions
     'actuallyadditions:ender_star',
@@ -111,7 +123,7 @@ const recipesById = [
     // Allthemodium
     'allthemodium:teleport_pad',
 
-    //Avaritia
+    // Avaritia
     'minecraft:neutron_ingot_from_nuggets',
 
     // Powah
@@ -120,6 +132,26 @@ const recipesById = [
     // Flux networks
     'fluxnetworks:flux_plug',
     'fluxnetworks:flux_point',
+
+    // Industrial Foregoing
+    'industrialforegoing:dissolution_chamber',
+    'industrialforegoing:pitiful_generator',
+    'industrialforegoing:laser_drill',
+    'industrialforegoing:simulated_hydroponic_bed',
+    'industrialforegoing:hydroponic_bed',
+    'industrialforegoing:hydroponic_simulation_processor',
+    'industrialforegoingsouls:soul_laser_base',
+    'industrialforegoing:ore_laser_base',
+    'industrialforegoing:fluid_laser_base',
+    'industrialforegoing:infinity_charger',
+    'industrialforegoing:stasis_chamber',
+
+    // Just Dire Things
+    'justdirethings:time_wand',
+    'justdirethings:paradoxmachine',
+
+    // JITL
+    'jitl:terranian_portal_frame',
 ];
 
 const recipesByType = [
@@ -133,6 +165,13 @@ const recipesByInput = [
     "draconicevolution:awakened_draconium_dust",
 ];
 
+const recipesByOutput = [
+    // Industrial foregoing
+    'industrialforegoing:machine_frame_supreme',
+    'industrialforegoing:machine_frame_advanced',
+    'extendedae:machine_frame',
+];
+
 ServerEvents.recipes(event => {
     recipesById.forEach(recipeId => {
         event.remove({ id: recipeId });
@@ -144,6 +183,10 @@ ServerEvents.recipes(event => {
 
     recipesByInput.forEach(recipeInput => {
         event.remove({ input: recipeInput });
+    });
+
+    recipesByOutput.forEach(recipeOutput => {
+        event.remove({ output: recipeOutput });
     });
 });
 

@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
                 "item": "ae2:wireless_access_point"
             },
             "B": {
-                "item": "ae2:wireless_booster"
+                "item": "aeinfinitybooster:infinity_card"
             },
             "C": {
                 "item": "ae2:dense_energy_cell"
@@ -344,7 +344,7 @@ ServerEvents.recipes(event => {
             " BBCDCBB ",
             "   AAA   "
         ],
-        "tier": 2,
+        "tier": 4,
         "key": {
             "A": {
                 "item": "ae2:quartz_vibrant_glass"
@@ -736,6 +736,103 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "ae2:fluix_pearl"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            " AAAAAAA ",
+            "BCCCCCCCB",
+            "BCDEEEDCB",
+            "AFEGGGEFA",
+            "BFEGHGEFB",
+            "BFEGGGEFB",
+            "BCDEEEDCB",
+            "BCCCCCCCB",
+            "BBBBBBBBB"
+        ],
+        "key": {
+            "A": {
+                "item": "ae2:quartz_vibrant_glass"
+            },
+            "B": {
+                "tag": "c:plastics"
+            },
+            "C": {
+                "tag": "ae2:smart_cable_dense"
+            },
+            "D": {
+                "item": "megacells:cell_component_256m"
+            },
+            "E": {
+                "item": "megacells:accumulation_processor"
+            },
+            "F": {
+                "item": "pneumaticcraft:printed_circuit_board"
+            },
+            "G": {
+                "item": "ae2:singularity"
+            },
+            "H": {
+                "item": "mekanism:basic_bin"
+            }
+        },
+        "result": {
+            "id": "megacells:bulk_cell_component"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 2000,
+        "power_rate": 20,
+        "pattern": [
+            " AA",
+            "BCA",
+            " AA"
+        ],
+        "key": {
+            "A": {
+                "item": "modularrouters:augment_core"
+            },
+            "B": {
+                "item": "ae2:basic_card"
+            },
+            "C": {
+                "item": "pneumaticcraft:empty_pcb"
+            }
+        },
+        "result": {
+            "id": "ae2:blank_pattern"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 50000,
+        "power_rate": 2000,
+        "pattern": [
+            "ABA",
+            "C C",
+            "ADA"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:plates/steel"
+            },
+            "B": {
+                "item": "ae2:formation_core"
+            },
+            "C": {
+                "item": "avaritia:compressed_crafting_table"
+            },
+            "D": {
+                "item": "ae2:annihilation_core"
+            }
+        },
+        "result": {
+            "id": "ae2:pattern_provider"
         }
     });
 });

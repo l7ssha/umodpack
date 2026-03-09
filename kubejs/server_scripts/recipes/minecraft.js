@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
                 "item": "minecraft:shulker_shell"
             },
             "B": {
-                "item": "minecraft:chest"
+                "item": "pneumaticcraft:reinforced_chest"
             }
         },
         "result": {
@@ -38,4 +38,30 @@ ServerEvents.recipes(event => {
             "id": "minecraft:ender_eye"
         }
     });
+
+    event.replaceInput(
+        { id: 'minecraft:anvil' },
+        'minecraft:iron_block',
+        { tag: 'c:storage_blocks/steel' }
+    );
+
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [
+            {
+                "item": "minecraft:netherite_scrap",
+                "count": 5
+            },
+            {
+                "item": "alltheores:gold_plate",
+                "count": 5
+            },
+        ],
+        "pressure": 4,
+        "results": [
+            {
+                "id": "minecraft:netherite_ingot"
+            }
+        ]
+    }).id('kubejs:pressure_chamber/netherite_ingot');
 });

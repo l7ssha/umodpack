@@ -1,7 +1,6 @@
 {
 	chapter.06454A9D23554997.title: "Basic Storage"
 	chapter.0F0F9CD765F02F19.title: "Tips \\& Tricks"
-	chapter.11803234F1C9738E.title: "WOOT"
 	chapter.15D3BD033E97B1C9.title: "Flux Networks"
 	chapter.3546EA0DD130D2AB.title: "Extreme Reactors"
 	chapter.35F665D7043A4FE2.title: "Mystical Agriculture"
@@ -20,4 +19,6 @@
 	chapter_group.4EE7830B7D832711.title: "Storage"
 	chapter_group.51866000DF02F5EB.title: "Magic"
 	chapter_group.7F41D1727D879568.title: "Technology"
+	quest.38B0553C13704960.quest_desc: ["To start with Applied Energistics, you need to find a meteorite which will contains all necessary metarial for you to start."]
+	task.187857538AC09450.title: "Find Meteorite"
 }

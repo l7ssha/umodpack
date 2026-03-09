@@ -28,6 +28,10 @@ ServerEvents.tags('item', tags => {
         "allthemodium:stripped_ancient_log"
     ]);
 
+    tags.add('c:plastics', [
+        "pneumaticcraft:plastic",
+    ]);
+
     tags.add('c:ingots/the_ultimate_ingots', [
         'minecraft:copper_ingot',
         'minecraft:gold_ingot',

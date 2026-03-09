@@ -9,5 +9,22 @@
 	id: "693D146BB22BC880"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "38B0553C13704960"
+		rewards: [{
+			id: "6B3E992EB9573B94"
+			type: "xp_levels"
+			xp_levels: 1
+		}]
+		tasks: [{
+			icon: {
+				id: "ae2:meteorite_compass"
+			}
+			id: "187857538AC09450"
+			structure: "ae2:meteorite"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 }

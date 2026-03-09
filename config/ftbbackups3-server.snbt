@@ -33,7 +33,7 @@
 	# 0 - Infinite
 	# Default: 12
 	# Range: 0 ~ 32000
-	backups_to_keep: 12
+	backups_to_keep: 6
 	
 	# Compression level for archived files. Note that this is dependent on the particular plugin in use.
 	# Higher values typically mean backups take longer to do but take less space on disk.

@@ -7,7 +7,7 @@
 		id: "hostilenetworks:sim_chamber"
 	}
 	id: "6E3B8451E7A878CF"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [ ]
 }
