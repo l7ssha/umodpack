@@ -47,3 +47,8 @@ config/tombstone-client.toml
 
 build/
 .build/
+config/emixx/emixx-client.toml
+config/emi.css
+config/emi_ores-client.json
+emi.json
+datapacks/
