@@ -6,7 +6,6 @@ const recipesById = [
 
     // Mekanism and addons
     /evolvedmekanism.*creative.*/,
-    "emextras:alloying/circuit/creative",
     /evolvedmekanism:solidifying.*/,
     /evolvedmekanism:melting.*/,
     /evolvedmekanism:molds.*/,
@@ -31,14 +30,21 @@ const recipesById = [
     /evolvedmekanism:control_circuit\/.*/,
     /mekanism_extras:control_circuit\/.*/,
     /mekanism:control_circuit\/(advanced|elite|ultimate)/,
+    /emextras:alloying\/circuit\/(absolute|supreme|cosmic|infinity|overclocked|quantum|dense|multiversal|creative|advanced|elite|ultimate)$/,
+    'mekanism:control_circuit/infused_ultimate',
+    'mekanism:nucleosynthesizing/ender_chest',
+    'minecraft:ender_chest',
+    /mekmm:compat\/ae2omnicells\/.*_print/,
+    'mekanism:hdpe_elytra',
+    'mekanism:atomic_disassembler',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
 
     // Occultism
-    /occultism:crushing\/.*/,
+    // /occultism:crushing\/.*/,
     /occultism:smelting\/.*/,
-    /occultism:crafting\/.*/,
+    /^occultism:crafting\/chalk_(?!white).*_impure/,
 
     // Avaritia related
     /avaritia:.*/,
@@ -66,6 +72,7 @@ const recipesById = [
     'advanced_ae:quantum_storage_component',
     'megacells:cells/mega_item_cell_housing',
     'ae2:network/cells/item_cell_housing',
+    'ae2:network/cells/fluid_cell_housing',
     'ae2:misc/fluixpearl',
     'ae2:network/wireless_access_point',
     'ae2:materials/formationcore',
@@ -79,6 +86,40 @@ const recipesById = [
     'megacells:crafting/bulk_cell_component',
     'ae2:network/crafting/patterns_blank',
     'ae2:network/blocks/pattern_providers_interface',
+    'extendedae:assembler/ex_pattern_provider',
+    'expandedae:crafting/exp_pattern_provider_ext',
+    'expandedae:crafting/exp_pattern_provider_upgrade_ext',
+    'expandedae:crafting/greater_accel_card',
+    'expandedae:crafting/auto_complete_card',
+    'extendedae:assembler/assembler_matrix_crafter',
+    'extendedae:assembler/assembler_matrix_pattern',
+    'extendedae:assembler/assembler_matrix_speed',
+    'megacells:network/mega_pattern_provider',
+    'megacells:network/mega_interface',
+    'extendedae:assembler/ex_interface',
+    'extendedae:assembler/oversize_interface',
+    'actuallyadditions:phantom_booster',
+    /ae2omnicells:[^\/]*_circuit_print/,
+    /ae2omnicells:[^\/]*_processor/,
+    'ae2omnicells:singularity_block_from_ingots',
+    'ae2omnicells:singularity_from_blocks',
+    'ae2omnicells:assembler/ender_ingot',
+    'ae2omnicells:ender_ingot',
+    'ae2omnicells:charged_ender_ingot',
+    'ae2omnicells:components/shaped/omni_cell_component_1k',
+    'ae2omnicells:components/shaped/complex_omni_cell_component_1k',
+    'ae2omnicells:components/shaped/quantum_omni_cell_component_1k',
+    'ae2omnicells:components/shaped/spent_nuclear_waste_component',
+    'ae2omnicells:type_fuzzy_card',
+    'extendedae:tape',
+    'megacells:crafting/radioactive_cell_component',
+    /ae2:network\/cell\/.*_storage_cell_.*k$/,
+    /apprep:cells\/matter_cell_.*[km]$/,
+    /appflux:.*_fe_cell$/,
+    /appliedsoul:soul_storage_cell_.*k$/,
+    /megacells:cells\/standard\/.*_storage_cell_.*m$/,
+    /ae2omnicells:cells\/shaped\/.*_cell_.*/,
+    'megacells:cells/standard/bulk_item_cell',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
@@ -90,23 +131,6 @@ const recipesById = [
     "igleelib:modium_ingot",
     "igleelib:modium_block",
     'endermanoverhaul:ender_eye',
-
-    'deeperdarker:coal_from_smelting_gloomslate_coal_ore',
-    'deeperdarker:coal_from_blasting_gloomslate_coal_ore',
-    'deeperdarker:iron_ingot_from_smelting_gloomslate_iron_ore',
-    'deeperdarker:iron_ingot_from_blasting_gloomslate_iron_ore',
-    'deeperdarker:copper_ingot_from_smelting_gloomslate_copper_ore',
-    'deeperdarker:copper_ingot_from_blasting_gloomslate_copper_ore',
-    'deeperdarker:gold_ingot_from_smelting_gloomslate_gold_ore',
-    'deeperdarker:gold_ingot_from_blasting_gloomslate_gold_ore',
-    'deeperdarker:redstone_from_smelting_gloomslate_redstone_ore',
-    'deeperdarker:redstone_from_blasting_gloomslate_redstone_ore',
-    'deeperdarker:emerald_from_smelting_gloomslate_emerald_ore',
-    'deeperdarker:emerald_from_blasting_gloomslate_emerald_ore',
-    'deeperdarker:lapis_lazuli_from_smelting_gloomslate_lapis_ore',
-    'deeperdarker:lapis_lazuli_from_blasting_gloomslate_lapis_ore',
-    'deeperdarker:diamond_from_smelting_gloomslate_diamond_ore',
-    'deeperdarker:diamond_from_blasting_gloomslate_diamond_ore',
     'immersiveengineering:smelting/ingot_uranium',
     'bigreactors:blasting/yellorium_from_ore',
 
@@ -152,6 +176,33 @@ const recipesById = [
 
     // JITL
     'jitl:terranian_portal_frame',
+
+    // PneumaticCraft
+    'pneumaticcraft:pressure_chamber/transistor',
+    'pneumaticcraft:pressure_chamber/capacitor',
+
+    // EnderStorage
+    'enderstorage:ender_chest',
+    'enderstorage:ender_tank',
+
+    // Deeper Darker
+    'deeperdarker:coal_from_smelting_gloomslate_coal_ore',
+    'deeperdarker:coal_from_blasting_gloomslate_coal_ore',
+    'deeperdarker:iron_ingot_from_smelting_gloomslate_iron_ore',
+    'deeperdarker:iron_ingot_from_blasting_gloomslate_iron_ore',
+    'deeperdarker:copper_ingot_from_smelting_gloomslate_copper_ore',
+    'deeperdarker:copper_ingot_from_blasting_gloomslate_copper_ore',
+    'deeperdarker:gold_ingot_from_smelting_gloomslate_gold_ore',
+    'deeperdarker:gold_ingot_from_blasting_gloomslate_gold_ore',
+    'deeperdarker:redstone_from_smelting_gloomslate_redstone_ore',
+    'deeperdarker:redstone_from_blasting_gloomslate_redstone_ore',
+    'deeperdarker:emerald_from_smelting_gloomslate_emerald_ore',
+    'deeperdarker:emerald_from_blasting_gloomslate_emerald_ore',
+    'deeperdarker:lapis_lazuli_from_smelting_gloomslate_lapis_ore',
+    'deeperdarker:lapis_lazuli_from_blasting_gloomslate_lapis_ore',
+    'deeperdarker:diamond_from_smelting_gloomslate_diamond_ore',
+    'deeperdarker:diamond_from_blasting_gloomslate_diamond_ore',
+    'deeperdarker:soul_elytra',
 ];
 
 const recipesByType = [

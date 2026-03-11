@@ -142,17 +142,17 @@ ServerEvents.recipes(event => {
         3600,
         159744,
         [
-            "4x megacells:cell_component_256m",
-            "4x ae2:spatial_cell_component_128",
+            "4x pneumaticcraft:module_expansion_card",
+            "16x ae2:spatial_cell_component_128",
             "8x ae2:quartz_vibrant_glass",
             "8x advanced_ae:quantum_processor",
             "8x megacells:accumulation_processor",
-            "4x emextras:cosmic_dense_control_circuit",
+            "2x emextras:cosmic_dense_control_circuit",
             "24x #ae2:smart_cable"
         ],
         [
             "1000x pneumaticcraft:plastic",
-            "4000x advanced_ae:quantum_infusion_source",
+            "2000x advanced_ae:quantum_infusion_source",
         ],
         [
             "1x advanced_ae:quantum_storage_component"
@@ -164,7 +164,7 @@ ServerEvents.recipes(event => {
         1200,
         63000,
         [
-            "4x ae2:cell_component_256k",
+            "3x ae2:cell_component_256k",
             "1x ae2:quartz_vibrant_glass",
             "2x mekanism:module_base",
             "12x #ae2:smart_cable",
@@ -184,7 +184,7 @@ ServerEvents.recipes(event => {
         1200,
         63000,
         [
-            "4x megacells:cell_component_1m",
+            "3x megacells:cell_component_1m",
             "1x ae2:quartz_vibrant_glass",
             "2x mekanism:module_base",
             "12x #ae2:smart_cable",
@@ -204,7 +204,7 @@ ServerEvents.recipes(event => {
         1200,
         98304,
         [
-            "4x megacells:cell_component_4m",
+            "3x megacells:cell_component_4m",
             "1x ae2:quartz_vibrant_glass",
             "2x mekanism:module_base",
             "12x #ae2:smart_cable",
@@ -224,7 +224,7 @@ ServerEvents.recipes(event => {
         1200,
         98304,
         [
-            "4x megacells:cell_component_16m",
+            "3x megacells:cell_component_16m",
             "1x ae2:quartz_vibrant_glass",
             "2x mekanism:module_base",
             "12x #ae2:smart_cable",
@@ -244,7 +244,7 @@ ServerEvents.recipes(event => {
         1200,
         98304,
         [
-            "4x megacells:cell_component_64m",
+            "3x megacells:cell_component_64m",
             "1x ae2:quartz_vibrant_glass",
             "2x mekanism:module_base",
             "12x #ae2:smart_cable",

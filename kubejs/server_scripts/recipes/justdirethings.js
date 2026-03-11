@@ -10,6 +10,7 @@ ServerEvents.recipes(event => {
       " ACACA ",
       "       "
     ],
+    "tier": 2,
     "key": {
       "A": {
         "tag": "c:ingots/eclipsealloy"
@@ -42,11 +43,12 @@ ServerEvents.recipes(event => {
     "type": "extendedcrafting:shaped_table",
     "pattern": [
       "  ABC",
-      "  ACB",
+      "  ATB",
       "  DAA",
       " D   ",
       "D    "
     ],
+    "tier": 2,
     "key": {
       "A": {
         "tag": "c:ingots/blazegold"
@@ -59,6 +61,9 @@ ServerEvents.recipes(event => {
       },
       "D": {
         "tag": "c:ingots/ferricore"
+      },
+      "T": {
+        "id": "justdirethings:time_crystal_block"
       }
     },
     "result": {

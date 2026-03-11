@@ -6,5 +6,6 @@
   ],
   "ingredient": {
     "item": "mekanism_extras:alloy_spectrum"
-  }
+  },
+  "materialCount": 1000
 }

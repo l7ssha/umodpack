@@ -476,7 +476,7 @@ ServerEvents.recipes(event => {
         'pneumaticcraft:reinforced_chest',
     );
 
-    event.findRecipes([{ id: /evolvedmekanism:control_circuit\/.*/ }, { id: /mekanism_extras:control_circuit\/.*/, type: 'minecraft:crafting_shaped'}]).forEach(recipe => {
+    event.findRecipes([{ id: /evolvedmekanism:control_circuit\/.*/ }, { id: /mekanism_extras:control_circuit\/.*/, type: 'minecraft:crafting_shaped' }]).forEach(recipe => {
         event.custom({
             "type": "extendedcrafting:shaped_flux_crafter",
             "power_required": 1000000,
@@ -487,7 +487,7 @@ ServerEvents.recipes(event => {
         });
     });
 
-    event.findRecipes({ id: /mekanism:control_circuit\/(advanced|elite|ultimate)/ }).forEach(recipe => {
+    event.findRecipes({ id: /mekanism:control_circuit\/(advanced|elite)/ }).forEach(recipe => {
         let energyRequired = 10000;
 
         const recipeId = recipe.getId();
@@ -505,5 +505,116 @@ ServerEvents.recipes(event => {
             "key": recipe.originalJson.get('key'),
             "result": recipe.originalJson.get('result'),
         });
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 100000,
+        "power_rate": 10000,
+        "pattern": [
+            'PTP',
+            'ACA',
+            'PTP',
+        ],
+        "key": {
+            "A": {
+                "tag": "c:alloys/ultimate"
+            },
+            "C": {
+                "tag": "c:circuits/elite"
+            },
+            "P": {
+                "item": "pneumaticcraft:capacitor"
+            },
+            "T": {
+                "item": "pneumaticcraft:transistor"
+            }
+        },
+        "result": {
+            "id": "mekanism:ultimate_control_circuit"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 500000,
+        "input": {
+            "item": "minecraft:elytra"
+        },
+        "ingredients": [
+            {
+                "item": "mekanism:hdpe_sheet"
+            },
+            {
+                "tag": "c:alloys/absolute"
+            },
+            {
+                "item": "mekanism:hdpe_rod"
+            },
+            {
+                "tag": "c:alloys/absolute"
+            },
+            {
+                "item": "mekanism:hdpe_rod"
+            },
+            {
+                "tag": "c:alloys/absolute"
+            },
+            {
+                "item": "mekanism:hdpe_rod"
+            },
+            {
+                "item": "mekanism:hdpe_sheet"
+            },
+            {
+                "item": "mekanism:hdpe_sheet"
+            },
+            {
+                "item": "mekanism:hdpe_sheet"
+            },
+            {
+                "item": "mekanism:hdpe_sheet"
+            }
+        ],
+        "result": {
+            "id": "mekanism:hdpe_elytra"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "       ",
+            " AABCB ",
+            "AABDDC ",
+            "  CEC  ",
+            "   F   ",
+            "   E   ",
+            "   E   "
+        ],
+        "tier": 3,
+        "key": {
+            "A": {
+                "tag": "c:ingots/refined_obsidian"
+            },
+            "B": {
+                "tag": "mekanism:alloys/infused"
+            },
+            "C": {
+                "tag": "c:ingots/redstone_alloy"
+            },
+            "D": {
+                "item": "mekanism:energy_tablet"
+            },
+            "E": {
+                "tag": "c:rods/diamond"
+            },
+            "F": {
+                "tag": "c:rods/platinum"
+            }
+        },
+        "result": {
+            "id": "mekanism:atomic_disassembler"
+        }
     });
 });

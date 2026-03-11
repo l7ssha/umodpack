@@ -32,6 +32,11 @@ ServerEvents.tags('item', tags => {
         "pneumaticcraft:plastic",
     ]);
 
+    tags.add('expandedae:expanded_pattern_provider', [
+        'expandedae:exp_pattern_provider',
+        'expandedae:exp_pattern_provider_part',
+    ]);
+
     tags.add('c:ingots/the_ultimate_ingots', [
         'minecraft:copper_ingot',
         'minecraft:gold_ingot',

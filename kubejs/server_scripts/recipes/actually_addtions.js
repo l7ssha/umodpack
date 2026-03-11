@@ -27,5 +27,54 @@ ServerEvents.recipes(event => {
         { id: 'actuallyadditions:ender_casing' },
         'actuallyadditions:black_quartz_block',
         'mekanism:energy_tablet',
-    )
+    );
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 20000,
+        "input": {
+            "item": "actuallyadditions:ender_casing"
+        },
+        "ingredients": [
+            {
+                "item": "actuallyadditions:diamatine_crystal"
+            },
+            {
+                "item": "actuallyadditions:diamatine_crystal"
+            },
+            {
+                "item": "actuallyadditions:diamatine_crystal"
+            },
+            {
+                "item": "actuallyadditions:diamatine_crystal"
+            },
+            {
+                "item": "actuallyadditions:diamatine_crystal"
+            },
+            {
+                "item": "actuallyadditions:restonia_crystal"
+            },
+            {
+                "item": "actuallyadditions:diamatine_crystal"
+            },
+            {
+                "item": "actuallyadditions:restonia_crystal"
+            },
+            {
+                "item": "actuallyadditions:restonia_crystal"
+            },
+            {
+                "item": "actuallyadditions:restonia_crystal"
+            },
+            {
+                "item": "actuallyadditions:restonia_crystal"
+            },
+            {
+                "item": "actuallyadditions:restonia_crystal"
+            }
+        ],
+        "result": {
+            "id": "actuallyadditions:phantom_booster"
+        }
+    });
 });

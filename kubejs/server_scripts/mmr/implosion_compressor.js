@@ -133,4 +133,17 @@ ServerEvents.recipes(event => {
             '1x avaritia:crystal_matrix_ingot'
         ]
     );
+
+    mmrRecipe(
+        "mmr:electric_implosion_compressor",
+        80,
+        30000000,
+        [
+            "8x kubejs:ultimate_explosive_primer",
+            "225x ae2:singularity",
+        ],
+        [
+            '1x ae2omnicells:singularity_block'
+        ]
+    );
 });

@@ -52,3 +52,4 @@ config/emi.css
 config/emi_ores-client.json
 emi.json
 datapacks/
+config/emi_loot_config.toml
