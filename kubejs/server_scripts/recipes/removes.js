@@ -83,6 +83,7 @@ const recipesById = [
     // Mystical Agriculture
     "mysticalagradditions:essence/neutron_nugget",
     /mysticalagradditions:.*_crux/,
+    /mysticalagriculture:.*_seeds/,
 
     // AE2
     "aeinfinitybooster:dimension_card",

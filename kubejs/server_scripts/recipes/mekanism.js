@@ -104,6 +104,7 @@ ServerEvents.recipes(event => {
             "BCDCB",
             "ABBBA"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "tag": "c:rods/steel"
@@ -305,76 +306,30 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
-            "ABCDA",
-            "EFGFE",
-            "HIJIH",
-            "KLAMN",
-            "AOOOA"
+            " AAAAA ",
+            "A  B  A",
+            "A CDC A",
+            "ABE EBA",
+            "A CDC A",
+            "AA B AA",
+            "AAAAAAA"
         ],
-        "tier": 2,
+        "tier": 3,
         "key": {
             "A": {
-                "item": "immersiveengineering:component_steel"
+                "tag": "c:ingots/compressed_iron"
             },
             "B": {
-                "items": "mifa:processing_addon_4",
-                "components": {
-                    "titanium:augments": {
-                        "Processing": 5.0
-                    }
-                },
-                "type": "neoforge:components"
+                "item": "minecraft:sticky_piston"
             },
             "C": {
-                "items": "mifa:speed_addon_4",
-                "components": {
-                    "titanium:augments": {
-                        "Speed": 5.0
-                    }
-                },
-                "type": "neoforge:components"
+                "tag": "c:circuits/ultimate"
             },
             "D": {
-                "items": "mifa:efficiency_addon_4",
-                "components": {
-                    "titanium:augments": {
-                        "Efficiency": 0.6
-                    }
-                },
-                "type": "neoforge:components"
+                "item": "evolvedmekanism:overclocked_chemical_tank"
             },
             "E": {
-                "tag": "c:circuits/supreme"
-            },
-            "F": {
-                "tag": "c:alloys/supreme"
-            },
-            "G": {
-                "tag": "c:rods/steel"
-            },
-            "H": {
-                "item": "mekanism_extras:supreme_universal_cable"
-            },
-            "I": {
-                "item": "mekanism:steel_casing"
-            },
-            "J": {
                 "item": "mekanism:purification_chamber"
-            },
-            "K": {
-                "item": "immersiveengineering:sorter"
-            },
-            "L": {
-                "tag": "c:storage_blocks/allthemodium"
-            },
-            "M": {
-                "item": "powah:energy_cell_spirited"
-            },
-            "N": {
-                "item": "immersiveengineering:fluid_sorter"
-            },
-            "O": {
-                "tag": "c:storage_blocks/netherite"
             }
         },
         "result": {
