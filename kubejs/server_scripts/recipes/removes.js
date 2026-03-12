@@ -37,6 +37,28 @@ const recipesById = [
     /mekmm:compat\/ae2omnicells\/.*_print/,
     'mekanism:hdpe_elytra',
     'mekanism:atomic_disassembler',
+    'mekanism:chemical_dissolution_chamber',
+    'mekanism:osmium_compressor',
+    'mekanism:chemical_washer',
+    "mekmm:cnc_rolling_mill",
+    "evolvedmekanism:alloyer",
+    "mekanism:combiner",
+    "mekanism:electric_pump",
+    'mekanism_extras:advanced_electric_pump',
+    'mekanism:isotopic_centrifuge',
+    'mekanism:digital_miner',
+    "mekanism:robit",
+    "mekanism:logistical_sorter",
+    'mekanism:resistive_heater',
+    'evolvedmekanism:thermalizer',
+    'mekanism:resistive_heater',
+    'mekanism:precision_sawmill',
+    'evolvedmekanism:solidification_chamber',
+    'evolvedmekanism:fluid_tank/overclocked',
+    'mekanism:fluid_tank/advanced',
+    'mekanism:fluid_tank/elite',
+    'mekanism:fluid_tank/basic',
+    'mekanism:processing/netherite/scrap_to_dust',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -45,6 +67,7 @@ const recipesById = [
     // /occultism:crushing\/.*/,
     /occultism:smelting\/.*/,
     /^occultism:crafting\/chalk_(?!white).*_impure/,
+    'occultism:crafting/netherite_dust',
 
     // Avaritia related
     /avaritia:.*/,
@@ -98,7 +121,6 @@ const recipesById = [
     'megacells:network/mega_interface',
     'extendedae:assembler/ex_interface',
     'extendedae:assembler/oversize_interface',
-    'actuallyadditions:phantom_booster',
     /ae2omnicells:[^\/]*_circuit_print/,
     /ae2omnicells:[^\/]*_processor/,
     'ae2omnicells:singularity_block_from_ingots',
@@ -126,13 +148,18 @@ const recipesById = [
 
     // Actually Additions
     'actuallyadditions:ender_star',
+    'actuallyadditions:drill_core',
+    'actuallyadditions:phantom_booster',
 
     // Other
     "igleelib:modium_ingot",
-    "igleelib:modium_block",
     'endermanoverhaul:ender_eye',
     'immersiveengineering:smelting/ingot_uranium',
     'bigreactors:blasting/yellorium_from_ore',
+
+    // Iglee Lib
+    /igleelib:.*_ingot/,
+    'igleelib:iglium_upgrade_smithing_template',
 
     // Extended crafting
     'extendedcrafting:ender_star',
@@ -169,6 +196,7 @@ const recipesById = [
     'industrialforegoing:fluid_laser_base',
     'industrialforegoing:infinity_charger',
     'industrialforegoing:stasis_chamber',
+    'industrialforegoing:diamond_gear',
 
     // Just Dire Things
     'justdirethings:time_wand',
@@ -177,9 +205,8 @@ const recipesById = [
     // JITL
     'jitl:terranian_portal_frame',
 
-    // PneumaticCraft
-    'pneumaticcraft:pressure_chamber/transistor',
-    'pneumaticcraft:pressure_chamber/capacitor',
+    // `PneumaticCraft
+    'pneumaticcraft:drill_pipe',
 
     // EnderStorage
     'enderstorage:ender_chest',
@@ -203,6 +230,20 @@ const recipesById = [
     'deeperdarker:diamond_from_smelting_gloomslate_diamond_ore',
     'deeperdarker:diamond_from_blasting_gloomslate_diamond_ore',
     'deeperdarker:soul_elytra',
+
+    // Immersive Engineering
+    /immersiveengineering:crafting\/stick_.*/,
+    'immersiveengineering:crafting/drill',
+
+    // Sophisticated Storage 
+    'sophisticatedbackpacks:backpack',
+    'sophisticatedstorage:basic_tier_upgrade',
+    'sophisticatedstorage:basic_to_iron_tier_upgrade',
+    'sophisticatedstorage:basic_to_netherite_tier_upgrade',
+    'sophisticatedstorage:copper_to_netherite_tier_upgrade',
+    'sophisticatedstorage:iron_to_netherite_tier_upgrade',
+    'sophisticatedstorage:gold_to_netherite_tier_upgrade',
+    'sophisticatedstorage:diamond_to_netherite_tier_upgrade',
 ];
 
 const recipesByType = [
@@ -221,6 +262,10 @@ const recipesByOutput = [
     'industrialforegoing:machine_frame_supreme',
     'industrialforegoing:machine_frame_advanced',
     'extendedae:machine_frame',
+
+    // PneumaticCraft
+    'pneumaticcraft:pressure_chamber/transistor',
+    'pneumaticcraft:pressure_chamber/capacitor',
 ];
 
 ServerEvents.recipes(event => {

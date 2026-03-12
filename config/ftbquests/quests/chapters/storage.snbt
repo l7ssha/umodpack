@@ -1,0 +1,83 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "55FB4BDED3066FD0"
+	icon: {
+		components: {
+			"sophisticatedstorage:wood_type": "oak"
+		}
+		id: "sophisticatedstorage:diamond_chest"
+	}
+	id: "6DD97C624CBC07C0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "76F458EC8BF1CEBF"
+			tasks: [{
+				id: "5AB1F8FC9FD2E38D"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:chests/wooden)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76F458EC8BF1CEBF"]
+			id: "27A9AC29C46CDD5E"
+			tasks: [{
+				id: "64F2D276DE36E914"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(sophisticatedstorage:base_tier_wooden_storage)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["76F458EC8BF1CEBF"]
+			id: "19D9F3CF80327FE8"
+			tasks: [{
+				id: "6550C08EFDA45D40"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["76F458EC8BF1CEBF"]
+			icon: {
+				id: "toms_storage:storage_terminal"
+			}
+			id: "335B0B77E665373A"
+			tasks: [{
+				id: "7B23EAF779701C17"
+				item: { count: 1, id: "toms_storage:storage_terminal" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "7362E42C50FEBBB7"
+			tasks: [{
+				id: "189A53BF13669C56"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(dankstorage:dank_storages)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			id: "0F7A17BE2FEA3BF8"
+			tasks: [{
+				id: "0BC9CB2768586C1C"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+	]
+}

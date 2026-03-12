@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
                 "count": 5
             },
             {
-                "item": "alltheores:gold_plate",
+                "tag": "c:plates/gold",
                 "count": 5
             },
         ],
@@ -63,6 +63,26 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:pressure_chamber/netherite_ingot');
+
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [
+            {
+                "item": "occultism:netherite_scrap_dust",
+                "count": 5
+            },
+            {
+                "tag": "c:dusts/gold",
+                "count": 5
+            },
+        ],
+        "pressure": 2,
+        "results": [
+            {
+                "id": "minecraft:netherite_ingot"
+            }
+        ]
+    }).id('kubejs:pressure_chamber/netherite_ingot_from_dust');
 
     event.custom({
         "type": "extendedcrafting:shaped_ender_crafter",

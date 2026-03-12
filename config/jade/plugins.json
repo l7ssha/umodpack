@@ -132,6 +132,12 @@
   "pipez": {
     "pipe": true
   },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
+  },
   "waystones": {
     "waystone": true
   },
@@ -209,13 +215,6 @@
     "drying_rack": true,
     "chiseled_bookshelf_spawner": true,
     "quest_ram_wool": true
-  },
-  "dynamictrees": {
-    "rooty_water": true,
-    "pod": true,
-    "fruit": true,
-    "rooty": true,
-    "branch": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

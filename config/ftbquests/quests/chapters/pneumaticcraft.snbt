@@ -1,13 +1,13 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "mekanism"
+	filename: "pneumaticcraft"
 	group: "77EEC754FC5E3E91"
 	icon: {
-		id: "mekanism:energized_smelter"
+		id: "pneumaticcraft:air_compressor"
 	}
-	id: "63436D5B23B416F4"
-	order_index: 1
+	id: "690F836F17324664"
+	order_index: 3
 	quest_links: [ ]
 	quests: [ ]
 }

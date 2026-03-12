@@ -2,11 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "extreme_reactors"
-	group: "49F2E18779389636"
+	group: "77EEC754FC5E3E91"
 	icon: {
 		id: "bigreactors:reinforced_reactorcontroller"
 	}
-	id: "3546EA0DD130D2AB"
+	id: "30D7ED09D45FA441"
 	order_index: 2
 	quest_links: [ ]
 	quests: [ ]

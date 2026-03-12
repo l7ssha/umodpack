@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
         "tag": "c:ingots/ferricore"
       },
       "T": {
-        "id": "justdirethings:time_crystal_block"
+        "item": "justdirethings:time_crystal_block"
       }
     },
     "result": {

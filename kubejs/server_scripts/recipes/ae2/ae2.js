@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
         "tier": 2,
         "key": {
             "A": {
-                "item": "ae2:smooth_sky_stone_block"
+                "tag": "c:ingots/sky_steel"
             },
             "B": {
                 "item": "ae2:logic_processor"
@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
                 "item": "ae2:calculation_processor"
             },
             "D": {
-                "item": "ae2:fluix_crystal"
+                "tag": "c:gems/fluix"
             },
             "E": {
                 "item": "ae2:engineering_processor"
@@ -359,7 +359,7 @@ ServerEvents.recipes(event => {
             "CAB",
             " AB"
         ],
-        "tier": 2,
+        "tier": 1,
         "key": {
             "A": {
                 "item": "actuallyadditions:palis_crystal"
@@ -559,50 +559,6 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "ae2:fluix_pearl"
-        }
-    });
-
-    event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-            " AAAAAAA ",
-            "BCCCCCCCB",
-            "BCDEEEDCB",
-            "AFEGGGEFA",
-            "BFEGHGEFB",
-            "BFEGGGEFB",
-            "BCDEEEDCB",
-            "BCCCCCCCB",
-            "BBBBBBBBB"
-        ],
-        "key": {
-            "A": {
-                "item": "ae2:quartz_vibrant_glass"
-            },
-            "B": {
-                "tag": "c:plastics"
-            },
-            "C": {
-                "tag": "ae2:smart_cable_dense"
-            },
-            "D": {
-                "item": "megacells:cell_component_256m"
-            },
-            "E": {
-                "item": "megacells:accumulation_processor"
-            },
-            "F": {
-                "item": "pneumaticcraft:printed_circuit_board"
-            },
-            "G": {
-                "item": "ae2:singularity"
-            },
-            "H": {
-                "item": "mekanism:basic_bin"
-            }
-        },
-        "result": {
-            "id": "megacells:bulk_cell_component"
         }
     });
 

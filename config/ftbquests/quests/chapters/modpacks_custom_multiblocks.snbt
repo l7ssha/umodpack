@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "modpacks_custom_multiblocks"
+	group: "77EEC754FC5E3E91"
+	icon: {
+		components: {
+			"modular_machinery_reborn:machine": "mmr:assembly_line"
+		}
+		id: "modular_machinery_reborn:controller"
+	}
+	id: "69132560C39CCEB8"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

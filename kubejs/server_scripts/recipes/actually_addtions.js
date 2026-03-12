@@ -77,4 +77,33 @@ ServerEvents.recipes(event => {
             "id": "actuallyadditions:phantom_booster"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            " AA B",
+            "A CB ",
+            "ACBCD",
+            " BC D",
+            "B DD "
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "item": "actuallyadditions:restonia_crystal"
+            },
+            "B": {
+                "item": "actuallyadditions:enori_crystal"
+            },
+            "C": {
+                "item": "actuallyadditions:basic_coil"
+            },
+            "D": {
+                "item": "actuallyadditions:palis_crystal"
+            }
+        },
+        "result": {
+            "id": "actuallyadditions:drill_core"
+        }
+    });
 });

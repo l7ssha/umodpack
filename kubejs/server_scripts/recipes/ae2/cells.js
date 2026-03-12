@@ -495,4 +495,54 @@ ServerEvents.recipes(event => {
             "id": "megacells:bulk_item_cell"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            " AAAAAAA ",
+            "BC     CB",
+            "BDEFGFEDB",
+            "AHFIIIFHA",
+            "BHGIJIGHB",
+            "BDFIIIFDB",
+            "B EFGFE B",
+            "BC     CB",
+            "BBBBBBBBB"
+        ],
+        "key": {
+            "A": {
+                "item": "ae2:quartz_vibrant_glass"
+            },
+            "B": {
+                "tag": "c:plastics"
+            },
+            "C": {
+                "item": "ae2omnicells:complex_link_processor"
+            },
+            "D": {
+                "item": "ae2omnicells:charged_ender_ingot"
+            },
+            "E": {
+                "item": "ae2omnicells:quantum_omni_cell_component_1m"
+            },
+            "F": {
+                "item": "megacells:accumulation_processor"
+            },
+            "G": {
+                "item": "ae2omnicells:multidimensional_expansion_processor"
+            },
+            "H": {
+                "item": "pneumaticcraft:printed_circuit_board"
+            },
+            "I": {
+                "item": "ae2:singularity"
+            },
+            "J": {
+                "item": "mekanism:basic_bin"
+            }
+        },
+        "result": {
+            "id": "megacells:bulk_cell_component"
+        }
+    });
 });

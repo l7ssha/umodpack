@@ -53,3 +53,7 @@ config/emi_ores-client.json
 emi.json
 datapacks/
 config/emi_loot_config.toml
+config/reliquary-client.toml
+config/crash_assistant/modlist.json
+config/jei_enhancements_bookmarks.json
+data/fabricDefaultResourcePacks.dat

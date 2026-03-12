@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_generation"
+	group: "55FB4BDED3066FD0"
+	icon: {
+		components: {
+			"mekanism:energy": {
+				energy_containers: [L;4000000L]
+			}
+		}
+		id: "mekanism:basic_energy_cube"
+	}
+	id: "398B52BF230AEF25"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

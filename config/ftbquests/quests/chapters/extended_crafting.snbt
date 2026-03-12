@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extended_crafting"
+	group: "55FB4BDED3066FD0"
+	icon: {
+		id: "extendedcrafting:basic_table"
+	}
+	id: "4AE4A9A3D5925C8F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "752012C033211295"
+		tasks: [{
+			id: "0F364607DC65F1A1"
+			item: { count: 1, id: "extendedcrafting:basic_table" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

@@ -37,6 +37,18 @@ ServerEvents.tags('item', tags => {
         'expandedae:exp_pattern_provider_part',
     ]);
 
+    tags.add('c:ingots', [
+        'igleelib:modium_ingot',
+        'igleelib:derium_ingot',
+        'igleelib:blazum_ingot',
+        'igleelib:lavium_ingot',
+    ]);
+
+    tags.add('c:ingots/modium', ['igleelib:modium_ingot']);
+    tags.add('c:ingots/derium', ['igleelib:derium_ingot']);
+    tags.add('c:ingots/blazum', ['igleelib:blazum_ingot']);
+    tags.add('c:ingots/lavium', ['igleelib:lavium_ingot']);
+
     tags.add('c:ingots/the_ultimate_ingots', [
         'minecraft:copper_ingot',
         'minecraft:gold_ingot',

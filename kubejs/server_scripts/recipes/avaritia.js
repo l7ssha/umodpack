@@ -120,31 +120,75 @@ ServerEvents.recipes(event => {
   });
 
   event.custom({
-    "type": "extendedcrafting:shaped_table",
-    "pattern": [
-      "ABC CBA",
-      "BADADAB",
-      "CDDCDDC",
-      " ACACA ",
-      "CDDCDDC",
-      "BADADAB",
-      "ABC CBA"
-    ],
-    "tier": 3,
-    "key": {
-      "A": {
-        "tag": "c:ingots/platinum"
+    "type": "extendedcrafting:combination",
+    "power_cost": 100000000000,
+    "power_rate": 1000000,
+    "input": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:diamond"
       },
-      "B": {
-        "tag": "c:dusts/diamond"
-      },
-      "C": {
-        "item": "industrialforegoing:pink_slime"
-      },
-      "D": {
-        "tag": "c:gems/diamond"
-      }
+      "type": "neoforge:components"
     },
+    "ingredients": [
+      {
+        "item": "industrialforegoing:pink_slime_block"
+      },
+      {
+        "item": "industrialforegoing:pink_slime_block"
+      },
+      {
+        "item": "industrialforegoing:pink_slime_block"
+      },
+      {
+        "item": "industrialforegoing:pink_slime_block"
+      },
+      {
+        "items": "extendedcrafting:singularity",
+        "components": {
+          "extendedcrafting:singularity_id": "extendedcrafting:diamond"
+        },
+        "type": "neoforge:components"
+      },
+      {
+        "item": "industrialforegoing:pink_slime_block"
+      },
+      {
+        "items": "extendedcrafting:singularity",
+        "components": {
+          "extendedcrafting:singularity_id": "extendedcrafting:diamond"
+        },
+        "type": "neoforge:components"
+      },
+      {
+        "items": "extendedcrafting:singularity",
+        "components": {
+          "extendedcrafting:singularity_id": "extendedcrafting:diamond"
+        },
+        "type": "neoforge:components"
+      },
+      {
+        "items": "extendedcrafting:singularity",
+        "components": {
+          "extendedcrafting:singularity_id": "extendedcrafting:platinum"
+        },
+        "type": "neoforge:components"
+      },
+      {
+        "items": "extendedcrafting:singularity",
+        "components": {
+          "extendedcrafting:singularity_id": "extendedcrafting:platinum"
+        },
+        "type": "neoforge:components"
+      },
+      {
+        "items": "extendedcrafting:singularity",
+        "components": {
+          "extendedcrafting:singularity_id": "extendedcrafting:platinum"
+        },
+        "type": "neoforge:components"
+      }
+    ],
     "result": {
       "id": "avaritia:diamond_lattice"
     }

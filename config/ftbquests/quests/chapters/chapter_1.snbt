@@ -3,8 +3,26 @@
 	default_quest_shape: ""
 	filename: "chapter_1"
 	group: "2ABC132BCB871ED4"
-	id: "517A097D44226EA1"
+	icon: {
+		id: "minecraft:stone_pickaxe"
+	}
+	id: "050A59891EA669D1"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "5F6F1985872B7FDB"
+		rewards: [{
+			id: "57A24855F970F805"
+			type: "xp_levels"
+			xp_levels: 1
+		}]
+		tasks: [{
+			count: 8L
+			id: "77267DEDF64B851E"
+			item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+			type: "item"
+		}]
+		x: -6.5d
+		y: 0.0d
+	}]
 }
