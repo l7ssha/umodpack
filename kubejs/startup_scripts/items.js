@@ -6,4 +6,5 @@ StartupEvents.registry('item', event => {
   event.create('nether_core');
   event.create("jitl_prediction");
   event.create("ultimate_prediction");
+  event.create("tesseract");
 });

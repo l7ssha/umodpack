@@ -58,3 +58,5 @@ config/crash_assistant/modlist.json
 config/jei_enhancements_bookmarks.json
 data/fabricDefaultResourcePacks.dat
 config/ftblibrary-client.snbt
+config/stevescarts-client.toml
+config/fabric/indigo-renderer.properties

@@ -19,7 +19,7 @@
 	#Should crops have a chance of dropping a second seed when harvested?
 	secondarySeedDrops = false
 	#Should resource crops need to be planted on their effective Farmland to grow?
-	requiresEffectiveFarmland = false
+	requiresEffectiveFarmland = true
 	#Should the Wither drop essence when killed with an essence weapon?
 	witherDropsEssence = true
 	#Should the Wither drop Cognizant Dust when killed with a Mystical Enlightenment enchanted essence weapon?

@@ -5,22 +5,24 @@ MMREvents.machines(event => {
         .structure(
             MMRStructureBuilder.create()
                 .pattern([
-                    ["rrr", "rpr", "iii"],
-                    ["rmr", "r r", "rrr"],
-                    ["rrr", "rrr", "rer"],
+                    ["aaa", "aca", "aca", "aca", "afa"],
+                    ["ama", "ded", "ded", "ded", "ded"],
+                    ["aaa", "aba", "aba", "aba", "aba"]
                 ])
-                .keys(
-                    {
-                        "r": "modular_machinery_reborn:casing_reinforced",
-                        "f": "modular_machinery_reborn:casing_firebox",
-                        "p": "modular_machinery_reborn:casing_plain",
-                        "e": "#modular_machinery_reborn:energyinputhatch",
-                        "i": [
-                            "#modular_machinery_reborn:itembus",
-                            "#modular_machinery_reborn:fluidhatch"
-                        ]
-                    }
-                )
+                .keys({
+                    "a": "immersiveengineering:sheetmetal_steel",
+                    "b": [
+                        "#modular_machinery_reborn:itembus",
+                        "#modular_machinery_reborn:fluidhatch",
+                        "immersiveengineering:steel_scaffolding_standard",
+                    ],
+                    "c": "immersiveengineering:steel_scaffolding_standard",
+                    "d": "minecraft:glass",
+                    "e": "immersiveengineering:logic_unit",
+                    "f": [
+                        "#modular_machinery_reborn:energyinputhatch",
+                    ],
+                }),
         );
 });
 
@@ -309,6 +311,25 @@ ServerEvents.recipes(event => {
         ],
         [
             '1x mekanism_extras:upgrade_ionic_membrane',
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        9600,
+        159744,
+        [
+            '8x minecraft:bedrock',
+            '16x #c:circuits/infinite_multiversal',
+            '32x #c:pellets/antimatter',
+            '4x draconicevolution:chaotic_core'
+        ],
+        [],
+        [
+            '1x kubejs:tesseract',
+        ],
+        [
+            '1000x mekanism_extras:polonium_containing_solution'
         ]
     );
 });

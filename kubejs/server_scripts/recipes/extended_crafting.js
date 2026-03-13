@@ -62,9 +62,9 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_ender_crafter",
         "pattern": [
-            " A ",
+            "SAS",
             "ABA",
-            " A "
+            "SAS"
         ],
         "key": {
             "A": {
@@ -72,10 +72,40 @@ ServerEvents.recipes(event => {
             },
             "B": {
                 "item": "appliedsoul:ender_star"
+            },
+            "S": {
+                "tag": "c:ingots/steeleaf"
             }
         },
         "result": {
+            "count": 2,
             "id": "extendedcrafting:enhanced_ender_ingot"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 50000,
+        "power_rate": 1600,
+        "pattern": [
+            "ABA",
+            "BCB",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "jitl:blood"
+            },
+            "B": {
+                "item": "extendedcrafting:redstone_ingot"
+            },
+            "C": {
+                "item": "extendedcrafting:flux_star"
+            }
+        },
+        "result": {
+            "count": 2,
+            "id": "extendedcrafting:enhanced_redstone_ingot"
         }
     });
 

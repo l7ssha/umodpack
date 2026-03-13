@@ -248,18 +248,58 @@ ServerEvents.recipes(event => {
         "type": "extendedae:crystal_assembler",
         "input_items": [
             {
+                "amount": 6,
+                "ingredient": {
+                    "item": "ae2:molecular_assembler"
+                }
+            },
+            {
+                "amount": 6,
+                "ingredient": {
+                    "item": "extendedae:concurrent_processor"
+                }
+            },
+            {
+                "amount": 16,
+                "ingredient": {
+                    "tag": "c:dusts/fluix"
+                }
+            },
+            {
+                "amount": 3,
+                "ingredient": {
+                    "tag": "ae2:engineering_processor"
+                }
+            },
+            {
+                "amount": 3,
+                "ingredient": {
+                    "tag": "ae2:speed_card"
+                }
+            },
+        ],
+        "output": {
+            "count": 1,
+            "id": "extendedae:ex_molecular_assembler"
+        }
+    });
+
+    event.custom({
+        "type": "extendedae:crystal_assembler",
+        "input_items": [
+            {
                 "ingredient": {
                     "item": "extendedae:assembler_matrix_wall"
                 }
             },
             {
-                "amount": 4,
+                "amount": 6,
                 "ingredient": {
                     "item": "extendedae:ex_molecular_assembler"
                 }
             },
             {
-                "amount": 2,
+                "amount": 16,
                 "ingredient": {
                     "item": "ae2:logic_processor"
                 }

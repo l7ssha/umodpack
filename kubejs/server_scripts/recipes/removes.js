@@ -68,6 +68,7 @@ const recipesById = [
     /occultism:smelting\/.*/,
     /^occultism:crafting\/chalk_(?!white).*_impure/,
     'occultism:crafting/netherite_dust',
+    /occultism:crushing\/.*_from_ore/,
 
     // Avaritia related
     /avaritia:.*/,
@@ -77,13 +78,9 @@ const recipesById = [
     "minecraft:neutron_nugget_from_ingot",
     'minecraft:neutron_pile_from_ingots',
 
-    // Extended Crafting
-    "extendedcrafting:compressor",
-
     // Mystical Agriculture
     "mysticalagradditions:essence/neutron_nugget",
     /mysticalagradditions:.*_crux/,
-    /mysticalagriculture:.*_seeds/,
 
     // AE2
     "aeinfinitybooster:dimension_card",
@@ -143,6 +140,7 @@ const recipesById = [
     /megacells:cells\/standard\/.*_storage_cell_.*m$/,
     /ae2omnicells:cells\/shaped\/.*_cell_.*/,
     'megacells:cells/standard/bulk_item_cell',
+    'extendedae:assembler/ex_molecular_assembler',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
@@ -163,8 +161,10 @@ const recipesById = [
     'igleelib:iglium_upgrade_smithing_template',
 
     // Extended crafting
+    "extendedcrafting:compressor",
     'extendedcrafting:ender_star',
     'extendedcrafting:enhanced_ender_ingot',
+    'extendedcrafting:enhanced_redstone_ingot',
 
     // Cataclysm
     'cataclysm:void_eye',
@@ -174,6 +174,7 @@ const recipesById = [
 
     // Allthemodium
     'allthemodium:teleport_pad',
+    /allthemodium:smithing\/allthemodium_.*_smithing/,
 
     // Avaritia
     'minecraft:neutron_ingot_from_nuggets',
@@ -235,6 +236,8 @@ const recipesById = [
     // Immersive Engineering
     /immersiveengineering:crafting\/stick_.*/,
     'immersiveengineering:crafting/drill',
+    /immersiveengineering:crafting\/raw_hammer.*/,
+    /immersiveengineering:crafting\/hammer.*/,
 
     // Sophisticated Storage 
     'sophisticatedbackpacks:backpack',
@@ -245,6 +248,13 @@ const recipesById = [
     'sophisticatedstorage:iron_to_netherite_tier_upgrade',
     'sophisticatedstorage:gold_to_netherite_tier_upgrade',
     'sophisticatedstorage:diamond_to_netherite_tier_upgrade',
+
+    // StevesCarts2
+    'stevescarts:component/component_lump_of_galgador',
+    'stevescarts:component/component_eye_of_galgador',
+    'stevescarts:component/component_raw_hardener',
+    'stevescarts:component/component_stabilized_metal',
+    'stevescarts:component/component_large_lump_of_galgador',
 ];
 
 const recipesByType = [
@@ -265,8 +275,11 @@ const recipesByOutput = [
     'extendedae:machine_frame',
 
     // PneumaticCraft
-    'pneumaticcraft:pressure_chamber/transistor',
-    'pneumaticcraft:pressure_chamber/capacitor',
+    'pneumaticcraft:transistor',
+    'pneumaticcraft:capacitor',
+
+    // Mystical Agriculture
+    /mysticalagriculture:.*_seeds/,
 ];
 
 ServerEvents.recipes(event => {

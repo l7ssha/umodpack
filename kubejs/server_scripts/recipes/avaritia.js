@@ -90,36 +90,6 @@ ServerEvents.recipes(event => {
   });
 
   event.custom({
-    "type": "extendedcrafting:shaped_table",
-    "pattern": [
-      "         ",
-      "         ",
-      "         ",
-      "   ABA   ",
-      "   BCB   ",
-      "   ABA   ",
-      "         ",
-      "         ",
-      "         "
-    ],
-    "tier": 4,
-    "key": {
-      "A": {
-        "tag": "c:circuits/infinite_multiversal"
-      },
-      "B": {
-        "tag": "justdirethings:paradox_deny"
-      },
-      "C": {
-        "item": "extendedcrafting:ultimate_singularity"
-      }
-    },
-    "result": {
-      "id": "kubejs:unrefined_infinity"
-    }
-  });
-
-  event.custom({
     "type": "extendedcrafting:combination",
     "power_cost": 100000000000,
     "power_rate": 1000000,

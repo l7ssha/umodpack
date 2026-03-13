@@ -856,67 +856,85 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
-            " AABCBAA ",
-            "ADEFGFEDA",
-            "AEHGIGHEA",
-            "BEJGIGJEB",
-            "BEKLMLKEB",
-            "DHJHJHJHD",
-            "DHNHNHNHD",
-            "HFJOJOJFH",
-            "HPQPQPQPH"
+            "ABBCDCBBA",
+            "BEFGHGFEB",
+            "BFIJKJIFB",
+            "AFLJKJLFA",
+            "AFMNONMFA",
+            "EIPIPIPIE",
+            "EQRQSQRQE",
+            "TGPUPUPGT",
+            "TVWVWVWVT"
         ],
         "key": {
             "A": {
-                "tag": "c:ingots/lavium"
+                "item": "industrialforegoing:laser_drill"
             },
             "B": {
-                "item": "immersiveengineering:sheetmetal_steel"
+                "tag": "c:ingots/lavium"
             },
             "C": {
-                "item": "mekanism:ultimate_energy_cube"
+                "item": "immersiveengineering:sheetmetal_steel"
             },
             "D": {
-                "tag": "c:circuits/supreme"
+                "item": "mekanism:ultimate_energy_cube"
             },
             "E": {
-                "tag": "c:plates/allthemodium"
+                "tag": "c:circuits/supreme"
             },
             "F": {
-                "item": "cataclysm:black_steel_ingot"
+                "tag": "c:plates/allthemodium"
             },
             "G": {
-                "item": "mekanism:steel_casing"
+                "item": "cataclysm:black_steel_ingot"
             },
             "H": {
-                "item": "immersiveengineering:steel_scaffolding_standard"
+                "item": "mekanism:steel_casing"
             },
             "I": {
-                "item": "mekanism:logistical_sorter"
+                "item": "extendedcrafting:enhanced_ender_ingot"
             },
             "J": {
-                "item": "pneumaticcraft:drill_pipe"
+                "item": "industrialforegoing:ore_laser_base"
             },
             "K": {
-                "item": "immersiveengineering:drill"
+                "item": "mekanism:logistical_sorter"
             },
             "L": {
-                "item": "actuallyadditions:drill_core"
+                "item": "stevescarts:module_galgadorian_hull"
             },
             "M": {
-                "item": "mekanism:ultimate_bin"
+                "item": "immersiveengineering:drill"
             },
             "N": {
-                "item": "appliedsoul:ender_star"
+                "item": "actuallyadditions:drill_core"
             },
             "O": {
-                "item": "mekanism:robit"
+                "item": "mekanism:ultimate_bin"
             },
             "P": {
-                "item": "enderio:dark_steel_bars"
+                "item": "pneumaticcraft:drill_pipe"
             },
             "Q": {
-                "item": "pneumaticcraft:drill_bit_netherite"
+                "item": "extendedcrafting:enhanced_redstone_ingot"
+            },
+            "R": {
+                "item": "appliedsoul:ender_star"
+            },
+            "S": {
+                "item": "actuallyadditions:vertical_digger"
+            },
+            "T": {
+                "item": "immersiveengineering:steel_scaffolding_standard"
+            },
+            "U": {
+                "item": "mekanism:robit"
+            },
+            "V": {
+                "item": "immersiveengineering:sample_drill"
+            },
+            "W": {
+                "item": "stevescarts:module_galgadorian_drill"
             }
         },
         "result": {
@@ -933,6 +951,7 @@ ServerEvents.recipes(event => {
             "ADGDA",
             " A A "
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "tag": "c:plates/steel"

@@ -139,7 +139,7 @@ ServerEvents.recipes(event => {
         "pattern": [
             "AA AA",
             "ABCBA",
-            " DAD ",
+            " DFD ",
             "ABEBA",
             "AA AA"
         ],
@@ -159,6 +159,9 @@ ServerEvents.recipes(event => {
             },
             "E": {
                 "item": "ae2:annihilation_core"
+            },
+            "F": {
+                "item": "stevescarts:module_advanced_crafter"
             }
         },
         "result": {
@@ -304,51 +307,97 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
-            "   AAA   ",
-            " BBCDCBB ",
-            " BEFGFEB ",
-            "ACFHIHFCA",
-            "ADGIJIGDA",
-            "ACFHIHFCA",
-            " BEFGFEB ",
-            " BBCDCBB ",
-            "   AAA   "
+            " A     A ",
+            "A AAAAA A",
+            " ABCCCBA ",
+            " ACDEDCA ",
+            " ACFGFCA ",
+            " ACDEDCA ",
+            " ABCCCBA ",
+            "A AAAAA A",
+            " A     A "
         ],
-        "tier": 4,
         "key": {
             "A": {
                 "item": "ae2:quartz_vibrant_glass"
             },
             "B": {
-                "item": "advanced_ae:quantum_processor"
-            },
-            "C": {
-                "item": "mekanism:module_hydrostatic_repulsor_unit"
-            },
-            "D": {
-                "tag": "ae2:smart_cable"
-            },
-            "E": {
-                "item": "advanced_ae:shattered_singularity"
-            },
-            "F": {
-                "tag": "c:buckets/water"
-            },
-            "G": {
-                "tag": "c:circuits/infinite_multiversal"
-            },
-            "H": {
                 "item": "extendedae:smart_annihilation_plane"
             },
-            "I": {
+            "C": {
+                "tag": "ae2:smart_cable"
+            },
+            "D": {
+                "tag": "c:buckets/water"
+            },
+            "E": {
                 "item": "advanced_ae:quantum_storage_component"
             },
-            "J": {
+            "F": {
+                "item": "advanced_ae:shattered_singularity"
+            },
+            "G": {
                 "item": "megacells:mega_fluid_cell_housing"
             }
         },
         "result": {
             "id": "extendedae:infinity_water_cell"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAAAAAAAA",
+            "ABCD DCBA",
+            "ACEFGFECA",
+            "ADFHIJFDA",
+            "AKGILIGKA",
+            "ADFJIHFDA",
+            "ACEFGFECA",
+            "ABCD DCBA",
+            "AAAAAAAAA"
+        ],
+        "key": {
+            "A": {
+                "item": "ae2:quartz_vibrant_glass"
+            },
+            "B": {
+                "item": "igleelib:lavium_block"
+            },
+            "C": {
+                "tag": "c:buckets/water"
+            },
+            "D": {
+                "item": "pneumaticcraft:reinforced_brick_pillar"
+            },
+            "E": {
+                "tag": "c:buckets/lava"
+            },
+            "F": {
+                "item": "extendedae:smart_annihilation_plane"
+            },
+            "G": {
+                "item": "powah:nitro_crystal_block"
+            },
+            "H": {
+                "tag": "c:circuits/infinite_multiversal"
+            },
+            "I": {
+                "tag": "ae2:smart_cable"
+            },
+            "J": {
+                "item": "ae2omnicells:quantum_omni_cell_component_256m"
+            },
+            "K": {
+                "item": "draconicevolution:reactor_stabilizer"
+            },
+            "L": {
+                "item": "ae2omnicells:quantum_omni_cell_housing"
+            }
+        },
+        "result": {
+            "id": "extendedae:infinity_cobblestone_cell"
         }
     });
 

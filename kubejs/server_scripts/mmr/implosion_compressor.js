@@ -101,6 +101,7 @@ ServerEvents.recipes(event => {
         [
             "64x kubejs:ultimate_explosive_primer",
             "1x kubejs:unrefined_infinity",
+            "2x kubejs:tesseract",
         ],
         [
             "1x avaritia:infinity_catalyst"
