@@ -171,7 +171,7 @@ ServerEvents.recipes(event => {
             "2x mekanism:module_base",
             "12x #ae2:smart_cable",
             "8x megacells:accumulation_processor",
-            "8x #c:dusts/sky_stone"
+            "8x #c:dusts/draconium"
         ],
         [
             "1000x pneumaticcraft:plastic",
@@ -191,7 +191,7 @@ ServerEvents.recipes(event => {
             "2x mekanism:module_base",
             "12x #ae2:smart_cable",
             "8x megacells:accumulation_processor",
-            "8x #c:dusts/sky_stone"
+            "8x #c:dusts/draconium"
         ],
         [
             "1000x pneumaticcraft:plastic",
@@ -211,7 +211,7 @@ ServerEvents.recipes(event => {
             "2x mekanism:module_base",
             "12x #ae2:smart_cable",
             "8x megacells:accumulation_processor",
-            "8x #c:dusts/sky_stone"
+            "8x #c:dusts/draconium_awakened"
         ],
         [
             "1000x pneumaticcraft:plastic",
@@ -231,7 +231,7 @@ ServerEvents.recipes(event => {
             "2x mekanism:module_base",
             "12x #ae2:smart_cable",
             "8x megacells:accumulation_processor",
-            "8x #c:dusts/sky_stone"
+            "8x #c:dusts/draconium_awakened"
         ],
         [
             "1000x pneumaticcraft:plastic",
@@ -251,7 +251,7 @@ ServerEvents.recipes(event => {
             "2x mekanism:module_base",
             "12x #ae2:smart_cable",
             "8x megacells:accumulation_processor",
-            "8x #c:dusts/sky_stone"
+            "16x #c:dusts/draconium_awakened"
         ],
         [
             "1000x pneumaticcraft:plastic",

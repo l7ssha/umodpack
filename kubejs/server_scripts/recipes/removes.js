@@ -260,6 +260,9 @@ const recipesById = [
     'stevescarts:component/component_raw_hardener',
     'stevescarts:component/component_stabilized_metal',
     'stevescarts:component/component_large_lump_of_galgador',
+
+    // Draconic Evolution
+    'draconicevolution:tools/dislocator',
 ];
 
 const recipesByType = [
@@ -268,10 +271,7 @@ const recipesByType = [
     "avaritia:shapeless_table",
 ];
 
-const recipesByInput = [
-    // Draconic Evolution
-    "draconicevolution:awakened_draconium_dust",
-];
+const recipesByInput = [];
 
 const recipesByOutput = [
     // Industrial foregoing

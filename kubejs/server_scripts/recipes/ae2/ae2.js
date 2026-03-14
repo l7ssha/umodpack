@@ -710,6 +710,7 @@ ServerEvents.recipes(event => {
             "BCDCB",
             "ABABA"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "tag": "c:dusts/redstone"

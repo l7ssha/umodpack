@@ -216,7 +216,7 @@ ServerEvents.recipes(event => {
                 "item": "mekanism:enrichment_chamber"
             },
             "E": {
-                "item": "actuallyadditions:restonia_crystal"
+                "tag": "c:ingots/draconium"
             }
         },
         "result": {
@@ -845,7 +845,7 @@ ServerEvents.recipes(event => {
                 "item": "evolvedmekanism:overclocked_chemical_tank"
             },
             "E": {
-                "item": "alltheores:lead_ingot"
+                "tag": "c:ingots/draconium"
             }
         },
         "result": {
@@ -1132,7 +1132,7 @@ ServerEvents.recipes(event => {
         "pattern": [
             "ABC",
             "ADA",
-            "CBA"
+            "CTA"
         ],
         "key": {
             "A": {
@@ -1146,6 +1146,9 @@ ServerEvents.recipes(event => {
             },
             "D": {
                 "item": "occultism:stable_wormhole"
+            },
+            "T": {
+                "item": "draconicevolution:advanced_dislocator"
             }
         },
         "result": {

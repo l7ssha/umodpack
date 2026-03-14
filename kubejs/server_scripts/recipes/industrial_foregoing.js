@@ -441,7 +441,7 @@ ServerEvents.recipes(event => {
             " A A ",
             "BCDCB",
             "EFGFE",
-            "     "
+            "HHHHH"
         ],
         "tier": 2,
         "key": {
@@ -465,6 +465,9 @@ ServerEvents.recipes(event => {
             },
             "G": {
                 "item": "evolvedmekanism:quantum_induction_cell"
+            },
+            "H": {
+                "tag": "c:ingots/draconium_awakened"
             }
         },
         "result": {

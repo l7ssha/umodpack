@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         ],
         "key": {
             "A": {
-                "item": "mysticalagriculture:imperium_ingot"
+                "tag": "c:ingots/draconium"
             },
             "B": {
                 "item": "alltheores:platinum_ingot"

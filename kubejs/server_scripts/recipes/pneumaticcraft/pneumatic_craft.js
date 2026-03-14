@@ -8,6 +8,7 @@ ServerEvents.recipes(event => {
             "BEEDC",
             "BAAAB"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "item": "pneumaticcraft:reinforced_stone_slab"
