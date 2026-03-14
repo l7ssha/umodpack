@@ -663,4 +663,75 @@ ServerEvents.recipes(event => {
             "id": "ae2:pattern_provider"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAAAA",
+            "BCDCA",
+            "EBFBG",
+            "ACDCB",
+            "AAAAA"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:plates/nickel"
+            },
+            "B": {
+                "tag": "c:dusts/fluix"
+            },
+            "C": {
+                "item": "ae2:charged_certus_quartz_crystal"
+            },
+            "D": {
+                "item": "ironfurnaces:crystal_furnace"
+            },
+            "E": {
+                "tag": "c:buckets/empty"
+            },
+            "F": {
+                "item": "mekanism:osmium_compressor"
+            },
+            "G": {
+                "tag": "c:chests"
+            }
+        },
+        "result": {
+            "id": "ae2:condenser"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABABA",
+            "BCDCB",
+            "AEFEA",
+            "BCDCB",
+            "ABABA"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:dusts/redstone"
+            },
+            "B": {
+                "tag": "c:plates/nickel"
+            },
+            "C": {
+                "tag": "c:circuits/ultimate"
+            },
+            "D": {
+                "item": "ae2:condenser"
+            },
+            "E": {
+                "item": "mekanism:formulaic_assemblicator"
+            },
+            "F": {
+                "item": "ae2:engineering_processor"
+            }
+        },
+        "result": {
+            "id": "advanced_ae:reaction_chamber"
+        }
+    });
 });

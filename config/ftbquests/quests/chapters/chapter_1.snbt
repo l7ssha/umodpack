@@ -9,20 +9,84 @@
 	id: "050A59891EA669D1"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "5F6F1985872B7FDB"
-		rewards: [{
-			id: "57A24855F970F805"
-			type: "xp_levels"
-			xp_levels: 1
-		}]
-		tasks: [{
-			count: 8L
-			id: "77267DEDF64B851E"
-			item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-			type: "item"
-		}]
-		x: -6.5d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "5F6F1985872B7FDB"
+			rewards: [{
+				id: "57A24855F970F805"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 8L
+				id: "77267DEDF64B851E"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F6F1985872B7FDB"]
+			id: "40D3B74FDD8BFA74"
+			rewards: [{
+				id: "4E14F5A7306A615B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "061206068789537C"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40D3B74FDD8BFA74"]
+			id: "773BE1038599B994"
+			optional: true
+			tasks: [{
+				id: "100EB85710B7B18E"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:furnaces/copper)item_tag(c:furnaces/iron))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40D3B74FDD8BFA74"]
+			id: "2EFA0CC92582A37C"
+			tasks: [{
+				id: "29884167627986B1"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EFA0CC92582A37C"]
+			id: "2440EAF065472FDB"
+			tasks: [{
+				count: 10L
+				id: "46AA6D6389FF9276"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2440EAF065472FDB"]
+			id: "39AFCBEC40771519"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "4BB4C5BA93233CA1"
+				type: "dimension"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+	]
 }

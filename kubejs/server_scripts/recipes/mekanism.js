@@ -1126,4 +1126,30 @@ ServerEvents.recipes(event => {
             "id": "mekanism:basic_fluid_tank"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_ender_crafter",
+        "pattern": [
+            "ABC",
+            "ADA",
+            "CBA"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:ender_eye"
+            },
+            "B": {
+                "tag": "c:alloys/ultimate"
+            },
+            "C": {
+                "tag": "c:ingots/gold"
+            },
+            "D": {
+                "item": "occultism:stable_wormhole"
+            }
+        },
+        "result": {
+            "id": "mekanism:teleportation_core"
+        }
+    });
 });

@@ -54,11 +54,9 @@ const recipesById = [
     'mekanism:resistive_heater',
     'mekanism:precision_sawmill',
     'evolvedmekanism:solidification_chamber',
-    'evolvedmekanism:fluid_tank/overclocked',
-    'mekanism:fluid_tank/advanced',
-    'mekanism:fluid_tank/elite',
     'mekanism:fluid_tank/basic',
     'mekanism:processing/netherite/scrap_to_dust',
+    'mekanism:teleportation_core',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -141,6 +139,12 @@ const recipesById = [
     /ae2omnicells:cells\/shaped\/.*_cell_.*/,
     'megacells:cells/standard/bulk_item_cell',
     'extendedae:assembler/ex_molecular_assembler',
+    'advanced_ae:smalladvpatpro',
+    'advanced_ae:eaeadvpatpro',
+    'advanced_ae:advpartenc',
+    'ae2:network/blocks/io_condenser',
+    'ae2:network/blocks/energy_vibration_chamber',
+    'advanced_ae:reactionchamber',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
@@ -207,8 +211,9 @@ const recipesById = [
     // JITL
     'jitl:terranian_portal_frame',
 
-    // `PneumaticCraft
+    // PneumaticCraft
     'pneumaticcraft:drill_pipe',
+    'pneumaticcraft:thermopneumatic_processing_plant',
 
     // EnderStorage
     'enderstorage:ender_chest',

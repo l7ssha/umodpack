@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
         "pattern": [
             " ABA ",
             "ACDCA",
-            "BD DB",
+            "BDEDB",
             "ACDCA",
             " ABA "
         ],
@@ -21,6 +21,9 @@ ServerEvents.recipes(event => {
             },
             "D": {
                 "item": "mekanism:ultimate_compressing_factory"
+            },
+            "E": {
+                "item": "ae2:condenser"
             }
         },
         "result": {

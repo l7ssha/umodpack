@@ -64,3 +64,8 @@ config/jei_enhancements_bookmarks.json
 config/crash_assistant/modlist.json
 config/fabric/indigo-renderer.properties
 config/Mekanism/client.toml
+config/resourceful-config-web.json
+config/jei/jei-colors.ini
+config/jei/jei-debug.ini
+config/jei/jei-mod-id-format.ini
+!jei-client.ini

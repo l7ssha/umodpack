@@ -561,4 +561,110 @@ ServerEvents.recipes(event => {
             "id": "megacells:radioactive_cell_component"
         }
     });
+
+    event.custom({
+        "type": "extendedae:crystal_assembler",
+        "input_items": [
+            {
+                "ingredient": {
+                    "item": "ae2:pattern_provider"
+                }
+            },
+            {
+                "amount": 8,
+                "ingredient": {
+                    "item": "ae2:logic_processor"
+                }
+            },
+            {
+                "amount": 16,
+                "ingredient": {
+                    "item": "stevescarts:component_advanced_pcb"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "tag": "c:circuits/absolute"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "item": "advanced_ae:adv_pattern_encoder"
+                }
+            }
+        ],
+        "output": {
+            "count": 1,
+            "id": "advanced_ae:small_adv_pattern_provider"
+        }
+    });
+
+    event.custom({
+        "type": "extendedae:crystal_assembler",
+        "input_items": [
+            {
+                "ingredient": {
+                    "item": "extendedae:ex_pattern_provider"
+                }
+            },
+            {
+                "amount": 8,
+                "ingredient": {
+                    "item": "ae2:logic_processor"
+                }
+            },
+            {
+                "amount": 16,
+                "ingredient": {
+                    "item": "stevescarts:component_advanced_pcb"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "tag": "c:circuits/absolute"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "item": "advanced_ae:adv_pattern_encoder"
+                }
+            }
+        ],
+        "output": {
+            "count": 1,
+            "id": "advanced_ae:adv_pattern_provider"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 100000,
+        "power_rate": 1600,
+        "pattern": [
+            "ABA",
+            "CDC",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "ae2:charged_certus_quartz_crystal"
+            },
+            "B": {
+                "tag": "c:dusts/redstone"
+            },
+            "C": {
+                "item": "ae2:engineering_processor"
+            },
+            "D": {
+                "tag": "c:circuits/absolute"
+            }
+        },
+        "result": {
+            "id": "advanced_ae:adv_pattern_encoder"
+        }
+    });
 });
