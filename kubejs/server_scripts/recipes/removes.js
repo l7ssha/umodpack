@@ -57,6 +57,8 @@ const recipesById = [
     'mekanism:fluid_tank/basic',
     'mekanism:processing/netherite/scrap_to_dust',
     'mekanism:teleportation_core',
+    'mekanism:pressurized_reaction_chamber',
+    'mekanism:dynamic_tank',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -207,6 +209,8 @@ const recipesById = [
     'industrialforegoing:infinity_charger',
     'industrialforegoing:stasis_chamber',
     'industrialforegoing:diamond_gear',
+    'industrialforegoing:machine_frame_supreme',
+    'industrialforegoing:machine_frame_advanced',
 
     // Just Dire Things
     'justdirethings:time_wand',
@@ -280,8 +284,6 @@ const recipesByInput = [];
 
 const recipesByOutput = [
     // Industrial foregoing
-    'industrialforegoing:machine_frame_supreme',
-    'industrialforegoing:machine_frame_advanced',
     'extendedae:machine_frame',
 
     // PneumaticCraft

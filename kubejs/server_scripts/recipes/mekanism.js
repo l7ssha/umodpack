@@ -323,7 +323,7 @@ ServerEvents.recipes(event => {
                 "item": "minecraft:sticky_piston"
             },
             "C": {
-                "tag": "c:circuits/ultimate"
+                "tag": "c:circuits/absolute"
             },
             "D": {
                 "item": "evolvedmekanism:overclocked_chemical_tank"
@@ -1099,12 +1099,6 @@ ServerEvents.recipes(event => {
         'pneumaticcraft:medium_tank',
     );
 
-    event.replaceInput(
-        { id: 'mekanism:fluid_tank/elite' },
-        'mekanism:advanced_fluid_tank',
-        'pneumaticcraft:large_tank',
-    );
-
     event.shaped({
         "pattern": [
             "ABA",
@@ -1153,6 +1147,70 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "mekanism:teleportation_core"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAA AAA",
+            "ABA ABA",
+            "CDBEBDC",
+            "CDF FDC",
+            "GDDEDDG",
+            "GBBDBBG",
+            "GGGDGGG"
+        ],
+        "tier": 3,
+        "key": {
+            "A": {
+                "tag": "c:ingots/draconium"
+            },
+            "B": {
+                "tag": "c:circuits/absolute"
+            },
+            "C": {
+                "item": "draconicevolution:draconium_core"
+            },
+            "D": {
+                "item": "mekanism:dynamic_tank"
+            },
+            "E": {
+                "item": "evolvedmekanism:overclocked_chemical_tank"
+            },
+            "F": {
+                "item": "mekanism:enrichment_chamber"
+            },
+            "G": {
+                "tag": "c:ingots/derium"
+            }
+        },
+        "result": {
+            "id": "mekanism:pressurized_reaction_chamber"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAAAA",
+            "ABBBA",
+            "AB BA",
+            "ABBBA",
+            "AAAAA"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:plates/steel"
+            },
+            "B": {
+                "item": "enderio:dark_steel_bars"
+            }
+        },
+        "result": {
+            "count": 4,
+            "id": "mekanism:dynamic_tank"
         }
     });
 });

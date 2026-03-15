@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
                 "item": "minecraft:netherite_block"
             },
             "C": {
-                "item": "fluxnetworks:flux_block"
+                "tag": "c:circuits/cosmic_dense"
             },
             "D": {
                 "item": "mekanism:ultimate_compressing_factory"

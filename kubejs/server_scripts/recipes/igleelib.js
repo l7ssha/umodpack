@@ -10,6 +10,7 @@ ServerEvents.recipes(event => {
             "ABCBCBA",
             "AA A AA"
         ],
+       "tier": 3, 
         "key": {
             "A": {
                 "tag": "c:ingots/draconium"

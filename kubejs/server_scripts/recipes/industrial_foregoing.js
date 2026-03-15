@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
                 "tag": "c:gears/diamond"
             },
             "G": {
-                "item": "industrialforegoing:machine_frame_pity"
+                "tag": "c:circuits/supreme_quantum"
             },
             "H": {
                 "tag": "c:storage_blocks/redstone"
@@ -274,7 +274,7 @@ ServerEvents.recipes(event => {
                 "item": "industrialforegoing:hydroponic_bed"
             },
             "D": {
-                "tag": "c:circuits/cosmic"
+                "tag": "c:circuits/multiversal"
             },
             "E": {
                 "item": "evolvedmekanism:overclocked_fluid_tank"

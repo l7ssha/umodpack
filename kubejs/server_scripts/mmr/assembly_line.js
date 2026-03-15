@@ -321,7 +321,7 @@ ServerEvents.recipes(event => {
         [
             '8x minecraft:bedrock',
             '16x #c:circuits/infinite_multiversal',
-            '32x #c:pellets/antimatter',
+            '32x mekmm:uu_matter',
             '4x draconicevolution:chaotic_core'
         ],
         [],
