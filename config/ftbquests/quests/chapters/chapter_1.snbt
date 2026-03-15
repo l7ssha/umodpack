@@ -136,5 +136,27 @@
 			x: -7.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["6AEC30C45D80423E"]
+			id: "58580C5294529506"
+			optional: true
+			tasks: [{
+				id: "2EE2ABD9B7AB4E98"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["563C8F1BB39AAC68"]
+			id: "6AEC30C45D80423E"
+			tasks: [{
+				id: "0FCD611C64663517"
+				item: { count: 1, id: "evolvedmekanism:overclocked_control_circuit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
 	]
 }
