@@ -925,7 +925,7 @@ ServerEvents.recipes(event => {
                 "item": "actuallyadditions:vertical_digger"
             },
             "T": {
-                "item": "immersiveengineering:steel_scaffolding_standard"
+                "item": "draconicevolution:awakened_core"
             },
             "U": {
                 "item": "mekanism:robit"

@@ -171,6 +171,7 @@ const recipesById = [
     'extendedcrafting:ender_star',
     'extendedcrafting:enhanced_ender_ingot',
     'extendedcrafting:enhanced_redstone_ingot',
+    'extendedcrafting:ender_star_block',
     'packagedauto:me_package_component',
 
     // Cataclysm
@@ -263,6 +264,10 @@ const recipesById = [
 
     // Draconic Evolution
     'draconicevolution:tools/dislocator',
+    'draconicevolution:awakened_draconium_block',
+    'draconicevolution:components/awakened_core',
+    'draconicevolution:components/wyvern_energy_core',
+    'draconicevolution:components/draconium_core',
 ];
 
 const recipesByType = [

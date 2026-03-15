@@ -523,7 +523,7 @@ ServerEvents.recipes(event => {
                 "item": "ae2omnicells:charged_ender_ingot"
             },
             "E": {
-                "item": "ae2omnicells:quantum_omni_cell_component_1m"
+                "item": "draconicevolution:wyvern_core"
             },
             "F": {
                 "item": "megacells:accumulation_processor"

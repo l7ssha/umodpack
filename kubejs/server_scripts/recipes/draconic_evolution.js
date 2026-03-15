@@ -71,4 +71,256 @@ ServerEvents.recipes(event => {
             "id": "draconicevolution:awakened_draconium_dust"
         }
     });
+
+    event.custom({
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": {
+            "type": "draconicevolution:stack",
+            "count": 6,
+            "items": "draconicevolution:draconium_block"
+        },
+        "ingredients": [
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:draconium_core"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:draconium_core"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:draconium_core"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:dragon_heart"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:dragon_heart"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:draconium_core"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:draconium_core"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:draconium_core"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "igleelib:blazum_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "igleelib:blazum_block"
+                }
+            }
+        ],
+        "result": {
+            "count": 4,
+            "id": "draconicevolution:awakened_draconium_block"
+        },
+        "techLevel": "wyvern",
+        "totalEnergy": 50000000
+    });
+
+    event.custom({
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": {
+            "type": "draconicevolution:stack",
+            "count": 2,
+            "items": "appliedsoul:ender_star"
+        },
+        "ingredients": [
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:wyvern_core"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:wyvern_core"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "tag": "c:ingots/draconium_awakened"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "tag": "c:ingots/draconium_awakened"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "tag": "c:ingots/draconium_awakened"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "tag": "c:ingots/draconium_awakened"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:wyvern_core"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:wyvern_core"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "tag": "c:ingots/inanite"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "tag": "c:ingots/inanite"
+                }
+            },
+        ],
+        "result": {
+            "count": 1,
+            "id": "draconicevolution:awakened_core"
+        },
+        "techLevel": "wyvern",
+        "totalEnergy": 3000000
+    });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 10000000,
+        "input": {
+            "item": "draconicevolution:draconium_core"
+        },
+        "ingredients": [
+            {
+                "item": "evolvedmekanism:quantum_energy_cube"
+            },
+            {
+                "item": "evolvedmekanism:quantum_energy_cube"
+            },
+            {
+                "item": "igleelib:modium_block"
+            },
+            {
+                "item": "igleelib:modium_block"
+            },
+            {
+                "item": "igleelib:modium_block"
+            },
+            {
+                "item": "igleelib:modium_block"
+            },
+            {
+                "item": "draconicevolution:draconium_block"
+            },
+            {
+                "item": "minecraft:redstone_block"
+            },
+            {
+                "item": "minecraft:redstone_block"
+            },
+            {
+                "item": "draconicevolution:draconium_block"
+            },
+            {
+                "item": "draconicevolution:draconium_block"
+            },
+            {
+                "item": "draconicevolution:draconium_block"
+            }
+        ],
+        "result": {
+            "id": "draconicevolution:wyvern_energy_core"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 50000,
+        "input": {
+            "item": "minecraft:diamond"
+        },
+        "ingredients": [
+            {
+                "tag": "c:ingots/gold"
+            },
+            {
+                "tag": "c:ingots/gold"
+            },
+            {
+                "tag": "c:ingots/gold"
+            },
+            {
+                "tag": "c:ingots/gold"
+            },
+            {
+                "tag": "c:ingots/draconium"
+            },
+            {
+                "tag": "c:ingots/draconium"
+            },
+            {
+                "tag": "c:ingots/draconium"
+            },
+            {
+                "tag": "c:ingots/draconium"
+            },
+            {
+                "tag": "c:ingots/draconium"
+            },
+            {
+                "tag": "c:ingots/draconium"
+            },
+            {
+                "tag": "c:ingots/draconium"
+            },
+            {
+                "tag": "c:ingots/draconium"
+            }
+        ],
+        "result": {
+            "id": "draconicevolution:draconium_core"
+        }
+    });
 });
