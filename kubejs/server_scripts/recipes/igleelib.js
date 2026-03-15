@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
             "tag": "c:obsidians/crying"
         },
         "second_extra_input": {
-            "item": "jitl:shadium_ingot"
+            "item": "iceandfire:ghost_ingot"
         },
         "main_input": {
             "tag": "c:ingots/modium"
@@ -134,10 +134,10 @@ ServerEvents.recipes(event => {
                 "item": "cataclysm:burning_ashes"
             },
             {
-                "item": "jitl:blood"
+                "item": "irons_spellbooks:bloody_vellum"
             },
             {
-                "item": "jitl:blood"
+                "item": "irons_spellbooks:bloody_vellum"
             }
         ],
         "pentacle_id": "occultism:craft_afrit",

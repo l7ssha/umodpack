@@ -145,6 +145,8 @@ const recipesById = [
     'ae2:network/blocks/io_condenser',
     'ae2:network/blocks/energy_vibration_chamber',
     'advanced_ae:reactionchamber',
+    'advanced_ae:smallappupgrade',
+    'advanced_ae:eaelargeappupgrade',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
@@ -169,6 +171,7 @@ const recipesById = [
     'extendedcrafting:ender_star',
     'extendedcrafting:enhanced_ender_ingot',
     'extendedcrafting:enhanced_redstone_ingot',
+    'packagedauto:me_package_component',
 
     // Cataclysm
     'cataclysm:void_eye',
@@ -207,9 +210,6 @@ const recipesById = [
     // Just Dire Things
     'justdirethings:time_wand',
     'justdirethings:paradoxmachine',
-
-    // JITL
-    'jitl:terranian_portal_frame',
 
     // PneumaticCraft
     'pneumaticcraft:drill_pipe',

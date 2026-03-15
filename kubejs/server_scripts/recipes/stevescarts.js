@@ -45,16 +45,16 @@ ServerEvents.recipes(event => {
                 "item": "advancednetherite:netherite_gold_ingot"
             },
             {
-                "item": "jitl:lunium_ingot"
+                "tag": "c:ingots/signalum"
             },
             {
                 "item": "advancednetherite:netherite_gold_ingot"
             },
             {
-                "item": "jitl:lunium_ingot"
+                "tag": "c:ingots/signalum"
             },
             {
-                "item": "jitl:lunium_ingot"
+                "tag": "c:ingots/signalum"
             },
             {
                 "item": "alltheores:lumium_ingot"

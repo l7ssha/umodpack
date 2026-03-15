@@ -1034,7 +1034,7 @@ ServerEvents.recipes(event => {
                 "item": "immersiveengineering:furnace_heater"
             },
             "D": {
-                "item": "jitl:reinforced_stone_ingot"
+                "item": "pneumaticcraft:reinforced_stone"
             },
             "E": {
                 "item": "mekanism:energy_tablet"
@@ -1073,7 +1073,7 @@ ServerEvents.recipes(event => {
                 "tag": "c:gears/osmium"
             },
             "F": {
-                "item": "jitl:reinforced_stone_ingot"
+                "item": "pneumaticcraft:reinforced_stone"
             },
             "G": {
                 "item": "productivetrees:sawmill"

@@ -26,48 +26,4 @@ ServerEvents.recipes(event => {
             "id": "immersiveengineering:drill"
         }
     });
-
-    event.custom({
-        "type": "immersiveengineering:crusher",
-        "energy": 1600,
-        "input": {
-            "item": "jitl:sulphur_rock"
-        },
-        "result": {
-            "id": "alltheores:sulfur"
-        },
-        "secondaries": [
-            {
-                "chance": 0.2,
-                "output": {
-                    "item": "minecraft:gravel"
-                }
-            }
-        ]
-    });
-
-    event.custom({
-        "type": "immersiveengineering:crusher",
-        "energy": 1600,
-        "input": {
-            "item": "jitl:volcanic_soil"
-        },
-        "result": {
-            "id": "minecraft:soul_sand"
-        },
-        "secondaries": [
-            {
-                "chance": 0.1,
-                "output": {
-                    "item": "minecraft:blaze_powder"
-                }
-            },
-            {
-                "chance": 0.1,
-                "output": {
-                    "item": "cataclysm:burning_ashes"
-                }
-            }
-        ]
-    });
 });

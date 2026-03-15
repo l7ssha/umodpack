@@ -87,29 +87,21 @@ ServerEvents.recipes(event => {
     });
 
     event.custom({
-        "type": "extendedcrafting:shaped_flux_crafter",
-        "power_required": 50000,
-        "power_rate": 1600,
-        "pattern": [
-            "ABA",
-            "BCB",
-            "ABA"
-        ],
-        "key": {
-            "A": {
-                "item": "jitl:blood"
-            },
-            "B": {
-                "item": "extendedcrafting:redstone_ingot"
-            },
-            "C": {
-                "item": "extendedcrafting:flux_star"
-            }
+        "type": "evolvedmekanism:alloying",
+        "extra_input": {
+            "item": "irons_spellbooks:bloody_vellum",
         },
-        "result": {
+        "second_extra_input": {
+            "item": "extendedcrafting:flux_star"
+        },
+        "main_input": {
+            "tag": "c:ingots/redstone_ingot",
+            "count": 3
+        },
+        "output": {
+            "id": "extendedcrafting:enhanced_redstone_ingot",
             "count": 2,
-            "id": "extendedcrafting:enhanced_redstone_ingot"
-        }
+        },
     });
 
     const allIngots = [];

@@ -16,14 +16,16 @@
 	chapter_group.77EEC754FC5E3E91.title: "Mods"
 	quest.0F7A17BE2FEA3BF8.title: "Backpacks"
 	quest.19D9F3CF80327FE8.title: "Functional Storage"
+	quest.1CD902DDF80A6BC2.title: "Refined Obsidian is better than Diamond"
 	quest.27A9AC29C46CDD5E.title: "Sophisticated Storage"
+	quest.2C04C9DE111CD928.title: "Better Furnaces"
 	quest.335B0B77E665373A.title: "Tom's Simple Storage Mod"
 	quest.38B0553C13704960.quest_desc: ["To start with Applied Energistics, you need to find a meteorite which will contains all necessary metarial for you to start."]
-	quest.5F6F1985872B7FDB.title: "Good ol' Minecraft"
 	quest.7362E42C50FEBBB7.quest_desc: ["Danks are neat little things that are certailny help you while on your mining endevours."]
 	quest.7362E42C50FEBBB7.title: "Danks"
 	quest.752012C033211295.title: "Let's get it"
 	quest.76F458EC8BF1CEBF.title: "As basic as One can get"
 	task.0FD03ABAAEBDB3A7.title: "Storage"
 	task.187857538AC09450.title: "Find Meteorite"
+	task.63339D0669DC8D0E.title: "Storage Quest Line"
 }

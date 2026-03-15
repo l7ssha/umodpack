@@ -206,13 +206,13 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
-            "       ",
             " ABBBA ",
             "CDEEEDC",
             "AFGHHFA",
             "ACIJICA",
             "ACCCCCA",
-            " AAAAA "
+            "GAAAAAG",
+            "GGGGGGG"
         ],
         "tier": 3,
         "key": {
@@ -245,6 +245,9 @@ ServerEvents.recipes(event => {
             },
             "J": {
                 "item": "mekanism:ultimate_energy_cube"
+            },
+            "G": {
+                "tag": "c:ingots/blazum"
             }
         },
         "result": {
@@ -271,7 +274,7 @@ ServerEvents.recipes(event => {
                 "item": "industrialforegoing:hydroponic_bed"
             },
             "D": {
-                "tag": "c:circuits/overclocked"
+                "tag": "c:circuits/cosmic"
             },
             "E": {
                 "item": "evolvedmekanism:overclocked_fluid_tank"
