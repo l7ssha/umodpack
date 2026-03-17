@@ -117,6 +117,16 @@
     "advanced_auto_table": true,
     "compressor": true
   },
+  "extendedae_plus": {
+    "labeled_wireless_component": true,
+    "wt_locked": true,
+    "wt_frequency": true,
+    "wt_network_usable": true,
+    "wt_master_mode": true,
+    "wt_channels": true,
+    "wt_master_location": true,
+    "wt_owner": true
+  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
@@ -146,12 +156,6 @@
   },
   "replication": {
     "matter_tank": true
-  },
-  "railcraft": {
-    "signals": true,
-    "track_component": true,
-    "locomotive": true,
-    "switch_track": true
   },
   "jade_access": {
     "held_item": true,

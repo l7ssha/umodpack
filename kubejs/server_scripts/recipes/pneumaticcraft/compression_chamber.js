@@ -11,6 +11,10 @@ ServerEvents.recipes(event => {
             {
                 "item": "mysticalagriculture:neutronium_essence",
                 "count": 25
+            },
+            {
+                "item": "mekanismelements:pellet_neutron_source",
+                "count": 1
             }
         ],
         "pressure": 6,
@@ -26,7 +30,11 @@ ServerEvents.recipes(event => {
         "inputs": [
             {
                 "item": "avaritia:neutron_nugget",
-                "count": 25
+                "count": 35
+            },
+            {
+                "item": "mekanismelements:pellet_neutron_source",
+                "count": 9
             }
         ],
         "pressure": 7.8,
@@ -42,6 +50,10 @@ ServerEvents.recipes(event => {
         "inputs": [
             {
                 "item": "avaritia:neutron_ingot",
+                "count": 25
+            },
+            {
+                "item": "mekanismelements:pellet_neutron_source",
                 "count": 25
             }
         ],
@@ -60,6 +72,10 @@ ServerEvents.recipes(event => {
                 count: 25,
                 item: 'avaritia:neutron_pile',
             },
+            {
+                "item": "mekanismelements:pellet_neutron_source",
+                "count": 3
+            }
         ],
         pressure: 7.8,
         results: [

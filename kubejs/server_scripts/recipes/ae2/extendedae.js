@@ -101,150 +101,6 @@ ServerEvents.recipes(event => {
     });
 
     event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-            "AB  B",
-            "BACC ",
-            " CDC ",
-            " CCAB",
-            "B  BA"
-        ],
-        "tier": 2,
-        "key": {
-            "A": {
-                "item": "ae2:capacity_card"
-            },
-            "B": {
-                "tag": "ae2:smart_cable"
-            },
-            "C": {
-                "tag": "c:plastics"
-            },
-            "D": {
-                "item": "extendedae:ex_pattern_provider"
-            }
-        },
-        "result": {
-            "id": "expandedae:exp_pattern_provider"
-        }
-    });
-
-    event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-            "AB  B",
-            "BACC ",
-            " C C ",
-            " CCAB",
-            "B  BA"
-        ],
-        "tier": 2,
-        "key": {
-            "A": {
-                "item": "ae2:capacity_card"
-            },
-            "B": {
-                "tag": "ae2:smart_cable"
-            },
-            "C": {
-                "tag": "c:plastics"
-            }
-        },
-        "result": {
-            "id": "expandedae:exp_pattern_provider_upgrade"
-        }
-    });
-
-    event.custom({
-        "type": "extendedcrafting:combination",
-        "power_cost": 160000,
-        "input": {
-            "item": "ae2:advanced_card"
-        },
-        "ingredients": [
-            {
-                "item": "ae2:speed_card"
-            },
-            {
-                "item": "ae2:calculation_processor"
-            },
-            {
-                "item": "ae2:calculation_processor"
-            },
-            {
-                "item": "ae2:speed_card"
-            },
-            {
-                "item": "ae2:speed_card"
-            },
-            {
-                "item": "ae2:speed_card"
-            },
-            {
-                "item": "ae2:speed_card"
-            },
-            {
-                "item": "ae2:speed_card"
-            },
-            {
-                "item": "ae2:speed_card"
-            },
-            {
-                "item": "ae2:speed_card"
-            },
-            {
-                "item": "ae2:speed_card"
-            },
-            {
-                "item": "ae2:speed_card"
-            },
-            {
-                "item": "ae2:speed_card"
-            },
-            {
-                "item": "ae2:speed_card"
-            }
-        ],
-        "result": {
-            "id": "expandedae:greater_accel_card"
-        }
-    });
-
-    event.custom({
-        "type": "extendedcrafting:combination",
-        "power_cost": 150000,
-        "input": {
-            "item": "ae2:advanced_card"
-        },
-        "ingredients": [
-            {
-                "item": "ae2:logic_processor"
-            },
-            {
-                "item": "ae2:logic_processor"
-            },
-            {
-                "item": "ae2:engineering_processor"
-            },
-            {
-                "item": "ae2:engineering_processor"
-            },
-            {
-                "item": "ae2:crafting_card"
-            },
-            {
-                "item": "ae2:crafting_card"
-            },
-            {
-                "item": "ae2:crafting_card"
-            }
-        ],
-        "result": {
-            "id": "expandedae:auto_complete_card"
-        }
-    });
-
-    event.custom({
         "type": "extendedae:crystal_assembler",
         "input_items": [
             {
@@ -328,7 +184,7 @@ ServerEvents.recipes(event => {
             {
                 "amount": 1,
                 "ingredient": {
-                    "tag": "expandedae:expanded_pattern_provider"
+                    "tag": "extendedae:ext_pattern_provider"
                 }
             },
             {
@@ -361,7 +217,7 @@ ServerEvents.recipes(event => {
             {
                 "amount": 2,
                 "ingredient": {
-                    "item": "expandedae:greater_accel_card"
+                    "item": "extendedae:ex_pattern_provider"
                 }
             },
             {

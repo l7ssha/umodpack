@@ -15,6 +15,7 @@
 	chapter_group.2ABC132BCB871ED4.title: "Main Questline"
 	chapter_group.55FB4BDED3066FD0.title: "Topics"
 	chapter_group.77EEC754FC5E3E91.title: "Mods"
+	quest.04CE815B6B5BE421.title: "Applied Energistics 2"
 	quest.0F7A17BE2FEA3BF8.title: "Backpacks"
 	quest.19D9F3CF80327FE8.title: "Functional Storage"
 	quest.2191C4C50F9BB1D0.title: "Easy Ore Doubling"
@@ -27,6 +28,7 @@
 	quest.488B539CE42EB69D.title: "You get wood first"
 	quest.56A9C90C31DDB96F.quest_desc: ["You might as well take a look at storage chapter, to explore some of the starting storage solutions that modpack offers."]
 	quest.6173FF975787DD1C.title: "Better Furnaces"
+	quest.61B69DEF57769ACB.title: "Meteor Materials"
 	quest.6301E28E637BD9D0.title: "Processing Nuclear Waste"
 	quest.7362E42C50FEBBB7.quest_desc: ["Danks are neat little things that are certailny help you while on your mining endevours."]
 	quest.7362E42C50FEBBB7.title: "Danks"
@@ -42,6 +44,8 @@
 	task.3A2E3F167838839D.title: "Storage Chapter"
 	task.3A660309B781B5BB.title: "Applied Energistics 2"
 	task.40AB950DB2DCB4F6.title: "Supercritical Phase Shifter"
+	task.465365E0F9FC4986.title: "Meteor"
+	task.5AB1F8FC9FD2E38D.title: "Any chest"
 	task.63339D0669DC8D0E.title: "Storage Quest Line"
 	task.65D588240DFAE9F1.title: "Industrial Foregoing"
 	task.7EE6419DC7861A33.title: "Applied Energistics 2"

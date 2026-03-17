@@ -274,8 +274,8 @@
 				item: { count: 1, id: "minecraft:bedrock" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: 1.0d
+			x: 12.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2DBD7FD326B588AC"]
@@ -347,14 +347,15 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["60AAFC7582FFB4A5"]
 			id: "2D0ACD27E2ECEF20"
 			tasks: [{
 				id: "3957F087B56C57AE"
 				item: { count: 1, id: "mekmm:uu_matter" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: -4.0d
+			x: 13.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["43764A23DB55057C"]
@@ -364,8 +365,8 @@
 				item: { count: 1, id: "extendedcrafting:compressor" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: 1.0d
+			x: 10.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6301E28E637BD9D0"]
@@ -377,6 +378,16 @@
 			}]
 			x: 6.0d
 			y: 2.5d
+		}
+		{
+			id: "60AAFC7582FFB4A5"
+			tasks: [{
+				id: "052437142A824554"
+				item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
 		}
 	]
 }

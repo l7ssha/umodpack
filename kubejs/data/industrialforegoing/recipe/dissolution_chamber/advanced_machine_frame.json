@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "kubejs:umodpack"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [],
+  "inputFluid": {
+    "amount": 500,
+    "fluid": "industrialforegoing:pink_slime"
+  },
+  "output": {
+    "count": 1,
+    "id": "industrialforegoing:machine_frame_advanced"
+  },
+  "processingTime": 300
+}

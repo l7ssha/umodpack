@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
             "ABCBCBA",
             "AA A AA"
         ],
-       "tier": 3, 
+        "tier": 3,
         "key": {
             "A": {
                 "tag": "c:ingots/draconium"
@@ -147,5 +147,34 @@ ServerEvents.recipes(event => {
             "id": "igleelib:lavium_ingot"
         },
         "ritual_type": "occultism:craft_with_spirit_name"
+    });
+
+    event.custom({
+        "type": "ifeu:precision_shapeless",
+        "chance": 0.2,
+        "inputs": [
+            {
+                "item": "igleelib:blazum_ingot"
+            },
+            {
+                "item": "igleelib:blazum_ingot"
+            },
+            {
+                "item": "cataclysm:burning_ashes"
+            },
+            {
+                "item": "cataclysm:burning_ashes"
+            },
+            {
+                "tag": "iceandfire:dragon_bloods"
+            },
+            {
+                "tag": "iceandfire:dragon_bloods"
+            }
+        ],
+        "output": {
+            "count": 1,
+            "id": "igleelib:lavium_ingot"
+        }
     });
 });

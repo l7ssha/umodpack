@@ -735,4 +735,43 @@ ServerEvents.recipes(event => {
             "id": "advanced_ae:reaction_chamber"
         }
     });
+
+    event.replaceInput(
+        [
+            { id: 'extendedae:tag_storage_bus' },
+            { id: 'extendedae:tag_export_bus' },
+            { id: 'extendedae:mod_export_bus' },
+            { id: 'extendedae:mod_storage_bus' },
+        ],
+        'minecraft:book',
+        'mekanism:dictionary'
+    );
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 30000,
+        "power_rate": 200,
+        "pattern": [
+            "AB ",
+            "CDC",
+            " BA"
+        ],
+        "key": {
+            "A": {
+                "item": "ae2:logic_processor"
+            },
+            "B": {
+                "tag": "c:circuits/supreme"
+            },
+            "C": {
+                "item": "ae2:level_emitter"
+            },
+            "D": {
+                "item": "ae2:export_bus"
+            }
+        },
+        "result": {
+            "id": "extendedae:threshold_export_bus"
+        }
+    });
 });

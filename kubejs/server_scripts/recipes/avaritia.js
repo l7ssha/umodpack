@@ -133,27 +133,6 @@ ServerEvents.recipes(event => {
       {
         "items": "extendedcrafting:singularity",
         "components": {
-          "extendedcrafting:singularity_id": "extendedcrafting:diamond"
-        },
-        "type": "neoforge:components"
-      },
-      {
-        "items": "extendedcrafting:singularity",
-        "components": {
-          "extendedcrafting:singularity_id": "extendedcrafting:platinum"
-        },
-        "type": "neoforge:components"
-      },
-      {
-        "items": "extendedcrafting:singularity",
-        "components": {
-          "extendedcrafting:singularity_id": "extendedcrafting:platinum"
-        },
-        "type": "neoforge:components"
-      },
-      {
-        "items": "extendedcrafting:singularity",
-        "components": {
           "extendedcrafting:singularity_id": "extendedcrafting:platinum"
         },
         "type": "neoforge:components"

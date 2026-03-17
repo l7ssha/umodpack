@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "kubejs:umodpack"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [],
+  "inputFluid": {
+    "amount": 135,
+    "fluid": "industrialforegoing:ether_gas"
+  },
+  "output": {
+    "count": 1,
+    "id": "industrialforegoing:machine_frame_supreme"
+  },
+  "processingTime": 300
+}

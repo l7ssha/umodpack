@@ -32,11 +32,6 @@ ServerEvents.tags('item', tags => {
         "pneumaticcraft:plastic",
     ]);
 
-    tags.add('expandedae:expanded_pattern_provider', [
-        'expandedae:exp_pattern_provider',
-        'expandedae:exp_pattern_provider_part',
-    ]);
-
     tags.add('c:ingots', [
         'igleelib:modium_ingot',
         'igleelib:derium_ingot',

@@ -381,15 +381,90 @@ ServerEvents.recipes(event => {
         'pneumaticcraft:reinforced_chest',
     );
 
-    event.findRecipes([{ id: /evolvedmekanism:control_circuit\/.*/ }, { id: /mekanism_extras:control_circuit\/.*/, type: 'minecraft:crafting_shaped' }]).forEach(recipe => {
+    event.findRecipes([{ id: /evolvedmekanism:control_circuit\/(?!multiversal).*/ }, { id: /mekanism_extras:control_circuit\/(?!cosmic|infinite).*/, type: 'minecraft:crafting_shaped' }]).forEach(recipe => {
         event.custom({
             "type": "extendedcrafting:shaped_flux_crafter",
             "power_required": 1000000,
-            "power_rate": 20000,
+            "power_rate": 10000,
             "pattern": recipe.originalJson.get('pattern'),
             "key": recipe.originalJson.get('key'),
             "result": recipe.originalJson.get('result'),
         });
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 1000000,
+        "power_rate": 10000,
+        "pattern": [
+            "A A",
+            "BCB",
+            "A A"
+        ],
+        "key": {
+            "A": {
+                "item": "mekanismelements:ingot_beryllium"
+            },
+            "B": {
+                "item": "mekanism_extras:alloy_shining"
+            },
+            "C": {
+                "item": "mekanism_extras:supreme_control_circuit"
+            }
+        },
+        "result": {
+            "id": "mekanism_extras:cosmic_control_circuit"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 5000000,
+        "power_rate": 10000,
+        "pattern": [
+            "ABA",
+            "BCB",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "mekanismelements:dust_yttrium"
+            },
+            "B": {
+                "item": "mekanism_extras:alloy_spectrum"
+            },
+            "C": {
+                "item": "mekanism_extras:cosmic_control_circuit"
+            }
+        },
+        "result": {
+            "id": "mekanism_extras:infinite_control_circuit"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 10000000,
+        "power_rate": 10000,
+        "pattern": [
+            "ABA",
+            "BCB",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "mekanismelements:ingot_refined_californium"
+            },
+            "B": {
+                "item": "evolvedmekanism:alloy_exoversal"
+            },
+            "C": {
+                "item": "evolvedmekanism:dense_control_circuit"
+            }
+        },
+        "result": {
+            "id": "evolvedmekanism:multiversal_control_circuit"
+        }
     });
 
     event.findRecipes({ id: /mekanism:control_circuit\/(advanced|elite)/ }).forEach(recipe => {
@@ -1211,6 +1286,98 @@ ServerEvents.recipes(event => {
         "result": {
             "count": 4,
             "id": "mekanism:dynamic_tank"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAA   AAA",
+            "ABBIIIBBA",
+            "ABEAIAEBA",
+            "ADEFGFEDA",
+            "ADHGIGHDA",
+            "ADHFGFHDA",
+            "JKEEHEEKJ",
+            "JKKAAAKKJ",
+            "JJAAAAAJJ"
+        ],
+        "key": {
+            "A": {
+                "item": "mekanismgenerators:fusion_reactor_frame"
+            },
+            "B": {
+                "tag": "c:ingots/lavium"
+            },
+            "D": {
+                "tag": "c:gears/sculk"
+            },
+            "E": {
+                "tag": "c:circuits/infinite"
+            },
+            "F": {
+                "item": "ifeu:ultimate_machine_frame"
+            },
+            "G": {
+                "item": "draconicevolution:awakened_core"
+            },
+            "H": {
+                "tag": "c:storage_blocks/insanite"
+            },
+            "I": {
+                "item": "kubejs:abbysal_alloy"
+            },
+            "J": {
+                "item": "minecraft:reinforced_deepslate"
+            },
+            "K": {
+                "item": "deeperdarker:reinforced_echo_shard"
+            }
+        },
+        "result": {
+            "id": "mekanism:antiprotonic_nucleosynthesizer"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AA   AA",
+            "ABCBDBA",
+            "AECCDEA",
+            "AFCDDFA",
+            "AFGHGFA",
+            "AHFFFHA",
+            "AAAAAAA"
+        ],
+        "key": {
+            "A": {
+                "item": "mekanism:hdpe_sheet"
+            },
+            "B": {
+                "item": "mekanism:laser"
+            },
+            "C": {
+                "item": "mekanism:pellet_polonium"
+            },
+            "D": {
+                "item": "mekanism:pellet_plutonium"
+            },
+            "E": {
+                "tag": "c:circuits/supreme_quantum"
+            },
+            "F": {
+                "item": "mekanism:steel_casing"
+            },
+            "G": {
+                "item": "ifeu:ultimate_machine_frame"
+            },
+            "H": {
+                "item": "evolvedmekanism:overclocked_chemical_tank"
+            }
+        },
+        "result": {
+            "id": "mekanismelements:radiation_irradiator"
         }
     });
 });

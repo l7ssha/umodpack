@@ -1,5 +1,3 @@
-/** @type {typeof import("net.minecraft.nbt.TagType").$TagType } */
-let $TagType  = Java.loadClass("net.minecraft.nbt.TagType")
 ServerEvents.recipes(event => {
     const energizerRecipe = (energy, ingredients, result) => {
         event.custom({

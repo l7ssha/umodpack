@@ -246,16 +246,33 @@ ServerEvents.recipes(event => {
     }
 
     mmrRecipe(
-            "mmr:industrial_empowerer",
-            20,
-            15000,
-            [],
-            [
-                "1000x actuallyadditions:refined_canola_oil",
-            ],
-            [],
-            [
-                "750x actuallyadditions:empowered_oil",
-            ]
-        );
+        "mmr:industrial_empowerer",
+        20,
+        15000,
+        [],
+        [
+            "1000x actuallyadditions:refined_canola_oil",
+        ],
+        [],
+        [
+            "750x actuallyadditions:empowered_oil",
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:industrial_empowerer",
+        3600,
+        150000,
+        [
+            "8x kubejs:abbysal_alloy",
+            "2x #evolvedmekanism:enriched/better_gold"
+        ],
+        [
+            "16000x bigreactors:redfrigium",
+        ],
+        [
+            "2x kubejs:confusion_alloy"
+        ],
+        []
+    );
 });

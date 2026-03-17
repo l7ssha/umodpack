@@ -59,6 +59,11 @@ const recipesById = [
     'mekanism:teleportation_core',
     'mekanism:pressurized_reaction_chamber',
     'mekanism:dynamic_tank',
+    'mekanism:antiprotonic_nucleosynthesizer',
+    'mekanismelements:crafting/seawater_pump',
+    'mekanismelements:crafting/air_compressor',
+    'mekmm:ambient_gas_collector',
+    'mekanismelements:crafting/adsorption_separator',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -108,10 +113,6 @@ const recipesById = [
     'ae2:network/crafting/patterns_blank',
     'ae2:network/blocks/pattern_providers_interface',
     'extendedae:assembler/ex_pattern_provider',
-    'expandedae:crafting/exp_pattern_provider_ext',
-    'expandedae:crafting/exp_pattern_provider_upgrade_ext',
-    'expandedae:crafting/greater_accel_card',
-    'expandedae:crafting/auto_complete_card',
     'extendedae:assembler/assembler_matrix_crafter',
     'extendedae:assembler/assembler_matrix_pattern',
     'extendedae:assembler/assembler_matrix_speed',
@@ -149,6 +150,11 @@ const recipesById = [
     'advanced_ae:reactionchamber',
     'advanced_ae:smallappupgrade',
     'advanced_ae:eaelargeappupgrade',
+    'advanced_ae:quantum_helmet',
+    'advanced_ae:quantum_chest',
+    'advanced_ae:quantum_leggings',
+    'advanced_ae:quantum_boots',
+    'extendedae:threshold_export_bus',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
@@ -174,7 +180,7 @@ const recipesById = [
     'extendedcrafting:enhanced_ender_ingot',
     'extendedcrafting:enhanced_redstone_ingot',
     'extendedcrafting:ender_star_block',
-    'packagedauto:me_package_component',
+    'extendedcrafting:black_iron_ingot',
 
     // Cataclysm
     'cataclysm:void_eye',
@@ -209,8 +215,6 @@ const recipesById = [
     'industrialforegoing:infinity_charger',
     'industrialforegoing:stasis_chamber',
     'industrialforegoing:diamond_gear',
-    'industrialforegoing:machine_frame_supreme',
-    'industrialforegoing:machine_frame_advanced',
 
     // Just Dire Things
     'justdirethings:time_wand',
@@ -285,6 +289,8 @@ const recipesByInput = [];
 const recipesByOutput = [
     // Industrial foregoing
     'extendedae:machine_frame',
+    'ifeu:precision_crafting_table',
+    'ifeu:fluid_crafting_table',
 
     // PneumaticCraft
     'pneumaticcraft:transistor',
@@ -295,6 +301,8 @@ const recipesByOutput = [
 ];
 
 ServerEvents.recipes(event => {
+    event.remove({ output: 'ifeu:laser_lens_sculk', type: 'minecraft:crafting_shapeless' });
+
     recipesById.forEach(recipeId => {
         event.remove({ id: recipeId });
     });

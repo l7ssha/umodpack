@@ -117,4 +117,23 @@ ServerEvents.recipes(event => {
             "id": "extendedcrafting:the_ultimate_ingot"
         }
     });
+
+    event.shaped({
+        "pattern": [
+            "AAA",
+            "ABA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:coal_coke"
+            },
+            "B": {
+                "tag": "c:ingots/compressed_iron"
+            }
+        },
+        "result": {
+            "id": "extendedcrafting:black_iron_ingot"
+        }
+    });
 });
