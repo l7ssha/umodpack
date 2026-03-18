@@ -101,7 +101,11 @@ ServerEvents.recipes(event => {
             {
                 "item": "igleelib:blaze_shard",
                 "count": 6
-            }
+            },
+            {
+                "item": "biomesoplenty:rose_quartz_chunk",
+                "count": 24
+            },
         ],
         "pressure": 4.2,
         "results": [

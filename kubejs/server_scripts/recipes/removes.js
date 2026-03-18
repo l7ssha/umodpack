@@ -76,7 +76,7 @@ const recipesById = [
     /occultism:crushing\/.*_from_ore/,
 
     // Avaritia related
-    /avaritia:.*/,
+    /^avaritia:.*/,
     /avaritia_expand:.*/,
     "minecraft:neutron",
     "minecraft:neutron_nugget",
@@ -182,8 +182,20 @@ const recipesById = [
     'extendedcrafting:ender_star_block',
     'extendedcrafting:black_iron_ingot',
 
+    // Packaged Auto
+    'packagedauto:encoder',
+    'packagedauto:package_component',
+    'packagedauto:me_package_component',
+    'packagedauto:packaging_provider',
+    'packagedauto:distributor',
+    'packagedauto:crafting_proxy',
+    'packagedauto:crafter_ae',
+    'packagedauto:fluid_package_filler',
+    /^packagedavaritia:(?!nether_crafter_ae$).*/,
+
     // Cataclysm
     'cataclysm:void_eye',
+    'cataclysm:flame_eye',
 
     // Productive Bees
     'modularbees:fill_dragon_breath',

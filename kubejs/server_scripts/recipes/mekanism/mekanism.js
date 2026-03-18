@@ -242,7 +242,7 @@ ServerEvents.recipes(event => {
                 "tag": "c:rods/steel"
             },
             "C": {
-                "tag": "c:circuits/supreme"
+                "tag": "c:circuits/overclocked"
             },
             "D": {
                 "tag": "c:storage_blocks/empowered_restonia_crystal"

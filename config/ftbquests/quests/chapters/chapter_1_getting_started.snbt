@@ -17,7 +17,7 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -29,17 +29,18 @@
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["545B580AECEE19C2"]
 			id: "7C2DF69E144D37BB"
 			tasks: [{
 				id: "2FE4F2C5FD005E85"
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 4.5d
 			y: -2.5d
 		}
 		{
@@ -128,18 +129,47 @@
 				id: "3A2E3F167838839D"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 2.0d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["6173FF975787DD1C"]
-			id: "514D58946387A077"
+			dependencies: ["488B539CE42EB69D"]
+			icon: {
+				id: "minecraft:netherrack"
+			}
+			id: "4192BCA1D9CE7DAD"
 			tasks: [{
-				id: "07A6D7E85B90F5D1"
-				item: { count: 1, id: "minecraft:diamond_block" }
-				type: "item"
+				dimension: "minecraft:the_nether"
+				id: "1CDF6F81CF5A6C4A"
+				type: "dimension"
 			}]
-			x: 4.5d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4192BCA1D9CE7DAD"]
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			id: "3C56124632611995"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "339630DFDBB2288A"
+				type: "dimension"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C56124632611995"]
+			id: "67A61AC3E110AAA4"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "43AF4C126486CA1F"
+				type: "advancement"
+			}]
+			x: 16.5d
 			y: 0.0d
 		}
 	]

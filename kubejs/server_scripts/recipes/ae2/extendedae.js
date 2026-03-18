@@ -124,13 +124,13 @@ ServerEvents.recipes(event => {
             {
                 "amount": 3,
                 "ingredient": {
-                    "tag": "ae2:engineering_processor"
+                    "item": "ae2:engineering_processor"
                 }
             },
             {
                 "amount": 3,
                 "ingredient": {
-                    "tag": "ae2:speed_card"
+                    "item": "ae2:speed_card"
                 }
             },
         ],

@@ -142,4 +142,44 @@ ServerEvents.recipes(event => {
       "id": "avaritia:diamond_lattice"
     }
   });
+
+  event.custom({
+    "type": "extendedcrafting:combination",
+    "power_cost": 100000,
+    "input": {
+      "item": "avaritia:double_compressed_crafting_table"
+    },
+    "ingredients": [
+      {
+        "tag": "c:ingots/blazegold"
+      },
+      {
+        "tag": "c:ingots/blazegold"
+      },
+      {
+        "item": "igleelib:blaze_shard"
+      },
+      {
+        "item": "igleelib:blaze_shard"
+      },
+      {
+        "tag": "chipped:red_nether_bricks"
+      },
+      {
+        "item": "igleelib:blaze_shard"
+      },
+      {
+        "tag": "chipped:red_nether_bricks"
+      },
+      {
+        "tag": "chipped:red_nether_bricks"
+      },
+      {
+        "tag": "chipped:red_nether_bricks"
+      }
+    ],
+    "result": {
+      "id": "avaritia:nether_crafting_table"
+    }
+  });
 });

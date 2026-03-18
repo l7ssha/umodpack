@@ -27,4 +27,33 @@ ServerEvents.recipes(event => {
       "id": "cataclysm:void_eye"
     }
   });
+
+  event.custom({
+    "type": "avaritia:shaped_table",
+    "pattern": [
+      "AAAAA",
+      "B C B",
+      "BCDCB",
+      "BC CB",
+      " BBB "
+    ],
+    "tier": 2,
+    "key": {
+      "A": {
+        "item": "minecraft:blaze_powder"
+      },
+      "B": {
+        "item": "minecraft:soul_sand"
+      },
+      "C": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "D": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "result": {
+      "id": "cataclysm:flame_eye"
+    }
+  });
 });
