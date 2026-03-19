@@ -20,8 +20,8 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(c:chests/wooden)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["76F458EC8BF1CEBF"]
@@ -31,8 +31,8 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(sophisticatedstorage:base_tier_wooden_storage)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.5d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["76F458EC8BF1CEBF"]
@@ -42,11 +42,14 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 1.5d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["76F458EC8BF1CEBF"]
+			dependencies: [
+				"76F458EC8BF1CEBF"
+				"7D87E36E08D810B1"
+			]
 			icon: {
 				id: "toms_storage:storage_terminal"
 			}
@@ -56,8 +59,8 @@
 				item: { count: 1, id: "toms_storage:storage_terminal" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["76F458EC8BF1CEBF"]
@@ -67,8 +70,8 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(dankstorage:dank_storages)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -2.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7362E42C50FEBBB7"]
@@ -78,7 +81,7 @@
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: 1.0d
 			y: -2.0d
 		}
 		{
@@ -104,7 +107,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -113,8 +116,8 @@
 				id: "465365E0F9FC4986"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3F809086FB926820"]
@@ -153,8 +156,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -1.5d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["20153214A2E62564"]
@@ -165,7 +168,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:item_storage_cell_1k)item(ae2:fluid_storage_cell_1k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 9.0d
 			y: 2.0d
 		}
 		{
@@ -175,13 +178,13 @@
 				id: "7577885B4DE82971"
 				type: "checkmark"
 			}]
-			x: -1.0d
+			x: 6.5d
 			y: 2.0d
 		}
 		{
 			dependencies: [
 				"20153214A2E62564"
-				"534A5B38D070561C"
+				"7D87E36E08D810B1"
 			]
 			id: "40CDC9637C6E1630"
 			optional: true
@@ -190,7 +193,7 @@
 				item: { count: 1, id: "ae2:storage_bus" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 6.5d
 			y: 4.0d
 		}
 		{
@@ -208,8 +211,139 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 1.5d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["27A9AC29C46CDD5E"]
+			id: "7D87E36E08D810B1"
+			tasks: [{
+				id: "47FACCEDC3845AE2"
+				item: { count: 1, id: "sophisticatedstorage:controller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F7A17BE2FEA3BF8"]
+			id: "5DBBF71675201DB4"
+			tasks: [{
+				id: "3AF5C00EE0F310CF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:magnet_upgrade)item(sophisticatedbackpacks:tank_upgrade)item(sophisticatedbackpacks:feeding_upgrade)item(sophisticatedbackpacks:crafting_upgrade)item(sophisticatedbackpacks:smelting_upgrade)item(sophisticatedbackpacks:stack_upgrade_starter_tier))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["335B0B77E665373A"]
+			id: "73823C08D0C84456"
+			optional: true
+			tasks: [{
+				id: "63D6F30FEBC1F4E3"
+				item: { components: { "ftbfiltersystem:filter": "or(item(toms_storage:wireless_terminal)item(toms_storage:adv_wireless_terminal))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "37A6055B7173DE1D"
+			tasks: [
+				{
+					id: "39F8715C941BCD92"
+					item: { count: 1, id: "occultism:storage_controller" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "662E022A69C9EB41"
+					item: { count: 1, id: "occultism:storage_stabilizer_tier1" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37A6055B7173DE1D"]
+			id: "3D33D22E4F151885"
+			tasks: [
+				{
+					id: "27FD42A08691C767"
+					item: { count: 1, id: "occultism:stable_wormhole" }
+					type: "item"
+				}
+				{
+					id: "76DD46497CE09A29"
+					item: { count: 1, id: "occultism:storage_remote" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76F458EC8BF1CEBF"]
+			id: "7722635F9CE15C70"
+			tasks: [{
+				id: "2A12E264E102B6C5"
+				item: { count: 1, id: "rftoolsstorage:storage_scanner" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7722635F9CE15C70"]
+			id: "19654D7A0DA8A08C"
+			tasks: [
+				{
+					id: "4AA0A301027B09CD"
+					item: { count: 1, id: "rftoolsstorage:modular_storage" }
+					type: "item"
+				}
+				{
+					id: "3EBFBFE9A9A2F3AC"
+					item: { count: 1, id: "rftoolsstorage:storage_module0" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19D9F3CF80327FE8"]
+			id: "017ADF550785878B"
+			tasks: [{
+				id: "7D7244D7BA98190F"
+				item: { count: 1, id: "functionalstorage:copper_upgrade" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "59438F94397327E9"
+			tasks: [{
+				id: "747CAA643FDDC89C"
+				item: { count: 1, id: "enderstorage:ender_chest" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["59438F94397327E9"]
+			id: "0DC421111565DBCA"
+			tasks: [{
+				id: "780562925E2AB680"
+				item: { count: 1, id: "enderstorage:ender_pouch" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
 		}
 	]
 }

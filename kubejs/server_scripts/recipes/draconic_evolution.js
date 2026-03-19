@@ -323,4 +323,30 @@ ServerEvents.recipes(event => {
             "id": "draconicevolution:draconium_core"
         }
     });
+
+    event.custom({
+        "type": "avaritia:shaped_table",
+        "pattern": [
+            "ABABA",
+            "BACAB",
+            "ACCCA",
+            "BACAB",
+            "ABABA"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:dusts/draconium"
+            },
+            "B": {
+                "tag": "c:dusts/blaze"
+            },
+            "C": {
+                "tag": "c:obsidians"
+            }
+        },
+        "result": {
+            "id": "draconicevolution:infused_obsidian"
+        }
+    });
 });

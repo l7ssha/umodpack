@@ -118,35 +118,6 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
-            "     ",
-            " ABA ",
-            "ABCBA",
-            "DA AD",
-            " DDD "
-        ],
-        "tier": 2,
-        "key": {
-            "A": {
-                "tag": "c:alloys/absolute"
-            },
-            "B": {
-                "item": "ae2:quartz_vibrant_glass"
-            },
-            "C": {
-                "item": "appex:experience_cell_housing"
-            },
-            "D": {
-                "item": "sfm:xp_goop"
-            }
-        },
-        "result": {
-            "id": "megacells:mega_experience_cell_housing"
-        }
-    });
-
-    event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
             " AB  ",
             "ACCB ",
             "AD EB",
@@ -435,35 +406,6 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "ae2omnicells:quantum_omni_cell_housing"
-        }
-    });
-
-    event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-            " AB  ",
-            "ACCB ",
-            "AC CB",
-            " DCCA",
-            "  AA "
-        ],
-        "tier": 2,
-        "key": {
-            "A": {
-                "item": "sfm:xp_shard"
-            },
-            "B": {
-                "item": "ae2:quartz_vibrant_glass"
-            },
-            "C": {
-                "tag": "mekanism:alloy/infused"
-            },
-            "D": {
-                "item": "sfm:xp_goop"
-            }
-        },
-        "result": {
-            "id": "appex:experience_cell_housing"
         }
     });
 

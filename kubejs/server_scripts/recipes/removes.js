@@ -196,6 +196,7 @@ const recipesById = [
     // Cataclysm
     'cataclysm:void_eye',
     'cataclysm:flame_eye',
+    'cataclysm:ignitium_upgrade_smithing_template',
 
     // Productive Bees
     'modularbees:fill_dragon_breath',
@@ -231,6 +232,9 @@ const recipesById = [
     // Just Dire Things
     'justdirethings:time_wand',
     'justdirethings:paradoxmachine',
+    'justdirethings:gooblock_tier2',
+    'justdirethings:gooblock_tier3',
+    'justdirethings:gooblock_tier4',
 
     // PneumaticCraft
     'pneumaticcraft:drill_pipe',
@@ -288,6 +292,12 @@ const recipesById = [
     'draconicevolution:components/awakened_core',
     'draconicevolution:components/wyvern_energy_core',
     'draconicevolution:components/draconium_core',
+    'draconicevolution:infused_obsidian',
+
+    // RFTools
+    'rftoolsbase:infused_enderpearl',
+    'rftoolsbase:machine_frame',
+    'rftoolsbuilder:builder',
 ];
 
 const recipesByType = [

@@ -70,4 +70,96 @@ ServerEvents.recipes(event => {
       "id": "justdirethings:time_wand"
     }
   });
+
+  event.custom({
+    "type": "avaritia:shaped_table",
+    "pattern": [
+      " ABA ",
+      "ABCDA",
+      "DCECD",
+      "ADCBA",
+      " ABA "
+    ],
+    "tier": 2,
+    "key": {
+      "A": {
+        "tag": "c:dusts/blaze"
+      },
+      "B": {
+        "tag": "c:dusts/redstone"
+      },
+      "C": {
+        "item": "justdirethings:gooblock_tier1"
+      },
+      "D": {
+        "item": "minecraft:nether_wart"
+      },
+      "E": {
+        "item": "hostilenetworks:nether_prediction"
+      }
+    },
+    "result": {
+      "id": "justdirethings:gooblock_tier2"
+    }
+  });
+
+  event.custom({
+    "type": "extendedcrafting:shaped_ender_crafter",
+    "pattern": [
+      "ABC",
+      "DAD",
+      "CBA"
+    ],
+    "key": {
+      "A": {
+        "item": "rftoolsbase:infused_enderpearl"
+      },
+      "B": {
+        "item": "justdirethings:gooblock_tier2"
+      },
+      "C": {
+        "item": "allthecompressed:end_stone_1x"
+      },
+      "D": {
+        "item": "modularbees:dragon_breath_bucket"
+      }
+    },
+    "result": {
+      "id": "justdirethings:gooblock_tier3"
+    }
+  });
+
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AA   AA",
+      "AB C BA",
+      "  DED  ",
+      " CE EC ",
+      "  DED  ",
+      "AB C BA",
+      "AA   AA"
+    ],
+    "tier": 3,
+    "key": {
+      "A": {
+        "item": "minecraft:echo_shard"
+      },
+      "B": {
+        "item": "minecraft:sculk"
+      },
+      "C": {
+        "item": "minecraft:sculk_shrieker"
+      },
+      "D": {
+        "item": "justdirethings:gooblock_tier3"
+      },
+      "E": {
+        "item": "deeperdarker:sculk_stone"
+      }
+    },
+    "result": {
+      "id": "justdirethings:gooblock_tier4"
+    }
+  });
 });

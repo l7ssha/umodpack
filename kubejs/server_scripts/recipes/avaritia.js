@@ -151,10 +151,10 @@ ServerEvents.recipes(event => {
     },
     "ingredients": [
       {
-        "tag": "c:ingots/blazegold"
+        "item": "allthecompressed:blaze_rod_block"
       },
       {
-        "tag": "c:ingots/blazegold"
+       "item": "allthecompressed:blaze_rod_block"
       },
       {
         "item": "igleelib:blaze_shard"

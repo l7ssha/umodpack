@@ -1,4 +1,10 @@
 ServerEvents.recipes(event => {
+    event.replaceInput(
+        { id: 'minecraft:crafter' },
+        'minecraft:iron_ingot',
+        { tag: 'c:plates/iron' }
+    );
+
     event.custom({
         "type": "extendedcrafting:shaped_ender_crafter",
         "pattern": [

@@ -326,7 +326,9 @@ ServerEvents.recipes(event => {
             '32x mekmm:uu_matter',
             '4x draconicevolution:chaotic_core'
         ],
-        [],
+        [
+            '16000x ifeu:dragon_star_essence'
+        ],
         [
             '1x kubejs:tesseract',
         ],
