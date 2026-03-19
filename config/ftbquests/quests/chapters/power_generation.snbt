@@ -14,5 +14,41 @@
 	id: "398B52BF230AEF25"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "61042D2A138D6F6E"
+			tasks: [{
+				id: "0F2889A3897F86B8"
+				item: { components: { "ftbfiltersystem:filter": "and()item_tag(c:coal)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"61042D2A138D6F6E"
+				"1BC9182D96DA4FE3"
+			]
+			id: "1A1195B3ECD77BFE"
+			tasks: [{
+				id: "7F4785548332DD4E"
+				item: { count: 1, id: "ironfurnaces:augment_generator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A1195B3ECD77BFE"]
+			id: "735F7D8CEF789F18"
+			tasks: [{
+				id: "73C1AE69C6A6EA6E"
+				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+	]
 }

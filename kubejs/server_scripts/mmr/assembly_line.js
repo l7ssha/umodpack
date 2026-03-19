@@ -5,7 +5,7 @@ MMREvents.machines(event => {
         .structure(
             MMRStructureBuilder.create()
                 .pattern([
-                    ["aaa", "aca", "aca", "aca", "afa"],
+                    ["aaa", "aca", "aca", "aca", "fff"],
                     ["ama", "ded", "ded", "ded", "ded"],
                     ["aaa", "aba", "aba", "aba", "aba"]
                 ])
@@ -21,6 +21,8 @@ MMREvents.machines(event => {
                     "e": "immersiveengineering:logic_unit",
                     "f": [
                         "#modular_machinery_reborn:energyinputhatch",
+                        "#modular_machinery_reborn:parallelhatch",
+                        "immersiveengineering:sheetmetal_steel",
                     ],
                 }),
         );
