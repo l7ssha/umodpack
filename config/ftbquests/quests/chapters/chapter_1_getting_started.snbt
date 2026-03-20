@@ -17,7 +17,7 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
@@ -29,7 +29,7 @@
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -40,8 +40,8 @@
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			id: "0159B919DDB6C50C"
@@ -51,8 +51,8 @@
 				item: { count: 1, id: "alltheores:steel_ingot" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			id: "57B020D1F988BD05"
@@ -62,7 +62,7 @@
 				item: { count: 1, id: "alltheores:osmium_ingot" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -5.0d
 			y: 4.0d
 		}
 		{
@@ -77,8 +77,8 @@
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["545B580AECEE19C2"]
@@ -95,8 +95,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 0.0d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -111,8 +111,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(mekanismtools:refined_obsidian_helmet)item(mekanismtools:refined_obsidian_chestplate)item(mekanismtools:refined_obsidian_leggings)item(mekanismtools:refined_obsidian_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.0d
+			x: -2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7C2DF69E144D37BB"]
@@ -122,8 +122,8 @@
 				item: { count: 1, id: "mekanism:crusher" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.5d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["488B539CE42EB69D"]
@@ -133,14 +133,11 @@
 				id: "3A2E3F167838839D"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: -2.5d
+			x: -5.0d
+			y: -2.0d
 		}
 		{
-			dependencies: [
-				"488B539CE42EB69D"
-				"29330205307494F5"
-			]
+			dependencies: ["29330205307494F5"]
 			icon: {
 				id: "minecraft:netherrack"
 			}
@@ -150,8 +147,8 @@
 				id: "1CDF6F81CF5A6C4A"
 				type: "dimension"
 			}]
-			x: 7.0d
-			y: 2.5d
+			x: -2.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4192BCA1D9CE7DAD"]
@@ -164,8 +161,8 @@
 				id: "339630DFDBB2288A"
 				type: "dimension"
 			}]
-			x: 9.5d
-			y: 2.5d
+			x: -2.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3C56124632611995"]
@@ -183,8 +180,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 2.5d
+			x: -0.5d
+			y: 10.5d
 		}
 		{
 			id: "3A0686AAEBCF9C88"
@@ -194,8 +191,8 @@
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.0d
+			x: -5.0d
+			y: 6.0d
 		}
 		{
 			id: "29330205307494F5"
@@ -205,8 +202,8 @@
 				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.5d
+			x: -5.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4192BCA1D9CE7DAD"]
@@ -216,8 +213,8 @@
 				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: -0.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["488B539CE42EB69D"]
@@ -227,7 +224,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:seeds/wheat)item_tag(c:seeds/beetroot)item_tag(c:crops))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: -7.0d
 			y: 0.0d
 		}
 		{
@@ -237,7 +234,119 @@
 				id: "2B347BB8B961413D"
 				type: "checkmark"
 			}]
-			x: -1.5d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["652CF28153B1A736"]
+			id: "7596D401A9F6E18D"
+			tasks: [{
+				id: "67AFDD055FF60622"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7596D401A9F6E18D"]
+			id: "7F45D030389596E6"
+			tasks: [{
+				id: "1AF80EC40BE48443"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7F45D030389596E6"
+				"54B95EA400D84746"
+			]
+			id: "440F3A94958353A4"
+			tasks: [{
+				id: "41F5C0F29BC62644"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["440F3A94958353A4"]
+			id: "0C4D34A7C14A3191"
+			tasks: [{
+				id: "4026898C400B7319"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["440F3A94958353A4"]
+			id: "374BE4511E72EB63"
+			size: 1.5d
+			tasks: [{
+				id: "4F1C825E5544B36C"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C2DF69E144D37BB"]
+			id: "54B95EA400D84746"
+			tasks: [
+				{
+					count: 72L
+					id: "34946FC417DBEFE0"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "7D0B1C46A2C0AA65"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_glass" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "41282F3503175631"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
+					type: "item"
+				}
+				{
+					id: "7982BAD272D735CF"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54B95EA400D84746"]
+			id: "0EE7B506F65FB5B8"
+			tasks: [{
+				count: 4L
+				id: "4A17A0EA93C320DC"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EE7B506F65FB5B8"]
+			id: "44D5D873AE1D19B1"
+			tasks: [{
+				id: "20E27DD55DB3DC1D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(advancednetherite:netherite_iron_ingot)item(advancednetherite:netherite_gold_ingot)item(advancednetherite:netherite_emerald_ingot)item(advancednetherite:netherite_diamond_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
 			y: 0.0d
 		}
 	]

@@ -1,0 +1,102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical_agriculture"
+	group: "77EEC754FC5E3E91"
+	id: "13B6CCD7C2B26C9F"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "72044DCDB30BC1FD"
+			tasks: [{
+				count: 64L
+				id: "21C880931400784D"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72044DCDB30BC1FD"]
+			id: "6103C1881D338A4F"
+			tasks: [{
+				count: 64L
+				id: "20504204D448258C"
+				item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6103C1881D338A4F"]
+			id: "0F0A573408829380"
+			tasks: [{
+				count: 64L
+				id: "519C441159509491"
+				item: { count: 1, id: "mysticalagriculture:tertium_essence" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F0A573408829380"]
+			id: "1C043E3C873423D9"
+			tasks: [{
+				count: 64L
+				id: "6BD25BF9CDAF3BFF"
+				item: { count: 1, id: "mysticalagriculture:imperium_essence" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C043E3C873423D9"]
+			id: "43FFE2657EAF46A8"
+			tasks: [{
+				id: "5598FA43E2B07EC7"
+				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43FFE2657EAF46A8"]
+			id: "5D14C4CD354FEE53"
+			tasks: [{
+				id: "214CD1254D89D327"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_essence" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3650ABB426DC3920"]
+			id: "47C0C77D36BFE7D9"
+			tasks: [{
+				id: "2D0E2618A7E26713"
+				item: { count: 1, id: "mysticalagradditions:creative_essence" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43FFE2657EAF46A8"]
+			id: "3650ABB426DC3920"
+			tasks: [{
+				id: "30A6A6EDA0CAC243"
+				item: { count: 1, id: "mysticalagradditions:insanium_essence" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+	]
+}

@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
                 "count": 1
             }
         ],
-        "pressure": 6,
+        "pressure": 15,
         "results": [
             {
                 "id": "avaritia:neutron_pile"
@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
                 "count": 9
             }
         ],
-        "pressure": 7.8,
+        "pressure": 18,
         "results": [
             {
                 "id": "avaritia:neutron_ingot"
@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
                 "count": 25
             }
         ],
-        "pressure": 7.8,
+        "pressure": 19,
         "results": [
             {
                 "id": "avaritia:neutron"
@@ -77,7 +77,7 @@ ServerEvents.recipes(event => {
                 "count": 3
             }
         ],
-        pressure: 7.8,
+        pressure: 19.8,
         results: [
             {
                 id: 'avaritia:neutron_nugget',

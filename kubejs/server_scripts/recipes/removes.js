@@ -64,16 +64,17 @@ const recipesById = [
     'mekanismelements:crafting/air_compressor',
     'mekmm:ambient_gas_collector',
     'mekanismelements:crafting/adsorption_separator',
+    'mekanism:quantum_entangloporter',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
 
     // Occultism
-    // /occultism:crushing\/.*/,
     /occultism:smelting\/.*/,
     /^occultism:crafting\/chalk_(?!white).*_impure/,
     'occultism:crafting/netherite_dust',
     /occultism:crushing\/.*_from_ore/,
+    'occultism:ritual/craft_storage_controller_base',
 
     // Avaritia related
     /^avaritia:.*/,
@@ -86,6 +87,8 @@ const recipesById = [
     // Mystical Agriculture
     "mysticalagradditions:essence/neutron_nugget",
     /mysticalagradditions:.*_crux/,
+    'mysticalagriculture:nature_agglomeratio',
+    'mysticalagriculture:nether_agglomeratio',
 
     // AE2
     "aeinfinitybooster:dimension_card",
@@ -243,6 +246,7 @@ const recipesById = [
     // EnderStorage
     'enderstorage:ender_chest',
     'enderstorage:ender_tank',
+    'enderstorage:ender_pouch',
 
     // Deeper Darker
     'deeperdarker:coal_from_smelting_gloomslate_coal_ore',
@@ -298,6 +302,14 @@ const recipesById = [
     'rftoolsbase:infused_enderpearl',
     'rftoolsbase:machine_frame',
     'rftoolsbuilder:builder',
+
+    // DimStorage
+    'dimstorage:dim_core',
+    'dimstorage:dim_wall',
+    'dimstorage:solid_dim_core',
+    'dimstorage:dimensional_chest',
+    'dimstorage:dimensional_tank',
+    'dimstorage:dimensional_tablet',
 ];
 
 const recipesByType = [

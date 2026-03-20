@@ -1380,4 +1380,38 @@ ServerEvents.recipes(event => {
             "id": "mekanismelements:radiation_irradiator"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            " AAAAA ",
+            "A BC  A",
+            "A CDBCA",
+            "ABDEDBA",
+            "ACBDCBA",
+            "A  C  A",
+            " AAAAA "
+        ],
+        "tier": 3,
+        "key": {
+            "A": {
+                "tag": "c:plates/osmium"
+            },
+            "B": {
+                "tag": "c:ingots/refined_glowstone"
+            },
+            "C": {
+                "tag": "c:ingots/refined_obsidian"
+            },
+            "D": {
+                "tag": "c:circuits/supreme_quantum"
+            },
+            "E": {
+                "item": "occultism:entity_wormhole",
+            }
+        },
+        "result": {
+            "id": "mekanism:quantum_entangloporter"
+        }
+    });
 });
