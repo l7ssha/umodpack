@@ -30,6 +30,16 @@ const infusionRecipes = [
     { resource: 'brass', essence: 'tertium' },
     { resource: 'silver', essence: 'tertium' },
     { resource: 'lead', essence: 'tertium' },
+
+    { resource: 'gold', essence: 'imperium' },
+    { resource: 'lapis', essence: 'imperium', result: 'mysticalagriculture:lapis_lazuli_seeds' },
+    { resource: 'nickel', essence: 'imperium' },
+    { resource: 'uranium', essence: 'imperium' },
+    { resource: 'ruby', essence: 'imperium' },
+    { resource: 'sapphire', essence: 'imperium' },
+    { resource: 'peridot', essence: 'imperium' },
+    { resource: 'osmium', essence: 'imperium' },
+    { resource: 'fluorite', essence: 'imperium' },
 ];
 
 ServerEvents.recipes(event => {
@@ -421,4 +431,561 @@ ServerEvents.recipes(event => {
             "id": "mysticalagriculture:certus_quartz_seeds"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 50000,
+        "input": {
+            "item": "mysticalagriculture:prosperity_seed_base"
+        },
+        "ingredients": [
+            {
+                "item": "allthecompressed:steel_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "mysticalagriculture:coal_seeds"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:steel_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:coal_seeds"
+            },
+            {
+                "item": "mysticalagriculture:coal_seeds"
+            },
+            {
+                "item": "allthecompressed:steel_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "mysticalagriculture:coal_seeds"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:steel_block_2x"
+            }
+        ],
+        "result": {
+            "id": "mysticalagriculture:steel_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 50000,
+        "input": {
+            "item": "mysticalagriculture:prosperity_seed_base"
+        },
+        "ingredients": [
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:constantan_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "mysticalagriculture:copper_seeds"
+            },
+            {
+                "item": "mysticalagriculture:nickel_seeds"
+            },
+            {
+                "item": "mysticalagriculture:copper_seeds"
+            },
+            {
+                "item": "allthecompressed:constantan_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:nickel_seeds"
+            },
+            {
+                "item": "mysticalagriculture:nickel_seeds"
+            },
+            {
+                "item": "allthecompressed:constantan_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:copper_seeds"
+            },
+            {
+                "item": "mysticalagriculture:nickel_seeds"
+            },
+            {
+                "item": "mysticalagriculture:copper_seeds"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:constantan_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            }
+        ],
+        "result": {
+            "id": "mysticalagriculture:constantan_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 50000,
+        "input": {
+            "item": "mysticalagriculture:prosperity_seed_base"
+        },
+        "ingredients": [
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:electrum_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "mysticalagriculture:silver_seeds"
+            },
+            {
+                "item": "mysticalagriculture:gold_seeds"
+            },
+            {
+                "item": "mysticalagriculture:silver_seeds"
+            },
+            {
+                "item": "allthecompressed:electrum_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:gold_seeds"
+            },
+            {
+                "item": "mysticalagriculture:gold_seeds"
+            },
+            {
+                "item": "allthecompressed:electrum_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:silver_seeds"
+            },
+            {
+                "item": "mysticalagriculture:gold_seeds"
+            },
+            {
+                "item": "mysticalagriculture:silver_seeds"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:electrum_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            }
+        ],
+        "result": {
+            "id": "mysticalagriculture:electrum_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 50000,
+        "input": {
+            "item": "mysticalagriculture:prosperity_seed_base"
+        },
+        "ingredients": [
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:invar_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "allthecompressed:invar_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:nickel_seeds"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "allthecompressed:invar_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:nickel_seeds"
+            },
+            {
+                "item": "mysticalagriculture:nickel_seeds"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:invar_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            }
+        ],
+        "result": {
+            "id": "mysticalagriculture:invar_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 50000,
+        "input": {
+            "item": "mysticalagriculture:prosperity_seed_base"
+        },
+        "ingredients": [
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:soularium_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "mysticalagriculture:gold_seeds"
+            },
+            {
+                "item": "allthecompressed:soul_sand_2x"
+            },
+            {
+                "item": "mysticalagriculture:gold_seeds"
+            },
+            {
+                "item": "allthecompressed:soularium_block_2x"
+            },
+            {
+                "item": "allthecompressed:soularium_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:gold_seeds"
+            },
+            {
+                "item": "allthecompressed:soul_sand_2x"
+            },
+            {
+                "item": "mysticalagriculture:gold_seeds"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:soularium_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            }
+        ],
+        "result": {
+            "id": "mysticalagriculture:soularium_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 50000,
+        "input": {
+            "item": "mysticalagriculture:prosperity_seed_base"
+        },
+        "ingredients": [
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:soularium_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "mysticalagriculture:coal_seeds"
+            },
+            {
+                "item": "mysticalagriculture:obsidian_seeds"
+            },
+            {
+                "item": "mysticalagriculture:obsidian_seeds"
+            },
+            {
+                "item": "allthecompressed:soularium_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:coal_seeds"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "allthecompressed:soularium_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:coal_seeds"
+            },
+            {
+                "item": "mysticalagriculture:coal_seeds"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:soularium_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            }
+        ],
+        "result": {
+            "id": "mysticalagriculture:dark_steel_seeds"
+        }
+    });
+
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 50000,
+        "input": {
+            "item": "mysticalagriculture:prosperity_seed_base"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "allthecompressed:pulsating_alloy_block_2x"
+            },
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:pulsating_alloy_block_2x"
+            },
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "mysticalagriculture:iron_seeds"
+            },
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "allthecompressed:pulsating_alloy_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:pulsating_alloy_block_2x"
+            }
+        ],
+        "result": {
+            "id": "mysticalagriculture:pulsating_alloy_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 50000,
+        "input": {
+            "item": "mysticalagriculture:prosperity_seed_base"
+        },
+        "ingredients": [
+            {
+                "item": "allthecompressed:energetic_alloy_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:energetic_alloy_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:conductive_alloy_seeds"
+            },
+            {
+                "item": "mysticalagriculture:conductive_alloy_seeds"
+            },
+            {
+                "item": "mysticalagriculture:conductive_alloy_seeds"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "mysticalagriculture:redstone_seeds"
+            },
+            {
+                "item": "mysticalagriculture:gold_seeds"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "mysticalagriculture:redstone_seeds"
+            },
+            {
+                "item": "mysticalagriculture:redstone_seeds"
+            },
+            {
+                "item": "mysticalagriculture:gold_seeds"
+            },
+            {
+                "item": "mysticalagriculture:gold_seeds"
+            },
+            {
+                "item": "allthecompressed:energetic_alloy_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            {
+                "item": "allthecompressed:energetic_alloy_block_2x"
+            }
+        ],
+        "result": {
+            "id": "mysticalagriculture:energetic_alloy_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "mekanism:compressing",
+        "chemical_input": {
+            "amount": 20,
+            "chemical": "mekanism:osmium"
+        },
+        "item_input": {
+            "count": 4,
+            "item": "mysticalagriculture:glowstone_seeds"
+        },
+        "output": {
+            "count": 1,
+            "id": "mysticalagriculture:refined_glowstone_seeds"
+        },
+        "per_tick_usage": true
+    });
+
+    event.custom({
+        "type": "mekanism:compressing",
+        "chemical_input": {
+            "amount": 20,
+            "chemical": "mekanism:diamond"
+        },
+        "item_input": {
+            "count": 4,
+            "item": "mysticalagriculture:obsidian_seeds"
+        },
+        "output": {
+            "count": 1,
+            "id": "mysticalagriculture:refined_obsidian_seeds"
+        },
+        "per_tick_usage": true
+    });
+
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [
+            {
+                "item": "mysticalagriculture:iron_seeds",
+                "count": 6
+            },
+            {
+                "item": "mysticalagriculture:imperium_block",
+                "count": 6
+            },
+            {
+                "item": "pneumaticcraft:compressed_iron_block",
+                "count": 32
+            },
+        ],
+        "pressure": 6,
+        "results": [
+            {
+                "count": 2,
+                "id": "mysticalagriculture:compressed_iron_seeds"
+            }
+        ]
+    }).id('kubejs:pressure_chamber/compressed_iron_seeds');
 });
