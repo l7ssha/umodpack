@@ -1414,4 +1414,114 @@ ServerEvents.recipes(event => {
             "id": "mekanism:quantum_entangloporter"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABCBA",
+            "BDEDB",
+            "CEAEC",
+            "BDEDB",
+            "ABCBA"
+        ],
+        "key": {
+            "A": {
+                "item": "mekanism:hdpe_sheet"
+            },
+            "B": {
+                "tag": "c:ingots/blazum"
+            },
+            "C": {
+                "item": "mekanism:pellet_polonium"
+            },
+            "D": {
+                "item": "mekanism:hdpe_rod"
+            },
+            "E": {
+                "item": "mekanism:pellet_plutonium"
+            }
+        },
+        "result": {
+            "id": "mekanism:sps_casing"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "  AAA  ",
+            " BCCCB ",
+            "ACBDBCA",
+            "ACDEDCA",
+            "ACBDBCA",
+            " BCCCB ",
+            "  AAA  "
+        ],
+        "key": {
+            "A": {
+                "item": "mekanism:hdpe_sheet"
+            },
+            "B": {
+                "item": "twilightforest:fiery_ingot"
+            },
+            "C": {
+                "item": "mekanism:sps_casing"
+            },
+            "D": {
+                "item": "mekanism_extras:supreme_control_circuit"
+            },
+            "E": {
+                "item": "twilightforest:fiery_block"
+            }
+        },
+        "result": {
+            "id": "mekanism:sps_port"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 100000,
+        "power_rate": 2000,
+        "pattern": [
+            "ABA",
+            "BAB",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:glass_blocks/cheap"
+            },
+            "B": {
+                "tag": "c:ingots/steel"
+            }
+        },
+        "result": {
+            "count": 2,
+            "id": "mekanism:structural_glass"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 100000,
+        "power_rate": 2000,
+        "pattern": [
+            "ABA",
+            "BAB",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:blue_stained_glass"
+            },
+            "B": {
+                "item": "mekanismelements:dust_calcium_oxide"
+            }
+        },
+        "result": {
+            "count": 3,
+            "id": "mekanism:structural_glass"
+        }
+    });
 });

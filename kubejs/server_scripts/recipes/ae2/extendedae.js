@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
         ],
         "key": {
             "A": {
-                "tag": "c:ingots/iron"
+                "tag": "c:ingots/iridium"
             },
             "B": {
                 "tag": "c:ingots/copper"
@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
                 "tag": "c:ingots/infused_entro"
             },
             "D": {
-                "tag": "c:circuits/advanced"
+                "tag": "c:circuits/elite"
             }
         },
         "result": {

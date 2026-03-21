@@ -68,6 +68,10 @@ const recipesById = [
     'mekanism:processing/refined_obsidian/dust/from_obsidian_dust',
     'mekanism_extras:processing/dust_radiance/from_glowstone',
     'mekanism_extras:reaction/enriched_radiance_gasification/enriched_thermonuclear',
+    'mekanism:sps_casing',
+    'mekanism:sps_port',
+    'mekanism:structural_glass',
+    'mekanismelements:crafting/structural_glass',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -313,6 +317,9 @@ const recipesById = [
     'dimstorage:dimensional_chest',
     'dimstorage:dimensional_tank',
     'dimstorage:dimensional_tablet',
+
+    // Entangled
+    'entangled:block',
 ];
 
 const recipesByType = [

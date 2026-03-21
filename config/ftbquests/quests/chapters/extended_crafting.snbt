@@ -111,6 +111,7 @@
 		}
 		{
 			id: "0ECC339901164D63"
+			shape: "octagon"
 			tasks: [{
 				id: "6F87B0CE7B116546"
 				type: "checkmark"

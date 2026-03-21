@@ -12,6 +12,8 @@
 	quests: [
 		{
 			id: "563C8F1BB39AAC68"
+			shape: "octagon"
+			size: 1.1d
 			tasks: [{
 				id: "1F41A8E2AB6A5A61"
 				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
@@ -247,6 +249,8 @@
 				"5FB8DCDEA749DB5C"
 			]
 			id: "2F904595F31D1EDF"
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "296F352AB61F9529"
 				item: { count: 1, id: "avaritia:infinity_catalyst" }
@@ -281,6 +285,7 @@
 			dependencies: ["2DBD7FD326B588AC"]
 			id: "5B3353EF1636A43C"
 			optional: true
+			shape: "square"
 			tasks: [{
 				id: "65D588240DFAE9F1"
 				type: "checkmark"
@@ -292,6 +297,7 @@
 			dependencies: ["6AEC30C45D80423E"]
 			id: "7F30E917DB781CD7"
 			optional: true
+			shape: "square"
 			tasks: [{
 				id: "7EE6419DC7861A33"
 				type: "checkmark"
@@ -301,6 +307,7 @@
 		}
 		{
 			id: "60375DF6A6222DBE"
+			shape: "octagon"
 			tasks: [{
 				id: "25FB92464A1E5478"
 				item: { count: 1, id: "mekanism_extras:dust_radiance" }
@@ -320,6 +327,8 @@
 		}
 		{
 			id: "6231D3455A15F110"
+			shape: "octagon"
+			size: 1.1d
 			tasks: [{
 				id: "1595335CB935CC4C"
 				type: "checkmark"
@@ -329,6 +338,7 @@
 		}
 		{
 			id: "54252F374BC9B9C2"
+			shape: "octagon"
 			tasks: [{
 				id: "5D0B9DFB1604E2A2"
 				item: { count: 1, id: "alltheores:uranium_dust" }
@@ -359,6 +369,7 @@
 		}
 		{
 			dependencies: ["43764A23DB55057C"]
+			hide_dependency_lines: true
 			id: "70801766EA3D4180"
 			tasks: [{
 				id: "234E5DB58666A0EA"
