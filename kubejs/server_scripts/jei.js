@@ -3,6 +3,8 @@ const itemsToHide = [
     'mysticalagriculture:apatite_essence',
     'mysticalagriculture:marble_seeds',
     'mysticalagriculture:marble_essence',
+    'mysticalagriculture:yellorium_seeds',
+    'mysticalagriculture:yellorium_essence',
 ];
 
 RecipeViewerEvents.removeEntries('item', event => {

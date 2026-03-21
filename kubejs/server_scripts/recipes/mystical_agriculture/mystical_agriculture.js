@@ -11,6 +11,7 @@ const infusionRecipes = [
     { ingredient: { item: 'mysticalagriculture:nature_agglomeratio' }, essence: 'prudentium', result: 'mysticalagriculture:nature_seeds' },
     { ingredient: { item: 'mysticalagriculture:dye_agglomeratio' }, essence: 'prudentium', result: 'mysticalagriculture:dye_seeds' },
     { ingredient: { item: 'mysticalagriculture:nether_agglomeratio' }, essence: 'prudentium', result: 'mysticalagriculture:nether_seeds' },
+    { ingredient: { item: 'mysticalagriculture:coral_agglomeratio' }, essence: 'prudentium', result: 'mysticalagriculture:coral_seeds' },
     { resource: 'coal', essence: 'prudentium' },
     { ingredient: { item: 'minecraft:amethyst_cluster' }, essence: 'prudentium', result: 'mysticalagriculture:amethyst_seeds' },
     { ingredient: { item: 'industrialforegoing:dryrubber' }, essence: 'prudentium', result: 'mysticalagriculture:rubber_seeds' },
@@ -40,6 +41,13 @@ const infusionRecipes = [
     { resource: 'peridot', essence: 'imperium' },
     { resource: 'osmium', essence: 'imperium' },
     { resource: 'fluorite', essence: 'imperium' },
+    { resource: 'fluix', essence: 'imperium' },
+
+    { resource: 'diamond', essence: 'supremium' },
+    { resource: 'emerald', essence: 'supremium' },
+    { resource: 'netherite', essence: 'supremium', base: 'mysticalagriculture:nether_seeds' },
+    { resource: 'iridium', essence: 'supremium' },
+    { resource: 'platinum', essence: 'supremium' },
 ];
 
 ServerEvents.recipes(event => {
@@ -988,4 +996,610 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:pressure_chamber/compressed_iron_seeds');
+
+    event.custom({
+        "type": "avaritia:shaped_table",
+        "pattern": [
+            "AABAA",
+            "ACACA",
+            "BADAB",
+            "ACACA",
+            "AABAA"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "item": "twilightforest:armor_shard"
+            },
+            "B": {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            "C": {
+                "item": "twilightforest:knightmetal_block"
+            },
+            "D": {
+                "item": "mysticalagriculture:iron_seeds"
+            }
+        },
+        "result": {
+            "id": "mysticalagriculture:knightmetal_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABBBA",
+            "BBCBB",
+            "BCACB",
+            "BBCBB",
+            "ABBBA"
+        ],
+        "key": {
+            "A": {
+                "item": "mysticalagriculture:imperium_block"
+            },
+            "B": {
+                "tag": "twilightforest:fiery_vial"
+            },
+            "C": {
+                "item": "mysticalagriculture:iron_seeds"
+            }
+        },
+        "result": {
+            "id": "mysticalagriculture:fiery_ingot_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "powah:energizing",
+        "energy": 540000,
+        "ingredients": [
+            { item: 'allthecompressed:energized_steel_block_1x' },
+            { item: 'allthecompressed:energized_steel_block_1x' },
+            { item: 'mysticalagriculture:imperium_block' },
+            { item: 'mysticalagriculture:imperium_block' },
+            { item: 'mysticalagriculture:gold_seeds' },
+            { item: 'mysticalagriculture:iron_seeds' }
+        ],
+        "result": {
+            "id": 'mysticalagriculture:energized_steel_seeds'
+        }
+    });
+
+    event.custom({
+        "type": "powah:energizing",
+        "energy": 540000,
+        "ingredients": [
+            { item: 'allthecompressed:energized_steel_block_1x' },
+            { item: 'allthecompressed:energized_steel_block_1x' },
+            { item: 'mysticalagriculture:imperium_block' },
+            { item: 'mysticalagriculture:imperium_block' },
+            { item: 'mysticalagriculture:gold_seeds' },
+            { item: 'mysticalagriculture:iron_seeds' }
+        ],
+        "result": {
+            "id": 'mysticalagriculture:energized_steel_seeds'
+        }
+    });
+
+    event.custom({
+        "type": "powah:energizing",
+        "energy": 2160000,
+        "ingredients": [
+            { item: 'allthecompressed:blaze_rod_block_1x' },
+            { item: 'allthecompressed:blaze_rod_block_1x' },
+            { item: 'mysticalagriculture:imperium_block' },
+            { item: 'mysticalagriculture:imperium_block' },
+            { item: 'mysticalagriculture:prosperity_seed_base' },
+        ],
+        "result": {
+            "id": 'mysticalagriculture:blazing_crystal_seeds'
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 100000,
+        "input": {
+            "item": "mysticalagriculture:prosperity_seed_base"
+        },
+        "ingredients": [
+            {
+                "item": "mysticalagriculture:supremium_block"
+            },
+            {
+                "item": "allthecompressed:vibrant_alloy_block_2x"
+            },
+            {
+                "item": "allthecompressed:vibrant_alloy_block_2x"
+            },
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "mysticalagriculture:supremium_block"
+            },
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "mysticalagriculture:glowstone_seeds"
+            },
+            {
+                "item": "mysticalagriculture:supremium_block"
+            },
+            {
+                "item": "mysticalagriculture:energetic_alloy_seeds"
+            },
+            {
+                "item": "mysticalagriculture:energetic_alloy_seeds"
+            },
+            {
+                "item": "mysticalagriculture:glowstone_seeds"
+            },
+            {
+                "item": "allthecompressed:vibrant_alloy_block_2x"
+            },
+            {
+                "item": "allthecompressed:vibrant_alloy_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:supremium_block"
+            }
+        ],
+        "result": {
+            "id": "mysticalagriculture:energetic_alloy_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 100000,
+        "input": {
+            "item": "mysticalagriculture:prosperity_seed_base"
+        },
+        "ingredients": [
+            {
+                "item": "mysticalagriculture:supremium_block"
+            },
+            {
+                "item": "allthecompressed:end_steel_block_2x"
+            },
+            {
+                "item": "allthecompressed:end_steel_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:dark_steel_seeds"
+            },
+            {
+                "item": "mysticalagriculture:dark_steel_seeds"
+            },
+            {
+                "item": "mysticalagriculture:end_seeds"
+            },
+            {
+                "item": "mysticalagriculture:supremium_block"
+            },
+            {
+                "item": "allthecompressed:end_steel_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:end_seeds"
+            },
+            {
+                "item": "mysticalagriculture:supremium_block"
+            },
+            {
+                "item": "allthecompressed:end_steel_block_2x"
+            },
+            {
+                "item": "mysticalagriculture:obsidian_seeds"
+            },
+            {
+                "item": "mysticalagriculture:obsidian_seeds"
+            },
+            {
+                "item": "mysticalagriculture:supremium_block"
+            }
+        ],
+        "result": {
+            "id": "mysticalagriculture:end_steel_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": {
+            "item": "mysticalagriculture:end_seeds",
+            "count": 3,
+        },
+        "ingredients": [
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:draconium_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:draconium_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:draconium_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:draconium_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "mysticalagriculture:supremium_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "mysticalagriculture:supremium_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "mysticalagriculture:supremium_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "mysticalagriculture:supremium_block"
+                }
+            },
+        ],
+        "result": {
+            "count": 1,
+            "id": "mysticalagriculture:draconium_seeds"
+        },
+        "techLevel": "draconic",
+        "totalEnergy": 1024000
+    });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 100000,
+        "input": {
+            "item": "mysticalagriculture:prosperity_seed_base"
+        },
+        "ingredients": [
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "mysticalagriculture:supremium_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "mysticalagriculture:supremium_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "mysticalagriculture:supremium_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "mysticalagriculture:supremium_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            },
+            {
+                "item": "bigreactors:cyanite_block"
+            }
+        ],
+        "result": {
+            "id": "mysticalagriculture:cyanite_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "powah:energizing",
+        "energy": 54600000,
+        "ingredients": [
+            { item: 'allthecompressed:emerald_block_2x' },
+            { item: 'allthecompressed:emerald_block_2x' },
+            { item: 'mysticalagriculture:supremium_block' },
+            { item: 'mysticalagriculture:supremium_block' },
+            { item: 'mysticalagriculture:prosperity_seed_base' },
+        ],
+        "result": {
+            "id": 'mysticalagriculture:spirited_crystal_seeds'
+        }
+    });
+
+    event.custom({
+        "type": "powah:energizing",
+        "energy": 500000,
+        "ingredients": [
+            { item: 'allthecompressed:emerald_block_1x' },
+            { item: 'allthecompressed:emerald_block_1x' },
+            { item: 'mysticalagriculture:supremium_block' },
+            { item: 'mysticalagriculture:supremium_block' },
+            { item: 'mysticalagriculture:prosperity_seed_base' },
+        ],
+        "result": {
+            "id": 'mysticalagriculture:uraninite_seeds'
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "  ABA  ",
+            " ACDCA ",
+            "ACDEDCA",
+            "BDE EDB",
+            "ACDEDCA",
+            " ACDCA ",
+            "  ABA  "
+        ],
+        "key": {
+            "A": {
+                "item": "mysticalagradditions:insanium_block"
+            },
+            "B": {
+                "item": "mysticalagradditions:nether_star_crux"
+            },
+            "C": {
+                "item": "mysticalagriculture:nether_seeds"
+            },
+            "D": {
+                "item": "extendedcrafting:nether_star_block"
+            },
+            "E": {
+                "item": "mysticalagriculture:soulium_seed_base"
+            }
+        },
+        "result": {
+            "id": "mysticalagriculture:nether_star_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            " ABCAA ",
+            "ABDEDBA",
+            "BDEFEDA",
+            "CEF FEC",
+            "ADEFEDB",
+            "ABDEDBA",
+            " AACBA "
+        ],
+        "key": {
+            "A": {
+                "item": "mysticalagradditions:insanium_block"
+            },
+            "B": {
+                "item": "mysticalagriculture:end_seeds"
+            },
+            "C": {
+                "item": "mysticalagradditions:dragon_egg_crux"
+            },
+            "D": {
+                "item": "minecraft:dragon_egg"
+            },
+            "E": {
+                "item": "productivebees:draconic_chunk"
+            },
+            "F": {
+                "item": "mysticalagriculture:soulium_seed_base"
+            }
+        },
+        "result": {
+            "id": "mysticalagriculture:dragon_egg_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": {
+            "item": "mysticalagriculture:draconium_seeds",
+            "count": 3,
+        },
+        "ingredients": [
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:awakened_draconium_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:awakened_draconium_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:awakened_draconium_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:awakened_draconium_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "mysticalagradditions:creative_essence"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "mysticalagradditions:creative_essence"
+                }
+            }
+        ],
+        "result": {
+            "count": 1,
+            "id": "mysticalagriculture:awakened_draconium_seeds"
+        },
+        "techLevel": "chaotic",
+        "totalEnergy": 1024000000000
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 20000,
+        "power_rate": 100,
+        "pattern": [
+            "AAB",
+            "CDC",
+            "BAA"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:honey_block"
+            },
+            "B": {
+                "item": "minecraft:honeycomb_block"
+            },
+            "C": {
+                "item": "mysticalagriculture:prudentium_block"
+            },
+            "D": {
+                "item": "mysticalagriculture:prosperity_seed_base"
+            }
+        },
+        "result": {
+            "id": "mysticalagriculture:honey_seeds"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 50000,
+        "input": {
+            "item": "mysticalagriculture:prosperity_seed_base"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:sculk_sensor"
+            },
+            {
+                "item": "mysticalagriculture:tertium_block"
+            },
+            {
+                "item": "mysticalagriculture:tertium_block"
+            },
+            {
+                "item": "minecraft:sculk"
+            },
+            {
+                "item": "minecraft:sculk"
+            },
+            {
+                "item": "minecraft:sculk"
+            },
+            {
+                "item": "minecraft:sculk_shrieker"
+            },
+            {
+                "item": "minecraft:sculk"
+            },
+            {
+                "item": "minecraft:sculk"
+            },
+            {
+                "item": "minecraft:sculk_shrieker"
+            },
+            {
+                "item": "minecraft:sculk"
+            },
+            {
+                "item": "minecraft:sculk"
+            },
+            {
+                "item": "minecraft:sculk"
+            },
+            {
+                "item": "mysticalagriculture:tertium_block"
+            },
+            {
+                "item": "mysticalagriculture:tertium_block"
+            },
+            {
+                "item": "minecraft:sculk_sensor"
+            }
+        ],
+        "result": {
+            "id": "mysticalagriculture:sculk_seeds"
+        }
+    });
 });

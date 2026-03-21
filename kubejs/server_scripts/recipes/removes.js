@@ -65,6 +65,9 @@ const recipesById = [
     'mekmm:ambient_gas_collector',
     'mekanismelements:crafting/adsorption_separator',
     'mekanism:quantum_entangloporter',
+    'mekanism:processing/refined_obsidian/dust/from_obsidian_dust',
+    'mekanism_extras:processing/dust_radiance/from_glowstone',
+    'mekanism_extras:reaction/enriched_radiance_gasification/enriched_thermonuclear',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -320,6 +323,14 @@ const recipesByType = [
 
 const recipesByInput = [];
 
+const keptSeeds = [
+    'pig', 'chicken', 'cow', 'sheep', 'squid', 'fish', 'slime',
+    'turtle', 'armadillo', 'zombie', 'skeleton', 'creeper', 'spider',
+    'phantom', 'rabbit', 'experience', 'breeze', 'blaze', 'ghast',
+    'enderman', 'soulium', 'hop_graphite', 'wither_skeleton'
+];
+const regex = new RegExp(`^mysticalagriculture:(?!(${keptSeeds.join('|')})_seeds$).*_seeds$`);
+
 const recipesByOutput = [
     // Industrial foregoing
     'extendedae:machine_frame',
@@ -331,7 +342,7 @@ const recipesByOutput = [
     'pneumaticcraft:capacitor',
 
     // Mystical Agriculture
-    /mysticalagriculture:.*_seeds/,
+    regex,
 ];
 
 ServerEvents.recipes(event => {

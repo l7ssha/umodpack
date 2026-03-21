@@ -12,6 +12,7 @@
 	quests: [
 		{
 			id: "488B539CE42EB69D"
+			shape: "rsquare"
 			tasks: [{
 				id: "224C68397BFCA134"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -45,6 +46,7 @@
 		}
 		{
 			id: "0159B919DDB6C50C"
+			shape: "rsquare"
 			tasks: [{
 				count: 64L
 				id: "4D31FF6B588A68F3"
@@ -56,6 +58,7 @@
 		}
 		{
 			id: "57B020D1F988BD05"
+			shape: "rsquare"
 			tasks: [{
 				count: 16L
 				id: "54C394A405E811DD"
@@ -185,6 +188,7 @@
 		}
 		{
 			id: "3A0686AAEBCF9C88"
+			shape: "rsquare"
 			tasks: [{
 				count: 16L
 				id: "0B123CF7B1C91EBB"
@@ -196,6 +200,7 @@
 		}
 		{
 			id: "29330205307494F5"
+			shape: "rsquare"
 			tasks: [{
 				count: 32L
 				id: "024743A5747C2A62"
@@ -214,7 +219,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["488B539CE42EB69D"]
@@ -281,19 +286,23 @@
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 6.0d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["440F3A94958353A4"]
+			dependencies: [
+				"440F3A94958353A4"
+				"708C17522E236B2F"
+			]
 			id: "374BE4511E72EB63"
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "4F1C825E5544B36C"
 				type: "checkmark"
 			}]
 			x: 12.0d
-			y: 4.0d
+			y: 5.25d
 		}
 		{
 			dependencies: ["7C2DF69E144D37BB"]
@@ -327,7 +336,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["54B95EA400D84746"]
+			dependencies: ["4192BCA1D9CE7DAD"]
 			id: "0EE7B506F65FB5B8"
 			tasks: [{
 				count: 4L
@@ -335,8 +344,8 @@
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: -0.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0EE7B506F65FB5B8"]
@@ -346,8 +355,72 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(advancednetherite:netherite_iron_ingot)item(advancednetherite:netherite_gold_ingot)item(advancednetherite:netherite_emerald_ingot)item(advancednetherite:netherite_diamond_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.0d
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3A5F5E38EB7F1A0F"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "09821411A773C924"
+			tasks: [{
+				id: "2901B3C74A7D438A"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09821411A773C924"]
+			id: "708C17522E236B2F"
+			tasks: [
+				{
+					count: 4L
+					id: "797157BEEECF1D2F"
+					item: { count: 1, id: "allthemodium:raw_allthemodium" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "494015520A17AEF1"
+					item: { count: 1, id: "allthemodium:allthemodium_ingot" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"708C17522E236B2F"
+				"44D5D873AE1D19B1"
+			]
+			id: "67A40150BE45D620"
+			tasks: [{
+				id: "155C3C560585AF56"
+				item: { components: { "ftbfiltersystem:filter": "or(item(allthemodium:allthemodium_helmet)item(allthemodium:allthemodium_chestplate)item(allthemodium:allthemodium_leggings)item(allthemodium:allthemodium_boots)item(allthemodium:allthemodium_sword)item(allthemodium:allthemodium_pickaxe)item(allthemodium:allthemodium_shovel)item(allthemodium:allthemodium_hoe)item(allthemodium:allthemodium_bow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["67A40150BE45D620"]
+			id: "4A6F7E16BF21B203"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2FC2809FA9A8D4C6"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 8.5d
 		}
 	]
 }
