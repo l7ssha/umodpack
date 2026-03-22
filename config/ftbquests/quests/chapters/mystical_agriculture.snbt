@@ -79,6 +79,8 @@
 		{
 			dependencies: ["3650ABB426DC3920"]
 			id: "47C0C77D36BFE7D9"
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "2D0E2618A7E26713"
 				item: { count: 1, id: "mysticalagradditions:creative_essence" }
@@ -97,6 +99,69 @@
 			}]
 			x: 11.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["47C0C77D36BFE7D9"]
+			hide_dependency_lines: true
+			id: "5E0E4013B7E9D7F8"
+			tasks: [{
+				id: "6060A77663B3D680"
+				item: { count: 1, id: "mysticalagriculture:neutronium_seeds" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3650ABB426DC3920"]
+			hide_dependency_lines: true
+			id: "6EDD86DC539D6D43"
+			tasks: [{
+				id: "11548C4419C6CAC3"
+				item: { count: 1, id: "mysticalagriculture:dragon_egg_seeds" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3650ABB426DC3920"]
+			hide_dependency_lines: true
+			id: "2F2611BAE308D319"
+			tasks: [{
+				id: "6127DEE4D8548A8E"
+				item: { count: 1, id: "mysticalagriculture:nether_star_seeds" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7223411C045AD450"
+				"47C0C77D36BFE7D9"
+			]
+			hide_dependency_lines: true
+			id: "4981A7F18126B649"
+			tasks: [{
+				id: "76028F2EA8A81C77"
+				item: { count: 1, id: "mysticalagriculture:awakened_draconium_seeds" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43FFE2657EAF46A8"]
+			hide_dependency_lines: true
+			id: "7223411C045AD450"
+			tasks: [{
+				id: "078BA5B7A391DDFF"
+				item: { count: 1, id: "mysticalagriculture:draconium_seeds" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
 		}
 	]
 }

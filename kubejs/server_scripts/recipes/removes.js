@@ -320,6 +320,10 @@ const recipesById = [
 
     // Entangled
     'entangled:block',
+
+    // Hostile Neural Networks
+    'hostilenetworks:sim_chamber',
+    'hostilenetworks:loot_fabricator',
 ];
 
 const recipesByType = [
