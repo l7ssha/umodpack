@@ -117,67 +117,25 @@ ServerEvents.recipes(event => {
     }).id('kubejs:pressure_chamber/blazum_ingot');
 
     event.custom({
-        "type": "occultism:ritual",
-        "activation_item": {
-            "item": "occultism:book_of_binding_bound_afrit"
-        },
-        "duration": 600,
-        "ingredients": [
-            {
-                "item": "igleelib:blazum_ingot"
-            },
-            {
-                "item": "igleelib:blazum_ingot"
-            },
-            {
-                "item": "igleelib:blazum_ingot"
-            },
-            {
-                "item": "cataclysm:burning_ashes"
-            },
-            {
-                "item": "cataclysm:burning_ashes"
-            },
-            {
-                "item": "irons_spellbooks:bloody_vellum"
-            },
-            {
-                "item": "irons_spellbooks:bloody_vellum"
-            }
-        ],
-        "pentacle_id": "occultism:craft_afrit",
-        "result": {
-            "count": 1,
-            "id": "igleelib:lavium_ingot"
-        },
-        "ritual_type": "occultism:craft_with_spirit_name"
-    });
-
-    event.custom({
-        "type": "ifeu:precision_shapeless",
-        "chance": 0.2,
+        "type": "enderio:alloy_smelting",
+        "energy": 400000,
+        "experience": 0.1,
         "inputs": [
             {
-                "item": "igleelib:blazum_ingot"
+                "count": 5,
+                "tag": "c:ingots/blazum"
             },
             {
-                "item": "igleelib:blazum_ingot"
+                "count": 2,
+                "tag": "iceandfire:dragon_steels"
             },
             {
-                "item": "cataclysm:burning_ashes"
-            },
-            {
-                "item": "cataclysm:burning_ashes"
-            },
-            {
-                "tag": "iceandfire:dragon_bloods"
-            },
-            {
-                "tag": "iceandfire:dragon_bloods"
+                "count": 1,
+                "tag": "c:ingots/crystalline_pink_slime"
             }
         ],
         "output": {
-            "count": 1,
+            "count": 3,
             "id": "igleelib:lavium_ingot"
         }
     });

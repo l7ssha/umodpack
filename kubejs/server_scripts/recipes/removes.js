@@ -324,6 +324,9 @@ const recipesById = [
     // Hostile Neural Networks
     'hostilenetworks:sim_chamber',
     'hostilenetworks:loot_fabricator',
+
+    // Iron's Spells
+    'irons_spellbooks:arcane_ingot',
 ];
 
 const recipesByType = [
