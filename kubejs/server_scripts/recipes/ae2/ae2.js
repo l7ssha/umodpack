@@ -179,13 +179,13 @@ ServerEvents.recipes(event => {
         "tier": 1,
         "key": {
             "A": {
-                "tag": "ae2:all_certus_quartz"
+                "tag": "c:circuits/basic"
             },
             "B": {
                 "item": "enderio:conduit_binder"
             },
             "C": {
-                "tag": "c:circuits/ultimate"
+                "tag": "ae2:all_certus_quartz"
             },
             "D": {
                 "item": "ae2:logic_processor"

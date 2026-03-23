@@ -10,5 +10,14 @@
   },
   "mysticalagriculture:basalt": {
     "enabled": false
+  },
+  "mysticalagriculture:fiery_ingot": {
+    "tier": "mysticalagriculture:5"
+  },
+  "mysticalagradditions:neutronium": {
+    "tier": "mysticalcustomization:8"
+  },
+  "mysticalagradditions:awakened_draconium": {
+    "tier": "mysticalcustomization:8"
   }
 }

@@ -1457,6 +1457,7 @@ ServerEvents.recipes(event => {
             " BCCCB ",
             "  AAA  "
         ],
+        "tier": 3,
         "key": {
             "A": {
                 "item": "mekanism:hdpe_sheet"

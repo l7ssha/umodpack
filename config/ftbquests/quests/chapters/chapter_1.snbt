@@ -78,8 +78,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 4.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -99,8 +99,10 @@
 			dependencies: [
 				"392B60EBF67DBDF7"
 				"6231D3455A15F110"
+				"0AAD732400831C1C"
 			]
 			id: "34F2C497F6CFF6EB"
+			shape: "octagon"
 			tasks: [{
 				id: "4F171E4320EF29E0"
 				item: { count: 1, id: "mekanism_extras:cosmic_control_circuit" }
@@ -138,6 +140,11 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"2DFFDDA5344C5650"
+				"7CF30AACED5A5619"
+				"4A3FDB9AA6F855D3"
+			]
 			id: "3F04BC5CEA587B6A"
 			tasks: [{
 				id: "38246F118B33C752"
@@ -306,21 +313,30 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"69C2B78BA61BFE10"
+				"544B998E4984D13D"
+			]
 			id: "60375DF6A6222DBE"
-			shape: "octagon"
 			tasks: [{
-				id: "25FB92464A1E5478"
-				item: { count: 1, id: "mekanism_extras:dust_radiance" }
+				id: "2452756068317538"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism_extras:dust_radiance)item(mekanism_extras:enriched_radiance))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.0d
 			y: -6.5d
 		}
 		{
+			dependencies: [
+				"60375DF6A6222DBE"
+				"008E83646A17AE2C"
+			]
+			hide_text_until_complete: false
 			id: "786AA1DD7892F7BB"
 			tasks: [{
-				id: "31042135E3850966"
-				type: "checkmark"
+				id: "4E9701E7BCEC2AB3"
+				item: { count: 1, id: "mekanism_extras:enriched_thermonuclear" }
+				type: "item"
 			}]
 			x: 1.0d
 			y: -6.5d
@@ -341,7 +357,7 @@
 			shape: "octagon"
 			tasks: [{
 				id: "5D0B9DFB1604E2A2"
-				item: { count: 1, id: "alltheores:uranium_dust" }
+				item: { count: 1, id: "evolvedmekanism:enriched_uranium" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -387,8 +403,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(evolvedmekanism:block_better_gold)item(evolvedmekanism:dust_better_gold)item(evolvedmekanism:ingot_better_gold))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.5d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			id: "60AAFC7582FFB4A5"
@@ -410,6 +426,97 @@
 			}]
 			x: 7.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["2E45D3C42069A0E1"]
+			id: "2DFFDDA5344C5650"
+			tasks: [{
+				count: 4L
+				id: "2732298514553C72"
+				item: { count: 1, id: "kubejs:confusion_alloy" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			id: "7CF30AACED5A5619"
+			shape: "octagon"
+			tasks: [{
+				id: "17CD62C8802AE56F"
+				item: { count: 1, id: "allthemodium:unobtainium_ingot" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			id: "69C2B78BA61BFE10"
+			shape: "octagon"
+			tasks: [{
+				id: "5D6EDE022434A531"
+				item: { count: 1, id: "allthemodium:allthemodium_ingot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			id: "544B998E4984D13D"
+			shape: "octagon"
+			tasks: [{
+				count: 8L
+				id: "6CD2E5E777BE9B20"
+				item: { count: 1, id: "minecraft:glowstone_dust" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.0d
+		}
+		{
+			id: "4A3FDB9AA6F855D3"
+			shape: "octagon"
+			tasks: [{
+				count: 2L
+				id: "60F1138B5AFBC5CD"
+				item: { count: 1, id: "mekanism:hdpe_sheet" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				components: {
+					"mekanism:chemicals": {
+						chemical_tanks: [{
+							amount: 9223372036854775807L
+							id: "mekanism:superheated_sodium"
+						}]
+					}
+				}
+				id: "mekanism:creative_chemical_tank"
+			}
+			id: "008E83646A17AE2C"
+			shape: "octagon"
+			tasks: [{
+				id: "76414AF72A75B4E7"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			id: "0AAD732400831C1C"
+			shape: "octagon"
+			tasks: [{
+				count: 16L
+				id: "479C7605DD722D6E"
+				item: { count: 1, id: "mekanismelements:dust_beryllium" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
 		}
 	]
 }

@@ -169,7 +169,7 @@ ServerEvents.recipes(event => {
         63000,
         [
             "3x ae2:cell_component_256k",
-            "1x ae2:quartz_vibrant_glass",
+            "4x #c:circuits/overclocked",
             "2x mekanism:module_base",
             "12x #ae2:smart_cable",
             "8x megacells:accumulation_processor",

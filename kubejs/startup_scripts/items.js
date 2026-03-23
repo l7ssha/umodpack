@@ -12,4 +12,6 @@ StartupEvents.registry('item', event => {
   event.create("ultimate_prediction");
 
   event.create("tesseract").tooltip('It feels weird in your hand').fireResistant();
+
+  event.create("divinium_essence");
 });

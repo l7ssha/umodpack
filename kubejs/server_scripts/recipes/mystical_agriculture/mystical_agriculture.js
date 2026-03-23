@@ -1029,20 +1029,34 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
-            "ABBBA",
-            "BBCBB",
-            "BCACB",
-            "BBCBB",
-            "ABBBA"
+            "AABBBAA",
+            "ABCDCBA",
+            "BEBABFB",
+            "BDABADB",
+            "BEBABFB",
+            "ABGDGBA",
+            "AABBBAA"
         ],
         "key": {
             "A": {
                 "item": "mysticalagriculture:imperium_block"
             },
             "B": {
-                "tag": "twilightforest:fiery_vial"
+                "item": "twilightforest:fiery_tears"
             },
             "C": {
+                "item": "mysticalagriculture:netherite_seeds"
+            },
+            "D": {
+                "item": "mysticalagriculture:gold_seeds"
+            },
+            "E": {
+                "item": "mysticalagriculture:emerald_seeds"
+            },
+            "F": {
+                "item": "mysticalagriculture:diamond_seeds"
+            },
+            "G": {
                 "item": "mysticalagriculture:iron_seeds"
             }
         },
@@ -1496,13 +1510,25 @@ ServerEvents.recipes(event => {
             {
                 "consume": true,
                 "ingredient": {
-                    "item": "mysticalagradditions:creative_essence"
+                    "item": "kubejs:divinium_essence"
                 }
             },
             {
                 "consume": true,
                 "ingredient": {
-                    "item": "mysticalagradditions:creative_essence"
+                    "item": "kubejs:divinium_essence"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "kubejs:divinium_essence"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "kubejs:divinium_essence"
                 }
             }
         ],
@@ -1601,5 +1627,69 @@ ServerEvents.recipes(event => {
         "result": {
             "id": "mysticalagriculture:sculk_seeds"
         }
+    });
+
+    event.custom({
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": {
+            "item": "mysticalagriculture:awakened_draconium_seeds",
+            "count": 2,
+        },
+        "ingredients": [
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "avaritia:neutron"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "avaritia:neutron"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "avaritia:neutron"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "avaritia:neutron"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "kubejs:divinium_essence"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "kubejs:divinium_essence"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "kubejs:divinium_essence"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "kubejs:divinium_essence"
+                }
+            }
+        ],
+        "result": {
+            "count": 1,
+            "id": "mysticalagriculture:neutronium_seeds"
+        },
+        "techLevel": "chaotic",
+        "totalEnergy": 1024000000000000
     });
 });

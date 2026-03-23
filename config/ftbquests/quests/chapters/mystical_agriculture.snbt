@@ -77,7 +77,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3650ABB426DC3920"]
+			dependencies: ["37AD64491C089EE8"]
 			id: "47C0C77D36BFE7D9"
 			shape: "gear"
 			size: 1.5d
@@ -86,7 +86,7 @@
 				item: { count: 1, id: "mysticalagradditions:creative_essence" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 17.25d
 			y: -2.0d
 		}
 		{
@@ -101,7 +101,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["47C0C77D36BFE7D9"]
+			dependencies: [
+				"37AD64491C089EE8"
+				"4981A7F18126B649"
+			]
 			hide_dependency_lines: true
 			id: "5E0E4013B7E9D7F8"
 			tasks: [{
@@ -139,7 +142,7 @@
 		{
 			dependencies: [
 				"7223411C045AD450"
-				"47C0C77D36BFE7D9"
+				"37AD64491C089EE8"
 			]
 			hide_dependency_lines: true
 			id: "4981A7F18126B649"
@@ -162,6 +165,17 @@
 			}]
 			x: 8.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["3650ABB426DC3920"]
+			id: "37AD64491C089EE8"
+			tasks: [{
+				id: "4A61D4B48D4AA3E9"
+				item: { count: 1, id: "kubejs:divinium_essence" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
 		}
 	]
 }

@@ -67,11 +67,13 @@ const recipesById = [
     'mekanism:quantum_entangloporter',
     'mekanism:processing/refined_obsidian/dust/from_obsidian_dust',
     'mekanism_extras:processing/dust_radiance/from_glowstone',
-    'mekanism_extras:reaction/enriched_radiance_gasification/enriched_thermonuclear',
     'mekanism:sps_casing',
     'mekanism:sps_port',
     'mekanism:structural_glass',
     'mekanismelements:crafting/structural_glass',
+    'evolvedmekanism:chemixing/dust_plaslitherite',
+    'evolvedmekanism:chemixing/ingot_plaslitherite',
+    'evolvedmekanism:chemixing/block_plaslitherite',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -144,7 +146,7 @@ const recipesById = [
     'ae2omnicells:type_fuzzy_card',
     'extendedae:tape',
     'megacells:crafting/radioactive_cell_component',
-    /ae2:network\/cell\/.*_storage_cell_.*k$/,
+    /ae2:network\/cells\/item_storage_cell_\d+k$/,
     /apprep:cells\/matter_cell_.*[km]$/,
     /appflux:.*_fe_cell$/,
     /appliedsoul:soul_storage_cell_.*k$/,
@@ -343,7 +345,7 @@ const keptSeeds = [
     'phantom', 'rabbit', 'experience', 'breeze', 'blaze', 'ghast',
     'enderman', 'soulium', 'hop_graphite', 'wither_skeleton'
 ];
-const regex = new RegExp(`^mysticalagriculture:(?!(${keptSeeds.join('|')})_seeds$).*_seeds$`);
+const keptSeedsRegex = new RegExp(`^mysticalagriculture:(?!(${keptSeeds.join('|')})_seeds$).*_seeds$`);
 
 const recipesByOutput = [
     // Industrial foregoing
@@ -356,7 +358,7 @@ const recipesByOutput = [
     'pneumaticcraft:capacitor',
 
     // Mystical Agriculture
-    regex,
+    keptSeedsRegex,
 ];
 
 ServerEvents.recipes(event => {

@@ -14,6 +14,7 @@
 			id: "488B539CE42EB69D"
 			shape: "octagon"
 			tasks: [{
+				count: 32L
 				id: "224C68397BFCA134"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -103,19 +104,19 @@
 		}
 		{
 			dependencies: [
-				"652CF28153B1A736"
 				"29330205307494F5"
 				"3A0686AAEBCF9C88"
 			]
 			id: "3A5F5E38EB7F1A0F"
 			optional: true
+			shape: "square"
 			tasks: [{
 				id: "5FC9CAD87E3A79E3"
 				item: { components: { "ftbfiltersystem:filter": "or(item(mekanismtools:refined_obsidian_helmet)item(mekanismtools:refined_obsidian_chestplate)item(mekanismtools:refined_obsidian_leggings)item(mekanismtools:refined_obsidian_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.0d
+			x: -7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7C2DF69E144D37BB"]
@@ -199,7 +200,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "29330205307494F5"
@@ -311,7 +312,7 @@
 				type: "checkmark"
 			}]
 			x: 12.0d
-			y: 5.25d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7C2DF69E144D37BB"]
@@ -368,7 +369,10 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["3A5F5E38EB7F1A0F"]
+			dependencies: [
+				"29330205307494F5"
+				"3A0686AAEBCF9C88"
+			]
 			icon: {
 				components: {
 					"ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png"
@@ -376,11 +380,19 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "09821411A773C924"
-			tasks: [{
-				id: "2901B3C74A7D438A"
-				structure: "minecraft:ancient_city"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					id: "2901B3C74A7D438A"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:warden"
+					id: "524F60B5DFFF331C"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: -0.5d
 			y: 6.0d
 		}

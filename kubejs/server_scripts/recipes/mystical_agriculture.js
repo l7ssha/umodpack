@@ -163,10 +163,10 @@ ServerEvents.recipes(event => {
                 "item": "draconicevolution:dragon_heart"
             },
             {
-                "item": "mysticalagradditions:insanium_gemstone_block"
+                "item": "kubejs:divinium_essence"
             },
             {
-                "item": "mysticalagradditions:insanium_gemstone_block"
+                "item": "kubejs:divinium_essence"
             },
             {
                 "item": "mysticalagradditions:insanium_gemstone_block"
@@ -185,16 +185,16 @@ ServerEvents.recipes(event => {
         },
         "ingredients": [
             {
-                "item": "mysticalagradditions:creative_essence"
+                "item": "kubejs:divinium_essence"
             },
             {
-                "item": "mysticalagradditions:creative_essence"
+                "item": "kubejs:divinium_essence"
             },
             {
-                "item": "mysticalagradditions:creative_essence"
+                "item": "kubejs:divinium_essence"
             },
             {
-                "item": "mysticalagradditions:creative_essence"
+                "item": "kubejs:divinium_essence"
             },
             {
                 "item": "avaritia:neutron"

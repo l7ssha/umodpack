@@ -82,7 +82,7 @@ ServerEvents.recipes(event => {
             "id": "alltheores:enderium_ingot"
         }
     });
-    
+
     event.custom({
         "type": "enderio:alloy_smelting",
         "energy": 6400,

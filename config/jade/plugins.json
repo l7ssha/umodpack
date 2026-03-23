@@ -83,6 +83,9 @@
     "block_properties": false,
     "mod_name": true
   },
+  "modular_machinery_reborn_energistics": {
+    "me_entity_component_provider": true
+  },
   "allthemodium": {
     "teleport_pad": true
   },
