@@ -20,7 +20,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["488B539CE42EB69D"]
@@ -32,7 +32,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["545B580AECEE19C2"]
@@ -43,11 +43,11 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["71F3692E37561F71"]
 			id: "0159B919DDB6C50C"
-			shape: "octagon"
 			tasks: [{
 				count: 64L
 				id: "4D31FF6B588A68F3"
@@ -55,7 +55,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 2.5d
+			y: 0.0d
 		}
 		{
 			id: "57B020D1F988BD05"
@@ -67,7 +67,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -82,7 +82,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["545B580AECEE19C2"]
@@ -115,8 +115,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(mekanismtools:refined_obsidian_helmet)item(mekanismtools:refined_obsidian_chestplate)item(mekanismtools:refined_obsidian_leggings)item(mekanismtools:refined_obsidian_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 6.5d
+			x: -5.0d
+			y: 6.75d
 		}
 		{
 			dependencies: ["7C2DF69E144D37BB"]
@@ -129,7 +129,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["488B539CE42EB69D"]
@@ -140,8 +140,8 @@
 				id: "3A2E3F167838839D"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: -8.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["29330205307494F5"]
@@ -155,7 +155,7 @@
 				type: "dimension"
 			}]
 			x: -2.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4192BCA1D9CE7DAD"]
@@ -169,7 +169,7 @@
 				type: "dimension"
 			}]
 			x: -2.5d
-			y: 10.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["3C56124632611995"]
@@ -188,18 +188,18 @@
 				}
 			]
 			x: -0.5d
-			y: 10.5d
+			y: 12.5d
 		}
 		{
+			dependencies: ["545B580AECEE19C2"]
 			id: "3A0686AAEBCF9C88"
-			shape: "octagon"
 			tasks: [{
 				count: 16L
 				id: "0B123CF7B1C91EBB"
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -2.5d
 			y: 5.5d
 		}
 		{
@@ -211,7 +211,7 @@
 				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -2.5d
 			y: 8.0d
 		}
 		{
@@ -223,7 +223,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 7.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["488B539CE42EB69D"]
@@ -235,8 +235,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:seeds/wheat)item_tag(c:seeds/beetroot)item_tag(c:crops))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.5d
+			x: -7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6173FF975787DD1C"]
@@ -259,7 +259,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7596D401A9F6E18D"]
@@ -270,7 +270,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -284,7 +284,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["440F3A94958353A4"]
@@ -296,13 +296,14 @@
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"440F3A94958353A4"
 				"708C17522E236B2F"
+				"54B95EA400D84746"
 			]
 			id: "374BE4511E72EB63"
 			shape: "gear"
@@ -312,7 +313,7 @@
 				type: "checkmark"
 			}]
 			x: 12.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7C2DF69E144D37BB"]
@@ -343,7 +344,7 @@
 				}
 			]
 			x: 4.5d
-			y: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4192BCA1D9CE7DAD"]
@@ -355,7 +356,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0EE7B506F65FB5B8"]
@@ -366,7 +367,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -393,8 +394,8 @@
 					value: 1L
 				}
 			]
-			x: -0.5d
-			y: 6.0d
+			x: 2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["09821411A773C924"]
@@ -415,7 +416,7 @@
 				}
 			]
 			x: 4.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -429,7 +430,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["67A40150BE45D620"]
@@ -441,7 +442,7 @@
 				type: "checkmark"
 			}]
 			x: 12.0d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["71F3692E37561F71"]
@@ -453,8 +454,8 @@
 				item: { count: 1, id: "immersiveengineering:craftingtable" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: -7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["488B539CE42EB69D"]
@@ -465,8 +466,8 @@
 				item: { count: 1, id: "minecraft:coal" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: -5.0d
+			y: 2.0d
 		}
 	]
 }

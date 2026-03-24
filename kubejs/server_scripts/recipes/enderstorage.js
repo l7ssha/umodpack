@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         ],
         "key": {
             "A": {
-                "tag": "c:ingots/blazegold"
+                "tag": "advancednetherite:ingot/netherites_gold"
             },
             "B": {
                 "item": "replication:memory_chip"
@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
                 "item": "replication:memory_chip"
             },
             "B": {
-                "tag": "c:ingots/blazegold"
+                "tag": "advancednetherite:ingot/netherites_gold"
             },
             "C": {
                 "item": "mob_grinding_utils:tank"

@@ -54,7 +54,7 @@
 	#How much FE/t the Quantum Compressor should use when crafting by default.
 	# Default: 5000
 	# Range: > 0
-	powerRate = 10000
+	powerRate = 100000
 
 #Settings for the Ender Crafter.
 ["Ender Crafting"]

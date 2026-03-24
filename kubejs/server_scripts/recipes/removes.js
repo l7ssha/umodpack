@@ -74,6 +74,7 @@ const recipesById = [
     'evolvedmekanism:chemixing/dust_plaslitherite',
     'evolvedmekanism:chemixing/ingot_plaslitherite',
     'evolvedmekanism:chemixing/block_plaslitherite',
+    'evolvedmekanism:processing/refined_redstone/ingot/from_dust',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -167,6 +168,7 @@ const recipesById = [
     'advanced_ae:quantum_leggings',
     'advanced_ae:quantum_boots',
     'extendedae:threshold_export_bus',
+    /appgen:inscriber\/.*_dust/,
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
@@ -306,6 +308,7 @@ const recipesById = [
     'draconicevolution:components/wyvern_energy_core',
     'draconicevolution:components/draconium_core',
     'draconicevolution:infused_obsidian',
+    'draconicevolution:components/wyvern_core',
 
     // RFTools
     'rftoolsbase:infused_enderpearl',
@@ -329,6 +332,9 @@ const recipesById = [
 
     // Iron's Spells
     'irons_spellbooks:arcane_ingot',
+
+    // Ender IO
+    're_endergy:alloy_smelter/stellar_alloy_ingot',
 ];
 
 const recipesByType = [
@@ -359,6 +365,11 @@ const recipesByOutput = [
 
     // Mystical Agriculture
     keptSeedsRegex,
+
+    // Advanced AE
+    'advanced_ae:quantum_alloy_plate',
+    'advanced_ae:quantum_alloy',
+    'advanced_ae:shattered_singularity',
 ];
 
 ServerEvents.recipes(event => {

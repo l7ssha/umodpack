@@ -83,25 +83,19 @@ ServerEvents.recipes(event => {
             {
                 "consume": true,
                 "ingredient": {
-                    "item": "draconicevolution:draconium_core"
+                    "item": "draconicevolution:wyvern_core"
                 }
             },
             {
                 "consume": true,
                 "ingredient": {
-                    "item": "draconicevolution:draconium_core"
+                    "item": "draconicevolution:wyvern_core"
                 }
             },
             {
                 "consume": true,
                 "ingredient": {
-                    "item": "draconicevolution:draconium_core"
-                }
-            },
-            {
-                "consume": true,
-                "ingredient": {
-                    "item": "draconicevolution:dragon_heart"
+                    "item": "draconicevolution:wyvern_core"
                 }
             },
             {
@@ -113,19 +107,25 @@ ServerEvents.recipes(event => {
             {
                 "consume": true,
                 "ingredient": {
-                    "item": "draconicevolution:draconium_core"
+                    "item": "draconicevolution:dragon_heart"
                 }
             },
             {
                 "consume": true,
                 "ingredient": {
-                    "item": "draconicevolution:draconium_core"
+                    "item": "draconicevolution:wyvern_core"
                 }
             },
             {
                 "consume": true,
                 "ingredient": {
-                    "item": "draconicevolution:draconium_core"
+                    "item": "draconicevolution:wyvern_core"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:wyvern_core"
                 }
             },
             {
@@ -347,6 +347,43 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "draconicevolution:infused_obsidian"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:combination",
+        "power_cost": 500000,
+        "input": {
+            "item": "draconicevolution:infused_obsidian"
+        },
+        "ingredients": [
+            {
+                "tag": "c:ingots/stellar_alloy"
+            },
+            {
+                "tag": "c:ingots/stellar_alloy"
+            },
+            {
+                "item": "draconicevolution:draconium_core"
+            },
+            {
+                "item": "draconicevolution:draconium_core"
+            },
+            {
+                "tag": "c:ingots/stellar_alloy"
+            },
+            {
+                "item": "draconicevolution:draconium_core"
+            },
+            {
+                "tag": "c:ingots/stellar_alloy"
+            },
+            {
+                "item": "draconicevolution:draconium_core"
+            }
+        ],
+        "result": {
+            "id": "draconicevolution:wyvern_core"
         }
     });
 });

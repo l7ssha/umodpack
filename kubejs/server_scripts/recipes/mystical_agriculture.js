@@ -3,20 +3,18 @@ ServerEvents.recipes(event => {
         "type": "extendedcrafting:shaped_table",
         "pattern": [
             "AAAAB",
-            "ACCCA",
+            "AAAAA",
             "ABDBA",
-            "ACCCA",
+            "AAAAA",
             "BAAAB"
         ],
+        "tier": 2,
         "key": {
             "A": {
-                "item": "mysticalagradditions:insanium_block"
+                "item": "kubejs:divinium_essence"
             },
             "B": {
                 "item": "mysticalagriculture:master_infusion_crystal"
-            },
-            "C": {
-                "item": "mysticalagradditions:insanium_ingot_block"
             },
             "D": {
                 "item": "avaritia:infinity_catalyst"

@@ -1,0 +1,114 @@
+ServerEvents.recipes(event => {
+    event.custom({
+        "type": "advanced_ae:reaction",
+        "input_energy": 100000000,
+        "input_fluid": {
+            "amount": 3000,
+            "ingredient": {
+                "fluid": "advanced_ae:quantum_infusion_source"
+            }
+        },
+        "input_items": [
+            {
+                "amount": 11,
+                "ingredient": {
+                    "item": "advanced_ae:quantum_alloy"
+                }
+            },
+            {
+                "amount": 4,
+                "ingredient": {
+                    "tag": "c:ingots/eclipsealloy"
+                }
+            },
+            {
+                "ingredient": {
+                    "item": "appliedsoul:ender_star"
+                }
+            }
+        ],
+        "output": {
+            "#": 1,
+            "#t": "ae2:i",
+            "id": "advanced_ae:quantum_alloy_plate"
+        }
+    });
+
+    event.custom({
+        "type": "advanced_ae:reaction",
+        "input_energy": 20000000,
+        "input_fluid": {
+            "amount": 4000,
+            "ingredient": {
+                "fluid": "minecraft:lava"
+            }
+        },
+        "input_items": [
+            {
+                "amount": 3,
+                "ingredient": {
+                    "item": "ae2:singularity"
+                }
+            },
+            {
+                "amount": 6,
+                "ingredient": {
+                    "tag": "c:ingots/enderium"
+                }
+            },
+            {
+                "amount": 32,
+                "ingredient": {
+                    "item": "ae2:sky_dust"
+                }
+            }
+        ],
+        "output": {
+            "#": 2,
+            "#t": "ae2:i",
+            "id": "advanced_ae:shattered_singularity"
+        }
+    });
+
+    event.custom({
+        "type": "advanced_ae:reaction",
+        "input_energy": 1000000,
+        "input_fluid": {
+            "amount": 2500,
+            "ingredient": {
+                "fluid": "advanced_ae:quantum_infusion_source"
+            }
+        },
+        "input_items": [
+            {
+                "amount": 16,
+                "ingredient": {
+                    "tag": "c:ingots/sky_osmium"
+                }
+            },
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "kubejs:abbysal_alloy"
+                }
+            },
+            {
+                "amount": 9,
+                "ingredient": {
+                    "item": "advanced_ae:shattered_singularity"
+                }
+            },
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "ae2omnicells:charged_ender_ingot"
+                }
+            }
+        ],
+        "output": {
+            "#": 3,
+            "#t": "ae2:i",
+            "id": "advanced_ae:quantum_alloy"
+        }
+    });
+});

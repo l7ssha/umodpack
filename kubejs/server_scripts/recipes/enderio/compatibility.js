@@ -74,7 +74,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "count": 2,
-                "tag": "c:ender_pearls"
+                "tag": "c:ingots/ender_ingot"
             }
         ],
         "output": {
