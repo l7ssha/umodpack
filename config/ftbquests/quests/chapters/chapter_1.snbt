@@ -34,7 +34,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -48,7 +48,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -78,8 +78,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 6.0d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -93,7 +93,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -109,7 +109,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -123,7 +123,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -137,7 +137,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -152,7 +152,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -166,7 +166,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -194,7 +194,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -310,7 +310,7 @@
 				type: "checkmark"
 			}]
 			x: -1.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -324,7 +324,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -339,7 +339,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			id: "6231D3455A15F110"
@@ -361,7 +361,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			id: "5A6636CD5C72A31D"
@@ -370,7 +370,7 @@
 				type: "checkmark"
 			}]
 			x: 9.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["60AAFC7582FFB4A5"]
@@ -403,8 +403,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(evolvedmekanism:block_better_gold)item(evolvedmekanism:dust_better_gold)item(evolvedmekanism:ingot_better_gold))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			id: "60AAFC7582FFB4A5"
@@ -425,7 +425,7 @@
 				type: "checkmark"
 			}]
 			x: 7.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2E45D3C42069A0E1"]
@@ -436,8 +436,8 @@
 				item: { count: 1, id: "kubejs:confusion_alloy" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			id: "7CF30AACED5A5619"
@@ -448,7 +448,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 6.0d
+			y: 3.5d
 		}
 		{
 			id: "69C2B78BA61BFE10"
@@ -458,8 +458,8 @@
 				item: { count: 1, id: "allthemodium:allthemodium_ingot" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -9.0d
+			x: -2.0d
+			y: -6.5d
 		}
 		{
 			id: "544B998E4984D13D"
@@ -471,7 +471,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -9.0d
+			y: -6.5d
 		}
 		{
 			id: "4A3FDB9AA6F855D3"
@@ -483,7 +483,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 6.0d
+			y: 3.5d
 		}
 		{
 			icon: {
@@ -504,7 +504,7 @@
 				type: "checkmark"
 			}]
 			x: 1.0d
-			y: -9.0d
+			y: -6.5d
 		}
 		{
 			id: "0AAD732400831C1C"
@@ -516,7 +516,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -6.5d
+			y: -5.0d
 		}
 	]
 }
