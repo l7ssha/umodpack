@@ -1,9 +1,19 @@
+const replaceIronWithPlates = [
+    'minecraft:hopper',
+    'minecraft:minecart',
+    'minecraft:cauldron',
+    'minecraft:crafter',
+    'minecraft:compass'
+];
+
 ServerEvents.recipes(event => {
-    event.replaceInput(
-        { id: 'minecraft:crafter' },
-        'minecraft:iron_ingot',
-        { tag: 'c:plates/iron' }
-    );
+    replaceIronWithPlates.forEach(element => {
+        event.replaceInput(
+            { output: element },
+            'minecraft:iron_ingot',
+            { tag: 'c:plates/iron' }
+        );
+    });
 
     event.custom({
         "type": "extendedcrafting:shaped_ender_crafter",
@@ -107,6 +117,187 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "minecraft:ender_chest"
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            "AAA",
+            "ABA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:dusts/wood"
+            },
+            "B": {
+                "item": "minecraft:water_bucket"
+            }
+        },
+        "result": {
+            "id": "minecraft:paper"
+        }
+    });
+
+    event.custom({
+        "type": "mekmm:stamper",
+        "input": {
+            "count": 11,
+            "tag": "c:dusts/wood"
+        },
+        "mold": {
+            "count": 1,
+            "item": "immersiveengineering:mold_plate"
+        },
+        "output": {
+            "count": 2,
+            "id": `minecraft:paper`
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            "AAA",
+            "BCB",
+            "BDB"
+        ],
+        "key": {
+            "A": {
+                "tag": "immersiveengineering:treated_wood_slab"
+            },
+            "B": {
+                "item": "allthecompressed:cobblestone_1x"
+            },
+            "C": {
+                "tag": "c:rods/iron"
+            },
+            "D": {
+                "tag": "c:storage_blocks/redstone"
+            }
+        },
+        "result": {
+            "id": "minecraft:piston"
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            " A ",
+            "ABC",
+            " CB"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:plates/iron"
+            },
+            "B": {
+                "tag": "c:leathers"
+            },
+            "C": {
+                "tag": "c:rods/treated_wood"
+            }
+        },
+        "result": {
+            "id": "minecraft:shears"
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:rods/iron"
+            }
+        },
+        "result": {
+            "id": "minecraft:iron_bars"
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            "AAA",
+            "A A",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "allthecompressed:cobblestone_1x"
+            }
+        },
+        "result": {
+            "id": "minecraft:furnace"
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            "AAA",
+            "ABC",
+            "AC "
+        ],
+        "key": {
+            "A": {
+                "tag": "c:paper"
+            },
+            "B": {
+                "tag": "c:strings"
+            },
+            "C": {
+                "tag": "c:leathers"
+            }
+        },
+        "result": {
+            "id": "minecraft:book"
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            "AAA",
+            "ABA",
+            "C C"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:leathers"
+            },
+            "B": {
+                "tag": "c:strings"
+            },
+            "C": {
+                "tag": "c:plates/iron"
+            }
+        },
+        "result": {
+            "id": "minecraft:saddle"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AB ",
+            "BC ",
+            "C  "
+        ],
+        "key": {
+            "A": {
+                "tag": "c:ingots/steel"
+            },
+            "B": {
+                "tag": "c:wires/aluminum"
+            },
+            "C": {
+                "item": "minecraft:flint"
+            }
+        },
+        "result": {
+            "id": "minecraft:flint_and_steel"
         }
     });
 });

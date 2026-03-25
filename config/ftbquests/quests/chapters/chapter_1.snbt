@@ -186,6 +186,7 @@
 			dependencies: [
 				"34F2C497F6CFF6EB"
 				"5A6636CD5C72A31D"
+				"52E661275A2B5499"
 			]
 			id: "1FF1F79EAA4660B9"
 			tasks: [{
@@ -369,7 +370,7 @@
 				id: "13C71FDF85F77A2C"
 				type: "checkmark"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: -5.0d
 		}
 		{
@@ -516,6 +517,17 @@
 				type: "item"
 			}]
 			x: 6.0d
+			y: -5.0d
+		}
+		{
+			id: "52E661275A2B5499"
+			tasks: [{
+				count: 4L
+				id: "61432C2D4EA008D3"
+				item: { count: 1, id: "mekanismelements:dust_yttrium" }
+				type: "item"
+			}]
+			x: 9.0d
 			y: -5.0d
 		}
 	]

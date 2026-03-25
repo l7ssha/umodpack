@@ -3,6 +3,11 @@ const recipesById = [
     'minecraft:shulker_box',
     'minecraft:ender_eye',
     'minecraft:netherite_ingot',
+    'minecraft:shears',
+    'minecraft:iron_bars',
+    'minecraft:furnace',
+    'minecraft:book',
+    'minecraft:flint_and_steel',
 
     // Mekanism and addons
     /evolvedmekanism.*creative.*/,
@@ -181,7 +186,6 @@ const recipesById = [
     // Other
     "igleelib:modium_ingot",
     'endermanoverhaul:ender_eye',
-    'immersiveengineering:smelting/ingot_uranium',
     'bigreactors:blasting/yellorium_from_ore',
 
     // Iglee Lib
@@ -279,10 +283,12 @@ const recipesById = [
     'deeperdarker:soul_elytra',
 
     // Immersive Engineering
-    /immersiveengineering:crafting\/stick_.*/,
+    /^immersiveengineering:crafting\/stick_(?!treated$).*/,
     'immersiveengineering:crafting/drill',
     /immersiveengineering:crafting\/raw_hammer.*/,
     /immersiveengineering:crafting\/hammer.*/,
+    /immersiveengineering:crafting\/plate_.*_hammering$/,
+    'immersiveengineering:smelting/ingot_uranium',
 
     // Sophisticated Storage 
     'sophisticatedbackpacks:backpack',
@@ -293,6 +299,7 @@ const recipesById = [
     'sophisticatedstorage:iron_to_netherite_tier_upgrade',
     'sophisticatedstorage:gold_to_netherite_tier_upgrade',
     'sophisticatedstorage:diamond_to_netherite_tier_upgrade',
+    /sophisticatedstorage:tier_upgrade_.*_to_.*/,
 
     // StevesCarts2
     'stevescarts:component/component_lump_of_galgador',
@@ -335,6 +342,9 @@ const recipesById = [
 
     // Ender IO
     're_endergy:alloy_smelter/stellar_alloy_ingot',
+
+    // Aether
+    'aether:aether_saddle',
 ];
 
 const recipesByType = [
@@ -354,6 +364,10 @@ const keptSeeds = [
 const keptSeedsRegex = new RegExp(`^mysticalagriculture:(?!(${keptSeeds.join('|')})_seeds$).*_seeds$`);
 
 const recipesByOutput = [
+    // Minecraft
+    'minecraft:paper',
+    'minecraft:piston',
+
     // Industrial foregoing
     'extendedae:machine_frame',
     'ifeu:precision_crafting_table',
@@ -370,6 +384,7 @@ const recipesByOutput = [
     'advanced_ae:quantum_alloy_plate',
     'advanced_ae:quantum_alloy',
     'advanced_ae:shattered_singularity',
+    'ae2:singularity',
 ];
 
 ServerEvents.recipes(event => {

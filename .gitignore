@@ -70,3 +70,4 @@ config/jei/jei-debug.ini
 config/jei/jei-mod-id-format.ini
 !jei-client.ini
 moddata/
+WaypointData*

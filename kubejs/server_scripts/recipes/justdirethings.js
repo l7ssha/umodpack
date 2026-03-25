@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
         "item": "minecraft:nether_wart"
       },
       "E": {
-        "item": "hostilenetworks:nether_prediction"
+        "item": "minecraft:red_nether_bricks"
       }
     },
     "result": {

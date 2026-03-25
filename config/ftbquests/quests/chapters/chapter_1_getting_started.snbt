@@ -140,7 +140,7 @@
 				id: "3A2E3F167838839D"
 				type: "checkmark"
 			}]
-			x: -8.5d
+			x: -7.5d
 			y: 4.0d
 		}
 		{
@@ -236,7 +236,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6173FF975787DD1C"]

@@ -83,9 +83,6 @@
     "block_properties": false,
     "mod_name": true
   },
-  "modular_machinery_reborn_energistics": {
-    "me_entity_component_provider": true
-  },
   "allthemodium": {
     "teleport_pad": true
   },
@@ -240,6 +237,9 @@
     "infused_farmland": true,
     "crop": true,
     "inferium_crop": true
+  },
+  "ae2labeledpatterns": {
+    "pattern_provider_label": true
   },
   "modular_machinery_reborn": {
     "machine_component_provider": true,

@@ -6,5 +6,6 @@
   ],
   "ingredient": {
     "item": "evolvedmekanism:alloy_exoversal"
-  }
+  },
+  "materialCount": 1000
 }
