@@ -18,7 +18,7 @@
 				item: { count: 1, id: "extendedcrafting:basic_table" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -29,7 +29,7 @@
 				item: { count: 1, id: "extendedcrafting:advanced_table" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -40,7 +40,7 @@
 				item: { count: 1, id: "extendedcrafting:elite_table" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -51,7 +51,7 @@
 				item: { count: 1, id: "extendedcrafting:ultimate_table" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: 0.0d
 		}
 		{
@@ -62,8 +62,8 @@
 				item: { count: 1, id: "avaritia:nether_crafting_table" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -2.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["752012C033211295"]
@@ -73,8 +73,8 @@
 				item: { count: 1, id: "extendedcrafting:basic_auto_table" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.5d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1C765E6746810251"]
@@ -84,8 +84,8 @@
 				item: { count: 1, id: "extendedcrafting:advanced_auto_table" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6DDC4EE76897441D"]
@@ -95,8 +95,8 @@
 				item: { count: 1, id: "extendedcrafting:elite_auto_table" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -2.5d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7A05F7F4609EB74A"]
@@ -106,8 +106,8 @@
 				item: { count: 1, id: "extendedcrafting:ultimate_auto_table" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.5d
+			x: 8.5d
+			y: -2.0d
 		}
 		{
 			id: "0ECC339901164D63"
@@ -116,7 +116,7 @@
 				id: "6F87B0CE7B116546"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -174,6 +174,74 @@
 			}]
 			x: -0.5d
 			y: -7.0d
+		}
+		{
+			dependencies: ["47B09140069084EB"]
+			id: "2425711B2DC47FB9"
+			optional: true
+			tasks: [{
+				id: "4B2509E59AC3E7EF"
+				item: { count: 1, id: "extendedcrafting:flux_alternator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5E38A939F96362FB"]
+			id: "7D4616204C4B5662"
+			optional: true
+			tasks: [{
+				id: "7E284A1984E31679"
+				item: { count: 1, id: "extendedcrafting:ender_alternator" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6ACC0BF99D3F1944"]
+			id: "2735CFC4304525F2"
+			tasks: [{
+				id: "411E1AFCF2BE681F"
+				item: { count: 1, id: "packagedexcrafting:basic_crafter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["434092E93C63B6EE"]
+			id: "6F167529384555DD"
+			tasks: [{
+				id: "3B2A27536EB049E1"
+				item: { count: 1, id: "packagedexcrafting:advanced_crafter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BFE3E87E808BFFC"]
+			id: "0422C27FA9125968"
+			tasks: [{
+				id: "1DFB74D4EF84F65F"
+				item: { count: 1, id: "packagedexcrafting:elite_crafter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7F4B51EAE25797D1"]
+			id: "39594B726B7B1EC2"
+			tasks: [{
+				id: "7E92DF8CF6F81CA1"
+				item: { count: 1, id: "packagedexcrafting:ultimate_crafter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
 		}
 	]
 }

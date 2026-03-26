@@ -115,8 +115,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(mekanismtools:refined_obsidian_helmet)item(mekanismtools:refined_obsidian_chestplate)item(mekanismtools:refined_obsidian_leggings)item(mekanismtools:refined_obsidian_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 6.75d
+			x: -2.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7C2DF69E144D37BB"]
@@ -211,7 +211,7 @@
 				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -5.0d
 			y: 8.0d
 		}
 		{
@@ -394,8 +394,8 @@
 					value: 1L
 				}
 			]
-			x: 2.0d
-			y: 7.0d
+			x: -0.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["09821411A773C924"]
@@ -416,7 +416,7 @@
 				}
 			]
 			x: 4.5d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [

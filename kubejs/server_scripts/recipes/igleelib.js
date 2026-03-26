@@ -103,7 +103,7 @@ ServerEvents.recipes(event => {
                 "count": 6
             },
             {
-                "item": "biomesoplenty:rose_quartz_chunk",
+                "item": "minecraft:quartz",
                 "count": 24
             },
         ],

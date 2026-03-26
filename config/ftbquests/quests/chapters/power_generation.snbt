@@ -16,7 +16,9 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1BC9182D96DA4FE3"]
 			id: "61042D2A138D6F6E"
+			shape: "octagon"
 			tasks: [{
 				id: "0F2889A3897F86B8"
 				item: { components: { "ftbfiltersystem:filter": "and()item_tag(c:coal)" }, count: 1, id: "ftbfiltersystem:smart_filter" }

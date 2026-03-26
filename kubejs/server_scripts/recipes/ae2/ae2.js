@@ -92,26 +92,6 @@ ServerEvents.recipes(event => {
         'ae2:fluix_dust'
     );
 
-    event.shapeless({
-        "ingredients": [
-            {
-                "item": "ae2:fluix_covered_cable"
-            },
-            {
-                "item": "minecraft:glowstone_dust"
-            },
-            {
-                "item": "minecraft:redstone"
-            },
-            {
-                "item": "ae2:engineering_processor"
-            }
-        ],
-        "result": {
-            "id": "ae2:fluix_smart_cable"
-        }
-    });
-
     event.shaped({
         "pattern": [
             " A ",
@@ -123,7 +103,7 @@ ServerEvents.recipes(event => {
                 "item": "minecraft:white_wool"
             },
             "B": {
-                "item": "minecraft:string"
+                "tag": "c:fabric_hemp"
             },
             "C": {
                 "item": "ae2:fluix_glass_cable"
@@ -774,4 +754,73 @@ ServerEvents.recipes(event => {
             "id": "extendedae:threshold_export_bus"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 50000,
+        "power_rate": 1000,
+        "pattern": [
+            "ABA",
+            "CDC",
+            "EEE"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:rods/electrum"
+            },
+            "B": {
+                "item": "ae2:fluix_pearl"
+            },
+            "C": {
+                "item": "draconicevolution:basic_wireless_crystal"
+            },
+            "D": {
+                "item": "draconicevolution:dislocator"
+            },
+            "E": {
+                "tag": "c:plates/enderium"
+            }
+        },
+        "result": {
+            "id": "ae2:wireless_receiver"
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            "AAA",
+            "BBB",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:dusts/fluix"
+            },
+            "B": {
+                "item": "ae2:quartz_fiber"
+            }
+        },
+        "result": {
+            "amount": 2,
+            "id": "ae2:fluix_glass_cable"
+        }
+    });
+
+    event.replaceInput(
+        { id: 'ae2:network/parts/quartz_fiber_part' },
+        '#c:glass_blocks/cheap',
+        'ae2:quartz_glass'
+    );
+
+    event.replaceInput(
+        { id: 'ae2:network/parts/quartz_fiber_part' },
+        '#c:glass_blocks/cheap',
+        'ae2:quartz_glass'
+    );
+
+    event.replaceInput(
+        { id: 'ae2:network/parts/quartz_fiber_part' },
+        'ae2:certus_quartz_dust',
+        '#c:dusts/ruby'
+    );
 });

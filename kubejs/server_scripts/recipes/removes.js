@@ -174,6 +174,13 @@ const recipesById = [
     'advanced_ae:quantum_boots',
     'extendedae:threshold_export_bus',
     /appgen:inscriber\/.*_dust/,
+    'extendedae:assembler/wireless_connector',
+    'extendedae:assembler/wireless_hub',
+    'extendedae_plus:wireless_transceiver',
+    'ae2:network/wireless_part',
+    'extendedae_plus:mirror_pattern_provider',
+    'ae2:fluix_smart_cable',
+    'ae2:network/cables/glass_fluix',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',

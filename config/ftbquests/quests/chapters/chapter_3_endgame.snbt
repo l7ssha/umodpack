@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3_endgame"
+	group: "2ABC132BCB871ED4"
+	icon: {
+		id: "avaritia:infinity_catalyst"
+	}
+	id: "5C81BE0FC5D0335D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

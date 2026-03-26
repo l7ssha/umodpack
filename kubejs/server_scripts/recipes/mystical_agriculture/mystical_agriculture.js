@@ -49,6 +49,9 @@ const infusionRecipes = [
     { resource: 'iridium', essence: 'supremium' },
     { resource: 'platinum', essence: 'supremium' },
 ];
+const elementalSeeds = [
+    'air', 'earth', 'fire', 'water'
+];
 
 ServerEvents.recipes(event => {
     const maRecipe = (ingredient, essence, result, base) => {
@@ -1691,5 +1694,29 @@ ServerEvents.recipes(event => {
         },
         "techLevel": "chaotic",
         "totalEnergy": 1024000000000000
+    });
+
+    elementalSeeds.forEach(name => {
+        const ingredients = [];
+
+        for (let i = 0; i < 20; i++) {
+            ingredients.push({ "item": `mysticalagriculture:${name}_agglomeratio` });
+
+            if (i < 4) {
+                ingredients.push({ "item": "mysticalagriculture:imperium_gemstone_block" });
+            }
+        }
+
+        event.custom({
+            "type": "extendedcrafting:combination",
+            "power_cost": 30000,
+            "input": {
+                "item": `mysticalagriculture:prosperity_seed_base`
+            },
+            "ingredients": ingredients,
+            "result": {
+                "id": `mysticalagriculture:${name}_seeds`
+            }
+        });
     });
 });

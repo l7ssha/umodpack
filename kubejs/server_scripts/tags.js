@@ -2,7 +2,7 @@ ServerEvents.tags('block', tags => {
     tags.add('c:storage_blocks/yellorium', 'alltheores:uranium_block');
 
     tags.add('entangled:invalid_targets',
-        ['@ae2', '@advancedae', '@extendedae', '@megacells', '@appflux', '@appmek']
+        ['@ae2', '@advancedae', '@extendedae', '@megacells', '@appflux', '@appmek', '@ae_oddities']
     );
 
     tags.add('justdirethings:lawnmowerable', '#c:grass');

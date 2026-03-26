@@ -336,4 +336,55 @@ ServerEvents.recipes(event => {
             '1000x mekanism_extras:polonium_containing_solution'
         ]
     );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        600,
+        59744,
+        [
+            '2x extendedae:wireless_hub',
+            '8x #c:circuits/cosmic',
+            '1x immersiveengineering:tesla_coil',
+            '1x mekmm:wireless_transmission_station',
+        ],
+        [
+            '2000x advanced_ae:quantum_infusion_source'
+        ],
+        [
+            '1x extendedae_plus:wireless_transceiver',
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        600,
+        59744,
+        [
+            '1x extendedae:wireless_connect',
+            '2x #c:circuits/cosmic',
+            '1x extendedae:ex_pattern_provider',
+            '32x #c:gems/carminite'
+        ],
+        [],
+        [
+            '1x extendedae_plus:mirror_pattern_provider',
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        200,
+        1000,
+        [
+            '5x #ae2:covered_cable',
+            '2x #c:circuits/supreme',
+            '6x #c:dusts/vibranium',
+            '5x sfm:tunnelled_fancy_cable',
+            '2x #c:ingots/ironwood'
+        ],
+        [],
+        [
+            '3x ae2:fluix_smart_cable',
+        ]
+    );
 });

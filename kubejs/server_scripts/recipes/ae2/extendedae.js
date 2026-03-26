@@ -250,7 +250,7 @@ ServerEvents.recipes(event => {
         ],
         "key": {
             "A": {
-                "tag": "extendedae:extended_pattern_provider"
+                "tag": "ae2:pattern_provider"
             },
             "B": {
                 "item": "extendedae:concurrent_processor"
@@ -524,5 +524,81 @@ ServerEvents.recipes(event => {
         }
     });
 
-    
+    event.custom({
+        "type": "extendedae:crystal_assembler",
+        "input_items": [
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "extendedae:machine_frame"
+                }
+            },
+            {
+                "amount": 16,
+                "ingredient": {
+                    "tag": "ae2:smart_dense_cable"
+                }
+            },
+            {
+                "amount": 6,
+                "ingredient": {
+                    "item": "ae2:wireless_booster"
+                }
+            },
+            {
+                "amount": 12,
+                "ingredient": {
+                    "item": "ae2:quantum_ring"
+                }
+            },
+            {
+                "amount": 1,
+                "ingredient": {
+                    "item": "ae2:quantum_link"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "item": "ae2:quantum_entangled_singularity"
+                }
+            }
+        ],
+        "output": {
+            "count": 2,
+            "id": "extendedae:wireless_connect"
+        }
+    });
+
+    event.custom({
+        "type": "extendedae:crystal_assembler",
+        "input_items": [
+            {
+                "ingredient": {
+                    "item": "extendedae:wireless_connect"
+                }
+            },
+            {
+                "amount": 32,
+                "ingredient": {
+                    "tag": "ae2:smart_cable"
+                }
+            },
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "ae2omnicells:multidimensional_expansion_processor"
+                }
+            },
+            {
+                "ingredient": {
+                    "item": "ae2:wireless_access_point"
+                }
+            }
+        ],
+        "output": {
+            "count": 1,
+            "id": "extendedae:wireless_hub"
+        }
+    });
 });

@@ -9,5 +9,108 @@
 	id: "450CAB2AB1180BA2"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"20153214A2E62564"
+				"7F30E917DB781CD7"
+			]
+			id: "321A93DE6ECA689B"
+			shape: "octagon"
+			tasks: [{
+				id: "740D55B47B96BB36"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["321A93DE6ECA689B"]
+			id: "40FF16AAE9CCEEB6"
+			tasks: [{
+				id: "232CA15C6C7ED493"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["321A93DE6ECA689B"]
+			id: "4954DCED69033FDB"
+			tasks: [{
+				id: "0B6329303D1F240B"
+				item: { count: 1, id: "ae2:fluix_glass_cable" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4954DCED69033FDB"]
+			id: "652977DB679B0FD5"
+			tasks: [{
+				id: "5BDC0A760D2D6A0D"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(ae2:smart_cable)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			id: "7C3F2067AA0F36F2"
+			shape: "diamond"
+			tasks: [{
+				id: "0C9957A4D66A2E07"
+				item: { count: 1, id: "ae2:cell_component_1k" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "7D33DC6E949E817B"
+			shape: "diamond"
+			tasks: [{
+				id: "4A35A66B834661AF"
+				item: { count: 1, id: "ae2:cell_component_4k" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			id: "5B5632A08848E5D9"
+			shape: "diamond"
+			tasks: [{
+				id: "0155185F0292320A"
+				item: { count: 1, id: "ae2:cell_component_16k" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			id: "5F440C5031353D9E"
+			shape: "diamond"
+			tasks: [{
+				id: "0AF59DD351836425"
+				item: { count: 1, id: "ae2:cell_component_64k" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			id: "2FD7699430B6D0CB"
+			shape: "diamond"
+			tasks: [{
+				id: "035BF14B795EA014"
+				item: { count: 1, id: "ae2:cell_component_256k" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+	]
 }

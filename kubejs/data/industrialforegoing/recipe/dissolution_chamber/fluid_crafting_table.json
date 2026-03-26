@@ -4,16 +4,5 @@
       "type": "neoforge:item_exists",
       "item": "kubejs:umodpack"
     }
-  ],
-  "type": "industrialforegoing:dissolution_chamber",
-  "input": [],
-  "inputFluid": {
-    "amount": 2000,
-    "fluid": "industrialforegoing:pink_slime"
-  },
-  "output": {
-    "count": 1,
-    "id": "ifeu:fluid_crafting_table"
-  },
-  "processingTime": 200
+  ]
 }
