@@ -377,14 +377,93 @@ ServerEvents.recipes(event => {
         1000,
         [
             '5x #ae2:covered_cable',
-            '2x #c:circuits/supreme',
+            '1x #c:circuits/absolute',
             '6x #c:dusts/vibranium',
             '5x sfm:tunnelled_fancy_cable',
             '2x #c:ingots/ironwood'
         ],
         [],
         [
-            '3x ae2:fluix_smart_cable',
+            '4x ae2:fluix_smart_cable',
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        1200,
+        10000,
+        [
+            '1x #c:circuits/absolute',
+            '1x #c:circuits/overclocked',
+            '2x emextras:base_control_circuit',
+            '6x actuallyadditions:empowered_emeradic_crystal',
+            '16x #c:dusts/vibranium_allthemodium_alloy'
+        ],
+        [
+            '144x pneumaticcraft:lubricant'
+        ],
+        [
+            '1x emextras:absolute_overclocked_control_circuit',
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        1200,
+        50000,
+        [
+            '1x #c:circuits/supreme',
+            '1x #c:circuits/quantum',
+            '3x emextras:base_control_circuit',
+            '16x #c:dusts/vibranium_allthemodium_alloy',
+            '4x #c:dusts/unobtainium_allthemodium_alloy',
+            '8x kubejs:abbysal_alloy'
+        ],
+        [
+            '144x pneumaticcraft:lubricant'
+        ],
+        [
+            '1x emextras:supreme_quantum_control_circuit',
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        1200,
+        90000,
+        [
+            '1x #c:circuits/cosmic',
+            '1x #c:circuits/dense',
+            '3x emextras:base_control_circuit',
+            '16x #c:dusts/vibranium_allthemodium_alloy',
+            '4x #c:dusts/unobtainium_allthemodium_alloy',
+            '8x #c:ingots/lavium'
+        ],
+        [
+            '288x pneumaticcraft:lubricant'
+        ],
+        [
+            '1x emextras:cosmic_dense_control_circuit',
+        ]
+    );
+    
+    mmrRecipe(
+        "mmr:assembly_line",
+        1200,
+        200000,
+        [
+            '1x #c:circuits/infinite',
+            '1x #c:circuits/multiversal',
+            '3x emextras:base_control_circuit',
+            '32x #c:dusts/unobtainium_vibranium_alloy',
+            '4x draconicevolution:chaos_shard',
+            '2x kubejs:divinium_essence',
+        ],
+        [
+            '288x pneumaticcraft:lubricant'
+        ],
+        [
+            '1x emextras:infinite_multiversal_control_circuit',
         ]
     );
 });

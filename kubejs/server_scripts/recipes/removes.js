@@ -80,6 +80,7 @@ const recipesById = [
     'evolvedmekanism:chemixing/ingot_plaslitherite',
     'evolvedmekanism:chemixing/block_plaslitherite',
     'evolvedmekanism:processing/refined_redstone/ingot/from_dust',
+    /^emextras:alloying\/circuit\/(infinite_multiversal|cosmic_dense|supreme_quantum|absolute_overclocked)$/,
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -181,6 +182,7 @@ const recipesById = [
     'extendedae_plus:mirror_pattern_provider',
     'ae2:fluix_smart_cable',
     'ae2:network/cables/glass_fluix',
+    'ae2:network/cables/dense_smart_fluix',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
@@ -194,6 +196,7 @@ const recipesById = [
     "igleelib:modium_ingot",
     'endermanoverhaul:ender_eye',
     'bigreactors:blasting/yellorium_from_ore',
+    'chipped:saw',
 
     // Iglee Lib
     /igleelib:.*_ingot/,

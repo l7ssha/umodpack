@@ -11,13 +11,13 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["374BE4511E72EB63"]
 			id: "563C8F1BB39AAC68"
 			shape: "octagon"
 			size: 1.1d
 			tasks: [{
-				id: "1F41A8E2AB6A5A61"
-				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
-				type: "item"
+				id: "03E5DC025E07EB9B"
+				type: "checkmark"
 			}]
 			x: -6.5d
 			y: -1.5d
@@ -78,7 +78,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 5.0d
 			y: 3.5d
 		}
 		{
@@ -98,8 +98,8 @@
 		{
 			dependencies: [
 				"392B60EBF67DBDF7"
-				"6231D3455A15F110"
 				"0AAD732400831C1C"
+				"16955D9D5A6C4E16"
 			]
 			id: "34F2C497F6CFF6EB"
 			shape: "octagon"
@@ -114,7 +114,7 @@
 		{
 			dependencies: [
 				"6AEC30C45D80423E"
-				"6231D3455A15F110"
+				"1332CFE3BD023364"
 			]
 			id: "0137175B207B3385"
 			tasks: [{
@@ -151,7 +151,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(evolvedmekanism:dust_plaslitherite)item(evolvedmekanism:enriched_plaslitherite))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -185,8 +185,8 @@
 		{
 			dependencies: [
 				"34F2C497F6CFF6EB"
-				"5A6636CD5C72A31D"
 				"52E661275A2B5499"
+				"01DEEAD69EEF7D70"
 			]
 			id: "1FF1F79EAA4660B9"
 			tasks: [{
@@ -208,7 +208,7 @@
 				item: { count: 1, id: "emextras:infinite_multiversal_control_circuit" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: -1.5d
 		}
 		{
@@ -248,7 +248,7 @@
 				item: { count: 1, id: "draconicevolution:chaotic_core" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 13.0d
 			y: -4.0d
 		}
 		{
@@ -286,8 +286,8 @@
 				item: { count: 1, id: "minecraft:bedrock" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: -3.0d
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2DBD7FD326B588AC"]
@@ -324,7 +324,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism_extras:dust_radiance)item(mekanism_extras:enriched_radiance))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: -5.0d
 		}
 		{
@@ -339,10 +339,11 @@
 				item: { count: 1, id: "mekanism_extras:enriched_thermonuclear" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -5.0d
 		}
 		{
+			hide_dependent_lines: true
 			id: "6231D3455A15F110"
 			shape: "octagon"
 			size: 1.1d
@@ -361,17 +362,8 @@
 				item: { count: 1, id: "evolvedmekanism:enriched_uranium" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: 2.0d
-		}
-		{
-			id: "5A6636CD5C72A31D"
-			tasks: [{
-				id: "13C71FDF85F77A2C"
-				type: "checkmark"
-			}]
-			x: 8.0d
-			y: -5.0d
 		}
 		{
 			dependencies: ["60AAFC7582FFB4A5"]
@@ -382,7 +374,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["43764A23DB55057C"]
@@ -393,8 +385,8 @@
 				item: { count: 1, id: "extendedcrafting:compressor" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: -3.0d
+			x: 11.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6301E28E637BD9D0"]
@@ -404,7 +396,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(evolvedmekanism:block_better_gold)item(evolvedmekanism:dust_better_gold)item(evolvedmekanism:ingot_better_gold))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
@@ -415,7 +407,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["34F2C497F6CFF6EB"]
@@ -437,7 +429,7 @@
 				item: { count: 1, id: "kubejs:confusion_alloy" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 2.0d
 		}
 		{
@@ -448,10 +440,11 @@
 				item: { count: 1, id: "allthemodium:unobtainium_ingot" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.0d
 			y: 3.5d
 		}
 		{
+			dependencies: ["708C17522E236B2F"]
 			id: "69C2B78BA61BFE10"
 			shape: "octagon"
 			tasks: [{
@@ -459,10 +452,11 @@
 				item: { count: 1, id: "allthemodium:allthemodium_ingot" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: -6.5d
 		}
 		{
+			dependencies: ["4192BCA1D9CE7DAD"]
 			id: "544B998E4984D13D"
 			shape: "octagon"
 			tasks: [{
@@ -471,7 +465,7 @@
 				item: { count: 1, id: "minecraft:glowstone_dust" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -5.0d
 			y: -6.5d
 		}
 		{
@@ -483,7 +477,7 @@
 				item: { count: 1, id: "mekanism:hdpe_sheet" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 8.0d
 			y: 3.5d
 		}
 		{
@@ -504,7 +498,7 @@
 				id: "76414AF72A75B4E7"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -6.5d
 		}
 		{
@@ -516,11 +510,12 @@
 				item: { count: 1, id: "mekanismelements:dust_beryllium" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.0d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			id: "52E661275A2B5499"
+			shape: "octagon"
 			tasks: [{
 				count: 4L
 				id: "61432C2D4EA008D3"
@@ -528,7 +523,61 @@
 				type: "item"
 			}]
 			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"6231D3455A15F110"
+				"786AA1DD7892F7BB"
+			]
+			id: "16955D9D5A6C4E16"
+			tasks: [{
+				id: "3A203436A8635492"
+				item: { count: 1, id: "mekanism_extras:enriched_shining" }
+				type: "item"
+			}]
+			x: 5.0d
 			y: -5.0d
+		}
+		{
+			dependencies: [
+				"16955D9D5A6C4E16"
+				"6231D3455A15F110"
+			]
+			id: "01DEEAD69EEF7D70"
+			tasks: [{
+				id: "280B82AF92F33607"
+				item: { count: 1, id: "mekanism_extras:enriched_spectrum" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"54252F374BC9B9C2"
+				"6231D3455A15F110"
+			]
+			id: "1332CFE3BD023364"
+			tasks: [{
+				count: 4L
+				id: "1C488AF826F309F4"
+				item: { count: 1, id: "evolvedmekanism:alloy_subatomic" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C6A5E725A5206F2"]
+			id: "6F4A41305AD406C2"
+			tasks: [{
+				id: "009E8498DBE832D6"
+				item: { count: 1, id: "ae2omnicells:quantum_omni_cell_component_1k" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
 		}
 	]
 }

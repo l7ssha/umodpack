@@ -46,6 +46,7 @@
 	quest.4F6FF9F8C3392635.title: "Kill Wither"
 	quest.534A5B38D070561C.title: "Sophisticated Storage upgrades"
 	quest.54B95EA400D84746.title: "Pressure Chamber"
+	quest.563C8F1BB39AAC68.title: "Advanced Circuits"
 	quest.56A9C90C31DDB96F.quest_desc: ["You might as well take a look at storage chapter, to explore some of the starting storage solutions that modpack offers."]
 	quest.5BE0DF4F2BB0B3B3.title: "DimStorage"
 	quest.5D14C4CD354FEE53.title: "Awakened Supremium"
@@ -59,7 +60,9 @@
 	quest.652977DB679B0FD5.title: "Smart Cables"
 	quest.67A40150BE45D620.title: "Allthemodium Gear"
 	quest.67A61AC3E110AAA4.quest_subtitle: "First of many"
+	quest.68BAD5173BCA948E.title: "Basic components"
 	quest.6C0C56EB7C841249.title: "Storing items digitally"
+	quest.708C17522E236B2F.title: "Allthemodium"
 	quest.72044DCDB30BC1FD.title: "Inferium"
 	quest.7362E42C50FEBBB7.quest_desc: ["Danks are neat little things that are certailny help you while on your mining endevours."]
 	quest.7362E42C50FEBBB7.title: "Danks"
@@ -68,6 +71,7 @@
 	quest.76F458EC8BF1CEBF.title: "As basic as One can get"
 	quest.7D87E36E08D810B1.quest_subtitle: "Allows accessing whole storage using single block"
 	quest.7D87E36E08D810B1.title: "Controller for your storage"
+	task.03E5DC025E07EB9B.title: "Advanced Circuits"
 	task.0EAA27504C44A669.title: "Hostile Neural Networks"
 	task.0FD03ABAAEBDB3A7.title: "Storage"
 	task.13C71FDF85F77A2C.title: "A LOT of antimatter"

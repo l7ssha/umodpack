@@ -220,13 +220,16 @@ ServerEvents.recipes(event => {
 
     event.shaped({
         "pattern": [
-            "AAA",
-            "A A",
-            "AAA"
+            "ABA",
+            "B B",
+            "ABA"
         ],
         "key": {
             "A": {
                 "item": "allthecompressed:cobblestone_1x"
+            },
+            "B": {
+                "tag": "c:cobblestones/deepslate"
             }
         },
         "result": {

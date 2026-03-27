@@ -9,5 +9,31 @@
 	id: "5C81BE0FC5D0335D"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"782AE7CF2237A2AC"
+				"2F904595F31D1EDF"
+			]
+			id: "280D886D632B3D2F"
+			tasks: [{
+				id: "5A2D1E0B37FC916E"
+				item: { count: 1, id: "avaritia:infinity_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "782AE7CF2237A2AC"
+			tasks: [{
+				count: 4L
+				id: "15E2E089D14AEDB9"
+				item: { count: 1, id: "avaritia:neutron_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+	]
 }

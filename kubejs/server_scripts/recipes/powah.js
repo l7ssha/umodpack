@@ -179,4 +179,10 @@ ServerEvents.recipes(event => {
             "id": "powah:capacitor_nitro"
         }
     });
+
+    event.replaceInput(
+        { output: 'powah:dielectric_paste' },
+        '#c:coal',
+        '#c:coal_coke'
+    );
 });

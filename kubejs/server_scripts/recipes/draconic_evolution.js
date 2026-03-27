@@ -137,7 +137,7 @@ ServerEvents.recipes(event => {
             {
                 "consume": true,
                 "ingredient": {
-                    "item": "igleelib:blazum_block"
+                    "item": "allthemodium:piglich_heart_block"
                 }
             }
         ],

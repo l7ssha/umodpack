@@ -252,31 +252,30 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
-            "A   A",
-            " B B ",
-            " CDC ",
-            " ECF ",
-            "A   A"
+            "  A  ",
+            " BCB ",
+            "DEFED",
+            " DED ",
+            "     "
         ],
-        "tier": 2,
         "key": {
             "A": {
-                "item": "actuallyadditions:empowered_enori_crystal"
+                "item": "ae2:engineering_processor"
             },
             "B": {
-                "item": "actuallyadditions:empowered_restonia_crystal"
+                "tag": "c:circuits/ultimate"
             },
             "C": {
-                "item": "ae2:cell_component_64k"
-            },
-            "D": {
-                "item": "appflux:energy_processor"
-            },
-            "E": {
                 "item": "ae2:logic_processor"
             },
+            "D": {
+                "item": "actuallyadditions:empowered_restonia_crystal"
+            },
+            "E": {
+                "item": "ae2:cell_component_64k"
+            },
             "F": {
-                "item": "ae2:engineering_processor"
+                "tag": "c:circuits/absolute"
             }
         },
         "result": {

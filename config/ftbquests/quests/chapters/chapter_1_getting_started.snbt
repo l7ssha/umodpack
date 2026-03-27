@@ -275,7 +275,7 @@
 		{
 			dependencies: [
 				"7F45D030389596E6"
-				"54B95EA400D84746"
+				"68BAD5173BCA948E"
 			]
 			id: "440F3A94958353A4"
 			tasks: [{
@@ -296,8 +296,8 @@
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -313,7 +313,7 @@
 				type: "checkmark"
 			}]
 			x: 12.0d
-			y: 7.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["7C2DF69E144D37BB"]
@@ -467,6 +467,26 @@
 				type: "item"
 			}]
 			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54B95EA400D84746"]
+			id: "68BAD5173BCA948E"
+			tasks: [
+				{
+					count: 2L
+					id: "1BF8E65C1B5A7308"
+					item: { count: 1, id: "pneumaticcraft:transistor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4E84633487AC7FF9"
+					item: { count: 1, id: "pneumaticcraft:capacitor" }
+					type: "item"
+				}
+			]
+			x: 4.5d
 			y: 2.0d
 		}
 	]
