@@ -1501,4 +1501,80 @@ ServerEvents.recipes(event => {
             "id": "mekanism:structural_glass"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            " AAA ",
+            "ABCBA",
+            "DEFED",
+            "DCBCD",
+            "GHDHG"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:plates/constantan"
+            },
+            "B": {
+                "tag": "c:gears/osmium"
+            },
+            "C": {
+                "item": "mekanism:electrolytic_core"
+            },
+            "D": {
+                "tag": "c:plates/osmium"
+            },
+            "E": {
+                "tag": "c:circuits/ultimate"
+            },
+            "F": {
+                "item": "mekanismgenerators:bio_generator"
+            },
+            "G": {
+                "item": "mekanism:steel_casing"
+            },
+            "H": {
+                "tag": "c:gears/compressed_iron"
+            }
+        },
+        "result": {
+            "id": "mekanismgenerators:gas_burning_generator"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAAAA",
+            "BCACB",
+            "DAEAD",
+            "FDADF",
+            " FFF "
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:plates/brass"
+            },
+            "B": {
+                "tag": "c:gears/osmium"
+            },
+            "C": {
+                "tag": "c:circuits/elite"
+            },
+            "D": {
+                "tag": "c:alloys/advanced"
+            },
+            "E": {
+                "tag": "c:fuels/block/bio"
+            },
+            "F": {
+                "tag": "c:plates/osmium"
+            }
+        },
+        "result": {
+            "id": "mekanismgenerators:bio_generator"
+        }
+    });
 });

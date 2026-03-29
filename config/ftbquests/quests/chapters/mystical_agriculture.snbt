@@ -3,6 +3,12 @@
 	default_quest_shape: ""
 	filename: "mystical_agriculture"
 	group: "77EEC754FC5E3E91"
+	icon: {
+		components: {
+			"ftbquests:icon": "mysticalagriculture:item/fertilized_essence"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "13B6CCD7C2B26C9F"
 	order_index: 2
 	quest_links: [ ]

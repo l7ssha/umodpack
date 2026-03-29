@@ -46,16 +46,19 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["71F3692E37561F71"]
+			dependencies: [
+				"6505B4A74CB9A1B9"
+				"2193B23697447EED"
+			]
 			id: "0159B919DDB6C50C"
 			tasks: [{
-				count: 64L
+				count: 24L
 				id: "4D31FF6B588A68F3"
 				item: { count: 1, id: "alltheores:steel_ingot" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.0d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			id: "57B020D1F988BD05"
@@ -66,8 +69,8 @@
 				item: { count: 1, id: "alltheores:osmium_ingot" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -81,8 +84,8 @@
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["545B580AECEE19C2"]
@@ -115,8 +118,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(mekanismtools:refined_obsidian_helmet)item(mekanismtools:refined_obsidian_chestplate)item(mekanismtools:refined_obsidian_leggings)item(mekanismtools:refined_obsidian_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 7.0d
+			x: -4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7C2DF69E144D37BB"]
@@ -128,11 +131,14 @@
 				item: { count: 1, id: "mekanism:crusher" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["488B539CE42EB69D"]
+			icon: {
+				id: "minecraft:chest"
+			}
 			id: "56A9C90C31DDB96F"
 			optional: true
 			shape: "square"
@@ -155,7 +161,7 @@
 				type: "dimension"
 			}]
 			x: -2.5d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4192BCA1D9CE7DAD"]
@@ -169,7 +175,7 @@
 				type: "dimension"
 			}]
 			x: -2.5d
-			y: 12.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3C56124632611995"]
@@ -188,7 +194,7 @@
 				}
 			]
 			x: -0.5d
-			y: 12.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["545B580AECEE19C2"]
@@ -206,13 +212,13 @@
 			id: "29330205307494F5"
 			shape: "octagon"
 			tasks: [{
-				count: 32L
+				count: 24L
 				id: "024743A5747C2A62"
 				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 8.0d
+			x: -5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4192BCA1D9CE7DAD"]
@@ -223,7 +229,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 9.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["488B539CE42EB69D"]
@@ -258,8 +264,8 @@
 				item: { count: 1, id: "mekanism:advanced_control_circuit" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7596D401A9F6E18D"]
@@ -270,7 +276,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -284,7 +290,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["440F3A94958353A4"]
@@ -297,7 +303,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -356,7 +362,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0EE7B506F65FB5B8"]
@@ -367,7 +373,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -394,8 +400,8 @@
 					value: 1L
 				}
 			]
-			x: -0.5d
-			y: 8.0d
+			x: -2.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["09821411A773C924"]
@@ -415,8 +421,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 8.0d
+			x: 2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -430,7 +436,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["67A40150BE45D620"]
@@ -442,10 +448,13 @@
 				type: "checkmark"
 			}]
 			x: 12.0d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
-			dependencies: ["71F3692E37561F71"]
+			dependencies: [
+				"71F3692E37561F71"
+				"2193B23697447EED"
+			]
 			id: "4DEC2A1C61FBD22B"
 			optional: true
 			shape: "square"
@@ -455,7 +464,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["488B539CE42EB69D"]
@@ -487,7 +496,71 @@
 				}
 			]
 			x: 4.5d
-			y: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["545B580AECEE19C2"]
+			id: "6E8A620806CFC29B"
+			tasks: [{
+				id: "576821D97F7647DD"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["71F3692E37561F71"]
+			id: "2193B23697447EED"
+			tasks: [
+				{
+					count: 27L
+					id: "0014AFBAA395D5BF"
+					item: { count: 1, id: "immersiveengineering:cokebrick" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6F05704E82A51DCF"
+					item: { count: 1, id: "immersiveengineering:coal_coke" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4192BCA1D9CE7DAD"]
+			hide_dependency_lines: true
+			id: "6505B4A74CB9A1B9"
+			tasks: [{
+				count: 27L
+				id: "6000A8762B31B247"
+				item: { count: 1, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6505B4A74CB9A1B9"]
+			id: "1D0CB39B8F2257B2"
+			shape: "square"
+			tasks: [
+				{
+					count: 27L
+					id: "28ADFFA21BBB21A6"
+					item: { count: 1, id: "immersiveengineering:blastbrick_reinforced" }
+					type: "item"
+				}
+				{
+					id: "558818AE7D7E79BD"
+					item: { count: 1, id: "minecraft:hopper" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -2.0d
 		}
 	]
 }

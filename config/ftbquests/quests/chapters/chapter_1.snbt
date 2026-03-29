@@ -78,7 +78,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 4.0d
 			y: 3.5d
 		}
 		{
@@ -498,7 +498,7 @@
 				id: "76414AF72A75B4E7"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -6.5d
 		}
 		{

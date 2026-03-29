@@ -281,8 +281,7 @@ ServerEvents.recipes(event => {
         }
     });
 
-    event.custom({
-        "type": "extendedcrafting:shaped_table",
+    event.shaped({
         "pattern": [
             "AB ",
             "BC ",

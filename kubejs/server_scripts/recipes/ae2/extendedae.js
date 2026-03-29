@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
                 "tag": "c:ingots/infused_entro"
             },
             "D": {
-                "tag": "c:circuits/elite"
+                "tag": "c:circuits/ultimate"
             }
         },
         "result": {

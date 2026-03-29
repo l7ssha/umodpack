@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
                 "tag": "minecraft:logs"
             },
             "B": {
-                "tag": "c:ingots/iron"
+                "tag": "c:plates/steel"
             },
             "C": {
                 "tag": "c:storage_blocks/redstone"

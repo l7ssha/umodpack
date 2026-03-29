@@ -466,4 +466,21 @@ ServerEvents.recipes(event => {
             '1x emextras:infinite_multiversal_control_circuit',
         ]
     );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        200,
+        100,
+        [
+            '4x #immersiveengineering/treated_wood',
+            '1x #c:rods/treated_wood',
+            '12x productivebees:wax',
+        ],
+        [
+            '576x productivebees:honey'
+        ],
+        [
+            '1x productivebees:sturdy_bee_cage',
+        ]
+    );
 });

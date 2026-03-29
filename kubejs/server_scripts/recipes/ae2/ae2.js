@@ -680,41 +680,6 @@ ServerEvents.recipes(event => {
         }
     });
 
-    event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-            "ABABA",
-            "BCDCB",
-            "AEFEA",
-            "BCDCB",
-            "ABABA"
-        ],
-        "tier": 2,
-        "key": {
-            "A": {
-                "tag": "c:dusts/redstone"
-            },
-            "B": {
-                "tag": "c:plates/nickel"
-            },
-            "C": {
-                "tag": "c:circuits/ultimate"
-            },
-            "D": {
-                "item": "ae2:condenser"
-            },
-            "E": {
-                "item": "mekanism:formulaic_assemblicator"
-            },
-            "F": {
-                "item": "ae2:engineering_processor"
-            }
-        },
-        "result": {
-            "id": "advanced_ae:reaction_chamber"
-        }
-    });
-
     event.replaceInput(
         [
             { id: 'extendedae:tag_storage_bus' },

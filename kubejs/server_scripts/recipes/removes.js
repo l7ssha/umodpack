@@ -81,6 +81,8 @@ const recipesById = [
     'evolvedmekanism:chemixing/block_plaslitherite',
     'evolvedmekanism:processing/refined_redstone/ingot/from_dust',
     /^emextras:alloying\/circuit\/(infinite_multiversal|cosmic_dense|supreme_quantum|absolute_overclocked)$/,
+    'mekanismgenerators:generator/gas_burning',
+    'mekanismgenerators:generator/bio',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -183,6 +185,7 @@ const recipesById = [
     'ae2:fluix_smart_cable',
     'ae2:network/cables/glass_fluix',
     'ae2:network/cables/dense_smart_fluix',
+    'extendedae:crystal_assembler',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
@@ -232,6 +235,8 @@ const recipesById = [
     // Allthemodium
     'allthemodium:teleport_pad',
     /allthemodium:smithing\/allthemodium_.*_smithing/,
+    'alltheores:crafting/steel/alloy_blending_from_dust',
+    /alltheores:alloysmelter\/.*\/ingot/,
 
     // Avaritia
     'minecraft:neutron_ingot_from_nuggets',
@@ -244,6 +249,7 @@ const recipesById = [
     'fluxnetworks:flux_point',
 
     // Industrial Foregoing
+    'industrialforegoing:machine_frame_pity',
     'industrialforegoing:dissolution_chamber',
     'industrialforegoing:pitiful_generator',
     'industrialforegoing:laser_drill',

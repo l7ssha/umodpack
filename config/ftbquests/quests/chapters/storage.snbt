@@ -374,5 +374,15 @@
 			x: 6.5d
 			y: -7.5d
 		}
+		{
+			id: "6C7465F75D5EDDF6"
+			tasks: [{
+				id: "2414DA8490E76868"
+				item: { count: 1, id: "mekanism:basic_bin" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
 	]
 }

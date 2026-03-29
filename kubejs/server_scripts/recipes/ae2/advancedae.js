@@ -111,4 +111,89 @@ ServerEvents.recipes(event => {
             "id": "advanced_ae:quantum_alloy"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABCBA",
+            "ADECA",
+            "FGHDF",
+            "AGGIA",
+            "AAFAA"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:plates/invar"
+            },
+            "B": {
+                "item": "immersiveengineering:chute_steel"
+            },
+            "C": {
+                "item": "minecraft:sticky_piston"
+            },
+            "D": {
+                "tag": "c:circuits/absolute_overclocked"
+            },
+            "E": {
+                "item": "ae2:molecular_assembler"
+            },
+            "F": {
+                "item": "mekanism:steel_casing"
+            },
+            "G": {
+                "item": "extendedae:machine_frame"
+            },
+            "H": {
+                "item": "appflux:energy_processor"
+            },
+            "I": {
+                "item": "ae2:sky_stone_tank"
+            }
+        },
+        "result": {
+            "id": "extendedae:crystal_assembler"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AABAA",
+            "CDEBC",
+            "CFGEC",
+            "HFFDH",
+            "AACAA"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:plates/allthemodium"
+            },
+            "B": {
+                "item": "ae2:sky_stone_tank"
+            },
+            "C": {
+                "tag": "c:plates/nickel"
+            },
+            "D": {
+                "item": "ae2:condenser"
+            },
+            "E": {
+                "tag": "c:circuits/supreme_quantum"
+            },
+            "F": {
+                "item": "mekanism:steel_casing"
+            },
+            "G": {
+                "item": "extendedae:crystal_assembler"
+            },
+            "H": {
+                "tag": "c:plates/invar"
+            }
+        },
+        "result": {
+            "id": "advanced_ae:reaction_chamber"
+        }
+    });
 });

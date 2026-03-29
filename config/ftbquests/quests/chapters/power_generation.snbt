@@ -38,18 +38,444 @@
 				item: { count: 1, id: "ironfurnaces:augment_generator" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["1A1195B3ECD77BFE"]
 			id: "735F7D8CEF789F18"
 			tasks: [{
-				id: "73C1AE69C6A6EA6E"
-				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+				id: "1D81949F9385528F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanismgenerators:wind_generator)item(mekanismgenerators:advanced_solar_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61042D2A138D6F6E"]
+			id: "3397E3C262CE073A"
+			tasks: [{
+				id: "1970718AFD429880"
+				item: { components: { "ftbfiltersystem:filter": "or(item(deepresonance:resonating_crystal_natural)item(deepresonance:resonating_crystal_generated)item(deepresonance:resonating_ore_stone)item(deepresonance:resonating_ore_deepslate)item(deepresonance:resonating_ore_nether)item(deepresonance:resonating_ore_end))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C44C162C1C83BE7"]
+			id: "5DFA8D29BEDD3017"
+			tasks: [{
+				count: 16L
+				id: "77473D25C0AC4DF1"
+				item: { count: 1, id: "powah:uraninite_raw" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1BC9182D96DA4FE3"]
+			id: "5B6A55314736E0F5"
+			shape: "octagon"
+			tasks: [{
+				id: "78E833BAD6D0B7D7"
+				item: { count: 1, id: "alltheores:raw_uranium" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B6A55314736E0F5"]
+			id: "695C0B4D7161D5F7"
+			tasks: [{
+				id: "3F4A218C5D6CD57B"
+				item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["695C0B4D7161D5F7"]
+			id: "7D35BDB5B192AB20"
+			tasks: [{
+				id: "68CCD5E5E811FEF9"
+				item: { count: 1, id: "bigreactors:reinforced_reactorcontroller" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B6A55314736E0F5"]
+			id: "200B11B6D9005110"
+			tasks: [
+				{
+					count: 44L
+					id: "74B806319119EF43"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "298FF56BB3847539"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "6A754E54CE3771A8"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "36242599519D58B6"
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "793A8644B9C216DB"
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B6A55314736E0F5"]
+			icon: {
+				id: "mekanismgenerators:rotational_complex"
+			}
+			id: "56C2C5E62E9C2AB4"
+			tasks: [
+				{
+					count: 48L
+					id: "44F76DF9CE615B19"
+					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "43ADA02CEE6568D9"
+					item: { count: 1, id: "mekanismgenerators:turbine_valve" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7B1381CF38E92EB9"
+					item: { count: 1, id: "mekanismgenerators:turbine_vent" }
+					type: "item"
+				}
+				{
+					id: "578FD7182E590339"
+					item: { count: 1, id: "mekanismgenerators:rotational_complex" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "694AE864BECA2F92"
+					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0D7807DA4CDF007C"
+					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4C5473135A22BEA0"
+					item: { count: 1, id: "mekanismgenerators:saturating_condenser" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3D7808726FCE3E3F"
+					item: { count: 1, id: "mekanism:pressure_disperser" }
+					type: "item"
+				}
+				{
+					id: "32E6492DBFAA7409"
+					item: { count: 1, id: "mekanismgenerators:electromagnetic_coil" }
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "4B1D7313EB904C62"
+					item: { count: 1, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"200B11B6D9005110"
+				"56C2C5E62E9C2AB4"
+			]
+			id: "39AFC68F43B3EE11"
+			tasks: [{
+				id: "5B6AB42B0C919EA7"
+				item: { count: 1, id: "mekanism:radioactive_waste_barrel" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5DFA8D29BEDD3017"]
+			id: "159CF664D7FCFA49"
+			tasks: [{
+				count: 36L
+				id: "7574C22E739D2753"
+				item: { count: 1, id: "powah:reactor_basic" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["159CF664D7FCFA49"]
+			id: "1BEA03BF98E7419B"
+			optional: true
+			tasks: [{
+				count: 8L
+				id: "0611E2E0F494CE74"
+				item: { count: 1, id: "minecraft:redstone_block" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["159CF664D7FCFA49"]
+			id: "7D0C525D337CEDCA"
+			tasks: [{
+				count: 8L
+				id: "7B49B14080F3F846"
+				item: { count: 1, id: "minecraft:coal_block" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["159CF664D7FCFA49"]
+			id: "4F76E17F571EB959"
+			tasks: [{
+				id: "74EC3FC3F43DA931"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ices)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1BC9182D96DA4FE3"]
+			id: "1C44C162C1C83BE7"
+			shape: "octagon"
+			tasks: [{
+				id: "2AD9ACFD700470DB"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1C44C162C1C83BE7"
+				"6E8A620806CFC29B"
+			]
+			id: "5A72B218313C2EA8"
+			tasks: [{
+				id: "5DBD0B0793302E69"
+				item: { count: 1, id: "powah:magmator_basic" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1C44C162C1C83BE7"
+				"6E8A620806CFC29B"
+			]
+			id: "7689CD79C088E150"
+			tasks: [{
+				id: "62739110221A9C0C"
+				item: { count: 1, id: "powah:thermo_generator_basic" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1BC9182D96DA4FE3"]
+			id: "7F6CECA7680F38B6"
+			tasks: [{
+				id: "39C7D7B03C428A15"
+				item: { count: 1, id: "appgen:singularity_generator_1k" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65C1B4C6667F69BC"]
+			id: "47D66AFEB57E6909"
+			tasks: [{
+				id: "653D6D9F6FF496A9"
+				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65C1B4C6667F69BC"]
+			id: "7AC2FE8B94B309BD"
+			tasks: [{
+				id: "0F7BD4FC5A44787F"
+				item: { count: 1, id: "mekanismgenerators:bio_generator" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2191C4C50F9BB1D0"
+				"1BC9182D96DA4FE3"
+			]
+			id: "65C1B4C6667F69BC"
+			shape: "octagon"
+			tasks: [{
+				id: "4517FDA7862D0E63"
+				item: { count: 1, id: "mekanism:bio_fuel" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["39AFC68F43B3EE11"]
+			id: "102954B8EFBED31D"
+			tasks: [{
+				id: "0814117E852C3F94"
+				item: { count: 1, id: "bfr:fusion_reactor_controller" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["39AFC68F43B3EE11"]
+			id: "00C2D7103895BD23"
+			tasks: [{
+				id: "26816678F4D5229B"
+				item: { count: 1, id: "mekanism_extras:naquadah_reactor_controller" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"1BC9182D96DA4FE3"
+				"0159B919DDB6C50C"
+			]
+			id: "2EC19F318A3F5E5A"
+			shape: "octagon"
+			tasks: [{
+				id: "43B579B8521D4F80"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2EC19F318A3F5E5A"]
+			id: "16D5442FEEB3BCB8"
+			tasks: [{
+				id: "57C258D94C4BFF89"
+				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2EC19F318A3F5E5A"]
+			id: "33C2C88D8BCFB6BA"
+			tasks: [
+				{
+					count: 5L
+					id: "187D152222ECB5D1"
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "32EABDFAFF183975"
+					item: { count: 1, id: "immersiveengineering:radiator" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "33BF2475ECC6066D"
+					item: { count: 1, id: "immersiveengineering:generator" }
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "321F2A7D969D5392"
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "21764C1BACA997C9"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "649CE2C0B8B21723"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1BC9182D96DA4FE3"]
+			id: "5F020CA1B559EABA"
+			shape: "octagon"
+			tasks: [{
+				id: "0AC82B07C03FCF67"
+				item: { count: 1, id: "industrialforegoing:bioreactor" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F020CA1B559EABA"]
+			id: "6D5E9800BF83F02E"
+			tasks: [{
+				id: "1879B88FCEC2D1EE"
+				item: { count: 1, id: "industrialforegoing:biofuel_generator" }
+				type: "item"
+			}]
+			x: -11.5d
 			y: -1.0d
 		}
 	]
