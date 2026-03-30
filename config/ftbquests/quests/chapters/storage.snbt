@@ -383,7 +383,10 @@
 			y: -7.5d
 		}
 		{
+			dependencies: ["56A9C90C31DDB96F"]
 			id: "6C7465F75D5EDDF6"
+			optional: true
+			shape: "square"
 			tasks: [{
 				id: "2414DA8490E76868"
 				item: { count: 1, id: "mekanism:basic_bin" }

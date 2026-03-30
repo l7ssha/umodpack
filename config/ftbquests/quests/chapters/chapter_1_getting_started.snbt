@@ -161,8 +161,8 @@
 				id: "1CDF6F81CF5A6C4A"
 				type: "dimension"
 			}]
-			x: -2.5d
-			y: 9.0d
+			x: -3.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["4192BCA1D9CE7DAD"]
@@ -175,12 +175,14 @@
 				id: "339630DFDBB2288A"
 				type: "dimension"
 			}]
-			x: -2.5d
+			x: 2.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["3C56124632611995"]
 			id: "67A61AC3E110AAA4"
+			optional: true
+			shape: "square"
 			tasks: [
 				{
 					advancement: "minecraft:end/kill_dragon"
@@ -194,8 +196,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 10.5d
+			x: 2.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["545B580AECEE19C2"]
@@ -224,13 +226,15 @@
 		{
 			dependencies: ["4192BCA1D9CE7DAD"]
 			id: "4F6FF9F8C3392635"
+			optional: true
+			shape: "square"
 			tasks: [{
 				id: "3A6A2823523B612A"
 				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 8.5d
+			x: -5.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["488B539CE42EB69D"]
@@ -297,8 +301,8 @@
 		{
 			dependencies: [
 				"440F3A94958353A4"
-				"708C17522E236B2F"
 				"54B95EA400D84746"
+				"78CA7E3F388673C0"
 			]
 			id: "374BE4511E72EB63"
 			shape: "gear"
@@ -350,8 +354,8 @@
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 9.5d
+			x: -3.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0EE7B506F65FB5B8"]
@@ -361,8 +365,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(advancednetherite:netherite_iron_ingot)item(advancednetherite:netherite_gold_ingot)item(advancednetherite:netherite_emerald_ingot)item(advancednetherite:netherite_diamond_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 9.5d
+			x: -2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -410,34 +414,24 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: -0.5d
 			y: 7.0d
 		}
 		{
 			dependencies: [
-				"708C17522E236B2F"
 				"44D5D873AE1D19B1"
+				"708C17522E236B2F"
 			]
 			id: "67A40150BE45D620"
+			optional: true
+			shape: "square"
 			tasks: [{
 				id: "155C3C560585AF56"
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthemodium:allthemodium_helmet)item(allthemodium:allthemodium_chestplate)item(allthemodium:allthemodium_leggings)item(allthemodium:allthemodium_boots)item(allthemodium:allthemodium_sword)item(allthemodium:allthemodium_pickaxe)item(allthemodium:allthemodium_shovel)item(allthemodium:allthemodium_hoe)item(allthemodium:allthemodium_bow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["67A40150BE45D620"]
-			id: "4A6F7E16BF21B203"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "2FC2809FA9A8D4C6"
-				type: "checkmark"
-			}]
-			x: 12.0d
-			y: 9.5d
+			x: -0.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -574,6 +568,79 @@
 			}]
 			x: -0.5d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"708C17522E236B2F"
+				"46B3C966D44B77F4"
+			]
+			id: "046183E1721A2D6A"
+			tasks: [
+				{
+					count: 4L
+					id: "47E7614B081DCC45"
+					item: { count: 1, id: "allthemodium:raw_vibranium" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "766DE03AB996D014"
+					item: { count: 1, id: "allthemodium:vibranium_ingot" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"046183E1721A2D6A"
+				"1F91B0C22E57B016"
+			]
+			id: "78CA7E3F388673C0"
+			optional: true
+			tasks: [
+				{
+					count: 4L
+					id: "3FD4B490CCFD9FA4"
+					item: { count: 1, id: "allthemodium:raw_unobtainium" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "75D188C339C68C14"
+					item: { count: 1, id: "allthemodium:unobtainium_ingot" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4192BCA1D9CE7DAD"]
+			icon: {
+				id: "allthemodium:teleport_pad"
+			}
+			id: "46B3C966D44B77F4"
+			tasks: [{
+				id: "215AB9E7BFA501FC"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C56124632611995"]
+			icon: {
+				id: "allthemodium:unobtainium_ore"
+			}
+			id: "1F91B0C22E57B016"
+			tasks: [{
+				id: "252050C5D6C3E031"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 9.0d
 		}
 	]
 }
