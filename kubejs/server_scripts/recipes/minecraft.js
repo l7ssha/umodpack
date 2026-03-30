@@ -289,7 +289,7 @@ ServerEvents.recipes(event => {
         ],
         "key": {
             "A": {
-                "tag": "c:ingots/steel"
+                "tag": "c:ingots/iron"
             },
             "B": {
                 "tag": "c:wires/aluminum"

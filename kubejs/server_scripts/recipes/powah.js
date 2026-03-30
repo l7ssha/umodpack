@@ -34,6 +34,7 @@ ServerEvents.recipes(event => {
             }
         ],
         "result": {
+            "amount": 2,
             "id": "powah:capacitor_basic_tiny"
         }
     });

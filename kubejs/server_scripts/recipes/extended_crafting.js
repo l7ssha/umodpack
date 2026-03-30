@@ -120,9 +120,9 @@ ServerEvents.recipes(event => {
 
     event.shaped({
         "pattern": [
-            "AAA",
+            " A ",
             "ABA",
-            "AAA"
+            " A "
         ],
         "key": {
             "A": {

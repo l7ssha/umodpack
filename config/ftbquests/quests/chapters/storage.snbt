@@ -157,6 +157,7 @@
 			dependencies: ["20153214A2E62564"]
 			id: "6C0C56EB7C841249"
 			optional: true
+			shape: "square"
 			tasks: [{
 				id: "64CF88C970614B09"
 				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:item_storage_cell_1k)item(ae2:fluid_storage_cell_1k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -194,6 +195,7 @@
 			dependencies: ["27A9AC29C46CDD5E"]
 			id: "534A5B38D070561C"
 			optional: true
+			shape: "square"
 			tasks: [
 				{
 					id: "5D7469C0757B49EA"
@@ -224,6 +226,7 @@
 			dependencies: ["0F7A17BE2FEA3BF8"]
 			id: "5DBBF71675201DB4"
 			optional: true
+			shape: "square"
 			tasks: [{
 				id: "3AF5C00EE0F310CF"
 				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:magnet_upgrade)item(sophisticatedbackpacks:tank_upgrade)item(sophisticatedbackpacks:feeding_upgrade)item(sophisticatedbackpacks:crafting_upgrade)item(sophisticatedbackpacks:smelting_upgrade)item(sophisticatedbackpacks:stack_upgrade_starter_tier))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -267,6 +270,7 @@
 			dependencies: ["37A6055B7173DE1D"]
 			id: "3D33D22E4F151885"
 			optional: true
+			shape: "square"
 			tasks: [{
 				id: "76DD46497CE09A29"
 				item: { count: 1, id: "occultism:storage_remote" }
@@ -289,6 +293,7 @@
 		{
 			dependencies: ["7722635F9CE15C70"]
 			id: "19654D7A0DA8A08C"
+			shape: "square"
 			tasks: [
 				{
 					id: "4AA0A301027B09CD"
@@ -308,6 +313,7 @@
 			dependencies: ["19D9F3CF80327FE8"]
 			id: "017ADF550785878B"
 			optional: true
+			shape: "square"
 			tasks: [{
 				id: "7D7244D7BA98190F"
 				item: { count: 1, id: "functionalstorage:copper_upgrade" }
@@ -331,6 +337,7 @@
 			dependencies: ["59438F94397327E9"]
 			id: "0DC421111565DBCA"
 			optional: true
+			shape: "square"
 			tasks: [{
 				id: "780562925E2AB680"
 				item: { count: 1, id: "enderstorage:ender_pouch" }
@@ -366,6 +373,7 @@
 			dependencies: ["5BE0DF4F2BB0B3B3"]
 			id: "410174DCCE0F28FB"
 			optional: true
+			shape: "square"
 			tasks: [{
 				id: "7D6DAB9FF878DEF6"
 				item: { count: 1, id: "dimstorage:dimensional_tablet" }

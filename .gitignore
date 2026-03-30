@@ -71,3 +71,8 @@ config/jei/jei-mod-id-format.ini
 !jei-client.ini
 moddata/
 WaypointData*
+debug/
+config/industrialforegoing/client-config.toml
+config/extremereactors/client.toml
+
+win_event*.txt

@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
                 "tag": "c:plates/steel"
             },
             "C": {
-                "item": "rftoolsbase:infused_diamond"
+                "tag": "c:gems"
             }
         },
         "result": {

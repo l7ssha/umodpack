@@ -5,6 +5,7 @@ const itemsToHide = [
     'mysticalagriculture:marble_essence',
     'mysticalagriculture:yellorium_seeds',
     'mysticalagriculture:yellorium_essence',
+    /immersiveengineering:crafting\/(pickaxe|sword|axe|shovel|hoe)_steel/,
 ];
 
 RecipeViewerEvents.removeEntries('item', event => {

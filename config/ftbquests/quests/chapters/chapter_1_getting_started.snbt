@@ -26,7 +26,7 @@
 			dependencies: ["488B539CE42EB69D"]
 			id: "545B580AECEE19C2"
 			tasks: [{
-				count: 32L
+				count: 12L
 				id: "14A68304BDCA4E93"
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
@@ -77,6 +77,7 @@
 				"0159B919DDB6C50C"
 				"57B020D1F988BD05"
 				"6173FF975787DD1C"
+				"34D9AFF278168F23"
 			]
 			id: "652CF28153B1A736"
 			tasks: [{
@@ -131,8 +132,8 @@
 				item: { count: 1, id: "mekanism:crusher" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["488B539CE42EB69D"]
@@ -243,18 +244,6 @@
 			}]
 			x: -7.5d
 			y: 3.0d
-		}
-		{
-			dependencies: ["6173FF975787DD1C"]
-			id: "1BC9182D96DA4FE3"
-			optional: true
-			shape: "square"
-			tasks: [{
-				id: "2B347BB8B961413D"
-				type: "checkmark"
-			}]
-			x: -0.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["652CF28153B1A736"]
@@ -470,7 +459,7 @@
 			dependencies: ["488B539CE42EB69D"]
 			id: "71F3692E37561F71"
 			tasks: [{
-				count: 32L
+				count: 12L
 				id: "4B191B18EAC51E66"
 				item: { count: 1, id: "minecraft:coal" }
 				type: "item"
@@ -561,6 +550,30 @@
 			]
 			x: -7.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["71F3692E37561F71"]
+			id: "4C899798872FACC0"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "674844F2BB84DC60"
+				item: { count: 1, id: "alltheores:copper_ore_hammer" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C2DF69E144D37BB"]
+			id: "34D9AFF278168F23"
+			tasks: [{
+				id: "0B817FB4BF996988"
+				item: { count: 1, id: "extendedcrafting:basic_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
 		}
 	]
 }

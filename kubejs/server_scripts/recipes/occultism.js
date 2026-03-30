@@ -1,22 +1,19 @@
+const crushingRecipes = {
+    "#c:end_stones": "occultism:crushed_end_stone",
+    "#c:gems/amethyst": "occultism:amethyst_dust",
+    "minecraft:netherite_scrap": "occultism:netherite_scrap_dust",
+    "#c:ingots/iesnium": "occultism:iesnium_dust",
+    "minecraft:echo_shard": "occultism:echo_dust",
+    "#c:ices/ice": "occultism:crushed_ice",
+    "#c:ices/packed": "occultism:crushed_packed_ice",
+    "#c:ices/blue": "occultism:crushed_blue_ice",
+    "#chipped:calcite": "occultism:crushed_calcite",
+    "#c:ingots/unobtainium_allthemodium_alloy": "allthemodium:unobtainium_allthemodium_alloy_dust",
+    "#c:ingots/unobtainium_vibranium_alloy": "allthemodium:unobtainium_vibranium_alloy_dust",
+    "#c:ingots/vibranium_allthemodium_alloy": "allthemodium:vibranium_allthemodium_alloy_dust",
+};
+
 ServerEvents.recipes(event => {
-    event.findRecipes({ id: /^occultism:crafting\/chalk_(?!white).*_impure/ }).forEach(recipe => {
-        const ingredients = recipe.originalJson
-            .get('ingredients')
-            .getAsJsonArray()
-            .asList();
-
-        const coreItem = ingredients.getFirst();
-        const extraIngredients = ingredients.subList(1, ingredients.size());
-
-        event.custom({
-            "type": "extendedcrafting:combination",
-            "power_cost": 30000,
-            "input": coreItem,
-            "ingredients": extraIngredients,
-            "result": recipe.originalJson.get('result'),
-        });
-    });
-
     event.custom({
         "type": "occultism:ritual",
         "activation_item": {
@@ -47,5 +44,18 @@ ServerEvents.recipes(event => {
             "id": "occultism:ritual_dummy/craft_storage_controller_base"
         },
         "ritual_type": "occultism:craft"
+    });
+
+    Object.entries(crushingRecipes).forEach(([input, output]) => {
+        const inputObject = input.startsWith("#") ? { "tag": input.substring(1) } : { "item": input };
+
+        event.custom({
+            "type": "mekanism:crushing",
+            "input": inputObject,
+            "output": {
+                "count": 1,
+                "id": output
+            }
+        });
     });
 });

@@ -26,4 +26,23 @@ ServerEvents.recipes(event => {
             "id": "immersiveengineering:drill"
         }
     });
+
+    event.shaped({
+        "pattern": [
+            " AB",
+            " BA",
+            "B  "
+        ],
+        "key": {
+            "A": {
+                "tag": "c:ingots/aluminum"
+            },
+            "B": {
+                "tag": "c:rods/wooden"
+            }
+        },
+        "result": {
+            "id": "immersiveengineering:hammer"
+        }
+    });
 });

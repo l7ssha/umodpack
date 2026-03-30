@@ -1,14 +1,14 @@
 	[MachineConfig.WeatherControllerConfig]
 		#Amount of Power Consumed per Tick - Default: [30FE]
-		powerPerTick = 30
+		powerPerTick = 1000
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 10000
+		maxStoredPower = 100000
 
 	[MachineConfig.TimeControllerConfig]
 		#Amount of Power Consumed per Tick - Default: [30FE]
-		powerPerTick = 30
+		powerPerTick = 1000
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 10000
+		maxStoredPower = 100000
 
 	[MachineConfig.SaucepanConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]

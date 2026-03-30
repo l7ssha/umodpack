@@ -14,6 +14,8 @@ ServerEvents.tags('fluid', tags => {
 });
 
 ServerEvents.tags('item', tags => {
+    tags.add('c:dusts/salt', ['pamhc2foodcore:saltitem']);
+
     tags.add('c:storage_blocks/raw_yellorium', 'bigreactors:raw_yellorium_block');
 
     tags.add('minecraft:bookshelf_books', 'patchouli:guide_book');
@@ -119,6 +121,51 @@ ServerEvents.tags('item', tags => {
         'igleelib:lavium_ingot',
         'kubejs:abbysal_alloy',
         'kubejs:confusion_alloy',
+    ]);
+
+    tags.add('regions_unexplored:magnolia_logs', [
+        'regions_unexplored:magnolia_log',
+        'regions_unexplored:stripped_magnolia_log',
+        'regions_unexplored:magnolia_wood',
+        'regions_unexplored:stripped_magnolia_wood',
+    ]);
+
+    tags.add('regions_unexplored:alpha_logs', [
+        'regions_unexplored:alpha_log'
+    ]);
+
+    tags.add('regions_unexplored:silver_birch_logs', [
+        'regions_unexplored:silver_birch_log',
+        'regions_unexplored:silver_birch_wood',
+    ])
+
+    tags.add('allthemodium:ancient_logs', [
+        'allthemodium:ancient_log_0',
+        'allthemodium:ancient_log_1',
+        'allthemodium:ancient_log_2',
+        'allthemodium:stripped_ancient_log'
+    ])
+    tags.add('allthemodium:soul_logs', [
+        'allthemodium:soul_log',
+        'allthemodium:soul_log_0',
+        'allthemodium:soul_log_1',
+        'allthemodium:soul_log_2',
+        'allthemodium:stripped_soul_log'
+    ]);
+
+    tags.add('allthemodium:demonic_logs', [
+        'allthemodium:demonic_log',
+        'allthemodium:stripped_demonic_log',
+    ]);
+
+    tags.add('regions_unexplored:alpha_logs', [
+        'regions_unexplored:alpha_log'
+    ]);
+
+    tags.add('minecraft:logs', [
+        '#deeperdarker:bloom_stems',
+        "#deeperdarker:echo_logs",
+        "allthemodium:stripped_ancient_log"
     ]);
 });
 

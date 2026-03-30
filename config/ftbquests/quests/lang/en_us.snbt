@@ -25,7 +25,6 @@
 	quest.0F7A17BE2FEA3BF8.title: "Backpacks"
 	quest.159CF664D7FCFA49.title: "Basic Powah Reactor"
 	quest.19D9F3CF80327FE8.title: "Functional Storage"
-	quest.1BC9182D96DA4FE3.title: "Power Generation Chapter"
 	quest.1C043E3C873423D9.title: "Imperium"
 	quest.200B11B6D9005110.title: "Mekanism Fission Reactor"
 	quest.20153214A2E62564.quest_desc: ["AE2 solution to storing items are storage cell which can hold almost infinite amout of items. You might want to start small tho, you can use AE2's Storage Busses which can plug into your existing storage."]
@@ -48,6 +47,7 @@
 	quest.44D5D873AE1D19B1.title: "Better Netherite"
 	quest.47C0C77D36BFE7D9.title: "Creative Essence"
 	quest.488B539CE42EB69D.title: "You get wood first"
+	quest.4C899798872FACC0.title: "Easy Ore Doubling"
 	quest.4DEC2A1C61FBD22B.title: "Better Crafting Table"
 	quest.4F6FF9F8C3392635.title: "Kill Wither"
 	quest.4F76E17F571EB959.quest_desc: ["Any ice can be used to cool reactor down and gain efficient. Best of them is \"Dry Ice\" from Powah."]
@@ -115,6 +115,7 @@
 	task.5BDC0A760D2D6A0D.title: "Any Smart Cable"
 	task.63339D0669DC8D0E.title: "Storage Quest Line"
 	task.63D6F30FEBC1F4E3.title: "Any Tom's Wireless Terminal"
+	task.64F2D276DE36E914.title: "Any Sophisiticated Storage Chest"
 	task.65D588240DFAE9F1.title: "Industrial Foregoing"
 	task.6BD19ACCEEA7D0A4.title: "Storing Items"
 	task.6C3EA933D512422E.title: "Better Gold"

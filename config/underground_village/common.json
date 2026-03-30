@@ -20,7 +20,7 @@
     "description": "Maximum distance water structure pieces can generate from the center."
   },
   "enableInGameMessage": {
-    "value": true,
+    "value": false,
     "category": "Messages",
     "description": "Show the welcome message with Discord, GitHub, and support links on first join. (Requires restart)"
   }

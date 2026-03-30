@@ -16,7 +16,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1BC9182D96DA4FE3"]
 			id: "61042D2A138D6F6E"
 			shape: "octagon"
 			tasks: [{
@@ -28,10 +27,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"61042D2A138D6F6E"
-				"1BC9182D96DA4FE3"
-			]
+			dependencies: ["61042D2A138D6F6E"]
 			id: "1A1195B3ECD77BFE"
 			tasks: [{
 				id: "7F4785548332DD4E"
@@ -76,7 +72,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["1BC9182D96DA4FE3"]
 			id: "5B6A55314736E0F5"
 			shape: "octagon"
 			tasks: [{
@@ -279,7 +274,6 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["1BC9182D96DA4FE3"]
 			id: "1C44C162C1C83BE7"
 			shape: "octagon"
 			tasks: [{
@@ -318,7 +312,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["1BC9182D96DA4FE3"]
 			id: "7F6CECA7680F38B6"
 			tasks: [{
 				id: "39C7D7B03C428A15"
@@ -351,10 +344,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"2191C4C50F9BB1D0"
-				"1BC9182D96DA4FE3"
-			]
+			dependencies: ["2191C4C50F9BB1D0"]
 			id: "65C1B4C6667F69BC"
 			shape: "octagon"
 			tasks: [{
@@ -388,10 +378,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: [
-				"1BC9182D96DA4FE3"
-				"0159B919DDB6C50C"
-			]
+			dependencies: ["0159B919DDB6C50C"]
 			id: "2EC19F318A3F5E5A"
 			shape: "octagon"
 			tasks: [{
@@ -456,7 +443,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1BC9182D96DA4FE3"]
 			id: "5F020CA1B559EABA"
 			shape: "octagon"
 			tasks: [{

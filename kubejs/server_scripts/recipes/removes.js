@@ -88,8 +88,6 @@ const recipesById = [
     /xycraft_machines:compat\/mek\/.*/,
 
     // Occultism
-    /occultism:smelting\/.*/,
-    /^occultism:crafting\/chalk_(?!white).*_impure/,
     'occultism:crafting/netherite_dust',
     /occultism:crushing\/.*_from_ore/,
     'occultism:ritual/craft_storage_controller_base',
@@ -237,6 +235,7 @@ const recipesById = [
     /allthemodium:smithing\/allthemodium_.*_smithing/,
     'alltheores:crafting/steel/alloy_blending_from_dust',
     /alltheores:alloysmelter\/.*\/ingot/,
+    'alltheores:alloy_smelting/enderium_ingot',
 
     // Avaritia
     'minecraft:neutron_ingot_from_nuggets',
@@ -305,6 +304,7 @@ const recipesById = [
     /immersiveengineering:crafting\/hammer.*/,
     /immersiveengineering:crafting\/plate_.*_hammering$/,
     'immersiveengineering:smelting/ingot_uranium',
+    /immersiveengineering:crafting\/(pickaxe|sword|axe|shovel|hoe)_steel/,
 
     // Sophisticated Storage 
     'sophisticatedbackpacks:backpack',
