@@ -1,6 +1,7 @@
 {
   "replace": true,
   "values": [
+    "minecraft:overworld",
     "allthemodium:the_other"
   ]
 }

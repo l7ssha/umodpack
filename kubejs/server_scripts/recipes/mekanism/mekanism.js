@@ -92,7 +92,7 @@ ServerEvents.recipes(event => {
                 "tag": "c:plates/osmium"
             },
             "D": {
-                "item": "actuallyadditions:basic_coil"
+                "item": "immersiveengineering:wirecoil_electrum"
             },
             "E": {
                 "tag": "c:buckets/lava"

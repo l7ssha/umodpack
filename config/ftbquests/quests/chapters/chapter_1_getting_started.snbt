@@ -132,7 +132,7 @@
 				item: { count: 1, id: "mekanism:crusher" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 2.5d
 		}
 		{
@@ -303,7 +303,10 @@
 				"440F3A94958353A4"
 				"54B95EA400D84746"
 				"78CA7E3F388673C0"
+				"6441A910B461C9C4"
+				"7C5950CEED36CF9E"
 			]
+			hide_dependency_lines: true
 			id: "374BE4511E72EB63"
 			shape: "gear"
 			size: 1.5d
@@ -311,8 +314,8 @@
 				id: "4F1C825E5544B36C"
 				type: "checkmark"
 			}]
-			x: 12.0d
-			y: 2.25d
+			x: 12.75d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7C2DF69E144D37BB"]
@@ -559,14 +562,17 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7C2DF69E144D37BB"]
+			dependencies: [
+				"7C2DF69E144D37BB"
+				"32593A25CF0D1922"
+			]
 			id: "34D9AFF278168F23"
 			tasks: [{
 				id: "0B817FB4BF996988"
 				item: { count: 1, id: "extendedcrafting:basic_table" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -641,6 +647,78 @@
 			}]
 			x: 4.5d
 			y: 9.0d
+		}
+		{
+			dependencies: ["3C56124632611995"]
+			id: "7C5950CEED36CF9E"
+			tasks: [
+				{
+					count: 16L
+					id: "316C9556B3106560"
+					item: { count: 1, id: "draconicevolution:draconium_dust" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2159182C41F562BB"
+					item: { count: 1, id: "draconicevolution:draconium_ingot" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"7C5950CEED36CF9E"
+				"44D5D873AE1D19B1"
+			]
+			hide_dependency_lines: true
+			id: "0105EA8F796F3943"
+			tasks: [{
+				count: 4L
+				id: "0024144CEE77177A"
+				item: { count: 1, id: "igleelib:modium_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0105EA8F796F3943"]
+			id: "0BB12CC02CF8C2FA"
+			tasks: [{
+				id: "34F2CC316CDE94AD"
+				item: { count: 1, id: "igleelib:derium_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0BB12CC02CF8C2FA"
+				"54B95EA400D84746"
+			]
+			id: "6441A910B461C9C4"
+			tasks: [{
+				id: "16E7017A986E6132"
+				item: { count: 1, id: "igleelib:blazum_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6173FF975787DD1C"]
+			id: "32593A25CF0D1922"
+			tasks: [{
+				id: "241B7A0F51A73D29"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
 		}
 	]
 }

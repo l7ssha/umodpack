@@ -40,4 +40,53 @@ ServerEvents.recipes(event => {
             "id": "re_endergy:stellar_alloy_ingot"
         }
     });
+
+    event.shaped({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABA",
+            "BBB",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "immersiveengineering:component_steel"
+            },
+            "B": {
+                "item": "enderio:grains_of_infinity"
+            }
+        },
+        "result": {
+            "id": "enderio:void_chassis"
+        }
+    });
+
+    event.shaped({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABA",
+            "BCB",
+            "DED"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:gears/steel"
+            },
+            "B": {
+                "item": "ironfurnaces:iron_furnace"
+            },
+            "C": {
+                "tag": "c:plates/constantan"
+            },
+            "D": {
+                "item": "enderio:void_chassis"
+            },
+            "E": {
+                "tag": "c:obsidians"
+            }
+        },
+        "result": {
+            "id": "enderio:alloy_smelter"
+        }
+    });
 });

@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
                 "item": "minecraft:piston"
             },
             "B": {
-                "item": "minecraft:netherite_block"
+                "tag": "c:storage_blocks/draconium_awakened"
             },
             "C": {
                 "tag": "c:circuits/cosmic_dense"
@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
             "item": "extendedcrafting:flux_star"
         },
         "main_input": {
-            "tag": "c:ingots/redstone_ingot",
+            "tag": "c:ingots/refined_redstone",
             "count": 3
         },
         "output": {
@@ -133,7 +133,14 @@ ServerEvents.recipes(event => {
             }
         },
         "result": {
+            "count": 2,
             "id": "extendedcrafting:black_iron_ingot"
         }
     });
+
+    event.replaceInput(
+        { id: 'extendedcrafting:luminessence' },
+        'minecraft:gunpowder',
+        '#c:dusts/lumium',
+    );
 });

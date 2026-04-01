@@ -70,7 +70,6 @@ const recipesById = [
     'mekmm:ambient_gas_collector',
     'mekanismelements:crafting/adsorption_separator',
     'mekanism:quantum_entangloporter',
-    'mekanism:processing/refined_obsidian/dust/from_obsidian_dust',
     'mekanism_extras:processing/dust_radiance/from_glowstone',
     'mekanism:sps_casing',
     'mekanism:sps_port',
@@ -83,6 +82,10 @@ const recipesById = [
     /^emextras:alloying\/circuit\/(infinite_multiversal|cosmic_dense|supreme_quantum|absolute_overclocked)$/,
     'mekanismgenerators:generator/gas_burning',
     'mekanismgenerators:generator/bio',
+    
+    // Ender IO
+    'enderio:void_chassis',
+    'enderio:alloy_smelter',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -236,6 +239,7 @@ const recipesById = [
     'alltheores:crafting/steel/alloy_blending_from_dust',
     /alltheores:alloysmelter\/.*\/ingot/,
     'alltheores:alloy_smelting/enderium_ingot',
+    'alltheores:crafting/lumium/alloy_blending_from_dust',
 
     // Avaritia
     'minecraft:neutron_ingot_from_nuggets',

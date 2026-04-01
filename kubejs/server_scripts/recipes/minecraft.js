@@ -75,6 +75,7 @@ ServerEvents.recipes(event => {
         "pressure": 4,
         "results": [
             {
+                "count": 2,
                 "id": "minecraft:netherite_ingot"
             }
         ]

@@ -1,37 +1,26 @@
 ServerEvents.recipes(event => {
     event.custom({
-        "type": "extendedcrafting:shaped_table",
+        "type": "avaritia:shaped_table",
         "pattern": [
-            "AA A AA",
-            "ABCBCBA",
-            " CDEDC ",
-            "ABEFEBA",
-            " CGEGC ",
-            "ABCBCBA",
-            "AA A AA"
+            " AAA ",
+            "ABBBC",
+            "BDDDB",
+            "CBBBA",
+            " AAA "
         ],
-        "tier": 3,
+        "tier": 2,
         "key": {
             "A": {
                 "tag": "c:ingots/draconium"
             },
             "B": {
-                "item": "alltheores:platinum_ingot"
+                "tag": "c:ingots/platinum"
             },
             "C": {
-                "item": "reliquary:catalyzing_gland"
-            },
-            "D": {
-                "item": "ae2omnicells:charged_ender_ingot"
-            },
-            "E": {
                 "item": "justdirethings:polymorphic_catalyst"
             },
-            "F": {
-                "item": "actuallyadditions:palis_crystal_block"
-            },
-            "G": {
-                "item": "advancednetherite:netherite_diamond_ingot"
+            "D": {
+                "tag": "advancednetherite:ingot/netherites_emerald"
             }
         },
         "result": {
@@ -42,7 +31,7 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "evolvedmekanism:alloying",
         "extra_input": {
-            "tag": "c:obsidians/crying"
+            "tag": "c:obsidians"
         },
         "second_extra_input": {
             "item": "iceandfire:ghost_ingot"

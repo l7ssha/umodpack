@@ -460,7 +460,8 @@ ServerEvents.recipes(event => {
             '2x kubejs:divinium_essence',
         ],
         [
-            '288x pneumaticcraft:lubricant'
+            '288x avaritia_integration:elderly_medulla_source',
+            '1000x avaritia_integration:void_matter_source',
         ],
         [
             '1x emextras:infinite_multiversal_control_circuit',

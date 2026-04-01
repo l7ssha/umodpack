@@ -2,46 +2,46 @@ const noBlockInName = ['stone', 'dirt', 'oak_log', 'deepslate', 'blue_ice', 'obs
 
 const infusionRecipes = [
     // { ingredient: '', essence: '', result: '', base: '', resource: '', level: 2 }
-    { resource: 'stone', essence: 'inferium' },
-    { resource: 'dirt', essence: 'inferium' },
+    { resource: 'stone', essence: 'inferium', level: 1 },
+    { resource: 'dirt', essence: 'inferium', level: 1 },
     { resource: 'oak_log', essence: 'inferium', result: 'mysticalagriculture:wood_seeds' },
     { resource: 'blue_ice', essence: 'inferium', result: 'mysticalagriculture:ice_seeds' },
-    { resource: 'deepslate', essence: 'inferium' },
+    { resource: 'deepslate', essence: 'inferium', level: 1 },
 
     { ingredient: { item: 'mysticalagriculture:nature_agglomeratio' }, essence: 'prudentium', result: 'mysticalagriculture:nature_seeds' },
     { ingredient: { item: 'mysticalagriculture:dye_agglomeratio' }, essence: 'prudentium', result: 'mysticalagriculture:dye_seeds' },
     { ingredient: { item: 'mysticalagriculture:nether_agglomeratio' }, essence: 'prudentium', result: 'mysticalagriculture:nether_seeds' },
     { ingredient: { item: 'mysticalagriculture:coral_agglomeratio' }, essence: 'prudentium', result: 'mysticalagriculture:coral_seeds' },
-    { resource: 'coal', essence: 'prudentium' },
+    { resource: 'coal', essence: 'prudentium', level: 0 },
     { ingredient: { item: 'minecraft:amethyst_cluster' }, essence: 'prudentium', result: 'mysticalagriculture:amethyst_seeds' },
     { ingredient: { item: 'industrialforegoing:dryrubber' }, essence: 'prudentium', result: 'mysticalagriculture:rubber_seeds' },
-    { resource: 'sulfur', essence: 'prudentium' },
-    { resource: 'aluminum', essence: 'prudentium' },
+    { resource: 'sulfur', essence: 'prudentium', level: 1},
+    { resource: 'aluminum', essence: 'prudentium', level: 0 },
     { ingredient: { item: 'enderio:void_chassis' }, essence: 'prudentium', result: 'mysticalagriculture:grains_of_infinity_seeds' },
-    { resource: 'iron', essence: 'tertium' },
-    { resource: 'copper', essence: 'tertium' },
-    { resource: 'quartz', essence: 'tertium', result: 'mysticalagriculture:nether_quartz_seeds' },
-    { resource: 'glowstone', essence: 'tertium' },
-    { resource: 'redstone', essence: 'tertium' },
-    { resource: 'obsidian', essence: 'tertium' },
+    { resource: 'iron', essence: 'tertium', level: 0 },
+    { resource: 'copper', essence: 'tertium', level: 0 },
+    { resource: 'quartz', essence: 'tertium', result: 'mysticalagriculture:nether_quartz_seeds', level: 0 },
+    { resource: 'glowstone', essence: 'tertium', level: 0 },
+    { resource: 'redstone', essence: 'tertium', level: 0 },
+    { resource: 'obsidian', essence: 'tertium', level: 0 },
     { ingredient: { item: 'minecraft:prismarine_bricks' }, essence: 'tertium', result: 'mysticalagriculture:prismarine_seeds' },
-    { resource: 'tin', essence: 'tertium' },
-    { resource: 'bronze', essence: 'tertium' },
-    { resource: 'zinc', essence: 'tertium' },
-    { resource: 'brass', essence: 'tertium' },
-    { resource: 'silver', essence: 'tertium' },
-    { resource: 'lead', essence: 'tertium' },
+    { resource: 'tin', essence: 'tertium', level: 0 },
+    { resource: 'bronze', essence: 'tertium', level: 0 },
+    { resource: 'zinc', essence: 'tertium', level: 0 },
+    { resource: 'brass', essence: 'tertium', level: 0 },
+    { resource: 'silver', essence: 'tertium', level: 0 },
+    { resource: 'lead', essence: 'tertium', level: 0 },
 
-    { resource: 'gold', essence: 'imperium' },
-    { resource: 'lapis', essence: 'imperium', result: 'mysticalagriculture:lapis_lazuli_seeds' },
-    { resource: 'nickel', essence: 'imperium' },
-    { resource: 'uranium', essence: 'imperium' },
-    { resource: 'ruby', essence: 'imperium' },
-    { resource: 'sapphire', essence: 'imperium' },
-    { resource: 'peridot', essence: 'imperium' },
-    { resource: 'osmium', essence: 'imperium' },
-    { resource: 'fluorite', essence: 'imperium' },
-    { resource: 'fluix', essence: 'imperium' },
+    { resource: 'gold', essence: 'imperium', level: 1 },
+    { resource: 'lapis', essence: 'imperium', result: 'mysticalagriculture:lapis_lazuli_seeds', level: 1 },
+    { resource: 'nickel', essence: 'imperium', level: 1 },
+    { resource: 'uranium', essence: 'imperium', level: 1 },
+    { resource: 'ruby', essence: 'imperium', level: 1 },
+    { resource: 'sapphire', essence: 'imperium', level: 1 },
+    { resource: 'peridot', essence: 'imperium', level: 1 },
+    { resource: 'osmium', essence: 'imperium', level: 1 },
+    { resource: 'fluorite', essence: 'imperium', level: 1 },
+    { resource: 'fluix', essence: 'imperium', level: 1 },
 
     { resource: 'diamond', essence: 'supremium' },
     { resource: 'emerald', essence: 'supremium' },
@@ -159,13 +159,17 @@ ServerEvents.recipes(event => {
         let ingredient = item.ingredient;
         let essence = item.essence;
         let result = item.result;
-        let level = item.level || 2;
+        let level = item.level == undefined ? 2 : item.level;
 
         let resource = item.resource;
         if (resource !== undefined) {
-            const ingredientResource = noBlockInName.includes(resource) ? resource : `${resource}_block`;
+            if (level == 0) {
+                ingredient = { tag: `c:storage_blocks/${resource}` };
+            } else {
+                const ingredientResource = noBlockInName.includes(resource) ? resource : `${resource}_block`;
 
-            ingredient = { item: `allthecompressed:${ingredientResource}_${level}x` };
+                ingredient = { item: `allthecompressed:${ingredientResource}_${level}x` };
+            }
 
             if (result === undefined) {
                 result = `mysticalagriculture:${resource}_seeds`;

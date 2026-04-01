@@ -1,8 +1,0 @@
-{
-  "conditions": [
-    {
-      "modid": "umodpack",
-      "type": "neoforge:mod_loaded"
-    }
-  ]
-}
