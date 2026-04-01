@@ -30,7 +30,7 @@
 			dependencies: ["72044DCDB30BC1FD"]
 			id: "6103C1881D338A4F"
 			tasks: [{
-				count: 64L
+				count: 16L
 				id: "20504204D448258C"
 				item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
 				type: "item"

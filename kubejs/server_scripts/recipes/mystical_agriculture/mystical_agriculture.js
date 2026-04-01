@@ -1044,6 +1044,7 @@ ServerEvents.recipes(event => {
             "ABGDGBA",
             "AABBBAA"
         ],
+        "tier": 3,
         "key": {
             "A": {
                 "item": "mysticalagriculture:imperium_block"
@@ -1425,6 +1426,7 @@ ServerEvents.recipes(event => {
             " ACDCA ",
             "  ABA  "
         ],
+        "tier": 3,
         "key": {
             "A": {
                 "item": "mysticalagradditions:insanium_block"
@@ -1458,6 +1460,7 @@ ServerEvents.recipes(event => {
             "ABDEDBA",
             " AACBA "
         ],
+        "tier": 3,
         "key": {
             "A": {
                 "item": "mysticalagradditions:insanium_block"

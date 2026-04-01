@@ -131,7 +131,7 @@ ServerEvents.recipes(event => {
             {
                 "consume": true,
                 "ingredient": {
-                    "item": "igleelib:blazum_block"
+                    "item": "igleelib:lavium_block"
                 }
             },
             {

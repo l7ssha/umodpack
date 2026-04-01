@@ -652,6 +652,7 @@ ServerEvents.recipes(event => {
             "ACDCB",
             "AAAAA"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "tag": "c:plates/nickel"
@@ -663,7 +664,7 @@ ServerEvents.recipes(event => {
                 "item": "ae2:charged_certus_quartz_crystal"
             },
             "D": {
-                "item": "ironfurnaces:crystal_furnace"
+                "tag": "c:furnaces/rainbow"
             },
             "E": {
                 "tag": "c:buckets/empty"

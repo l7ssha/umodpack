@@ -24,6 +24,7 @@ ServerEvents.recipes(event => {
             }
         },
         "result": {
+            "count": 6,
             "id": "igleelib:modium_ingot"
         }
     });

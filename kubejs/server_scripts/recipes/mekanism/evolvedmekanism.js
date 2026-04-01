@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "mekanism:compressing",
         "chemical_input": {
-            "amount": 20,
+            "amount": 2,
             "chemical": "mekanism:osmium"
         },
         "item_input": {

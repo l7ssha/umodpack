@@ -82,6 +82,7 @@ const recipesById = [
     /^emextras:alloying\/circuit\/(infinite_multiversal|cosmic_dense|supreme_quantum|absolute_overclocked)$/,
     'mekanismgenerators:generator/gas_burning',
     'mekanismgenerators:generator/bio',
+    'mekanism:chemical_crystallizer',
     
     // Ender IO
     'enderio:void_chassis',

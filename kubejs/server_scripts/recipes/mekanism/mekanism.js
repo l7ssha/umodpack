@@ -737,7 +737,7 @@ ServerEvents.recipes(event => {
             "AAB BAA",
             "CBDEDBC",
             "CFEGEFC",
-            "CFGHGFC",
+            "CFJHJFC",
             "ACF FCA",
             "A CCC A"
         ],
@@ -759,13 +759,16 @@ ServerEvents.recipes(event => {
                 "item": "mekanism:energized_smelter"
             },
             "F": {
-                "tag": "c:ingots/refined_obsidian"
+                "tag": "c:ingots/knightmetal"
             },
             "G": {
                 "item": "mekanism:steel_casing"
             },
             "H": {
                 "item": "mekanism:combiner"
+            },
+            "J": {
+                "item": "re_endergy:melodic_alloy_smelter"
             }
         },
         "result": {
@@ -1575,6 +1578,47 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "mekanismgenerators:bio_generator"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "HHHHH",
+            "BCDCB",
+            "BCDCB",
+            "EFGFE",
+            "EEAEE"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:plates/netherite"
+            },
+            "B": {
+                "tag": "c:alloys/ultimate"
+            },
+            "C": {
+                "tag": "c:circuits/overclocked"
+            },
+            "D": {
+                "item": "enderio:end_steel_bars"
+            },
+            "E": {
+                "tag": "c:ingots/modium"
+            },
+            "F": {
+                "item": "mekanism:steel_casing"
+            },
+            "G": {
+                "item": "mekanism:ultimate_fluid_tank"
+            },
+            "H": {
+                "tag": "c:ingots/refined_redstone"
+            }
+        },
+        "result": {
+            "id": "mekanism:chemical_crystallizer"
         }
     });
 });
