@@ -1,5 +1,5 @@
 #Set this to true if you'd like the oven to only accept cooking oil as fuel (requires Pam's Harvestcraft)
-ovenRequiresCookingOil = true
+ovenRequiresCookingOil = false
 #Set to false if you don't want ingredients to be marked with a special icon in the recipe book.
 showIngredientIcon = true
 #The amount of milk the cow in a jar generates per tick.

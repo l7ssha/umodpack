@@ -295,8 +295,8 @@
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -0.5d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -721,15 +721,15 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["488B539CE42EB69D"]
+			dependencies: ["49EF0242BDE42C6A"]
 			id: "5859F2576E6EA306"
 			tasks: [{
 				id: "2E44E8AC5CA61104"
 				item: { count: 1, id: "industrialforegoing:fluid_extractor" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 5.5d
+			x: -7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5859F2576E6EA306"]
@@ -740,7 +740,42 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["488B539CE42EB69D"]
+			id: "49EF0242BDE42C6A"
+			tasks: [{
+				id: "24FA34433BFA39DB"
+				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7F45D030389596E6"]
+			id: "0121CD2E132DDFDD"
+			shape: "square"
+			tasks: [{
+				id: "5166C5A5FFAB2BB1"
+				item: { count: 1, id: "mekmm:cnc_rolling_mill" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7F45D030389596E6"]
+			id: "23A1FB9B93CEFDB1"
+			shape: "square"
+			tasks: [{
+				id: "2F41269AD2ECA55F"
+				item: { count: 1, id: "mekmm:cnc_lathe" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
 		}
 	]
 }

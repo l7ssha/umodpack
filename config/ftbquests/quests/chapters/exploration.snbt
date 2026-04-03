@@ -9,5 +9,435 @@
 	id: "242C3339860E9FE4"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"698FB4697F308D7D"
+				"3A0686AAEBCF9C88"
+			]
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "3EDEA0407CFD4297"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "1D9492A198B723D3"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4192BCA1D9CE7DAD"
+				"698FB4697F308D7D"
+			]
+			icon: {
+				id: "minecraft:nether_gold_ore"
+			}
+			id: "712488FBADA11378"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "095DE9E38C9279CA"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["712488FBADA11378"]
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "1ADEEB75BA85A2BC"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "3628A0ABF42B253D"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"708C17522E236B2F"
+				"1B45A2CCAA975F2C"
+			]
+			icon: {
+				id: "minecraft:deepslate_coal_ore"
+			}
+			id: "75A2DCBBB0144C00"
+			tasks: [{
+				dimension: "allthemodium:mining"
+				id: "4F9194AEB6D2CE68"
+				type: "dimension"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			id: "698FB4697F308D7D"
+			shape: "octagon"
+			size: 1.3d
+			tasks: [{
+				id: "44D675787E0D740B"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"712488FBADA11378"
+				"1B45A2CCAA975F2C"
+			]
+			icon: {
+				id: "allthemodium:ancient_stone"
+			}
+			id: "59C809775435980D"
+			tasks: [{
+				dimension: "allthemodium:the_other"
+				id: "04048C990E48EE2A"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1ADEEB75BA85A2BC"
+				"1B45A2CCAA975F2C"
+			]
+			icon: {
+				id: "utilitarian:angel_block"
+			}
+			id: "2CB9F703ACD2FE40"
+			optional: true
+			shape: "square"
+			tasks: [{
+				dimension: "allthemodium:the_beyond"
+				id: "2770A8FA129F1041"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"698FB4697F308D7D"
+				"7F842F6B329771F8"
+			]
+			id: "1B45A2CCAA975F2C"
+			tasks: [{
+				id: "2DC67E1BBDA25853"
+				item: { count: 1, id: "allthemodium:teleport_pad" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["698FB4697F308D7D"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7F842F6B329771F8"
+			tasks: [{
+				id: "1049A134FE3859E9"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7F842F6B329771F8"]
+			id: "15CDE9B0EB2141D9"
+			progression_mode: "linear"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "37A591DA745CC3BB"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["59C809775435980D"]
+			id: "5E8C5A827F9FF35B"
+			tasks: [{
+				id: "4052980279007009"
+				item: { count: 1, id: "allthemodium:piglich_heart" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3EDEA0407CFD4297"]
+			id: "0925E2F30E0FA26D"
+			tasks: [{
+				id: "77DB4BFA1895355E"
+				item: { count: 1, id: "twilightforest:naga_trophy" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1ADEEB75BA85A2BC"]
+			id: "670457A4B8C8112D"
+			tasks: [{
+				id: "789F30FC61AD02F6"
+				item: { count: 1, id: "draconicevolution:dragon_heart" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["670457A4B8C8112D"]
+			id: "1E582F11A6319F52"
+			tasks: [{
+				id: "73B7FCB8A52045F5"
+				item: { count: 1, id: "draconicevolution:chaos_shard" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["670457A4B8C8112D"]
+			id: "3768B9DA8789BB18"
+			tasks: [{
+				id: "1643FF10D375653F"
+				item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["712488FBADA11378"]
+			id: "6C56E6E43AB1FC10"
+			tasks: [{
+				id: "39D511ACC0A90CE6"
+				item: { count: 1, id: "cataclysm:infernal_forge" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["698FB4697F308D7D"]
+			id: "73B5AA130E914B98"
+			tasks: [{
+				id: "35B85714547D2370"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0925E2F30E0FA26D"]
+			id: "726C5506961290C8"
+			tasks: [{
+				id: "49436B3ECE49721A"
+				item: { count: 1, id: "twilightforest:lich_trophy" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["726C5506961290C8"]
+			id: "0A675D2D02C1687D"
+			tasks: [{
+				id: "217CDF23067D2CB9"
+				item: { count: 1, id: "twilightforest:minoshroom_trophy" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A675D2D02C1687D"]
+			id: "2AC3BC87693E23C1"
+			tasks: [{
+				id: "20D8BE36D03E8857"
+				item: { count: 1, id: "twilightforest:hydra_trophy" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4192BCA1D9CE7DAD"
+				"712488FBADA11378"
+			]
+			icon: {
+				id: "aether:aether_portal_frame"
+			}
+			id: "45D62327C37FC893"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "5BFEFB52B7B019DF"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AC3BC87693E23C1"]
+			id: "074F693572E1AC85"
+			shape: "square"
+			size: 0.9d
+			tasks: [{
+				id: "235CB4689852C95A"
+				item: { count: 1, id: "twilightforest:fiery_ingot" }
+				type: "item"
+			}]
+			x: 6.3d
+			y: -5.85d
+		}
+		{
+			dependencies: ["2AC3BC87693E23C1"]
+			id: "6CA7EADB23A88091"
+			tasks: [{
+				id: "782D689A61E81BBF"
+				item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6CA7EADB23A88091"]
+			id: "06B2724E4912C387"
+			shape: "square"
+			size: 0.9d
+			tasks: [{
+				id: "199902D760978660"
+				item: { count: 1, id: "twilightforest:knightmetal_ingot" }
+				type: "item"
+			}]
+			x: 6.3d
+			y: -6.75d
+		}
+		{
+			dependencies: ["0A675D2D02C1687D"]
+			id: "2D3A2A0EAD93B130"
+			shape: "square"
+			size: 0.9d
+			tasks: [{
+				id: "4463D771F82DE3DA"
+				item: { count: 1, id: "twilightforest:steeleaf_ingot" }
+				type: "item"
+			}]
+			x: 6.3d
+			y: -4.95d
+		}
+		{
+			dependencies: ["6CA7EADB23A88091"]
+			id: "14B48103C39BA774"
+			tasks: [{
+				id: "7220E07D87D293C1"
+				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["14B48103C39BA774"]
+			id: "6E64FF8AA41C7188"
+			shape: "square"
+			size: 0.9d
+			tasks: [{
+				id: "2D89782DFEB686B7"
+				item: { count: 1, id: "twilightforest:carminite" }
+				type: "item"
+			}]
+			x: 6.3d
+			y: -7.6499999999999995d
+		}
+		{
+			dependencies: ["14B48103C39BA774"]
+			id: "31B8C21C5D2DFF6E"
+			tasks: [{
+				id: "0F1BB3F694003017"
+				item: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["31B8C21C5D2DFF6E"]
+			id: "3925ADD06731E41D"
+			shape: "square"
+			size: 0.9d
+			tasks: [{
+				id: "5EBB21CDEB2D6D38"
+				item: { count: 1, id: "twilightforest:alpha_yeti_fur" }
+				type: "item"
+			}]
+			x: 5.3999999999999995d
+			y: -7.6499999999999995d
+		}
+		{
+			dependencies: ["3EDEA0407CFD4297"]
+			id: "138ABCEBE27AC3ED"
+			shape: "square"
+			size: 0.9d
+			tasks: [{
+				id: "6C0627AC6B2874C9"
+				item: { count: 1, id: "twilightforest:ironwood_ingot" }
+				type: "item"
+			}]
+			x: 3.15d
+			y: -5.3999999999999995d
+		}
+		{
+			dependencies: ["31B8C21C5D2DFF6E"]
+			id: "50DAEE106FF3C5AF"
+			tasks: [{
+				id: "59027BD16429749C"
+				item: { count: 1, id: "twilightforest:snow_queen_trophy" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["50DAEE106FF3C5AF"]
+			id: "119C658C73ED11B5"
+			tasks: [{
+				id: "0EE7D5EBA02FAB2A"
+				item: { count: 1, id: "twilightforest:lamp_of_cinders" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["119C658C73ED11B5"]
+			id: "76467C90BB2C9C2B"
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				advancement: "twilightforest:progression_end"
+				criterion: ""
+				id: "059A89C7F523F14C"
+				type: "advancement"
+			}]
+			x: 1.9500000000000002d
+			y: -7.5d
+		}
+	]
 }

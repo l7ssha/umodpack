@@ -50,8 +50,8 @@ ServerEvents.recipes(event => {
         "pattern": [
             "AAAAA",
             "AOCDA",
-            "AEBCA",
-            "ADEOA",
+            "PEBCP",
+            "PDEOP",
             "FGFGF"
         ],
         "tier": 2,
@@ -79,6 +79,9 @@ ServerEvents.recipes(event => {
             },
             "O": {
                 "tag": "c:circuits/overclocked"
+            },
+            "P": {
+                "item": "pneumaticcraft:network_io_port"
             }
         },
         "result": {
@@ -117,31 +120,30 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
-            "AA AA",
+            "AABAA",
             "ABCBA",
-            " DFD ",
-            "ABEBA",
-            "AA AA"
+            "BDEDB",
+            "ABFBA",
+            "AABAA"
         ],
-        "tier": 2,
         "key": {
             "A": {
-                "tag": "c:ingots/steel"
+                "tag": "c:ingots/ironwood"
             },
             "B": {
-                "tag": "c:rods/steel"
+                "tag": "c:rods/signalum"
             },
             "C": {
-                "item": "ae2:formation_core"
+                "item": "rftoolsutility:crafter3"
             },
             "D": {
-                "item": "minecraft:crafter"
+                "item": "stevescarts:module_advanced_crafter"
             },
             "E": {
-                "item": "ae2:annihilation_core"
+                "item": "minecraft:piston"
             },
             "F": {
-                "item": "stevescarts:module_advanced_crafter"
+                "item": "extendedcrafting:frame"
             }
         },
         "result": {
@@ -258,6 +260,7 @@ ServerEvents.recipes(event => {
             " DED ",
             "     "
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "item": "ae2:engineering_processor"
@@ -788,4 +791,79 @@ ServerEvents.recipes(event => {
         'ae2:certus_quartz_dust',
         '#c:dusts/ruby'
     );
+
+    event.custom({
+        "type": "extendedae:crystal_assembler",
+        "input_items": [
+            {
+                "ingredient": {
+                    "item": "ae2:crafting_unit"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "item": "ae2:engineering_processor"
+                }
+            },
+            {
+                "amount": 3,
+                "ingredient": {
+                    "tag": "ae2:glass_cable"
+                }
+
+            }
+        ],
+        "output": {
+            "count": 1,
+            "id": "ae2:crafting_accelerator"
+        }
+    });
+
+    event.custom({
+        "type": "extendedae:crystal_assembler",
+        "input_items": [
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "ae2:crafting_accelerator"
+                }
+            },
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "ae2:logic_processor"
+                }
+            },
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "megacells:accumulation_processor"
+                }
+            },
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "megacells:accumulation_processor"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "tag": "c:circuits/absolute_overclocked"
+                }
+            },
+            {
+                "amount": 12,
+                "ingredient": {
+                    "tag": "ae2:glass_cable"
+                }
+
+            }
+        ],
+        "output": {
+            "count": 1,
+            "id": "megacells:mega_crafting_unit"
+        }
+    });
 });

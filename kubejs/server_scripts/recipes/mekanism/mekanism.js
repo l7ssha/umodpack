@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
         ],
         "key": {
             "A": {
-                "tag": "c:slimeballs"
+                "tag": "c:slime_balls"
             },
             "B": {
                 "tag": "c:dusts/wood"
@@ -703,7 +703,7 @@ ServerEvents.recipes(event => {
         "pattern": [
             " AAA ",
             "BCDCB",
-            "BD DB",
+            "BF FB",
             "BCECB",
             " B B "
         ],
@@ -723,6 +723,9 @@ ServerEvents.recipes(event => {
             },
             "E": {
                 "item": "mekanism:steel_casing"
+            },
+            "F": {
+                "item": "mekanismgenerators:rotational_complex"
             }
         },
         "result": {
@@ -1329,6 +1332,7 @@ ServerEvents.recipes(event => {
             "AHFFFHA",
             "AAAAAAA"
         ],
+        "tier": 3,
         "key": {
             "A": {
                 "item": "mekanism:hdpe_sheet"
@@ -1619,6 +1623,93 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "mekanism:chemical_crystallizer"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AABAA",
+            "ABCBA",
+            "ADDDA",
+            "E   E",
+            "AEEEA"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:plates/osmium"
+            },
+            "B": {
+                "tag": "c:ingots/modium"
+            },
+            "C": {
+                "tag": "c:circuits/absolute_overclocked"
+            },
+            "D": {
+                "item": "minecraft:piston"
+            },
+            "E": {
+                "tag": "pneumaticcraft:reinforced_stone"
+            }
+        },
+        "result": {
+            "id": "mekmm:cnc_stamper"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            " AAA ",
+            "BCDCB",
+            "BE EB",
+            "BCDCB",
+            " BBB "
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:ingots/compressed_iron"
+            },
+            "B": {
+                "tag": "c:plates/osmium"
+            },
+            "C": {
+                "tag": "c:circuits/elite"
+            },
+            "D": {
+                "item": "alltheores:platinum_ore_hammer"
+            },
+            "E": {
+                "item": "minecraft:piston"
+            }
+        },
+        "result": {
+            "id": "mekmm:cnc_lathe"
+        }
+    }).replaceIngredient('alltheores:platinum_ore_hammer', 'alltheores:platinum_nugget');
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            " A A ",
+            "AB BA",
+            "AB BA",
+            "ABBBA",
+            " AAA "
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:plates/steel"
+            },
+            "B": {
+                "tag": "c:plates/lead"
+            }
+        },
+        "result": {
+            "id": "mekanism:radioactive_waste_barrel"
         }
     });
 });

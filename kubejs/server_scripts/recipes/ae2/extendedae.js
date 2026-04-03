@@ -366,7 +366,7 @@ ServerEvents.recipes(event => {
         ],
         "key": {
             "A": {
-                "tag": "c:slimeballs"
+                "tag": "c:slime_balls"
             },
             "B": {
                 "item": "sophisticatedstorage:super_packing_tape"

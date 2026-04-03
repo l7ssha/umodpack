@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
             }
         ],
         "result": {
-            "amount": 4,
+            "count": 6,
             "id": "productivetrees:sawdust"
         }
     }).keepIngredient('chipped:saw')

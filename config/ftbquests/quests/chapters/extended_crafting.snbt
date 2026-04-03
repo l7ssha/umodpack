@@ -115,6 +115,7 @@
 		{
 			id: "0ECC339901164D63"
 			shape: "octagon"
+			size: 1.3d
 			tasks: [{
 				id: "6F87B0CE7B116546"
 				type: "checkmark"
@@ -245,6 +246,17 @@
 			}]
 			x: 8.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["31C31B805F63C601"]
+			id: "370A6B3EF7AEC893"
+			tasks: [{
+				id: "51C1F98D92CDA143"
+				item: { count: 1, id: "packagedavaritia:nether_crafter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
 		}
 	]
 }

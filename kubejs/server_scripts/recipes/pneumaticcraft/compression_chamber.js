@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
                 "count": 4
             },
             {
-                "tag": "c:slimeballs",
+                "tag": "c:slime_balls",
                 "count": 2
             },
             {

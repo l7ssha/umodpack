@@ -224,7 +224,7 @@ ServerEvents.recipes(event => {
                 "1x actuallyadditions:emeradic_crystal_block",
                 "1x minecraft:short_grass",
                 "1x #minecraft:saplings",
-                "1x #c:slimeballs",
+                "1x #c:slime_balls",
                 "1x #c:dyes/lime",
             ]
         ]

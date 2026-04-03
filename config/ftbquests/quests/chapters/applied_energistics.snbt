@@ -17,6 +17,7 @@
 			]
 			id: "321A93DE6ECA689B"
 			shape: "octagon"
+			size: 1.3d
 			tasks: [{
 				id: "740D55B47B96BB36"
 				type: "checkmark"
@@ -43,8 +44,8 @@
 				item: { count: 1, id: "ae2:fluix_glass_cable" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.0d
+			x: 2.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -57,10 +58,11 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(ae2:smart_cable)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: 5.0d
+			y: -5.5d
 		}
 		{
+			dependencies: ["7BA2ECB9A2F9A704"]
 			id: "7C3F2067AA0F36F2"
 			shape: "diamond"
 			tasks: [{
@@ -68,10 +70,11 @@
 				item: { count: 1, id: "ae2:cell_component_1k" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -2.5d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
+			dependencies: ["7C3F2067AA0F36F2"]
 			id: "7D33DC6E949E817B"
 			shape: "diamond"
 			tasks: [{
@@ -79,10 +82,11 @@
 				item: { count: 1, id: "ae2:cell_component_4k" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -3.0d
+			x: 5.5d
+			y: -4.0d
 		}
 		{
+			dependencies: ["7D33DC6E949E817B"]
 			id: "5B5632A08848E5D9"
 			shape: "diamond"
 			tasks: [{
@@ -90,10 +94,11 @@
 				item: { count: 1, id: "ae2:cell_component_16k" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -2.5d
+			x: 6.0d
+			y: -3.5d
 		}
 		{
+			dependencies: ["5B5632A08848E5D9"]
 			id: "5F440C5031353D9E"
 			shape: "diamond"
 			tasks: [{
@@ -101,10 +106,11 @@
 				item: { count: 1, id: "ae2:cell_component_64k" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.0d
+			x: 6.5d
+			y: -4.0d
 		}
 		{
+			dependencies: ["5F440C5031353D9E"]
 			id: "2FD7699430B6D0CB"
 			shape: "diamond"
 			tasks: [{
@@ -112,8 +118,133 @@
 				item: { count: 1, id: "ae2:cell_component_256k" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.5d
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"02A157D4DF5DAA52"
+				"58636507583DE040"
+			]
+			id: "70F7639BF70A7EBC"
+			shape: "diamond"
+			tasks: [{
+				id: "4EAD9AA15B8093B3"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:item_cell_housing)item(ae2:fluid_cell_housing)item(appmek:chemical_cell_housing)item(appliedpneumatics:air_cell_shell)item(appflux:fe_cell_housing)item(appliedsoul:soul_cell_housing))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"390EC8864CC82018"
+				"05F8DF19B421C27F"
+			]
+			id: "02A157D4DF5DAA52"
+			tasks: [
+				{
+					id: "3A4A1AB67D5A450D"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+				{
+					id: "177957C784F65825"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+				{
+					id: "544B630F258EEAEE"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["321A93DE6ECA689B"]
+			id: "390EC8864CC82018"
+			tasks: [{
+				id: "4E6050DD921C6BA3"
+				item: { count: 1, id: "ae2:charger" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["321A93DE6ECA689B"]
+			id: "05F8DF19B421C27F"
+			tasks: [{
+				id: "3318A5F63DB77E81"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4954DCED69033FDB"
+				"02A157D4DF5DAA52"
+			]
+			id: "7BA2ECB9A2F9A704"
+			tasks: [{
+				id: "738A3B7E51EB1ED3"
+				item: { count: 1, id: "ae2:drive" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["321A93DE6ECA689B"]
+			id: "02B29290745E59C2"
+			tasks: [
+				{
+					id: "7001449FA6E46F2C"
+					item: { count: 1, id: "ae2:formation_core" }
+					type: "item"
+				}
+				{
+					id: "4FCB4B428D2B790A"
+					item: { count: 1, id: "ae2:annihilation_core" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "40DE06C69D4CB23E"
+			tasks: [{
+				id: "2035AE621FB6078E"
+				item: { count: 1, id: "ae2:pattern_provider" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "7EA0107CE91A9B75"
+			tasks: [{
+				id: "44EF36401B7C657E"
+				item: { count: 1, id: "ae2:interface" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "7FF9834DAF987B71"
+			tasks: [{
+				id: "6AEC4DD7B58C19C9"
+				item: { count: 1, id: "ae2:molecular_assembler" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
 		}
 	]
 }

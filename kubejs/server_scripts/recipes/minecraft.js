@@ -215,6 +215,7 @@ ServerEvents.recipes(event => {
             }
         },
         "result": {
+            "count": 8,
             "id": "minecraft:iron_bars"
         }
     });
