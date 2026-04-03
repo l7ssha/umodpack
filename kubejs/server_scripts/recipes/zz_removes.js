@@ -88,7 +88,7 @@ const recipesById = [
     'mekmm:cnc_lathe',
     'mekanismelements:crafting/radiation_irradiator',
     'mekanism:radioactive_waste_barrel',
-    
+
     // Ender IO
     'enderio:void_chassis',
     'enderio:alloy_smelter',
@@ -195,6 +195,7 @@ const recipesById = [
     'extendedae:crystal_assembler',
     'ae2:network/crafting/cpu_crafting_accelerator',
     'megacells:crafting/mega_crafting_unit',
+    'ae2:network/crafting/cpu_crafting_accelerator',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',

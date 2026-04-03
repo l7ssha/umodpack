@@ -601,4 +601,82 @@ ServerEvents.recipes(event => {
             "id": "extendedae:wireless_hub"
         }
     });
+
+    event.custom({
+        "type": "extendedae:crystal_assembler",
+        "input_items": [
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "ae2:crafting_accelerator"
+                }
+            },
+            {
+                "amount": 1,
+                "ingredient": {
+                    "item": "megacells:mega_crafting_unit"
+                }
+            },
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "ae2:logic_processor"
+                }
+            },
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "megacells:accumulation_processor"
+                }
+            },
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "megacells:accumulation_processor"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "tag": "c:circuits/absolute_overclocked"
+                }
+            },
+            {
+                "amount": 12,
+                "ingredient": {
+                    "tag": "ae2:glass_cable"
+                }
+
+            }
+        ],
+        "output": {
+            "count": 1,
+            "id": "megacells:mega_crafting_accelerator"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 80000,
+        "power_rate": 2000,
+        "pattern": [
+            "ABA",
+            "BCB",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:plates/signalum"
+            },
+            "B": {
+                "item": "ae2:crafting_unit"
+            },
+            "C": {
+                "item": "draconicevolution:draconium_core"
+            }
+        },
+        "result": {
+            "id": "megacells:mega_crafting_unit"
+        }
+    });
 });

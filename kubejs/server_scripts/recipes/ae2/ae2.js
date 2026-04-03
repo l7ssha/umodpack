@@ -801,9 +801,9 @@ ServerEvents.recipes(event => {
                 }
             },
             {
-                "amount": 2,
+                "amount": 4,
                 "ingredient": {
-                    "item": "ae2:engineering_processor"
+                    "tag": "c:circuits/ultimate"
                 }
             },
             {
@@ -817,53 +817,6 @@ ServerEvents.recipes(event => {
         "output": {
             "count": 1,
             "id": "ae2:crafting_accelerator"
-        }
-    });
-
-    event.custom({
-        "type": "extendedae:crystal_assembler",
-        "input_items": [
-            {
-                "amount": 4,
-                "ingredient": {
-                    "item": "ae2:crafting_accelerator"
-                }
-            },
-            {
-                "amount": 4,
-                "ingredient": {
-                    "item": "ae2:logic_processor"
-                }
-            },
-            {
-                "amount": 4,
-                "ingredient": {
-                    "item": "megacells:accumulation_processor"
-                }
-            },
-            {
-                "amount": 4,
-                "ingredient": {
-                    "item": "megacells:accumulation_processor"
-                }
-            },
-            {
-                "amount": 2,
-                "ingredient": {
-                    "tag": "c:circuits/absolute_overclocked"
-                }
-            },
-            {
-                "amount": 12,
-                "ingredient": {
-                    "tag": "ae2:glass_cable"
-                }
-
-            }
-        ],
-        "output": {
-            "count": 1,
-            "id": "megacells:mega_crafting_unit"
         }
     });
 });

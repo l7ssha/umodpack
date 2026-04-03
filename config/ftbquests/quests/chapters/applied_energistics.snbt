@@ -217,34 +217,157 @@
 			y: -4.0d
 		}
 		{
+			dependencies: [
+				"02B29290745E59C2"
+				"0159B919DDB6C50C"
+			]
 			id: "40DE06C69D4CB23E"
 			tasks: [{
 				id: "2035AE621FB6078E"
 				item: { count: 1, id: "ae2:pattern_provider" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: -2.5d
 		}
 		{
+			dependencies: [
+				"02B29290745E59C2"
+				"0159B919DDB6C50C"
+			]
 			id: "7EA0107CE91A9B75"
 			tasks: [{
 				id: "44EF36401B7C657E"
 				item: { count: 1, id: "ae2:interface" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -2.0d
 			y: -2.5d
 		}
 		{
+			dependencies: [
+				"02B29290745E59C2"
+				"138ABCEBE27AC3ED"
+			]
 			id: "7FF9834DAF987B71"
 			tasks: [{
 				id: "6AEC4DD7B58C19C9"
 				item: { count: 1, id: "ae2:molecular_assembler" }
 				type: "item"
 			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"30CB64D3FC8DF798"
+				"7FF9834DAF987B71"
+			]
+			id: "54C1227A2440B1A9"
+			tasks: [{
+				id: "2B56F8FB302C6FDB"
+				item: { count: 1, id: "ae2:crafting_accelerator" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"440F3A94958353A4"
+				"6C3F15940B893707"
+			]
+			id: "6AE8611CDFAE5A13"
+			tasks: [{
+				id: "71396606CB764BCB"
+				item: { count: 1, id: "extendedae:machine_frame" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6AE8611CDFAE5A13"
+				"3F11B739BE561543"
+			]
+			id: "30CB64D3FC8DF798"
+			tasks: [{
+				id: "451C636971E2F6C3"
+				item: { count: 1, id: "extendedae:crystal_assembler" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7F30E917DB781CD7"
+				"20153214A2E62564"
+			]
+			id: "5EB33A303050DC53"
+			shape: "octagon"
+			size: 1.3d
+			tasks: [{
+				id: "3C1B420177EA808F"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5EB33A303050DC53"]
+			id: "5B09EFC876A60EA9"
+			tasks: [
+				{
+					id: "5238868832B99A44"
+					item: { count: 1, id: "extendedae:entro_seed" }
+					type: "item"
+				}
+				{
+					id: "1A8D0CDFD1346284"
+					item: { count: 1, id: "ae2:fluix_block" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5B09EFC876A60EA9"]
+			id: "6C3F15940B893707"
+			tasks: [{
+				id: "341A64842CB3D092"
+				item: { count: 1, id: "extendedae:entro_ingot" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"30CB64D3FC8DF798"
+				"7FF9834DAF987B71"
+			]
+			id: "28F002960C1B8ABF"
+			shape: "square"
+			tasks: [{
+				id: "56DE1872D06B1F96"
+				item: { count: 1, id: "extendedae:ex_molecular_assembler" }
+				type: "item"
+			}]
 			x: -5.5d
 			y: -2.5d
+		}
+		{
+			id: "20925EC3E1247D59"
+			tasks: [{
+				id: "2C56326CA56AC288"
+				item: { count: 1, id: "megacells:mega_crafting_accelerator" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
 		}
 	]
 }
