@@ -52,6 +52,7 @@
 	quest.23D8A64112364174.title: "Ether Gas"
 	quest.27A9AC29C46CDD5E.title: "Sophisticated Storage"
 	quest.2AC3BC87693E23C1.title: "Kill Hydra"
+	quest.2B93B68F7F9ECE1B.title: "Crafting Storage"
 	quest.2CB9F703ACD2FE40.title: "Visit The Beyond"
 	quest.2E45D3C42069A0E1.title: "Better Gold"
 	quest.30A641D9655E05E3.title: "Antimatter Protomolecular Transmutator (APT) "
@@ -76,6 +77,7 @@
 	quest.47C0C77D36BFE7D9.title: "Creative Essence"
 	quest.488B539CE42EB69D.title: "You get wood first"
 	quest.4C899798872FACC0.title: "Easy Ore Doubling"
+	quest.4D4FAF5EB6AE845E.title: "Sky Steel"
 	quest.4DEC2A1C61FBD22B.title: "Better Crafting Table"
 	quest.4F6FF9F8C3392635.title: "Kill Wither"
 	quest.4F76E17F571EB959.quest_desc: ["Any ice can be used to cool reactor down and gain efficient. Best of them is \"Dry Ice\" from Powah."]
@@ -89,6 +91,7 @@
 	quest.5B09EFC876A60EA9.quest_desc: ["Right clicking on Fluix Block will convert it to Budding Entro Block type deal."]
 	quest.5B6598E2A2BCDA62.title: "Pressurized Reaction Chamber"
 	quest.5BE0DF4F2BB0B3B3.title: "DimStorage"
+	quest.5CE41900F0ACE50B.title: "MEGA Crafting Storage"
 	quest.5D14C4CD354FEE53.title: "Awakened Supremium"
 	quest.5DBBF71675201DB4.quest_desc: ["You can install many useful upgrades to your backpack. Ones I would reccomend are: 1) Crafting Upgrade, 2) Magnet upgrade, 3) Stack upgrade - to increase stack size inside backpack"]
 	quest.5DBBF71675201DB4.title: "Backpack Upgrades"
@@ -110,7 +113,7 @@
 	quest.6C56E6E43AB1FC10.title: "Kill Netherite Monstrosity"
 	quest.6CA7EADB23A88091.title: "Kill Knight Phantom"
 	quest.708C17522E236B2F.title: "Allthemodium"
-	quest.70F7639BF70A7EBC.title: "Cell Housing"
+	quest.70F7639BF70A7EBC.title: "Item Cell Housing"
 	quest.712488FBADA11378.title: "Visit The Nether"
 	quest.72044DCDB30BC1FD.title: "Inferium"
 	quest.726C5506961290C8.title: "Kill Twilight Lich"
@@ -130,6 +133,7 @@
 	task.03E5DC025E07EB9B.title: "Advanced Circuits"
 	task.059A89C7F523F14C.title: "Visit Unfinished Castle"
 	task.07C9FFD5E63586E8.title: "Californium"
+	task.0908A02F0EEED2FE.title: "Any MEGA Crafting Storage"
 	task.0EAA27504C44A669.title: "Hostile Neural Networks"
 	task.0F2889A3897F86B8.title: "Any coal"
 	task.0FD03ABAAEBDB3A7.title: "Storage"
@@ -155,6 +159,7 @@
 	task.2EE2ABD9B7AB4E98.title: "Applied Energistics"
 	task.2FC2809FA9A8D4C6.title: "Gear Chapter"
 	task.38246F118B33C752.title: "Plaslitherite"
+	task.3A21E5BFA86CF2B3.title: "Any Crafting Storage"
 	task.3A2E3F167838839D.title: "Storage Chapter"
 	task.3A660309B781B5BB.title: "Applied Energistics 2"
 	task.3AF5C00EE0F310CF.title: "Any starter backpack upgrade"

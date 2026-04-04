@@ -145,7 +145,7 @@ ServerEvents.recipes(event => {
         "input_items": [
             {
                 "ingredient": {
-                    "item": "extendedae:assembler_matrix_wall"
+                    "item": "extendedae:machine_frame"
                 }
             },
             {
@@ -178,13 +178,13 @@ ServerEvents.recipes(event => {
         "input_items": [
             {
                 "ingredient": {
-                    "item": "extendedae:assembler_matrix_wall"
+                    "item": "extendedae:machine_frame"
                 }
             },
             {
                 "amount": 1,
                 "ingredient": {
-                    "tag": "extendedae:ext_pattern_provider"
+                    "item": "extendedae:ex_pattern_provider"
                 }
             },
             {
@@ -211,14 +211,21 @@ ServerEvents.recipes(event => {
         "input_items": [
             {
                 "ingredient": {
-                    "item": "extendedae:assembler_matrix_wall"
+                    "item": "extendedae:machine_frame"
                 }
             },
             {
                 "amount": 2,
                 "ingredient": {
-                    "item": "extendedae:ex_pattern_provider"
+                    "item": "mekanism:upgrade_speed"
                 }
+            },
+            {
+                "amount": 1,
+                "ingredient": {
+                    "item": "draconicevolution:item_draconium_speed"
+                }
+                
             },
             {
                 "amount": 8,
@@ -677,6 +684,102 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "megacells:mega_crafting_unit"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 5000000,
+        "power_rate": 5000,
+        "pattern": [
+            "ABC",
+            "DEB",
+            "BDA"
+        ],
+        "key": {
+            "A": {
+                "item": "avaritia_integration:blaze_cube_double_plate"
+            },
+            "B": {
+                "item": "re_endergy:capacitor_crystalline"
+            },
+            "C": {
+                "item": "draconicevolution:draconium_core"
+            },
+            "D": {
+                "tag": "c:circuits/elite"
+            },
+            "E": {
+                "item": "extendedae:machine_frame"
+            }
+        },
+        "result": {
+            "count": 2,
+            "id": "extendedae:assembler_matrix_frame"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABABA",
+            "BCDCB",
+            "ADEDA",
+            "BCDCB",
+            "ABABA"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:ingots/entro"
+            },
+            "B": {
+                "item": "enderio:end_steel_bars"
+            },
+            "C": {
+                "tag": "c:gems/fluix"
+            },
+            "D": {
+                "tag": "c:storage_blocks/quartz"
+            },
+            "E": {
+                "item": "avaritia_integration:blaze_cube_double_plate"
+            }
+        },
+        "result": {
+            "count": 5,
+            "id": "extendedae:assembler_matrix_wall"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABABA",
+            "BCDCB",
+            "ADEDA",
+            "BCDCB",
+            "ABABA"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:ingots/entro"
+            },
+            "B": {
+                "item": "enderio:end_steel_bars"
+            },
+            "C": {
+                "tag": "c:gems/fluix"
+            },
+            "D": {
+                "item": "ae2:quartz_vibrant_glass"
+            },
+            "E": {
+                "item": "avaritia_integration:blaze_cube_double_plate"
+            }
+        },
+        "result": {
+            "count": 6,
+            "id": "extendedae:assembler_matrix_glass"
         }
     });
 });

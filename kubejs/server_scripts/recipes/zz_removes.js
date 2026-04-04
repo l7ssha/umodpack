@@ -196,6 +196,11 @@ const recipesById = [
     'ae2:network/crafting/cpu_crafting_accelerator',
     'megacells:crafting/mega_crafting_unit',
     'ae2:network/crafting/cpu_crafting_accelerator',
+    'megacells:crafting/mega_crafting_accelerator',
+    'megacells:cells/mega_fluid_cell_housing',
+    'extendedae:assembler_matrix_wall',
+    'extendedae:assembler_matrix_frame',
+    'extendedae:assembler_matrix_glass',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
