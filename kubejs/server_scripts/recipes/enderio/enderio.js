@@ -89,4 +89,48 @@ ServerEvents.recipes(event => {
             "id": "enderio:alloy_smelter"
         }
     });
+
+    event.custom({
+        "type": "enderio:alloy_smelting",
+        "energy": 300000,
+        "experience": 0.1,
+        "inputs": [
+            {
+                "count": 1,
+                "tag": "c:ingots/vibranium"
+            },
+            {
+                "count": 1,
+                "tag": "c:ingots/crystalline_pink_slime"
+            },
+            {
+                "count": 3,
+                "tag": "c:ingots/end_steel"
+            }
+        ],
+        "output": {
+            "count": 1,
+            "id": "re_endergy:melodic_alloy_ingot"
+        }
+    });
+
+    event.custom({
+        "type": "evolvedmekanism:alloying",
+        "extra_input": {
+            "count": 5,
+            "tag": "c:ingots/end_steel"
+        },
+        "second_extra_input": {
+            "count": 2,
+            "tag": "c:ingots/crystalline_pink_slime"
+        },
+        "main_input": {
+            "count": 2,
+            "tag": "c:ingots/vibranium"
+        },
+        "output": {
+            "count": 2,
+            "id": "re_endergy:melodic_alloy_ingot"
+        }
+    })
 });

@@ -193,6 +193,7 @@
 				{
 					id: "03C7C09FD5323E15"
 					item: { count: 1, id: "minecraft:dragon_egg" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -295,8 +296,8 @@
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -305,6 +306,7 @@
 				"78CA7E3F388673C0"
 				"6441A910B461C9C4"
 				"7C5950CEED36CF9E"
+				"0BB12CC02CF8C2FA"
 			]
 			hide_dependency_lines: true
 			id: "374BE4511E72EB63"
@@ -592,6 +594,7 @@
 					count: 4L
 					id: "766DE03AB996D014"
 					item: { count: 1, id: "allthemodium:vibranium_ingot" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -619,7 +622,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 4.5d
 			y: 7.0d
 		}
 		{
@@ -662,6 +665,7 @@
 					count: 16L
 					id: "2159182C41F562BB"
 					item: { count: 1, id: "draconicevolution:draconium_ingot" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -675,13 +679,14 @@
 			]
 			hide_dependency_lines: true
 			id: "0105EA8F796F3943"
+			shape: "octagon"
 			tasks: [{
 				count: 4L
 				id: "0024144CEE77177A"
 				item: { count: 1, id: "igleelib:modium_ingot" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 5.5d
 		}
 		{
@@ -692,21 +697,7 @@
 				item: { count: 1, id: "igleelib:derium_ingot" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"0BB12CC02CF8C2FA"
-				"54B95EA400D84746"
-			]
-			id: "6441A910B461C9C4"
-			tasks: [{
-				id: "16E7017A986E6132"
-				item: { count: 1, id: "igleelib:blazum_ingot" }
-				type: "item"
-			}]
-			x: 5.5d
+			x: 4.5d
 			y: 5.5d
 		}
 		{

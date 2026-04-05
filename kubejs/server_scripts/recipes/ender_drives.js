@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
                 "item": "advanced_ae:quantum_storage_component"
             },
             "C": {
-                "item": "appliedsoul:ender_star"
+                "item": "extendedcrafting:ender_star"
             },
             "D": {
                 "item": "enderstorage:ender_chest"

@@ -1,0 +1,10 @@
+{
+  "name": "Allthemodium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagradditions:6",
+  "color": "FCFC3D",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

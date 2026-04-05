@@ -370,8 +370,8 @@
 				item: { count: 1, id: "megacells:mega_crafting_accelerator" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -0.5d
+			x: -5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -575,6 +575,82 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(megacells:1m_crafting_storage)item(megacells:4m_crafting_storage)item(megacells:16m_crafting_storage)item(megacells:64m_crafting_storage)item(megacells:256m_crafting_storage))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"54C1227A2440B1A9"
+				"40DE06C69D4CB23E"
+			]
+			id: "71D5E96BD3499E79"
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [
+				{
+					count: 44L
+					id: "0893B6262070D5DC"
+					item: { count: 1, id: "extendedae:assembler_matrix_frame" }
+					type: "item"
+				}
+				{
+					count: 54L
+					id: "0AA1BA5AEF1691E9"
+					item: { components: { "ftbfiltersystem:filter": "or(item(extendedae:assembler_matrix_wall)item(extendedae:assembler_matrix_glass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5ECCC3BEBCCFCF20"
+					item: { count: 1, id: "extendedae:assembler_matrix_speed" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "76F5736D15E6606C"
+					item: { count: 1, id: "extendedae:assembler_matrix_pattern" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "16180CD4622C23BD"
+					item: { count: 1, id: "extendedae:assembler_matrix_crafter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "2370A6EA7631799B"
+			tasks: [
+				{
+					count: 98L
+					id: "4A2BAB6AE88F6115"
+					item: { count: 1, id: "advanced_ae:quantum_structure" }
+					type: "item"
+				}
+				{
+					id: "20B0B766D46A1605"
+					item: { count: 1, id: "advanced_ae:quantum_storage_128" }
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "5F0040BFB24098B9"
+					item: { count: 1, id: "advanced_ae:quantum_accelerator" }
+					type: "item"
+				}
+				{
+					id: "35E5FA795F981990"
+					item: { count: 1, id: "advanced_ae:quantum_unit" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 1.0d
 		}

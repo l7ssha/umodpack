@@ -154,7 +154,7 @@ ServerEvents.recipes(event => {
         "catalyst": {
             "type": "draconicevolution:stack",
             "count": 2,
-            "items": "appliedsoul:ender_star"
+            "items": "extendedcrafting:ender_star"
         },
         "ingredients": [
             {

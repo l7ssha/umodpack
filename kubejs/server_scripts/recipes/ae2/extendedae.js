@@ -221,9 +221,9 @@ ServerEvents.recipes(event => {
                 }
             },
             {
-                "amount": 1,
+                "amount": 3,
                 "ingredient": {
-                    "item": "draconicevolution:item_draconium_speed"
+                    "item": "megacells:mega_crafting_accelerator"
                 }
                 
             },

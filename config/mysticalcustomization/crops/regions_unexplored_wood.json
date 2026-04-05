@@ -1,0 +1,10 @@
+{
+  "name": "Unexplored Wood",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "color": "#bf991d",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

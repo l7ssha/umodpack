@@ -185,6 +185,7 @@
 			dependencies: [
 				"1FF1F79EAA4660B9"
 				"764DE1551AE3A9AF"
+				"682AB75397E2CC9E"
 			]
 			id: "3C6A5E725A5206F2"
 			tasks: [{
@@ -309,7 +310,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2E45D3C42069A0E1"]
+			dependencies: [
+				"2E45D3C42069A0E1"
+				"79D8C7B62395C86D"
+			]
 			id: "2DFFDDA5344C5650"
 			tasks: [{
 				count: 4L
@@ -498,8 +502,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 2.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["200B11B6D9005110"]
@@ -516,8 +520,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 3.0d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7AF9AB95611268F7"]
@@ -536,6 +540,7 @@
 			dependencies: [
 				"74DCD15D9A0B62D7"
 				"652151B19F590FEC"
+				"6441A910B461C9C4"
 			]
 			hide_dependent_lines: true
 			id: "5323DAD30FA78DF2"
@@ -546,18 +551,18 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
+			dependencies: ["3D9B1947DDE0A744"]
 			id: "652151B19F590FEC"
-			shape: "octagon"
 			tasks: [{
 				id: "0FF2A8A72A711D7F"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(iceandfire:dragon_steels)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			id: "74DCD15D9A0B62D7"
@@ -575,7 +580,7 @@
 				}
 			]
 			x: -3.5d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3C6A5E725A5206F2"]
@@ -609,7 +614,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -728,7 +733,10 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["74DCD15D9A0B62D7"]
+			dependencies: [
+				"74DCD15D9A0B62D7"
+				"046183E1721A2D6A"
+			]
 			id: "29B7BFE581546C36"
 			tasks: [{
 				id: "2FE24124AD86F6A1"
@@ -736,7 +744,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -753,6 +761,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["074F693572E1AC85"]
 			id: "64323A6786208121"
 			shape: "octagon"
 			tasks: [{
@@ -761,8 +770,8 @@
 				item: { count: 1, id: "twilightforest:fiery_ingot" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -851,6 +860,130 @@
 			}]
 			x: 15.0d
 			y: -4.0d
+		}
+		{
+			id: "3D9B1947DDE0A744"
+			shape: "octagon"
+			tasks: [{
+				id: "766CC746F6290C55"
+				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonforge_fire_core)item(iceandfire:dragonforge_ice_core)item(iceandfire:dragonforge_lightning_core))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0BB12CC02CF8C2FA"
+				"54B95EA400D84746"
+			]
+			id: "6441A910B461C9C4"
+			shape: "octagon"
+			tasks: [{
+				id: "16E7017A986E6132"
+				item: { count: 1, id: "igleelib:blazum_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5323DAD30FA78DF2"
+				"5E8C5A827F9FF35B"
+				"7C5950CEED36CF9E"
+				"1B333C85A2CCB06C"
+			]
+			id: "39FF084021A5FEAC"
+			tasks: [{
+				count: 4L
+				id: "310654A985D49691"
+				item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5D4C205812C32E78"
+				"388ED4924F9C845C"
+			]
+			id: "1B333C85A2CCB06C"
+			tasks: [{
+				id: "6D2A4D8BC234543F"
+				item: { count: 1, id: "draconicevolution:wyvern_core" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7C5950CEED36CF9E"
+				"3A0686AAEBCF9C88"
+			]
+			id: "388ED4924F9C845C"
+			shape: "octagon"
+			tasks: [{
+				id: "3FB73233DCF2BCFD"
+				item: { count: 1, id: "draconicevolution:draconium_core" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["39FF084021A5FEAC"]
+			hide_dependent_lines: true
+			id: "682AB75397E2CC9E"
+			tasks: [{
+				id: "1D77B48594537A1B"
+				item: { count: 1, id: "draconicevolution:chaos_shard" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3EAF894562D8B0BD"
+				"7F842F6B329771F8"
+				"6441A910B461C9C4"
+			]
+			id: "79D8C7B62395C86D"
+			tasks: [{
+				id: "318F9222AC09D71A"
+				item: { count: 1, id: "kubejs:abbysal_alloy" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2D3A2A0EAD93B130"
+				"4D02548969213C92"
+			]
+			id: "3EAF894562D8B0BD"
+			tasks: [{
+				id: "793D61F16A50BB47"
+				item: { count: 1, id: "extendedcrafting:enhanced_ender_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "4D02548969213C92"
+			shape: "octagon"
+			tasks: [{
+				id: "63E3C27233AAFB1A"
+				item: { count: 1, id: "extendedcrafting:ender_star" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
 		}
 	]
 }

@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "ingredient": {
-                    "item": "appliedsoul:ender_star"
+                    "item": "extendedcrafting:ender_star"
                 }
             }
         ],

@@ -74,7 +74,7 @@ ServerEvents.recipes(event => {
                 "item": "extendedcrafting:ender_ingot"
             },
             "B": {
-                "item": "appliedsoul:ender_star"
+                "item": "extendedcrafting:ender_star"
             },
             "S": {
                 "tag": "c:ingots/steeleaf"

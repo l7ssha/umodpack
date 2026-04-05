@@ -230,20 +230,8 @@
 				item: { count: 1, id: "mysticalagriculture:cyanite_seeds" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["43FFE2657EAF46A8"]
-			hide_dependency_lines: true
-			id: "5A11F8B4A81F8077"
-			tasks: [{
-				id: "181AAFA6063711B9"
-				item: { count: 1, id: "mysticalagriculture:draconium_seeds" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: -4.5d
+			x: 9.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["43FFE2657EAF46A8"]
@@ -290,8 +278,8 @@
 				item: { count: 1, id: "mysticalagriculture:platinum_seeds" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -8.5d
+			x: 8.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["43FFE2657EAF46A8"]
@@ -302,8 +290,8 @@
 				item: { count: 1, id: "mysticalagriculture:wither_skeleton_seeds" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -3.5d
+			x: 7.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["43FFE2657EAF46A8"]
@@ -423,7 +411,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -7.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1C043E3C873423D9"]

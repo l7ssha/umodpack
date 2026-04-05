@@ -1,1 +1,23 @@
-{}
+{
+    "mysticalagriculture:elemental": {
+        "secondarySeedDrop": false
+    },
+    "mysticalagriculture:1": {
+        "secondarySeedDrop": false
+    },
+    "mysticalagriculture:2": {
+        "secondarySeedDrop": false
+    },
+    "mysticalagriculture:3": {
+        "secondarySeedDrop": false
+    },
+    "mysticalagriculture:4": {
+        "secondarySeedDrop": false
+    },
+    "mysticalagriculture:5": {
+        "secondarySeedDrop": false
+    },
+    "mysticalagradditions:6": {
+        "secondarySeedDrop": false
+    }
+}

@@ -376,6 +376,7 @@ const recipesById = [
 
     // Ender IO
     're_endergy:alloy_smelter/stellar_alloy_ingot',
+    're_endergy:alloy_smelter/melodic_alloy_ingot',
 
     // Aether
     'aether:aether_saddle',

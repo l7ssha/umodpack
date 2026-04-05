@@ -6,5 +6,6 @@
   ],
   "ingredient": {
     "item": "draconicevolution:awakened_draconium_ingot"
-  }
+  },
+  "materialCount": 8192
 }

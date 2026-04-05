@@ -437,7 +437,7 @@ ServerEvents.recipes(event => {
             '3x emextras:base_control_circuit',
             '16x #c:dusts/vibranium_allthemodium_alloy',
             '4x #c:dusts/unobtainium_allthemodium_alloy',
-            '8x #c:ingots/lavium'
+            '6x #c:ingots/draconium_awakened'
         ],
         [
             '288x pneumaticcraft:lubricant'

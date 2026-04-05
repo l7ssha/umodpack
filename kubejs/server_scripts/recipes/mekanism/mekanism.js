@@ -976,7 +976,7 @@ ServerEvents.recipes(event => {
                 "item": "extendedcrafting:enhanced_redstone_ingot"
             },
             "R": {
-                "item": "appliedsoul:ender_star"
+                "item": "extendedcrafting:ender_star"
             },
             "S": {
                 "item": "actuallyadditions:vertical_digger"
@@ -1407,6 +1407,7 @@ ServerEvents.recipes(event => {
             "BDEDB",
             "ABCBA"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "item": "mekanism:hdpe_sheet"

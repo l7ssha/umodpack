@@ -118,7 +118,7 @@ ServerEvents.recipes(event => {
             "2x #c:ender_pearls"
         ],
         [
-            "1x appliedsoul:ender_star"
+            "1x extendedcrafting:ender_star"
         ]
     );
 

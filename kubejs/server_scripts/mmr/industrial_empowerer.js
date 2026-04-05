@@ -265,13 +265,14 @@ ServerEvents.recipes(event => {
         150000,
         [
             "8x kubejs:abbysal_alloy",
-            "2x #evolvedmekanism:enriched/better_gold"
+            "2x #evolvedmekanism:enriched/better_gold",
+            "8x cataclysm:witherite_ingot"
         ],
         [
-            "16000x bigreactors:redfrigium",
+            "8000x bigreactors:redfrigium",
         ],
         [
-            "2x kubejs:confusion_alloy"
+            "3x kubejs:confusion_alloy"
         ],
         []
     );
