@@ -387,7 +387,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6D4CD9ED7B728D57"]
@@ -399,7 +399,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7E8A4B39E794D71B"]
@@ -411,7 +411,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["26689F7A9FFA992B"]
@@ -423,7 +423,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7EA8C2F569ED9A7B"]
@@ -435,7 +435,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["60375DF6A6222DBE"]
@@ -447,7 +447,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4D4FAF5EB6AE845E"]
@@ -458,7 +458,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7F30E917DB781CD7"]
@@ -472,7 +472,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7DC29D7401F39A90"]
@@ -531,7 +531,11 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["7F30E917DB781CD7"]
+			dependencies: [
+				"7F30E917DB781CD7"
+				"2ADA421B3BD72B9F"
+				"4E6A74D98863B8F3"
+			]
 			id: "4E27077E20C8C224"
 			shape: "octagon"
 			tasks: [{
@@ -585,7 +589,7 @@
 			]
 			id: "71D5E96BD3499E79"
 			shape: "pentagon"
-			size: 1.2d
+			size: 1.3d
 			tasks: [
 				{
 					count: 44L
@@ -625,7 +629,10 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["5CE41900F0ACE50B"]
 			id: "2370A6EA7631799B"
+			shape: "pentagon"
+			size: 1.3d
 			tasks: [
 				{
 					count: 98L
@@ -652,7 +659,242 @@
 				}
 			]
 			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["321A93DE6ECA689B"]
+			id: "3F623416BDCC9806"
+			tasks: [{
+				id: "7EFA0193EC6B387C"
+				item: { count: 1, id: "ae2:condenser" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3F623416BDCC9806"]
+			id: "35593485117C1187"
+			tasks: [{
+				id: "1718C9DD4765C71D"
+				item: { count: 1, id: "ae2:singularity" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["35593485117C1187"]
+			hide_dependent_lines: true
+			id: "6818999DB40B3646"
+			tasks: [{
+				count: 2L
+				id: "68F3144531E35E6C"
+				item: { count: 1, id: "ae2:quantum_entangled_singularity" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["35593485117C1187"]
+			hide_dependent_lines: true
+			id: "2ADA421B3BD72B9F"
+			tasks: [{
+				count: 2L
+				id: "5ED756FC7086E93B"
+				item: { count: 1, id: "advanced_ae:shattered_singularity" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2ADA421B3BD72B9F"]
+			id: "4E6A74D98863B8F3"
+			tasks: [
+				{
+					id: "71A3C809961C429A"
+					type: "checkmark"
+				}
+				{
+					id: "680AB9BE45B31888"
+					item: { count: 1, id: "advanced_ae:quantum_infusion_bucket" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"4E6A74D98863B8F3"
+				"39FF084021A5FEAC"
+				"43764A23DB55057C"
+				"6D58503EC5F748C7"
+			]
+			id: "3F21A853185589C4"
+			tasks: [{
+				id: "39174BF86102BF3F"
+				item: { count: 1, id: "advanced_ae:quantum_storage_component" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3F21A853185589C4"]
+			id: "64FE6DDF2B7C31D0"
+			optional: true
+			shape: "square"
+			size: 0.8d
+			tasks: [{
+				id: "6ED23C0F085D313D"
+				item: { count: 1, id: "enderdrives:ender_storage_component_1k" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.6d
+		}
+		{
+			dependencies: ["64FE6DDF2B7C31D0"]
+			id: "590AF057F992946D"
+			optional: true
+			shape: "square"
+			size: 0.8d
+			tasks: [{
+				id: "38AD8E3E7FA26D6C"
+				item: { count: 1, id: "enderdrives:ender_storage_component_4k" }
+				type: "item"
+			}]
+			x: 0.8d
+			y: 9.6d
+		}
+		{
+			dependencies: ["590AF057F992946D"]
+			id: "0C341A57418C7D0C"
+			optional: true
+			shape: "square"
+			size: 0.8d
+			tasks: [{
+				id: "15EC53D0F0990E42"
+				item: { count: 1, id: "enderdrives:ender_storage_component_16k" }
+				type: "item"
+			}]
+			x: 1.6d
+			y: 9.6d
+		}
+		{
+			dependencies: ["0C341A57418C7D0C"]
+			id: "23DFAA3AAB876991"
+			optional: true
+			shape: "square"
+			size: 0.8d
+			tasks: [{
+				id: "270928061C430C99"
+				item: { count: 1, id: "enderdrives:ender_storage_component_64k" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 9.6d
+		}
+		{
+			dependencies: ["23DFAA3AAB876991"]
+			id: "11B480863112D786"
+			optional: true
+			shape: "square"
+			size: 0.8d
+			tasks: [{
+				id: "339667AD7465B975"
+				item: { count: 1, id: "enderdrives:ender_storage_component_256k" }
+				type: "item"
+			}]
+			x: 3.2d
+			y: 9.6d
+		}
+		{
+			dependencies: [
+				"02A157D4DF5DAA52"
+				"6818999DB40B3646"
+			]
+			hide_dependent_lines: true
+			id: "3B9CA9C2E0AF3A60"
+			tasks: [
+				{
+					count: 8L
+					id: "4CF753429FD9F8C0"
+					item: { count: 1, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					id: "3A2FCCD664F9FCB9"
+					item: { count: 1, id: "ae2:quantum_link" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6AE8611CDFAE5A13"
+				"3B9CA9C2E0AF3A60"
+				"6818999DB40B3646"
+			]
+			id: "0642BCFDF2C0DFC7"
+			tasks: [{
+				count: 2L
+				id: "3F6DF558E41D4BD8"
+				item: { count: 1, id: "extendedae:wireless_connect" }
+				type: "item"
+			}]
+			x: -8.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["0642BCFDF2C0DFC7"]
+			id: "7A65B7C533D73144"
+			tasks: [{
+				id: "3B139CC88A44F90A"
+				item: { count: 1, id: "extendedae:wireless_hub" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02A157D4DF5DAA52"]
+			id: "0B02159C224A96F5"
+			tasks: [{
+				id: "24865E547D195432"
+				item: { count: 1, id: "ae2:wireless_access_point" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B02159C224A96F5"]
+			id: "45A3DE1BF36C2AD8"
+			tasks: [{
+				id: "388586803377DB4D"
+				item: { count: 1, id: "ae2:wireless_crafting_terminal" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45A3DE1BF36C2AD8"]
+			id: "42904357BE252B09"
+			tasks: [{
+				id: "00B70EF9C89F57E9"
+				item: { count: 1, id: "ae2wtlib:wireless_universal_terminal" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
 		}
 	]
 }

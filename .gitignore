@@ -76,3 +76,4 @@ config/industrialforegoing/client-config.toml
 config/extremereactors/client.toml
 
 win_event*.txt
+config/sodium-options.json

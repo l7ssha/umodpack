@@ -602,7 +602,7 @@
 				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.0d
 			y: 5.0d
 		}
 		{
@@ -984,6 +984,17 @@
 			}]
 			x: 3.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["711463B7B43B0B2F"]
+			id: "6D58503EC5F748C7"
+			tasks: [{
+				id: "670E392CA5EFFBAA"
+				item: { count: 1, id: "pneumaticcraft:module_expansion_card" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
 		}
 	]
 }
