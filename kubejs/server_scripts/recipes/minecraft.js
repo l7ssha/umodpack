@@ -304,4 +304,55 @@ ServerEvents.recipes(event => {
             "id": "minecraft:flint_and_steel"
         }
     });
+
+    event.shaped({
+        "pattern": [
+            "ABB",
+            " CB",
+            "C  "
+        ],
+        "key": {
+            "A": {
+                "tag": "alltheores:ore_hammers"
+            },
+            "B": {
+                "tag": "c:rods/steel"
+            },
+            "C": {
+                "tag": "c:plates/brass"
+            }
+        },
+        "result": {
+            "id": "minecraft:name_tag"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AB ",
+            "ACD",
+            "AAE"
+        ],
+        "key": {
+            "A": {
+                "tag": "ae2:smart_cable"
+            },
+            "B": {
+                "item": "extendedae:tag_export_bus"
+            },
+            "C": {
+                "item": "extendedae:assembler_matrix_wall"
+            },
+            "D": {
+                "item": "mekanism:configuration_card"
+            },
+            "E": {
+                "tag": "c:circuits/supreme_quantum"
+            }
+        },
+        "result": {
+            "id": "extendedae_plus:assembler_matrix_upload_core"
+        }
+    });
 });

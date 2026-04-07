@@ -19,11 +19,19 @@
 				id: "minecraft:diamond"
 			}
 			id: "3EDEA0407CFD4297"
-			tasks: [{
-				dimension: "twilightforest:twilight_forest"
-				id: "1D9492A198B723D3"
-				type: "dimension"
-			}]
+			tasks: [
+				{
+					dimension: "twilightforest:twilight_forest"
+					id: "1D9492A198B723D3"
+					type: "dimension"
+				}
+				{
+					count: 8L
+					id: "6DE8191EEA2B4FB2"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:flowers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -4.5d
 		}
@@ -33,7 +41,7 @@
 				"698FB4697F308D7D"
 			]
 			icon: {
-				id: "minecraft:nether_gold_ore"
+				id: "minecraft:obsidian"
 			}
 			id: "712488FBADA11378"
 			tasks: [{
@@ -207,17 +215,6 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["670457A4B8C8112D"]
-			id: "3768B9DA8789BB18"
-			tasks: [{
-				id: "1643FF10D375653F"
-				item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
-				type: "item"
-			}]
-			x: -1.5d
 			y: 3.5d
 		}
 		{
@@ -438,6 +435,54 @@
 			}]
 			x: 1.9500000000000002d
 			y: -7.5d
+		}
+		{
+			dependencies: ["7AAC6132A796B9FE"]
+			id: "426C8BE01EFF2878"
+			tasks: [{
+				id: "3F480B617CE8E3A3"
+				item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["670457A4B8C8112D"]
+			id: "7AAC6132A796B9FE"
+			tasks: [{
+				icon: {
+					id: "minecraft:end_stone_bricks"
+				}
+				id: "17A2D48FE823FABA"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7AAC6132A796B9FE"]
+			id: "60F49520BCE0911D"
+			tasks: [{
+				id: "49AC4F112A82FF13"
+				item: { count: 1, id: "cataclysm:void_core" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "iceandfire:dragonbone"
+			}
+			id: "0C6B7F48C44E7351"
+			tasks: [{
+				id: "4B1A0C99635F4781"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.0d
 		}
 	]
 }

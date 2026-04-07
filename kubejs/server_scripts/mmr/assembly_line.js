@@ -446,7 +446,7 @@ ServerEvents.recipes(event => {
             '1x emextras:cosmic_dense_control_circuit',
         ]
     );
-    
+
     mmrRecipe(
         "mmr:assembly_line",
         1200,
@@ -482,6 +482,51 @@ ServerEvents.recipes(event => {
         ],
         [
             '1x productivebees:sturdy_bee_cage',
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        600,
+        59744,
+        [
+            '4x extendedae:assembler_matrix_pattern',
+            "2x #c:circuits/supreme",
+            "4x #c:nether_stars"
+        ],
+        [],
+        [
+            '1x extendedae_plus:assembler_matrix_pattern_plus',
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        600,
+        59744,
+        [
+            '4x extendedae:assembler_matrix_crafter',
+            "2x #c:circuits/supreme",
+            "4x #c:nether_stars"
+        ],
+        [],
+        [
+            '1x extendedae_plus:assembler_matrix_crafter_plus',
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        600,
+        59744,
+        [
+            '4x extendedae:assembler_matrix_speed',
+            "2x #c:circuits/supreme",
+            "4x #c:nether_stars"
+        ],
+        [],
+        [
+            '1x extendedae_plus:assembler_matrix_speed_plus',
         ]
     );
 });

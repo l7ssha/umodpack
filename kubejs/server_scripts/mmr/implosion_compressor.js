@@ -147,4 +147,17 @@ ServerEvents.recipes(event => {
             '1x ae2omnicells:singularity_block'
         ]
     );
+
+    mmrRecipe(
+        "mmr:electric_implosion_compressor",
+        20,
+        10000,
+        [
+            "1x minecraft:tnt",
+            "1x ae2:singularity",
+        ],
+        [
+            '2x ae2:quantum_entangled_singularity'
+        ]
+    );
 });

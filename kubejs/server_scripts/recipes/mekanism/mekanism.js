@@ -1713,4 +1713,117 @@ ServerEvents.recipes(event => {
             "id": "mekanism:radioactive_waste_barrel"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABCDD",
+            "BCECD",
+            "CEAEC",
+            "DCECB",
+            "DDCBA"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:pellets/plutonium"
+            },
+            "B": {
+                "tag": "c:pellets/polonium"
+            },
+            "C": {
+                "tag": "c:plates/lead"
+            },
+            "D": {
+                "tag": "c:plates/vibranium"
+            },
+            "E": {
+                "item": "mekanismgenerators:fission_reactor_casing"
+            }
+        },
+        "result": {
+            "count": 3,
+            "id": "bfr:fusion_reactor_frame"
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            "DAC",
+            "ABA",
+            "CAD"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:plates/lead"
+            },
+            "B": {
+                "item": "mekanism:steel_casing"
+            },
+            "C": {
+                "tag": "c:rods/lead"
+            },
+            "D": {
+                "tag": "c:wires/lead"
+            }
+        },
+        "result": {
+            "count": 3,
+            "id": "mekanismgenerators:fission_reactor_casing"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABBBBBC",
+            "BADEDCB",
+            "FDGHGDF",
+            "FIHJHIF",
+            "FIIKIIF",
+            "IFLLLFI",
+            "AIFFFIC"
+        ],
+        "key": {
+            "A": {
+                "item": "alexscaves:scarlet_magnet"
+            },
+            "B": {
+                "item": "mekanismgenerators:reactor_glass"
+            },
+            "C": {
+                "item": "alexscaves:azure_magnet"
+            },
+            "D": {
+                "item": "pneumaticcraft:advanced_pressure_tube"
+            },
+            "E": {
+                "item": "mekanism:radioactive_waste_barrel"
+            },
+            "F": {
+                "tag": "c:plates/unobtainium"
+            },
+            "G": {
+                "item": "industrialforegoing:machine_frame_supreme"
+            },
+            "H": {
+                "tag": "c:circuits/supreme_quantum"
+            },
+            "I": {
+                "item": "bfr:fusion_reactor_frame"
+            },
+            "J": {
+                "item": "ae2:controller"
+            },
+            "K": {
+                "item": "evolvedmekanism:dense_fluid_tank"
+            },
+            "L": {
+                "item": "minecraft:reinforced_deepslate"
+            }
+        },
+        "result": {
+            "id": "bfr:fusion_reactor_controller"
+        }
+    });
 });

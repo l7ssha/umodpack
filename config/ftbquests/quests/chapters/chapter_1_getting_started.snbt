@@ -768,5 +768,117 @@
 			x: 3.5d
 			y: -0.5d
 		}
+		{
+			dependencies: ["384DF6512D66ADDD"]
+			id: "0F569B5EE65D41C2"
+			tasks: [
+				{
+					id: "171A73A269A361CB"
+					item: { count: 1, id: "cookingforblockheads:recipe_book" }
+					type: "item"
+				}
+				{
+					id: "6CA1867AAECBE1F5"
+					item: { count: 1, id: "cookingforblockheads:crafting_book" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F569B5EE65D41C2"]
+			id: "7312453955197D23"
+			tasks: [
+				{
+					id: "42FB0E15AEB7BEB3"
+					item: { count: 1, id: "cookingforblockheads:cooking_table" }
+					type: "item"
+				}
+				{
+					id: "0297FF6B4E51E4A0"
+					item: { count: 1, id: "cookingforblockheads:white_oven" }
+					type: "item"
+				}
+				{
+					id: "5E2F3059E74805B3"
+					item: { count: 1, id: "cookingforblockheads:connector" }
+					type: "item"
+				}
+				{
+					id: "20EA6D8E86150CEB"
+					item: { count: 1, id: "cookingforblockheads:counter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "024EF72CD43BA88A"
+					item: { count: 1, id: "cookingforblockheads:white_fridge" }
+					type: "item"
+				}
+				{
+					id: "62D6725080A13DB2"
+					item: { count: 1, id: "cookingforblockheads:sink" }
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7312453955197D23"]
+			id: "7BC9F3265D060D27"
+			optional: true
+			shape: "square"
+			tasks: [
+				{
+					id: "2DB87E6ACEA639A1"
+					item: { count: 1, id: "cookingforblockheads:spice_rack" }
+					type: "item"
+				}
+				{
+					id: "4D7F3D494A2DF684"
+					item: { count: 1, id: "cookingforblockheads:fruit_basket" }
+					type: "item"
+				}
+				{
+					id: "3A701F0B5132A49E"
+					item: { count: 1, id: "cookingforblockheads:cutting_board" }
+					type: "item"
+				}
+				{
+					id: "2EB5063F35978513"
+					item: { count: 1, id: "cookingforblockheads:tool_rack" }
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7312453955197D23"]
+			id: "04479A58ED222218"
+			optional: true
+			shape: "square"
+			tasks: [
+				{
+					id: "4D9F8D9051036D6D"
+					item: { count: 1, id: "cookingforblockheads:ice_unit" }
+					type: "item"
+				}
+				{
+					id: "11CCE835E878DD3F"
+					item: { count: 1, id: "cookingforblockheads:heating_unit" }
+					type: "item"
+				}
+				{
+					id: "75C3FA396CCB6309"
+					item: { count: 1, id: "cookingforblockheads:cow_jar" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: 3.0d
+		}
 	]
 }

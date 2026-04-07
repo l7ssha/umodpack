@@ -80,7 +80,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5B6A55314736E0F5"]

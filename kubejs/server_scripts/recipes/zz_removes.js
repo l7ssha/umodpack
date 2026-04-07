@@ -88,6 +88,10 @@ const recipesById = [
     'mekmm:cnc_lathe',
     'mekanismelements:crafting/radiation_irradiator',
     'mekanism:radioactive_waste_barrel',
+    'mekanism:chemical_conversion/sulfur_to_sulfuric_acid',
+    'alltheores:chemical_conversion/sulfur_block_to_sulfuric_acid',
+    'bfr:reactor/frame',
+    'mekanismgenerators:fission_reactor/casing',
 
     // Ender IO
     'enderio:void_chassis',
@@ -201,6 +205,21 @@ const recipesById = [
     'extendedae:assembler_matrix_wall',
     'extendedae:assembler_matrix_frame',
     'extendedae:assembler_matrix_glass',
+    'ae2omnicells:cells/housing/complex_omni_cell_housing',
+    'ae2omnicells:cells/housing/omni_cell_housing',
+    'ae2omnicells:cells/housing/quantum_omni_cell_housing',
+    'appliedsoul:soul_cell_housing',
+    'extendedae_plus:labeled_wireless_transceiver',
+    'extendedae_plus:assembler_matrix_upload_core',
+    'extendedae_plus:assembler_matrix_pattern_plus',
+    'extendedae_plus:assembler_matrix_crafter_plus',
+    'extendedae_plus:assembler_matrix_speed_plus',
+    'apprep:cells/mega_matter_cell_housing',
+    'apprep:cells/matter_cell_housing',
+    'megacells:cells/mega_chemical_cell_housing',
+    'appmek:chemical_cell_housing',
+    'ae2omnicells:cells/shaped/spent_nuclear_waste_cell',
+    'appliedsoul:range_card',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
@@ -420,6 +439,13 @@ const recipesByOutput = [
     'advanced_ae:quantum_alloy',
     'advanced_ae:shattered_singularity',
     'ae2:singularity',
+
+    // Alex's Caves
+    'alexscaves:uranium',
+    'alexscaves:uranium_shard',
+    'alexscaves:block_of_uranium',
+    'alexscaves:sulfur',
+    'alexscaves:sulfur_dust',
 ];
 
 ServerEvents.recipes(event => {

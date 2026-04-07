@@ -154,7 +154,7 @@ ServerEvents.recipes(event => {
         "item": "allthecompressed:blaze_rod_block"
       },
       {
-       "item": "allthecompressed:blaze_rod_block"
+        "item": "allthecompressed:blaze_rod_block"
       },
       {
         "item": "igleelib:blaze_shard"

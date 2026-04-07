@@ -225,7 +225,7 @@ ServerEvents.recipes(event => {
                 "ingredient": {
                     "item": "megacells:mega_crafting_accelerator"
                 }
-                
+
             },
             {
                 "amount": 8,
@@ -594,7 +594,13 @@ ServerEvents.recipes(event => {
             {
                 "amount": 4,
                 "ingredient": {
-                    "item": "ae2omnicells:multidimensional_expansion_processor"
+                    "item": "ae2omnicells:complex_link_processor"
+                }
+            },
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "ae2omnicells:omni_link_processor"
                 }
             },
             {
@@ -728,6 +734,7 @@ ServerEvents.recipes(event => {
             "BCDCB",
             "ABABA"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "tag": "c:ingots/entro"
@@ -760,6 +767,7 @@ ServerEvents.recipes(event => {
             "BCDCB",
             "ABABA"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "tag": "c:ingots/entro"
@@ -780,6 +788,31 @@ ServerEvents.recipes(event => {
         "result": {
             "count": 6,
             "id": "extendedae:assembler_matrix_glass"
+        }
+    });
+
+    event.shaped({
+        "pattern": [
+            " A ",
+            "ABC",
+            " D "
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:name_tag"
+            },
+            "B": {
+                "item": "extendedae_plus:wireless_transceiver"
+            },
+            "C": {
+                "item": "mekanism:dictionary"
+            },
+            "D": {
+                "item": "mekanism:network_reader"
+            }
+        },
+        "result": {
+            "id": "extendedae_plus:labeled_wireless_transceiver"
         }
     });
 });

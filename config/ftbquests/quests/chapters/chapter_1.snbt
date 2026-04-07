@@ -468,6 +468,8 @@
 		{
 			dependencies: ["3C6A5E725A5206F2"]
 			id: "6F4A41305AD406C2"
+			optional: true
+			shape: "square"
 			tasks: [{
 				id: "009E8498DBE832D6"
 				item: { count: 1, id: "ae2omnicells:quantum_omni_cell_component_1k" }
@@ -995,6 +997,18 @@
 			}]
 			x: -0.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["5DA46CA194ED81DD"]
+			id: "44270C7D6308FE80"
+			shape: "square"
+			tasks: [{
+				id: "3F3F0F29EFC9C9D4"
+				item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
 		}
 	]
 }

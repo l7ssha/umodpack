@@ -167,6 +167,8 @@ ServerEvents.tags('item', tags => {
         "#deeperdarker:echo_logs",
         "allthemodium:stripped_ancient_log"
     ]);
+
+    tags.add('c:pot', ['pamhc2foodcore:potitem']);
 });
 
 ServerEvents.tags('entity_type', tags => {
@@ -194,18 +196,6 @@ ServerEvents.tags('entity_type', tags => {
 
 ServerEvents.tags('worldgen/structure', tags => {
     tags.add('cataclysm:berserker_spawn', "betterfortresses:fortress");
-});
-
-ServerEvents.tags('block_entity_type', tags => {
-    tags.remove(
-        'packingtape:blacklist/problematic',
-        [
-            "extrastorage:block_16384k_fluid",
-            "extrastorage:block_65536k_fluid",
-            "extrastorage:block_262144k_fluid",
-            "extrastorage:block_1048576k_fluid"
-        ]
-    );
 });
 
 ServerEvents.tags('mob_effect', tags => {
