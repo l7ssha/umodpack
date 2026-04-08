@@ -221,6 +221,7 @@ const recipesById = [
     'ae2omnicells:cells/shaped/spent_nuclear_waste_cell',
     'appliedsoul:range_card',
     'appflux:fe_housing',
+    'extendedae_plus:mirror_pattern_binding_tool',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
@@ -310,6 +311,7 @@ const recipesById = [
     // PneumaticCraft
     'pneumaticcraft:drill_pipe',
     'pneumaticcraft:thermopneumatic_processing_plant',
+    'pneumaticcraft:module_expansion_card',
 
     // EnderStorage
     'enderstorage:ender_chest',

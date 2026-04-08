@@ -196,4 +196,43 @@ ServerEvents.recipes(event => {
             "id": "advanced_ae:reaction_chamber"
         }
     });
+
+    event.custom({
+        "type": "extendedae:crystal_assembler",
+        "input_items": [
+            {
+                "ingredient": {
+                    "item": "ae2:wireless_receiver"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "tag": "c:ingots/iron"
+                }
+            },
+            {
+                "amount": 1,
+                "ingredient": {
+                    "item": "ae2:calculation_processor"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "item": "ae2:quantum_entangled_singularity"
+                }
+            },
+            {
+                "amount": 1,
+                "ingredient": {
+                    "item": "twilightforest:carminite"
+                }
+            }
+        ],
+        "output": {
+            "count": 1,
+            "id": "extendedae_plus:mirror_pattern_binding_tool"
+        }
+    });
 });

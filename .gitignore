@@ -78,3 +78,4 @@ config/extremereactors/client.toml
 win_event*.txt
 config/sodium-options.json
 servers.dat*
+config/sodium-fingerprint.json
