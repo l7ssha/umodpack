@@ -1826,4 +1826,27 @@ ServerEvents.recipes(event => {
             "id": "bfr:fusion_reactor_controller"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "       AA",
+            "      AAA",
+            "     AAA ",
+            "    AAA  ",
+            "   AAA   ",
+            "  AAA    ",
+            " AAA     ",
+            "AAA      ",
+            "AA       "
+        ],
+        "key": {
+            "A": {
+                "tag": "c:plastics"
+            }
+        },
+        "result": {
+            "id": "mekanism:hdpe_stick"
+        }
+    });
 });

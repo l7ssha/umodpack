@@ -822,8 +822,8 @@
 					type: "item"
 				}
 			]
-			x: -11.5d
-			y: 3.0d
+			x: -9.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7312453955197D23"]
@@ -852,8 +852,8 @@
 					type: "item"
 				}
 			]
-			x: -11.5d
-			y: 1.0d
+			x: -10.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7312453955197D23"]
@@ -877,8 +877,19 @@
 					type: "item"
 				}
 			]
-			x: -13.5d
-			y: 3.0d
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F569B5EE65D41C2"]
+			id: "3B3991BED680863D"
+			tasks: [{
+				id: "26676FCD74A47977"
+				item: { count: 1, id: "farmingforblockheads:market" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
 		}
 	]
 }

@@ -444,6 +444,7 @@
 		}
 		{
 			id: "7D428D67AA73057A"
+			shape: "octagon"
 			tasks: [{
 				id: "69FB1A5A4B6E991A"
 				item: { count: 1, id: "alltheores:fluorite_dust" }
@@ -549,34 +550,100 @@
 			y: 6.0d
 		}
 		{
+			dependencies: [
+				"4B5908BCDA2E0AD1"
+				"70EEF9F914C1F76F"
+			]
 			id: "25DB013FA9367D22"
-			tasks: [{
-				id: "4AA2477ED77086F1"
-				item: { count: 1, id: "mekanism:sps_casing" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 10.0d
+			tasks: [
+				{
+					id: "4AA2477ED77086F1"
+					item: { count: 1, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+				{
+					id: "7B417D01A12E28C8"
+					item: { count: 1, id: "mekanism:sps_port" }
+					type: "item"
+				}
+				{
+					id: "267C27598A0094BD"
+					item: { count: 1, id: "mekanism:supercharged_coil" }
+					type: "item"
+				}
+				{
+					id: "78EC909FFA135FEC"
+					item: { count: 1, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 9.0d
 		}
 		{
-			id: "5B3F35FB149E6E64"
+			id: "0303BD39A0BED0A7"
 			tasks: [{
-				id: "7F9EE7C36506D5BF"
-				item: { count: 1, id: "mekanism:sps_port" }
+				id: "10789A066C7FC51B"
+				item: { count: 1, id: "evolvedmekanism:alloyer" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 10.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
-			id: "04A57BEBCCF2D403"
+			dependencies: ["25DB013FA9367D22"]
+			id: "548074A5C0E5CD43"
 			tasks: [{
-				id: "22057BFC14EB257D"
-				item: { count: 1, id: "mekanism:structural_glass" }
+				id: "1A11FE68EDABEB78"
+				item: { count: 1, id: "mekanism:chemical_crystallizer" }
 				type: "item"
 			}]
 			x: 4.5d
-			y: 9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["548074A5C0E5CD43"]
+			id: "491AE3F0FF05C16C"
+			tasks: [{
+				id: "069664D975074DA2"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["548074A5C0E5CD43"]
+			id: "660B83E25AA809DF"
+			tasks: [{
+				id: "1AF8BA235ACA2AAD"
+				item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["660B83E25AA809DF"]
+			id: "136B7DB863F38456"
+			tasks: [{
+				id: "686391DAD7B1BAE3"
+				item: { count: 1, id: "evolvedmekanism:apt_casing" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["136B7DB863F38456"]
+			id: "23E28537C8605B79"
+			tasks: [{
+				id: "38B4164F3D5C88AF"
+				item: { count: 1, id: "evolvedmekanism:apt_port" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.0d
 		}
 	]
 }

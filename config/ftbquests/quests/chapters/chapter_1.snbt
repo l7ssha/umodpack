@@ -19,7 +19,7 @@
 				id: "03E5DC025E07EB9B"
 				type: "checkmark"
 			}]
-			x: -6.5d
+			x: -6.05d
 			y: -1.5d
 		}
 		{
@@ -273,8 +273,8 @@
 				id: "1595335CB935CC4C"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: -1.5d
+			x: 2.75d
+			y: -1.6500000000000001d
 		}
 		{
 			id: "54252F374BC9B9C2"
@@ -371,7 +371,7 @@
 				item: { count: 1, id: "mekanism:hdpe_sheet" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 2.5d
 		}
 		{
@@ -556,8 +556,9 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3D9B1947DDE0A744"]
+			dependencies: ["0637DFA417ECBE9D"]
 			id: "652151B19F590FEC"
+			shape: "octagon"
 			tasks: [{
 				id: "0FF2A8A72A711D7F"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(iceandfire:dragon_steels)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -608,8 +609,11 @@
 			y: 5.0d
 		}
 		{
+			dependencies: [
+				"6EC9C153FD846F3B"
+				"2E2055D646C5EB1E"
+			]
 			id: "21A03F57260806FB"
-			shape: "octagon"
 			tasks: [{
 				id: "14DC29F393932066"
 				item: { count: 1, id: "pneumaticcraft:unassembled_pcb" }
@@ -690,7 +694,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 5.5d
 			y: -7.0d
 		}
 		{
@@ -786,8 +790,8 @@
 				item: { count: 1, id: "mekanismelements:ingot_refined_californium" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.0d
+			x: 10.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5B6598E2A2BCDA62"]
@@ -864,17 +868,6 @@
 			y: -4.0d
 		}
 		{
-			id: "3D9B1947DDE0A744"
-			shape: "octagon"
-			tasks: [{
-				id: "766CC746F6290C55"
-				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonforge_fire_core)item(iceandfire:dragonforge_ice_core)item(iceandfire:dragonforge_lightning_core))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -6.5d
-			y: 3.0d
-		}
-		{
 			dependencies: [
 				"0BB12CC02CF8C2FA"
 				"54B95EA400D84746"
@@ -904,7 +897,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -918,7 +911,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -932,8 +925,8 @@
 				item: { count: 1, id: "draconicevolution:draconium_core" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 7.5d
+			x: 1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["39FF084021A5FEAC"]
@@ -945,7 +938,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -1009,6 +1002,69 @@
 			}]
 			x: -1.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["54B95EA400D84746"]
+			id: "2E2055D646C5EB1E"
+			shape: "octagon"
+			tasks: [{
+				id: "599F0F1B674200DB"
+				item: { count: 1, id: "pneumaticcraft:etching_tank" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54B95EA400D84746"]
+			id: "6EC9C153FD846F3B"
+			shape: "octagon"
+			tasks: [{
+				id: "6698240B88E4E22B"
+				item: { count: 1, id: "pneumaticcraft:etching_acid_bucket" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["711463B7B43B0B2F"]
+			id: "759FF84A6D06E3D1"
+			tasks: [
+				{
+					id: "7231B83458411231"
+					item: { count: 1, id: "pneumaticcraft:assembly_controller" }
+					type: "item"
+				}
+				{
+					id: "2B71CD27DE9D8B02"
+					item: { count: 1, id: "pneumaticcraft:assembly_io_unit_export" }
+					type: "item"
+				}
+				{
+					id: "008389A89B733BD3"
+					item: { count: 1, id: "pneumaticcraft:assembly_io_unit_import" }
+					type: "item"
+				}
+				{
+					id: "1CAACCA521C76198"
+					item: { count: 1, id: "pneumaticcraft:assembly_laser" }
+					type: "item"
+				}
+				{
+					id: "6C610265BEE3961F"
+					item: { count: 1, id: "pneumaticcraft:assembly_platform" }
+					type: "item"
+				}
+				{
+					id: "287E86E47487059E"
+					item: { count: 1, id: "pneumaticcraft:assembly_drill" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.5d
 		}
 	]
 }

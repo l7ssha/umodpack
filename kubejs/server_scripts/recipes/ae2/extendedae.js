@@ -815,4 +815,35 @@ ServerEvents.recipes(event => {
             "id": "extendedae_plus:labeled_wireless_transceiver"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "  A  ",
+            " ABA ",
+            "ACDC ",
+            " ACE ",
+            "  A  "
+        ],
+        "key": {
+            "A": {
+                "tag": "c:plastics"
+            },
+            "B": {
+                "item": "ae2:portable_item_cell_4k"
+            },
+            "C": {
+                "item": "ae2:advanced_card"
+            },
+            "D": {
+                "item": "ae2:condenser"
+            },
+            "E": {
+                "item": "cataclysm:void_core"
+            }
+        },
+        "result": {
+            "id": "extendedae:void_cell"
+        }
+    });
 });

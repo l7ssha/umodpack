@@ -220,6 +220,7 @@ const recipesById = [
     'appmek:chemical_cell_housing',
     'ae2omnicells:cells/shaped/spent_nuclear_waste_cell',
     'appliedsoul:range_card',
+    'appflux:fe_housing',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
@@ -343,7 +344,7 @@ const recipesById = [
     'immersiveengineering:smelting/ingot_uranium',
     /immersiveengineering:crafting\/(pickaxe|sword|axe|shovel|hoe)_steel/,
 
-    // Sophisticated Storage 
+    // Sophisticated Storage
     'sophisticatedbackpacks:backpack',
     'sophisticatedstorage:basic_tier_upgrade',
     'sophisticatedstorage:basic_to_iron_tier_upgrade',

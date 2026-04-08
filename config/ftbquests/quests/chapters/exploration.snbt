@@ -33,7 +33,7 @@
 				}
 			]
 			x: 1.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -50,7 +50,7 @@
 				type: "dimension"
 			}]
 			x: -0.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["712488FBADA11378"]
@@ -64,7 +64,7 @@
 				type: "dimension"
 			}]
 			x: -0.5d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -80,8 +80,8 @@
 				id: "4F9194AEB6D2CE68"
 				type: "dimension"
 			}]
-			x: -5.0d
-			y: -5.0d
+			x: -1.5d
+			y: -4.0d
 		}
 		{
 			id: "698FB4697F308D7D"
@@ -109,7 +109,7 @@
 				type: "dimension"
 			}]
 			x: -2.5d
-			y: -0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -128,13 +128,10 @@
 				type: "dimension"
 			}]
 			x: -2.5d
-			y: 2.0d
+			y: -1.0d
 		}
 		{
-			dependencies: [
-				"698FB4697F308D7D"
-				"7F842F6B329771F8"
-			]
+			dependencies: ["698FB4697F308D7D"]
 			id: "1B45A2CCAA975F2C"
 			tasks: [{
 				id: "2DC67E1BBDA25853"
@@ -158,8 +155,8 @@
 				structure: "minecraft:ancient_city"
 				type: "structure"
 			}]
-			x: -2.5d
-			y: -7.5d
+			x: 1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["7F842F6B329771F8"]
@@ -170,8 +167,8 @@
 				id: "37A591DA745CC3BB"
 				type: "dimension"
 			}]
-			x: -2.5d
-			y: -10.0d
+			x: 1.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["59C809775435980D"]
@@ -181,8 +178,8 @@
 				item: { count: 1, id: "allthemodium:piglich_heart" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3EDEA0407CFD4297"]
@@ -193,7 +190,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1ADEEB75BA85A2BC"]
@@ -204,7 +201,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["670457A4B8C8112D"]
@@ -214,30 +211,19 @@
 				item: { count: 1, id: "draconicevolution:chaos_shard" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["712488FBADA11378"]
-			id: "6C56E6E43AB1FC10"
-			tasks: [{
-				id: "39D511ACC0A90CE6"
-				item: { count: 1, id: "cataclysm:infernal_forge" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["698FB4697F308D7D"]
 			id: "73B5AA130E914B98"
 			tasks: [{
 				id: "35B85714547D2370"
 				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -7.5d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0925E2F30E0FA26D"]
@@ -248,7 +234,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["726C5506961290C8"]
@@ -259,7 +245,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0A675D2D02C1687D"]
@@ -270,7 +256,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -286,21 +272,21 @@
 				id: "5BFEFB52B7B019DF"
 				type: "dimension"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2AC3BC87693E23C1"]
 			id: "074F693572E1AC85"
 			shape: "square"
-			size: 0.9d
+			size: 1.0d
 			tasks: [{
 				id: "235CB4689852C95A"
 				item: { count: 1, id: "twilightforest:fiery_ingot" }
 				type: "item"
 			}]
-			x: 6.3d
-			y: -5.85d
+			x: 9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2AC3BC87693E23C1"]
@@ -311,33 +297,33 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["6CA7EADB23A88091"]
 			id: "06B2724E4912C387"
 			shape: "square"
-			size: 0.9d
+			size: 1.0d
 			tasks: [{
 				id: "199902D760978660"
 				item: { count: 1, id: "twilightforest:knightmetal_ingot" }
 				type: "item"
 			}]
-			x: 6.3d
-			y: -6.75d
+			x: 9.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["0A675D2D02C1687D"]
 			id: "2D3A2A0EAD93B130"
 			shape: "square"
-			size: 0.9d
+			size: 1.0d
 			tasks: [{
 				id: "4463D771F82DE3DA"
 				item: { count: 1, id: "twilightforest:steeleaf_ingot" }
 				type: "item"
 			}]
-			x: 6.3d
-			y: -4.95d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6CA7EADB23A88091"]
@@ -347,21 +333,21 @@
 				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 5.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["14B48103C39BA774"]
 			id: "6E64FF8AA41C7188"
 			shape: "square"
-			size: 0.9d
+			size: 1.0d
 			tasks: [{
 				id: "2D89782DFEB686B7"
 				item: { count: 1, id: "twilightforest:carminite" }
 				type: "item"
 			}]
-			x: 6.3d
-			y: -7.6499999999999995d
+			x: 5.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["14B48103C39BA774"]
@@ -371,34 +357,34 @@
 				item: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 3.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["31B8C21C5D2DFF6E"]
 			id: "3925ADD06731E41D"
 			shape: "square"
-			size: 0.9d
+			size: 1.0d
 			tasks: [{
 				id: "5EBB21CDEB2D6D38"
 				item: { count: 1, id: "twilightforest:alpha_yeti_fur" }
 				type: "item"
 			}]
-			x: 5.3999999999999995d
-			y: -7.6499999999999995d
+			x: 3.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["3EDEA0407CFD4297"]
 			id: "138ABCEBE27AC3ED"
 			shape: "square"
-			size: 0.9d
+			size: 1.0d
 			tasks: [{
 				id: "6C0627AC6B2874C9"
 				item: { count: 1, id: "twilightforest:ironwood_ingot" }
 				type: "item"
 			}]
-			x: 3.15d
-			y: -5.3999999999999995d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["31B8C21C5D2DFF6E"]
@@ -409,7 +395,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["50DAEE106FF3C5AF"]
@@ -419,58 +405,22 @@
 				item: { count: 1, id: "twilightforest:lamp_of_cinders" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -7.5d
+			x: 2.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["119C658C73ED11B5"]
 			id: "76467C90BB2C9C2B"
 			shape: "gear"
-			size: 1.3d
+			size: 2.0d
 			tasks: [{
 				advancement: "twilightforest:progression_end"
 				criterion: ""
 				id: "059A89C7F523F14C"
 				type: "advancement"
 			}]
-			x: 1.9500000000000002d
-			y: -7.5d
-		}
-		{
-			dependencies: ["7AAC6132A796B9FE"]
-			id: "426C8BE01EFF2878"
-			tasks: [{
-				id: "3F480B617CE8E3A3"
-				item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["670457A4B8C8112D"]
-			id: "7AAC6132A796B9FE"
-			tasks: [{
-				icon: {
-					id: "minecraft:end_stone_bricks"
-				}
-				id: "17A2D48FE823FABA"
-				structure: "cataclysm:ruined_citadel"
-				type: "structure"
-			}]
-			x: -1.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["7AAC6132A796B9FE"]
-			id: "60F49520BCE0911D"
-			tasks: [{
-				id: "49AC4F112A82FF13"
-				item: { count: 1, id: "cataclysm:void_core" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: 3.5d
+			x: 5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["59C809775435980D"]
@@ -489,8 +439,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -1.0d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0C6B7F48C44E7351"]
@@ -512,8 +462,8 @@
 					type: "structure"
 				}
 			]
-			x: -6.0d
-			y: 0.0d
+			x: -5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0C6B7F48C44E7351"]
@@ -535,8 +485,8 @@
 					type: "structure"
 				}
 			]
-			x: -6.0d
-			y: -2.0d
+			x: -5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -561,8 +511,8 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: -1.0d
+			x: -6.5d
+			y: -3.0d
 		}
 		{
 			can_repeat: false
@@ -585,8 +535,8 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: -3.0d
+			x: -7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["236CFF3613030187"]
@@ -596,8 +546,8 @@
 				item: { count: 1, id: "iceandfire:dragon_meal" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 1.0d
+			x: -7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["236CFF3613030187"]
@@ -658,12 +608,14 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
-			y: -1.0d
+			x: -8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0637DFA417ECBE9D"]
 			id: "2AC580E20060CC74"
+			optional: true
+			shape: "square"
 			tasks: [
 				{
 					id: "525C32470ADE23D3"
@@ -681,8 +633,230 @@
 					type: "item"
 				}
 			]
-			x: -13.0d
-			y: -1.0d
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["698FB4697F308D7D"]
+			icon: {
+				id: "block_factorys_bosses:corpse"
+			}
+			id: "67688B926F7EE054"
+			tasks: [{
+				id: "25DBEACEE7691FF7"
+				item: { count: 1, id: "block_factorys_bosses:dragon_bone" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["67688B926F7EE054"]
+			id: "017CFDB7477FB4D9"
+			tasks: [{
+				id: "2C9D01E4BDB3B8C0"
+				item: { count: 1, id: "block_factorys_bosses:dragon_bone" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["67688B926F7EE054"]
+			id: "2D0E4E3BF6BEDE63"
+			tasks: [{
+				id: "70D8A2E9ADD88805"
+				item: { count: 1, id: "block_factorys_bosses:ice_gauntlet" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["67688B926F7EE054"]
+			id: "142667F27319AC39"
+			tasks: [{
+				id: "51B4312A6CE7D19C"
+				item: { count: 1, id: "block_factorys_bosses:sandworm_gauntlet" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["67688B926F7EE054"]
+			id: "04E0318A5D46D3D2"
+			tasks: [{
+				id: "5DDC277CAA89B469"
+				item: { count: 1, id: "block_factorys_bosses:knight_sword" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["698FB4697F308D7D"]
+			id: "4F4AB5D3F8BC3740"
+			shape: "hexagon"
+			tasks: [{
+				id: "2888B126AAD2631F"
+				item: { count: 1, id: "cataclysm:altar_of_fire" }
+				optional_task: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4F4AB5D3F8BC3740"]
+			id: "7CDBD5320DE6D870"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "24BEB7199B34A86A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["4F4AB5D3F8BC3740"]
+			id: "2ED08DD3D9B04C37"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "07A413F14A38CAA1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4F4AB5D3F8BC3740"]
+			id: "6B91A2D589EA6396"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "129B119BECAF36E6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4F4AB5D3F8BC3740"]
+			id: "19CE2D0320EACFAA"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "3B648294E5910452"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4F4AB5D3F8BC3740"]
+			id: "3DD2C826F3F98DBC"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "4A1E6E2B97AB68B1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4F4AB5D3F8BC3740"]
+			id: "6CC3AC4738AAA926"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "63FB3FD60001F613"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4F4AB5D3F8BC3740"]
+			id: "7313A1F84BD459D6"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "460AA643620E2671"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4F4AB5D3F8BC3740"]
+			id: "1899ED3C893F61CD"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "7FC150551CD20253"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3DD2C826F3F98DBC"]
+			id: "3BC55EE4383C7AD4"
+			tasks: [{
+				id: "7376F2E3C6B39879"
+				item: { count: 1, id: "cataclysm:ancient_metal_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6CC3AC4738AAA926"]
+			id: "00360BC8682F853F"
+			tasks: [{
+				id: "58F01AA49082CF5A"
+				item: { count: 1, id: "cataclysm:cursium_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7CDBD5320DE6D870"]
+			id: "7F04BE49C010ECF9"
+			tasks: [{
+				id: "6C5FEB2F0A4A65D6"
+				item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["1899ED3C893F61CD"]
+			id: "3D35E880AC4AF2B1"
+			tasks: [{
+				id: "5DBA3F2966EBFB0D"
+				item: { count: 1, id: "cataclysm:void_core" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2ED08DD3D9B04C37"]
+			id: "739FA9F59EBCF3FF"
+			tasks: [{
+				id: "0DECEFF8DCED7092"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.5d
 		}
 	]
 }
