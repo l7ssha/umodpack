@@ -127,6 +127,9 @@
 	quest.15CDE9B0EB2141D9.quest_desc: ["To visit &1The Otherside&r, you need to clean portal frame that is placed in the middle of Ancient City, and right click portal frame with Deep of The Dark, which is dropped from Warden."]
 	quest.15CDE9B0EB2141D9.title: "Visit the Otherside"
 	quest.16E8AAAC211ACF76.title: "Storing Spirits"
+	quest.172B3E6FF69E743F.quest_desc: ["Kill Wither or Ender Dragon with weapon enchanted with Mystical Enlightment enchantment."]
+	quest.172B3E6FF69E743F.quest_subtitle: "Wither and Ender Dragon drop"
+	quest.172B3E6FF69E743F.title: "Cognizant Dust"
 	quest.175DA2B8B3257FCE.title: "Liquid Sculk Matter"
 	quest.1899ED3C893F61CD.quest_desc: [
 		"Found within the Void Altar."

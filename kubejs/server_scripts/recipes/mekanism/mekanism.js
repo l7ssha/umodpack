@@ -1915,4 +1915,33 @@ ServerEvents.recipes(event => {
             "id": "mekanism:thermal_evaporation_controller"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AB ",
+            "CDE",
+            "AB "
+        ],
+        "key": {
+            "A": {
+                "tag": "c:alloys/overclocked"
+            },
+            "B": {
+                "item": "mekanism:energy_tablet"
+            },
+            "C": {
+                "item": "extendedae:machine_frame"
+            },
+            "D": {
+                "item": "mekanism:steel_casing"
+            },
+            "E": {
+                "item": "deepresonance:laser"
+            }
+        },
+        "result": {
+            "id": "mekanism:laser"
+        }
+    });
 });

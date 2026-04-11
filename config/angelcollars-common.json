@@ -1,0 +1,7 @@
+{
+  "allowBedRevival": false,
+  "collarBlacklist": [
+    "example:pet",
+    "example:pet"
+  ]
+}

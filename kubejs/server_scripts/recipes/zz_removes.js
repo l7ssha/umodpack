@@ -94,6 +94,7 @@ const recipesById = [
     'mekanismgenerators:fission_reactor/casing',
     'mekanism:thermal_evaporation/block',
     'mekanism:thermal_evaporation/controller',
+    'mekanism:laser',
 
     // Ender IO
     'enderio:void_chassis',
@@ -427,6 +428,10 @@ const recipesById = [
     'reliquary:infernal_chalice',
     'reliquary:fertile_potion',
     'malum:soul_stained_steel_plating',
+
+    // Modular Routers
+    'modularrouters:blank_module',
+    'modularrouters:modular_router',
 ];
 
 const recipesByType = [
