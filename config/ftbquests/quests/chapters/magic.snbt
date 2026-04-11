@@ -17,7 +17,7 @@
 				type: "checkmark"
 			}]
 			x: -7.5d
-			y: -8.5d
+			y: -10.5d
 		}
 		{
 			id: "4DA54D07F86CDC9D"
@@ -26,7 +26,7 @@
 				type: "checkmark"
 			}]
 			x: -7.5d
-			y: -5.5d
+			y: -4.5d
 		}
 		{
 			id: "2060C7AAC0668A1E"
@@ -34,8 +34,8 @@
 				id: "43060DF4108CC0A8"
 				type: "checkmark"
 			}]
-			x: -7.5d
-			y: -2.5d
+			x: -12.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["35C80977BA766131"]
@@ -102,6 +102,8 @@
 		{
 			dependencies: ["6F6FCBB26CD74AED"]
 			id: "51886D1782E834F0"
+			optional: true
+			shape: "square"
 			tasks: [{
 				id: "4FB908EA5161476F"
 				item: { count: 1, id: "occultism:otherrock" }
@@ -113,6 +115,7 @@
 		{
 			dependencies: ["6F6FCBB26CD74AED"]
 			id: "06C259037D6A2FAB"
+			shape: "pentagon"
 			tasks: [{
 				id: "357812D1B09707D9"
 				item: { count: 1, id: "occultism:taboo_book" }
@@ -124,6 +127,7 @@
 		{
 			dependencies: ["3C5057617AF2E010"]
 			id: "2A5BF1A0F0161D6D"
+			shape: "pentagon"
 			tasks: [{
 				id: "7A9A469C91906FC9"
 				item: { count: 1, id: "occultism:dictionary_of_spirits" }
@@ -136,6 +140,7 @@
 			dependencies: [
 				"398B1871304E790F"
 				"51886D1782E834F0"
+				"59246C6ABFAFA60D"
 			]
 			id: "10E19D162B604488"
 			tasks: [{
@@ -167,6 +172,157 @@
 			}]
 			x: 2.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["4DA54D07F86CDC9D"]
+			id: "78DB056AAB354153"
+			tasks: [
+				{
+					id: "57D895C295AD4161"
+					item: { count: 1, id: "malum:raw_soulstone" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6ED98376A72364FD"
+					item: { count: 1, id: "malum:refined_soulstone" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"78DB056AAB354153"
+				"0159B919DDB6C50C"
+				"2193B23697447EED"
+			]
+			id: "045AB35E10ED5C6D"
+			tasks: [{
+				id: "10DE27F4B3047054"
+				item: { count: 1, id: "malum:crude_scythe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["045AB35E10ED5C6D"]
+			id: "6B230DE0D522837F"
+			tasks: [{
+				id: "17ABA8D7BC454F54"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(malum:spirits)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6B230DE0D522837F"
+				"20654903065E545D"
+			]
+			id: "36E5AB40B180D6AC"
+			tasks: [
+				{
+					id: "12BE81F515CF8AA8"
+					item: { count: 1, id: "malum:spirit_altar" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "74E81E3CCDEE47B5"
+					item: { count: 1, id: "malum:runewood_item_pedestal" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4DA54D07F86CDC9D"]
+			id: "20654903065E545D"
+			tasks: [{
+				id: "233BCFEB02413449"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(malum:runewood_planks)item_tag(malum:runewood_logs))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["36E5AB40B180D6AC"]
+			id: "69F150D64EC1DC31"
+			tasks: [{
+				id: "09AD57B646CD75F3"
+				item: { count: 1, id: "malum:soul_stained_steel_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["36E5AB40B180D6AC"]
+			id: "4EEB5BE08978FFC2"
+			tasks: [{
+				id: "5CE28143AC396ED4"
+				item: { count: 1, id: "malum:hallowed_gold_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"045AB35E10ED5C6D"
+				"69F150D64EC1DC31"
+			]
+			id: "57E066FF55D09EBB"
+			shape: "pentagon"
+			tasks: [{
+				id: "3497B83BCDB45B62"
+				item: { count: 1, id: "malum:soul_stained_steel_scythe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4EEB5BE08978FFC2"]
+			id: "16E8AAAC211ACF76"
+			shape: "pentagon"
+			tasks: [{
+				id: "2D36184A3286570C"
+				item: { count: 1, id: "malum:spirit_jar" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4EEB5BE08978FFC2"]
+			id: "08175D13B81BC7FD"
+			shape: "pentagon"
+			tasks: [{
+				id: "78C3B50FEEE3AD53"
+				item: { count: 1, id: "reliquary:phoenix_down" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36E5AB40B180D6AC"]
+			id: "67C5E3AAAFD27557"
+			tasks: [{
+				id: "0668B520CE2031B5"
+				item: { count: 1, id: "reliquary:emperor_chalice" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
 		}
 	]
 }

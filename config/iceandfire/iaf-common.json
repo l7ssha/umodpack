@@ -115,7 +115,7 @@
   "lich": {
     "spawn": true,
     "spawnWeight": 4,
-    "spawnChance": 0.03333333333333333
+    "spawnChance": 0.02
   },
   "hydra": {
     "maxHealth": 250.0

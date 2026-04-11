@@ -402,6 +402,28 @@ const recipesById = [
 
     // Aether
     'aether:aether_saddle',
+
+    // Malum
+    'malum:crude_scythe',
+    'malum:spirit_altar',
+
+    // Reliquiary
+    'reliquary:angelic_feather',
+    'reliquary:phoenix_down',
+    'reliquary:angelheart_vial',
+    'reliquary:void_tear',
+    'reliquary:ice_magus_rod',
+    'reliquary:glacial_staff',
+    'reliquary:shears_of_winter',
+    'reliquary:fertile_lily_pad',
+    'reliquary:salamander_eye',
+    'reliquary:sojourner_staff',
+    'reliquary:lantern_of_paranoia',
+    'reliquary:magicbane',
+    'reliquary:glowing_bread',
+    'reliquary:infernal_chalice',
+    'reliquary:fertile_potion',
+    'malum:soul_stained_steel_plating',
 ];
 
 const recipesByType = [
@@ -449,6 +471,9 @@ const recipesByOutput = [
     'alexscaves:block_of_uranium',
     'alexscaves:sulfur',
     'alexscaves:sulfur_dust',
+
+    // Reliquiary
+    'reliquary:glowing_water',
 ];
 
 ServerEvents.recipes(event => {

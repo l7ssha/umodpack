@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
                 "tag": "minecraft:axes"
             },
             {
-                "item": "minecraft:oak_log"
+                "tag": "minecraft:logs"
             }
         ],
         "result": {

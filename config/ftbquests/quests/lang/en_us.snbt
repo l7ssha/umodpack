@@ -123,6 +123,7 @@
 	quest.159CF664D7FCFA49.title: "Basic Powah Reactor"
 	quest.15CDE9B0EB2141D9.quest_desc: ["To visit &1The Otherside&r, you need to clean portal frame that is placed in the middle of Ancient City, and right click portal frame with Deep of The Dark, which is dropped from Warden."]
 	quest.15CDE9B0EB2141D9.title: "Visit the Otherside"
+	quest.16E8AAAC211ACF76.title: "Storing Spirits"
 	quest.175DA2B8B3257FCE.title: "Liquid Sculk Matter"
 	quest.1899ED3C893F61CD.quest_desc: [
 		"Found within the Void Altar."
@@ -172,6 +173,7 @@
 	quest.200B11B6D9005110.title: "Mekanism Fission Reactor"
 	quest.20153214A2E62564.quest_desc: ["AE2 solution to storing items are storage cell which can hold almost infinite amout of items. You might want to start small tho, you can use AE2's Storage Busses which can plug into your existing storage."]
 	quest.20153214A2E62564.title: "Storing items with AE2"
+	quest.20654903065E545D.title: "Runewood"
 	quest.2191C4C50F9BB1D0.title: "Easy Ore Doubling"
 	quest.2193B23697447EED.title: "Coke Oven"
 	quest.236CFF3613030187.quest_desc: [
@@ -311,8 +313,10 @@
 	quest.49EF0242BDE42C6A.title: "Basic Industrial Foregoing"
 	quest.4C899798872FACC0.title: "Easy Ore Doubling"
 	quest.4D4FAF5EB6AE845E.title: "Sky Steel"
+	quest.4DBECE1B3906A1F6.title: "Combination Crafting"
 	quest.4DEC2A1C61FBD22B.title: "Better Crafting Table"
 	quest.4E6A74D98863B8F3.title: "Quantum Infusion"
+	quest.4EEB5BE08978FFC2.title: "Hallowed Gold"
 	quest.4F4AB5D3F8BC3740.quest_desc: [
 		"Adds dangerous dungeons, unique enemies and boss fights."
 		""
@@ -334,6 +338,7 @@
 	quest.56A9C90C31DDB96F.quest_desc: ["You might as well take a look at storage chapter, to explore some of the starting storage solutions that modpack offers."]
 	quest.56C2C5E62E9C2AB4.title: "Mekanism Turbine"
 	quest.5859F2576E6EA306.title: "Extracting tree juices"
+	quest.59246C6ABFAFA60D.title: "Otherworld Oak"
 	quest.59C809775435980D.title: "Visit The Other"
 	quest.5B09EFC876A60EA9.quest_desc: ["Right clicking on Fluix Block will convert it to Budding Entro Block type deal."]
 	quest.5B6598E2A2BCDA62.title: "Pressurized Reaction Chamber"
@@ -381,7 +386,9 @@
 	quest.6818999DB40B3646.title: "Quantum Entangled Singularities"
 	quest.68BAD5173BCA948E.title: "Basic components"
 	quest.698FB4697F308D7D.title: "Overworld"
+	quest.69F150D64EC1DC31.title: "Soulstained Steel"
 	quest.6AFC7315EF32334B.title: "Pipez"
+	quest.6B230DE0D522837F.title: "Gathering Souls"
 	quest.6B91A2D589EA6396.quest_desc: [
 		"Found in massive ruined structures."
 		""
@@ -515,6 +522,7 @@
 	task.155C3C560585AF56.title: "Any Allthemodium Gear"
 	task.1595335CB935CC4C.title: "Antimatter"
 	task.17A2D48FE823FABA.title: "Ruined Citadel"
+	task.17ABA8D7BC454F54.title: "Any Soulstone"
 	task.187857538AC09450.title: "Find Meteorite"
 	task.1970718AFD429880.title: "Any Deep Resonance Ore"
 	task.1CDF6F81CF5A6C4A.title: "Nether"
@@ -523,6 +531,7 @@
 	task.20E27DD55DB3DC1D.title: "Any netherite alloy ingot"
 	task.215AB9E7BFA501FC.title: "Portal in Nether"
 	task.224C68397BFCA134.title: "Any Logs"
+	task.233BCFEB02413449.title: "Any Runewood Planks or Logs"
 	task.2452756068317538.title: "Any Radiance"
 	task.252050C5D6C3E031.title: "Look in End Hightlands"
 	task.27A688CC25800776.title: "Endgame"
@@ -539,6 +548,7 @@
 	task.3A660309B781B5BB.title: "Applied Energistics 2"
 	task.3AF5C00EE0F310CF.title: "Any starter backpack upgrade"
 	task.3C1B420177EA808F.title: "Extended AE"
+	task.3DC68EF3387BDCD7.title: "Any Marked Injector"
 	task.3ECB0CC732C797D8.title: "DimStorage Chest or Tank"
 	task.40AB950DB2DCB4F6.title: "Supercritical Phase Shifter"
 	task.41097F15A0C04636.title: "Applied Energistics 2"
