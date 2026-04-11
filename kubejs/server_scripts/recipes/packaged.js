@@ -37,28 +37,30 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
-            " AAA ",
-            "AB BA",
-            "BCDCB",
-            "EBCBE",
-            "AE EA"
+            "ABCBA",
+            "BDEDB",
+            "CEFEC",
+            "BDEDB",
+            "ABCBA"
         ],
-        "tier": 2,
         "key": {
             "A": {
-                "tag": "immersiveengineering:treated_wood_slab"
+                "item": "mekanism:hdpe_stick"
             },
             "B": {
-                "tag": "c:plates/gold"
+                "tag": "immersiveengineering:treated_wood_slab"
             },
             "C": {
-                "item": "cataclysm:void_eye"
+                "tag": "c:plates/gold"
             },
             "D": {
-                "item": "cataclysm:mech_eye"
+                "tag": "c:plates/steel"
             },
             "E": {
-                "tag": "c:plates/steel"
+                "tag": "c:ingots/refined_redstone"
+            },
+            "F": {
+                "item": "cataclysm:void_core"
             }
         },
         "result": {

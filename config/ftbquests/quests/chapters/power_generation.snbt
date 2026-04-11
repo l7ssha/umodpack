@@ -674,5 +674,16 @@
 			x: -8.0d
 			y: -9.0d
 		}
+		{
+			dependencies: ["1C44C162C1C83BE7"]
+			id: "08222725BAC766F8"
+			tasks: [{
+				id: "079F73696C241ED0"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(powah:energy_cables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
 	]
 }

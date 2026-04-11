@@ -1784,6 +1784,7 @@ ServerEvents.recipes(event => {
             "IFLLLFI",
             "AIFFFIC"
         ],
+        "tier": 3,
         "key": {
             "A": {
                 "item": "alexscaves:scarlet_magnet"
@@ -1840,6 +1841,7 @@ ServerEvents.recipes(event => {
             "AAA      ",
             "AA       "
         ],
+        "tier": 3,
         "key": {
             "A": {
                 "tag": "c:plastics"
@@ -1847,6 +1849,70 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "mekanism:hdpe_stick"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AABBBAA",
+            "AC   CA",
+            "AC   CA",
+            "C     C",
+            "AC   CA",
+            "ACCBCCA",
+            "AAABAAA"
+        ],
+        "tier": 3,
+        "key": {
+            "A": {
+                "tag": "c:ingots/steel"
+            },
+            "B": {
+                "tag": "c:ingots/brass"
+            },
+            "C": {
+                "tag": "c:ingots/bronze"
+            }
+        },
+        "result": {
+            "count": 8,
+            "id": "mekanism:thermal_evaporation_block"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "ABBBA",
+            "BCDCB",
+            "BEFEB",
+            "BEEEB",
+            "ABBBA"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:plates/steel"
+            },
+            "B": {
+                "tag": "c:ingots/constantan"
+            },
+            "C": {
+                "tag": "c:circuits/ultimate"
+            },
+            "D": {
+                "item": "stevescarts:component_advanced_pcb"
+            },
+            "E": {
+                "item": "mekanism:thermal_evaporation_block"
+            },
+            "F": {
+                "item": "mob_grinding_utils:jumbo_tank"
+            }
+        },
+        "result": {
+            "id": "mekanism:thermal_evaporation_controller"
         }
     });
 });

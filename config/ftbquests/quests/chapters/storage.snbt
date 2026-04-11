@@ -396,6 +396,7 @@
 			y: -9.5d
 		}
 		{
+			dependencies: ["56A9C90C31DDB96F"]
 			id: "6AFC7315EF32334B"
 			shape: "octagon"
 			tasks: [{
@@ -416,6 +417,29 @@
 			}]
 			x: 0.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["56A9C90C31DDB96F"]
+			id: "42B89C2B484406F3"
+			shape: "octagon"
+			tasks: [{
+				id: "10B77C86CDA763DA"
+				item: { count: 1, id: "pneumaticcraft:omnidirectional_hopper" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["56A9C90C31DDB96F"]
+			id: "5D3D8556251DF9DF"
+			shape: "octagon"
+			tasks: [{
+				id: "0A02EFF8B36CA5DB"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -5.5d
 		}
 	]
 }

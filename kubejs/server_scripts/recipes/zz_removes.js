@@ -92,10 +92,13 @@ const recipesById = [
     'alltheores:chemical_conversion/sulfur_block_to_sulfuric_acid',
     'bfr:reactor/frame',
     'mekanismgenerators:fission_reactor/casing',
+    'mekanism:thermal_evaporation/block',
+    'mekanism:thermal_evaporation/controller',
 
     // Ender IO
     'enderio:void_chassis',
     'enderio:alloy_smelter',
+    /re_endergy:conduit\/.*_energy_conduit/,
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
