@@ -132,5 +132,34 @@ ServerEvents.recipes(event => {
             "count": 2,
             "id": "re_endergy:melodic_alloy_ingot"
         }
-    })
+    });
+
+    event.shaped({
+        "pattern": [
+            "AAA",
+            "BCB",
+            "ADA"
+        ],
+        "key": {
+            "A": {
+                "item": "enderio:conduit_binder"
+            },
+            "B": {
+                "tag": "c:ingots/pulsating_alloy"
+            },
+            "C": {
+                "item": "pneumaticcraft:omnidirectional_hopper"
+            },
+            "D": {
+                "tag": "c:ingots/conductive_alloy"
+            }
+        },
+        "result": {
+            "components": {
+                "enderio:conduit": "enderio:item"
+            },
+            "count": 6,
+            "id": "enderio:conduit"
+        }
+    });
 });

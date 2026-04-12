@@ -100,6 +100,7 @@ const recipesById = [
     'enderio:void_chassis',
     'enderio:alloy_smelter',
     /re_endergy:conduit\/.*_energy_conduit/,
+    /^enderio:.*item_conduit$/,
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
@@ -432,6 +433,9 @@ const recipesById = [
     // Modular Routers
     'modularrouters:blank_module',
     'modularrouters:modular_router',
+
+    // Pipez
+    /pipez:.*_upgrade/,
 ];
 
 const recipesByType = [

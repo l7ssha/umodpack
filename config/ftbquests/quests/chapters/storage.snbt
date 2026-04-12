@@ -419,7 +419,10 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["56A9C90C31DDB96F"]
+			dependencies: [
+				"56A9C90C31DDB96F"
+				"7C2DF69E144D37BB"
+			]
 			id: "42B89C2B484406F3"
 			shape: "octagon"
 			tasks: [{
@@ -427,7 +430,7 @@
 				item: { count: 1, id: "pneumaticcraft:omnidirectional_hopper" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: -5.5d
 		}
 		{
@@ -438,8 +441,113 @@
 				id: "0A02EFF8B36CA5DB"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -5.5d
+		}
+		{
+			dependencies: ["6AFC7315EF32334B"]
+			id: "3939083010F6C52C"
+			tasks: [{
+				id: "0B1934858A86259F"
+				item: { count: 1, id: "pipez:basic_upgrade" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3939083010F6C52C"
+				"4EEB5BE08978FFC2"
+				"440F3A94958353A4"
+			]
+			id: "35995197A85DFAE8"
+			tasks: [{
+				id: "42A5490111D4AA84"
+				item: { components: { "ftbfiltersystem:filter": "or(item(pipez:improved_upgrade)item(pipez:advanced_upgrade)item(pipez:ultimate_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5D3D8556251DF9DF"]
+			id: "5279C4BFCE63CC8F"
+			tasks: [{
+				id: "2013C4854011BC0C"
+				item: { count: 1, id: "modularrouters:modular_router" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5279C4BFCE63CC8F"]
+			id: "63403964203EED93"
+			tasks: [{
+				id: "3A03F23388CC228D"
+				item: { count: 1, id: "modularrouters:sender_module_1" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5279C4BFCE63CC8F"]
+			disable_recipe_mod: false
+			hide_lock_icon: true
+			id: "46FD54A7292A7515"
+			tasks: [{
+				id: "1D07C929244DC86F"
+				item: { count: 1, id: "modularrouters:puller_module_1" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5279C4BFCE63CC8F"]
+			id: "68478B7555E7FE82"
+			tasks: [{
+				id: "278473A8631FD384"
+				item: { count: 1, id: "modularrouters:distributor_module" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5279C4BFCE63CC8F"]
+			id: "6EE955AC757375AB"
+			tasks: [{
+				id: "032EF38C8DD7166A"
+				item: { count: 1, id: "modularrouters:speed_upgrade" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5279C4BFCE63CC8F"]
+			id: "7D93D84159C5F3EE"
+			tasks: [{
+				id: "394D8F88F2E91941"
+				item: { count: 1, id: "modularrouters:stack_upgrade" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["42B89C2B484406F3"]
+			id: "43D38F4E44C3FBD3"
+			tasks: [{
+				id: "21E0B3BA5EE0919D"
+				item: { components: { "enderio:conduit": "enderio:item" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
 		}
 	]
 }

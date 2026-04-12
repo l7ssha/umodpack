@@ -34,8 +34,8 @@
 				id: "43060DF4108CC0A8"
 				type: "checkmark"
 			}]
-			x: -12.0d
-			y: -7.0d
+			x: -7.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["35C80977BA766131"]

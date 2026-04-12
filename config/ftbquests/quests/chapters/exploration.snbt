@@ -201,7 +201,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["670457A4B8C8112D"]
@@ -211,8 +211,8 @@
 				item: { count: 1, id: "draconicevolution:chaos_shard" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["712488FBADA11378"]
@@ -806,6 +806,8 @@
 		{
 			dependencies: ["3DD2C826F3F98DBC"]
 			id: "3BC55EE4383C7AD4"
+			optional: true
+			shape: "square"
 			tasks: [{
 				id: "7376F2E3C6B39879"
 				item: { count: 1, id: "cataclysm:ancient_metal_ingot" }
@@ -817,6 +819,8 @@
 		{
 			dependencies: ["6CC3AC4738AAA926"]
 			id: "00360BC8682F853F"
+			optional: true
+			shape: "square"
 			tasks: [{
 				id: "58F01AA49082CF5A"
 				item: { count: 1, id: "cataclysm:cursium_ingot" }
@@ -828,6 +832,8 @@
 		{
 			dependencies: ["7CDBD5320DE6D870"]
 			id: "7F04BE49C010ECF9"
+			optional: true
+			shape: "square"
 			tasks: [{
 				id: "6C5FEB2F0A4A65D6"
 				item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
@@ -839,6 +845,8 @@
 		{
 			dependencies: ["1899ED3C893F61CD"]
 			id: "3D35E880AC4AF2B1"
+			optional: true
+			shape: "square"
 			tasks: [{
 				id: "5DBA3F2966EBFB0D"
 				item: { count: 1, id: "cataclysm:void_core" }
@@ -850,6 +858,8 @@
 		{
 			dependencies: ["2ED08DD3D9B04C37"]
 			id: "739FA9F59EBCF3FF"
+			optional: true
+			shape: "square"
 			tasks: [{
 				id: "0DECEFF8DCED7092"
 				item: { count: 1, id: "cataclysm:ignitium_ingot" }
@@ -857,6 +867,72 @@
 			}]
 			x: 2.0d
 			y: -10.5d
+		}
+		{
+			dependencies: ["45D62327C37FC893"]
+			icon: {
+				components: {
+					"ftbquests:icon": "deep_aether:item/slider_eye"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "13CF872FFE77E284"
+			tasks: [{
+				entity: "aether:slider"
+				id: "505A0D79B0329D5B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13CF872FFE77E284"]
+			icon: {
+				components: {
+					"ftbquests:icon": "deep_aether:textures/mob_effect/valkyrie_valor.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3EFF5DCAF0077EB9"
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "2C335774E6901B26"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3EFF5DCAF0077EB9"]
+			id: "1F2CCA09C0C20755"
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "701F9EBE6A2BF924"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["45D62327C37FC893"]
+			icon: {
+				components: {
+					"ftbquests:icon": "deep_aether:textures/entity/eots/wind_crystal.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "03AE2BE3A97ED46C"
+			tasks: [{
+				entity: "deep_aether:eots_controller"
+				id: "6C54F20EAE85782C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -2.0d
 		}
 	]
 }

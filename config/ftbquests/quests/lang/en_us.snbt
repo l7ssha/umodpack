@@ -33,6 +33,7 @@
 	quest.017CFDB7477FB4D9.title: "Infernal Dragon"
 	quest.02A157D4DF5DAA52.title: "Basic Processors"
 	quest.02B29290745E59C2.title: "Cores"
+	quest.03AE2BE3A97ED46C.title: "Eye of the Storm"
 	quest.04479A58ED222218.quest_desc: ["Inifinite source of heat, ice and milk ..."]
 	quest.04479A58ED222218.quest_subtitle: "Fire, ice and milk?"
 	quest.04479A58ED222218.title: "Kitchen Upgrades"
@@ -100,6 +101,7 @@
 	quest.109046C9A2819DF6.title: "Lasers"
 	quest.119C658C73ED11B5.title: "Find Lamp of Cinders"
 	quest.136B7DB863F38456.title: "Antimatter Protomolecular Transmutator"
+	quest.13CF872FFE77E284.title: "Slider"
 	quest.142667F27319AC39.quest_desc: [
 		"Hides underground and attacks suddenly."
 		""
@@ -175,6 +177,7 @@
 	quest.1C043E3C873423D9.title: "Imperium"
 	quest.1D0CB39B8F2257B2.title: "Reinforced Blast Furnace"
 	quest.1E582F11A6319F52.title: "Kill Chaos Dragon"
+	quest.1F2CCA09C0C20755.title: "Sun Spirit"
 	quest.1F91B0C22E57B016.quest_subtitle: "Look for unobtainium in End Highlands"
 	quest.200B11B6D9005110.title: "Mekanism Fission Reactor"
 	quest.20153214A2E62564.quest_desc: ["AE2 solution to storing items are storage cell which can hold almost infinite amout of items. You might want to start small tho, you can use AE2's Storage Busses which can plug into your existing storage."]
@@ -266,12 +269,14 @@
 	quest.3397E3C262CE073A.title: "Deep resonance"
 	quest.33C2C88D8BCFB6BA.title: "Diesel Generator"
 	quest.341139A93B7E4862.title: "Fusion Reactor"
+	quest.35995197A85DFAE8.title: "Advanced Pipez Upgrades"
 	quest.3650ABB426DC3920.title: "Insanium"
 	quest.374BE4511E72EB63.title: "Chapter 2"
 	quest.384DF6512D66ADDD.quest_desc: ["Since your starting HP is 5 hearts, you might start farming various fruits and vegetables early on. Each 10 unique meals eaten, you will gain 1 heart."]
 	quest.384DF6512D66ADDD.title: "Farming?"
 	quest.388ED4924F9C845C.title: "Draconium Core"
 	quest.38B0553C13704960.quest_desc: ["To start with Applied Energistics, you need to find a meteorite which will contains all necessary metarial for you to start."]
+	quest.3939083010F6C52C.title: "Basic Pipe Upgrade"
 	quest.39AFC68F43B3EE11.title: "Radioactive Waste"
 	quest.39FF084021A5FEAC.title: "Awakened Draconium"
 	quest.3A0686AAEBCF9C88.title: "Diamonds!!!"
@@ -297,6 +302,7 @@
 	quest.3DD2C826F3F98DBC.quest_subtitle: "Guardian of the Sands"
 	quest.3DD2C826F3F98DBC.title: "Ancient Remnant"
 	quest.3EDEA0407CFD4297.title: "Visit Twilight Forest"
+	quest.3EFF5DCAF0077EB9.title: "Valkyrie Queen"
 	quest.3F04BC5CEA587B6A.title: "Plaslitherite"
 	quest.40FF16AAE9CCEEB6.title: "Using more than 8 channels"
 	quest.41598D162E9EC5EC.quest_desc: [
@@ -340,6 +346,7 @@
 	quest.4F6FF9F8C3392635.title: "Kill Wither"
 	quest.4F76E17F571EB959.quest_desc: ["Any ice can be used to cool reactor down and gain efficient. Best of them is \"Dry Ice\" from Powah."]
 	quest.50DAEE106FF3C5AF.title: "Kill Snow Queen"
+	quest.5279C4BFCE63CC8F.title: "Your first router"
 	quest.5323DAD30FA78DF2.title: "Lavium"
 	quest.534A5B38D070561C.title: "Sophisticated Storage upgrades"
 	quest.54B95EA400D84746.title: "Pressure Chamber"
@@ -563,6 +570,7 @@
 	task.3ECB0CC732C797D8.title: "DimStorage Chest or Tank"
 	task.40AB950DB2DCB4F6.title: "Supercritical Phase Shifter"
 	task.41097F15A0C04636.title: "Applied Energistics 2"
+	task.42A5490111D4AA84.title: "Any Advanced Pipez Upgrade"
 	task.43060DF4108CC0A8.title: "Relics and Unique Items"
 	task.43AF4C126486CA1F.title: "Kill Ender Dragon"
 	task.43B579B8521D4F80.title: "Immersive Engineering"
