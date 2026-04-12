@@ -11,6 +11,7 @@
 	chapter.5C81BE0FC5D0335D.title: "Chapter 3: Endgame"
 	chapter.608B48BCD3953045.title: "Chapter 1: The Beginning"
 	chapter.63436D5B23B416F4.title: "Mekanism"
+	chapter.6861BF08607D94DE.title: "Replication"
 	chapter.690F836F17324664.title: "PneumaticCraft"
 	chapter.69132560C39CCEB8.title: "Modpack's Multiblocks"
 	chapter.6DD97C624CBC07C0.title: "Storage and Logistics"
@@ -98,6 +99,8 @@
 	quest.0F569B5EE65D41C2.title: "Instructions on how to cook"
 	quest.0F7A17BE2FEA3BF8.title: "Backpacks"
 	quest.10302D6970032850.title: "Nuclear Waste"
+	quest.107A11583CE4B190.quest_desc: ["Replication is a tech mod that allows you to replicate resources of similar types. You can transform dirt to stone but you can't transform dirt to diamonds. "]
+	quest.107A11583CE4B190.title: "Getting Replicated"
 	quest.109046C9A2819DF6.title: "Lasers"
 	quest.119C658C73ED11B5.title: "Find Lamp of Cinders"
 	quest.136B7DB863F38456.title: "Antimatter Protomolecular Transmutator"
@@ -173,6 +176,7 @@
 	quest.19CE2D0320EACFAA.title: "Netherite Monstrosity"
 	quest.19D9F3CF80327FE8.title: "Functional Storage"
 	quest.1ADEEB75BA85A2BC.title: "Visit The End"
+	quest.1B5DD366A85EB217.title: "Awakening"
 	quest.1BEA03BF98E7419B.title: "Redstone"
 	quest.1C043E3C873423D9.title: "Imperium"
 	quest.1D0CB39B8F2257B2.title: "Reinforced Blast Furnace"
@@ -284,6 +288,7 @@
 	quest.3B9CA9C2E0AF3A60.title: "Quantum Connections"
 	quest.3C5057617AF2E010.title: "Demon's Dream"
 	quest.3C56124632611995.title: "The End"
+	quest.3D315871C83F5B4E.title: "Seed Infusion"
 	quest.3DD2C826F3F98DBC.quest_desc: [
 		"Found in desert temples."
 		""
@@ -346,7 +351,9 @@
 	quest.4F6FF9F8C3392635.title: "Kill Wither"
 	quest.4F76E17F571EB959.quest_desc: ["Any ice can be used to cool reactor down and gain efficient. Best of them is \"Dry Ice\" from Powah."]
 	quest.50DAEE106FF3C5AF.title: "Kill Snow Queen"
-	quest.5279C4BFCE63CC8F.title: "Your first router"
+	quest.5121F91BA8E6CFDC.title: "Aether's Altar"
+	quest.522B491F7B2B7618.quest_desc: ["Disintegrate a materials into its base components for later use in &#00032EReplicator&r"]
+	quest.5279C4BFCE63CC8F.title: "Your first Router"
 	quest.5323DAD30FA78DF2.title: "Lavium"
 	quest.534A5B38D070561C.title: "Sophisticated Storage upgrades"
 	quest.54B95EA400D84746.title: "Pressure Chamber"
@@ -367,6 +374,7 @@
 	quest.5E8C5A827F9FF35B.title: "Kill Piglich"
 	quest.6103C1881D338A4F.title: "Prudentium"
 	quest.61042D2A138D6F6E.title: "Coal"
+	quest.6140D46EEECCDA97.quest_desc: ["Before you can replicate given item, you need to pass it through the &9Identification Chamber&r. It will be saved onto &9Memory Chip&r, which then can be transferred to &9Chip Storage&r, for system to recognize new item for replication."]
 	quest.6173FF975787DD1C.title: "Better Furnaces"
 	quest.61B69DEF57769ACB.title: "Meteor Materials"
 	quest.64323A6786208121.title: "Fiery Ingot"
@@ -496,6 +504,7 @@
 	quest.752012C033211295.title: "Let's get it"
 	quest.759FF84A6D06E3D1.title: "Assembly Line"
 	quest.75A2DCBBB0144C00.title: "Visit Mining Dimension"
+	quest.75FCA1CF475B9D10.quest_desc: ["These tank allow to store &1Matter.&r You will need separate tank for each &1Matter&r type."]
 	quest.76F458EC8BF1CEBF.title: "As basic as One can get"
 	quest.78CA7E3F388673C0.title: "Unobtainium"
 	quest.7BC9F3265D060D27.quest_desc: ["Kitchen equipment that will help you prepare more dishes"]
@@ -536,6 +545,7 @@
 	task.0FD03ABAAEBDB3A7.title: "Storage"
 	task.0FF2A8A72A711D7F.title: "Any Dragon Steel"
 	task.10DEF413D2B796B4.title: "Netherite Acid"
+	task.121D62979F7911F7.title: "Applied Energistics Integration"
 	task.13C71FDF85F77A2C.title: "A LOT of antimatter"
 	task.155C3C560585AF56.title: "Any Allthemodium Gear"
 	task.1595335CB935CC4C.title: "Antimatter"
@@ -560,6 +570,7 @@
 	task.2EE2ABD9B7AB4E98.title: "Applied Energistics"
 	task.2FC2809FA9A8D4C6.title: "Gear Chapter"
 	task.31D2D296324B5CAA.title: "Mekanism"
+	task.36A31408C3BFF0CC.title: "Mob Seeds"
 	task.38246F118B33C752.title: "Plaslitherite"
 	task.3A21E5BFA86CF2B3.title: "Any Crafting Storage"
 	task.3A2E3F167838839D.title: "Storage Chapter"

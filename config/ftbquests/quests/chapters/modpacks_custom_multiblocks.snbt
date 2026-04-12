@@ -10,7 +10,82 @@
 		id: "modular_machinery_reborn:controller"
 	}
 	id: "69132560C39CCEB8"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["253D0F408001DF0F"]
+			id: "565BBA7F49738738"
+			tasks: [{
+				id: "65617B9578F8F3A4"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:electric_implosion_compressor" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["253D0F408001DF0F"]
+			id: "38F39A9DE5D88EEF"
+			tasks: [{
+				id: "5878FB08AC66D610"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:assembly_line" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["253D0F408001DF0F"]
+			id: "145F22E2CE529772"
+			tasks: [{
+				id: "3E494FB8971E16F3"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:industrial_empowerer" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0BB12CC02CF8C2FA"
+				"00360BC8682F853F"
+			]
+			id: "1B5357B71F7527FC"
+			shape: "octagon"
+			tasks: [{
+				id: "4FDFCC33B890FF37"
+				item: { count: 1, id: "modular_machinery_reborn:modularium" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1B5357B71F7527FC"]
+			id: "15A5EF4A937A8619"
+			tasks: [{
+				id: "1C05D253EEE23B25"
+				item: { count: 1, id: "modular_machinery_reborn:casing_plain" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"15A5EF4A937A8619"
+				"6441A910B461C9C4"
+				"7C5950CEED36CF9E"
+			]
+			id: "253D0F408001DF0F"
+			tasks: [{
+				id: "0B251DAA0D351350"
+				item: { count: 1, id: "modular_machinery_reborn:casing_reinforced" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+	]
 }

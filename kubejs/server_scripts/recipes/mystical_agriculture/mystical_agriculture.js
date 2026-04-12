@@ -1726,4 +1726,184 @@ ServerEvents.recipes(event => {
             }
         });
     });
+
+    event.custom({
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": {
+            "item": "mysticalagriculture:infusion_altar",
+            "count": 1,
+        },
+        "ingredients": [
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "minecraft:orange_wool"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "minecraft:orange_wool"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "minecraft:orange_wool"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "hazennstuff:hallowed_ingot"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "hazennstuff:hallowed_ingot"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "hazennstuff:hallowed_ingot"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "mysticalagriculture:soulstone"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "mysticalagriculture:soulstone"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "mysticalagriculture:soulstone"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "mysticalagriculture:soulstone"
+                }
+            },
+        ],
+        "result": {
+            "count": 1,
+            "id": "mysticalagriculture:awakening_altar"
+        },
+        "techLevel": "draconium",
+        "totalEnergy": 100000
+    });
+
+    event.custom({
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": {
+            "item": "mysticalagriculture:infusion_pedestal",
+            "count": 1,
+        },
+        "ingredients": [
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "minecraft:orange_wool"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "minecraft:orange_wool"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "hazennstuff:hallowed_ingot"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "hazennstuff:hallowed_ingot"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "mysticalagriculture:soulstone"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "mysticalagriculture:soulstone"
+                }
+            }
+        ],
+        "result": {
+            "count": 1,
+            "id": "mysticalagriculture:awakening_pedestal"
+        },
+        "techLevel": "draconium",
+        "totalEnergy": 100000
+    });
+
+    event.custom({
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": {
+            "item": "mob_grinding_utils:tank",
+            "count": 1,
+        },
+        "ingredients": [
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "minecraft:orange_wool"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "minecraft:orange_wool"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "hazennstuff:hallowed_ingot"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "hazennstuff:hallowed_ingot"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "mysticalagriculture:soulstone"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "mysticalagriculture:soulstone"
+                }
+            }
+        ],
+        "result": {
+            "count": 1,
+            "id": "mysticalagriculture:essence_vessel"
+        },
+        "techLevel": "draconium",
+        "totalEnergy": 100000
+    });
 });

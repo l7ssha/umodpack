@@ -112,4 +112,59 @@ ServerEvents.recipes(event => {
             }
         ]
     });
+
+    event.custom({
+        "type": "aether:enchanting",
+        "category": "enchanting_misc",
+        "cookingtime": 4800,
+        "experience": 1.0,
+        "ingredient": {
+            "item": "artifacts:everlasting_beef"
+        },
+        "result": {
+            "count": 1,
+            "id": "artifacts:eternal_steak"
+        }
+    });
+
+    event.custom({
+        "type": "malum:spirit_infusion",
+        "extraInputs": [
+            {
+                "items": "minecraft:potion",
+                "components": {
+                    "minecraft:potion_contents": {
+                        "potion": "minecraft:night_vision"
+                    }
+                },
+                "type": "neoforge:components"
+            },
+            {
+                "count": 4,
+                "tag": "c:ingots/refined_glowstone"
+            },
+            {
+                "count": 1,
+                "item": "reliquary:nebulous_heart"
+            }
+        ],
+        "input": {
+            "count": 1,
+            "item": "mekanismtools:steel_helmet"
+        },
+        "result": {
+            "count": 1,
+            "id": "artifacts:night_vision_goggles"
+        },
+        "spirits": [
+            {
+                "type": "malum:arcane",
+                "count": 12
+            },
+            {
+                "type": "malum:aerial",
+                "count": 8
+            }
+        ]
+    });
 });

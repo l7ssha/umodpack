@@ -934,5 +934,18 @@
 			x: 4.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["7313A1F84BD459D6"]
+			id: "06D0D62512F443EC"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "15190472F8062893"
+				item: { count: 1, id: "cataclysm:lacrima" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.0d
+		}
 	]
 }

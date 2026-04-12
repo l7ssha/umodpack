@@ -18,7 +18,9 @@ MMREvents.machines(event => {
                     ],
                     "c": "immersiveengineering:steel_scaffolding_standard",
                     "d": "minecraft:glass",
-                    "e": "immersiveengineering:logic_unit",
+                    "e": [
+                        "immersiveengineering:logic_unit",
+                    ],
                     "f": [
                         "#modular_machinery_reborn:energyinputhatch",
                         "#modular_machinery_reborn:parallelhatch",
@@ -29,7 +31,7 @@ MMREvents.machines(event => {
 });
 
 ServerEvents.recipes(event => {
-    const mmrRecipe = (name, recipeLength, energyPerTick, inputItems, inputFluids, outputItems, outputFluids) => {
+    const mmrRecipe = (name, recipeLength, energyPerTick, inputItems, inputFluids, outputItems, outputFluids, requiredTierBlock) => {
         outputFluids = outputFluids || [];
 
         const SLOT_SIZE = 18;
@@ -473,7 +475,7 @@ ServerEvents.recipes(event => {
         200,
         100,
         [
-            '4x #immersiveengineering/treated_wood',
+            '4x #immersiveengineering:treated_wood',
             '1x #c:rods/treated_wood',
             '12x productivebees:wax',
         ],
@@ -527,6 +529,25 @@ ServerEvents.recipes(event => {
         [],
         [
             '1x extendedae_plus:assembler_matrix_speed_plus',
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        600,
+        81920,
+        [
+            '8x industrialforegoingsouls:soul_surge',
+            "2x extendedae_plus:assembler_matrix_speed_plus",
+            "48x appgen:origination_processor",
+            "4x cataclysm:abyssal_sacrifice",
+            "1x mekanism:module_locomotive_boosting_unit",
+        ],
+        [
+            '1000x avaritia_integration:void_matter_source',
+        ],
+        [
+            '1x extendedae_plus:entity_speed_ticker',
         ]
     );
 });

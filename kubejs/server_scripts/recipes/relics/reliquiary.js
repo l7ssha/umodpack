@@ -799,5 +799,121 @@ ServerEvents.recipes(event => {
                 "count": 12
             }
         ]
-    }); 2
+    });
+
+    event.custom({
+        "type": "malum:spirit_infusion",
+        "extraInputs": [
+            {
+                "count": 1,
+                "item": "reliquary:nebulous_heart"
+            },
+            {
+                "count": 3,
+                "item": "reliquary:slime_pearl"
+            },
+            {
+                "count": 12,
+                "tag": "c:nuggets/brass"
+            }
+        ],
+        "input": {
+            "count": 1,
+            "item": "simplemagnets:basicmagnet"
+        },
+        "result": {
+            "count": 1,
+            "id": "reliquary:fortune_coin"
+        },
+        "spirits": [
+            {
+                "type": "malum:arcane",
+                "count": 3
+            },
+            {
+                "type": "malum:eldritch",
+                "count": 3
+            }
+        ]
+    });
+
+    event.custom({
+        "type": "malum:spirit_infusion",
+        "extraInputs": [
+            {
+                "count": 1,
+                "item": "reliquary:witch_hat"
+            },
+            {
+                "count": 3,
+                "item": "reliquary:infernal_tear"
+            },
+            {
+                "count": 12,
+                "tag": "c:nuggets/brass"
+            },
+            {
+                "count": 18,
+                "tag": "advancednetherite:ingot/netherites_iron"
+            }
+        ],
+        "input": {
+            "count": 1,
+            "item": "reliquary:fortune_coin"
+        },
+        "result": {
+            "count": 1,
+            "id": "reliquary:hero_medallion"
+        },
+        "spirits": [
+            {
+                "type": "malum:wicked",
+                "count": 12
+            },
+            {
+                "type": "malum:eldritch",
+                "count": 18
+            }
+        ]
+    });
+
+    event.custom({
+        "type": "malum:spirit_infusion",
+        "extraInputs": [
+            {
+                "count": 1,
+                "item": "reliquary:molten_core"
+            },
+            {
+                "count": 2,
+                "item": "reliquary:infernal_claw"
+            },
+            {
+                "count": 18,
+                "tag": "advancednetherite:ingot/netherites_iron"
+            },
+            {
+                "count": 4,
+                "item": "mysticalagriculture:supremium_essence"
+            }
+        ],
+        "input": {
+            "count": 1,
+            "item": "reliquary:void_tear"
+        },
+        "result": {
+            "count": 1,
+            "id": "reliquary:infernal_tear"
+        },
+        "spirits": [
+            {
+                "type": "malum:wicked",
+                "count": 18
+            },
+            {
+                "type": "malum:infernal",
+                "count": 18
+            }
+        ]
+    });
 });

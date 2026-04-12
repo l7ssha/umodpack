@@ -254,6 +254,7 @@
 		}
 		{
 			id: "0944416E6E80F3F2"
+			shape: "octagon"
 			tasks: [
 				{
 					id: "585E97DEC3D3021C"

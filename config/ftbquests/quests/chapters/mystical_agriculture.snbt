@@ -81,6 +81,7 @@
 				"22BCA93204533DDA"
 				"39F08392360098B8"
 				"799F88A3F7441DC3"
+				"1B5DD366A85EB217"
 			]
 			id: "5D14C4CD354FEE53"
 			tasks: [{
@@ -1503,6 +1504,114 @@
 			}]
 			x: 8.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["72044DCDB30BC1FD"]
+			id: "3D315871C83F5B4E"
+			tasks: [
+				{
+					id: "78CB6677C16A636A"
+					item: { count: 1, id: "mysticalagriculture:infusion_altar" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2793024A1599122E"
+					item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72044DCDB30BC1FD"]
+			id: "5C22C42BB9EEF33E"
+			tasks: [{
+				id: "32551EFB6114D62F"
+				item: { count: 1, id: "mysticalagriculture:seed_reprocessor" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F5522DAC6E298DF"]
+			id: "5D154F9CC0E46393"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "5DD4C6180E1E5438"
+				item: { count: 1, id: "mysticalagriculture:soul_extractor" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"72044DCDB30BC1FD"
+				"0F5522DAC6E298DF"
+			]
+			id: "00C9E5B395494E14"
+			tasks: [{
+				id: "7C73FB5CBEC6D8B1"
+				item: { count: 1, id: "mysticalagriculture:soulium_dagger" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72044DCDB30BC1FD"]
+			id: "0F5522DAC6E298DF"
+			tasks: [{
+				id: "5006CA49C28D3F53"
+				item: { count: 1, id: "mysticalagriculture:soul_jar" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5D154F9CC0E46393"
+				"00C9E5B395494E14"
+			]
+			id: "40F0DCF36793442E"
+			shape: "pentagon"
+			tasks: [{
+				id: "36A31408C3BFF0CC"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D315871C83F5B4E"]
+			hide_dependent_lines: true
+			id: "1B5DD366A85EB217"
+			tasks: [
+				{
+					id: "0AF791E25BB47294"
+					item: { count: 1, id: "mysticalagriculture:awakening_altar" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "08C3C8990F5655EA"
+					item: { count: 1, id: "mysticalagriculture:awakening_pedestal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3C3FB450180453EA"
+					item: { count: 1, id: "mysticalagriculture:essence_vessel" }
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: -1.0d
 		}
 	]
 }

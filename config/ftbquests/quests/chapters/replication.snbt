@@ -1,0 +1,139 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "replication"
+	group: "77EEC754FC5E3E91"
+	icon: {
+		id: "replication:replicator"
+	}
+	id: "6861BF08607D94DE"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "107A11583CE4B190"
+			shape: "octagon"
+			size: 1.3d
+			tasks: [{
+				id: "624C0448EDBE62B3"
+				item: { count: 1, id: "replication:raw_replica" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.450000000000001d
+		}
+		{
+			dependencies: [
+				"7223C4D0920E4C74"
+				"75FCA1CF475B9D10"
+				"522B491F7B2B7618"
+			]
+			id: "644AB7EB80D5A04B"
+			shape: "pentagon"
+			tasks: [{
+				id: "7B716D9CB3DD8BAF"
+				item: { count: 1, id: "replication:replicator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5ABCAF1561FA398C"]
+			id: "6140D46EEECCDA97"
+			tasks: [{
+				id: "33DB2493DF09DC23"
+				item: { count: 1, id: "replication:identification_chamber" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5ABCAF1561FA398C"]
+			id: "522B491F7B2B7618"
+			tasks: [{
+				id: "74BC182F07CBB15F"
+				item: { count: 1, id: "replication:disintegrator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5ABCAF1561FA398C"]
+			id: "75FCA1CF475B9D10"
+			tasks: [{
+				id: "3FF5DA37EE9E39D2"
+				item: { count: 1, id: "replication:matter_tank" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6140D46EEECCDA97"]
+			id: "7223C4D0920E4C74"
+			tasks: [
+				{
+					id: "099F21018647431B"
+					item: { count: 1, id: "replication:chip_storage" }
+					type: "item"
+				}
+				{
+					id: "46BE4665CEA65121"
+					item: { count: 1, id: "replication:memory_chip" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5ABCAF1561FA398C"]
+			id: "5847DB6F80CE455D"
+			tasks: [{
+				id: "0266A419A6B1C5D0"
+				item: { count: 1, id: "replication:matter_network_pipe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5ABCAF1561FA398C"]
+			id: "4C22F9B21E6CF1C1"
+			tasks: [{
+				id: "51ED6A99629C7829"
+				item: { count: 1, id: "replication:replication_terminal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["107A11583CE4B190"]
+			id: "5ABCAF1561FA398C"
+			tasks: [{
+				id: "7C2DBE187E942455"
+				item: { count: 1, id: "replication:replica_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["644AB7EB80D5A04B"]
+			icon: {
+				id: "apprep:replication_connector"
+			}
+			id: "52E969E033546EB6"
+			tasks: [{
+				id: "121D62979F7911F7"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+}

@@ -123,6 +123,9 @@ const recipesById = [
     /mysticalagradditions:.*_crux/,
     'mysticalagriculture:nature_agglomeratio',
     'mysticalagriculture:nether_agglomeratio',
+    'mysticalagriculture:awakening_altar',
+    'mysticalagriculture:awakening_pedestal',
+    'mysticalagriculture:essence_vessel',
 
     // AE2
     "aeinfinitybooster:dimension_card",
@@ -433,6 +436,9 @@ const recipesById = [
     'reliquary:twilight_cloak',
     'reliquary:holy_hand_grenade',
     'reliquary:aphrodite_potion',
+    'reliquary:fortune_coin',
+    'reliquary:hero_medallion',
+    'reliquary:infernal_tear',
 
     // Modular Routers
     'modularrouters:blank_module',
@@ -440,6 +446,10 @@ const recipesById = [
 
     // Pipez
     /pipez:.*_upgrade/,
+
+    // MMR
+    'modular_machinery_reborn:modularium_ingot',
+    'modular_machinery_reborn:casing_reinforced',
 ];
 
 const recipesByType = [
@@ -490,6 +500,7 @@ const recipesByOutput = [
 
     // Reliquiary
     'reliquary:glowing_water',
+    'artifacts:eternal_steak',
 ];
 
 ServerEvents.recipes(event => {
