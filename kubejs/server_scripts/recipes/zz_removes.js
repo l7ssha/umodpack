@@ -429,6 +429,10 @@ const recipesById = [
     'reliquary:infernal_chalice',
     'reliquary:fertile_potion',
     'malum:soul_stained_steel_plating',
+    'reliquary:mercy_cross',
+    'reliquary:twilight_cloak',
+    'reliquary:holy_hand_grenade',
+    'reliquary:aphrodite_potion',
 
     // Modular Routers
     'modularrouters:blank_module',

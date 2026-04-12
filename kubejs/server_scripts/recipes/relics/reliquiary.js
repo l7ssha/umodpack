@@ -636,4 +636,168 @@ ServerEvents.recipes(event => {
             "id": "malum:soul_stained_steel_plating"
         }
     });
+
+    event.custom({
+        "type": "malum:spirit_infusion",
+        "extraInputs": [
+            {
+                "count": 3,
+                "tag": "c:rods/gold"
+            },
+            {
+                "count": 1,
+                "item": "malum:hallowed_gold_ingot"
+            },
+            {
+                "count": 1,
+                "item": "reliquary:withered_rib"
+            },
+            {
+                "count": 1,
+                "item": "reliquary:rib_bone"
+            },
+            {
+                "count": 1,
+                "tag": "c:skulls"
+            },
+            {
+                "count": 1,
+                "item": "reliquary:zombie_heart"
+            },
+        ],
+        "input": {
+            "count": 1,
+            "item": "aether:holystone_sword"
+        },
+        "result": {
+            "count": 1,
+            "id": "reliquary:mercy_cross"
+        },
+        "spirits": [
+            {
+                "type": "malum:sacred",
+                "count": 12
+            },
+            {
+                "type": "malum:arcane",
+                "count": 2
+            }
+        ]
+    });
+
+    event.custom({
+        "type": "malum:spirit_infusion",
+        "extraInputs": [
+            {
+                "count": 1,
+                "item": "reliquary:empty_potion_vial"
+            },
+            {
+                "count": 1,
+                "tag": "c:buckets/water"
+            },
+            {
+                "count": 4,
+                "tag": "c:crops/wheat"
+            },
+            {
+                "count": 4,
+                "tag": "c:crops/carrot"
+            },
+            {
+                "count": 2,
+                "tag": "c:crops/cocoa_bean"
+            }
+        ],
+        "input": {
+            "count": 1,
+            "item": "reliquary:fertile_essence"
+        },
+        "result": {
+            "count": 1,
+            "id": "reliquary:aphrodite_potion"
+        },
+        "spirits": [
+            {
+                "type": "malum:earthen",
+                "count": 2
+            },
+            {
+                "type": "malum:sacred",
+                "count": 8
+            }
+        ]
+    });
+
+    event.custom({
+        "type": "malum:spirit_infusion",
+        "extraInputs": [
+            {
+                "count": 5,
+                "item": "reliquary:crimson_cloth"
+            },
+            {
+                "count": 4,
+                "tag": "chipped:black_carpet"
+            },
+            {
+                "count": 3,
+                "tag": "c:plates/invar"
+            }
+        ],
+        "input": {
+            "count": 1,
+            "item": "minecraft:leather_chestplate"
+        },
+        "result": {
+            "count": 1,
+            "id": "reliquary:twilight_cloak"
+        },
+        "spirits": [
+            {
+                "type": "malum:arcane",
+                "count": 12
+            },
+            {
+                "type": "malum:eldritch",
+                "count": 2
+            }
+        ]
+    });
+
+    event.custom({
+        "type": "malum:spirit_infusion",
+        "extraInputs": [
+            {
+                "count": 1,
+                "item": "reliquary:glowing_water"
+            },
+            {
+                "count": 1,
+                "item": "reliquary:catalyzing_gland"
+            },
+            {
+                "count": 3,
+                "tag": "c:nuggets/signalum"
+            }
+        ],
+        "input": {
+            "count": 1,
+            "item": "ae2:tiny_tnt"
+        },
+        "result": {
+            "count": 2,
+            "id": "reliquary:holy_hand_grenade"
+        },
+        "spirits": [
+            {
+                "type": "malum:arcane",
+                "count": 4
+            },
+            {
+                "type": "malum:eldritch",
+                "count": 12
+            }
+        ]
+    }); 2
 });
