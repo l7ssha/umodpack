@@ -450,6 +450,19 @@ const recipesById = [
     // MMR
     'modular_machinery_reborn:modularium_ingot',
     'modular_machinery_reborn:casing_reinforced',
+
+    // Extreme Reactors
+    'bigreactors:reactor/reinforced/casing',
+    'bigreactors:reactor/reinforced/casing_upgrade',
+    'bigreactors:reactor/reinforced/fuelrod_ingots_yellorium',
+    'bigreactors:reactor/reinforced/glass',
+    'bigreactors:reactor/reinforced/controlrod',
+    'bigreactors:reactor/reinforced/solidaccessport',
+    'bigreactors:reactor/reinforced/activetap_fe',
+    'bigreactors:reactor/reinforced/controller_ingots_yellorium',
+    'bigreactors:turbine/reinforced/controller',
+    'bigreactors:reactor/reinforced/fluidaccessport',
+    'bigreactors:turbine/reinforced/activetap_fe',
 ];
 
 const recipesByType = [

@@ -14,6 +14,16 @@ ServerEvents.tags('fluid', tags => {
 });
 
 ServerEvents.tags('item', tags => {
+    tags.add('c:pistons', [
+        'minecraft:piston',
+        'minecraft:sticky_piston',
+    ]);
+
+    tags.add('c:hoppers', [
+        'minecraft:hopper',
+        'utilitarian:fluid_hopper',
+    ]);
+
     tags.add('c:dusts/salt', ['pamhc2foodcore:saltitem']);
 
     tags.add('c:storage_blocks/raw_yellorium', 'bigreactors:raw_yellorium_block');
