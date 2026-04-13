@@ -6,5 +6,63 @@
 	id: "0F0F9CD765F02F19"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "7E96156DB4709993"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "277B735754CD064A"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "2B5090C97BCFAA49"
+			tasks: [{
+				id: "3D921F745BB72CEC"
+				item: { components: { "ironjetpacks:jetpack_id": "ironjetpacks:wood" }, count: 1, id: "ironjetpacks:jetpack" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "4DFB487BF49CF670"
+			tasks: [{
+				id: "16DE9BBD07C2A274"
+				item: { count: 1, id: "constructionstick:wooden_stick" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "1E46A5371022D2E0"
+			tasks: [{
+				id: "0292EBAEAFE25362"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "73894FB34BEC9012"
+			tasks: [
+				{
+					id: "4A030748EE2997BD"
+					item: { count: 1, id: "naturescompass:naturescompass" }
+					type: "item"
+				}
+				{
+					id: "4E3E5DA571D37B00"
+					item: { count: 1, id: "explorerscompass:explorerscompass" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.5d
+		}
+	]
 }

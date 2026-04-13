@@ -9,5 +9,417 @@
 	id: "30D7ED09D45FA441"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "68A62A29EB94D4C6"
+			shape: "octagon"
+			tasks: [{
+				id: "21CA94EE59315527"
+				item: { count: 1, id: "alltheores:uranium_ingot" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"68A62A29EB94D4C6"
+				"004693AEEEDA8881"
+			]
+			id: "0E94A5D69104C553"
+			tasks: [
+				{
+					id: "1733A7869EA382BF"
+					item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
+					type: "item"
+				}
+				{
+					id: "5A3CA55F84D86D00"
+					item: { count: 1, id: "bigreactors:basic_reactorcasing" }
+					type: "item"
+				}
+				{
+					id: "50F88AC2007C32E3"
+					item: { count: 1, id: "bigreactors:basic_reactorglass" }
+					type: "item"
+				}
+				{
+					id: "563C36F572611B4D"
+					item: { count: 1, id: "bigreactors:basic_reactorfuelrod" }
+					type: "item"
+				}
+				{
+					id: "6763A357C299C4A7"
+					item: { count: 1, id: "bigreactors:basic_reactorcontrolrod" }
+					type: "item"
+				}
+				{
+					id: "37B3D46870044667"
+					item: { count: 1, id: "bigreactors:basic_reactorsolidaccessport" }
+					type: "item"
+				}
+				{
+					id: "3400275181D95696"
+					item: { count: 1, id: "bigreactors:basic_reactorpowertapfe_active" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1FFFA3063C410078"]
+			id: "4E9AB98C779C11AC"
+			tasks: [{
+				id: "68CC4D646A473FA2"
+				item: { count: 1, id: "bigreactors:cyanite_ingot" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E9AB98C779C11AC"]
+			id: "3C95A03670B218D3"
+			tasks: [
+				{
+					id: "4C0D41E57C2133E1"
+					item: { count: 1, id: "bigreactors:reprocessorcasing" }
+					type: "item"
+				}
+				{
+					id: "6D2F0A7EAFDF66E0"
+					item: { count: 1, id: "bigreactors:reprocessorglass" }
+					type: "item"
+				}
+				{
+					id: "7B49AEC1A1D4CE98"
+					item: { count: 1, id: "bigreactors:reprocessorcontroller" }
+					type: "item"
+				}
+				{
+					id: "2DF7A996C463AA84"
+					item: { count: 1, id: "bigreactors:reprocessorcollector" }
+					type: "item"
+				}
+				{
+					id: "136EFC61D4A8330A"
+					item: { count: 1, id: "bigreactors:reprocessorwasteinjector" }
+					type: "item"
+				}
+				{
+					id: "26A70D3063D3BBB3"
+					item: { count: 1, id: "bigreactors:reprocessorfluidinjector" }
+					type: "item"
+				}
+				{
+					id: "1E0653B8C6D56D2F"
+					item: { count: 1, id: "bigreactors:reprocessoroutputport" }
+					type: "item"
+				}
+				{
+					id: "158D651B95B26673"
+					item: { count: 1, id: "bigreactors:reprocessorpowerport" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E94A5D69104C553"]
+			id: "1FFFA3063C410078"
+			tasks: [
+				{
+					id: "0E2D3933B44A8EF7"
+					item: { count: 1, id: "bigreactors:reinforced_reactorcontroller" }
+					type: "item"
+				}
+				{
+					id: "4DDF6748414BE72D"
+					item: { count: 1, id: "bigreactors:reinforced_reactorcasing" }
+					type: "item"
+				}
+				{
+					id: "43DE3B7BEDFF02EC"
+					item: { count: 1, id: "bigreactors:reinforced_reactorglass" }
+					type: "item"
+				}
+				{
+					id: "7539CFF0287D7854"
+					item: { count: 1, id: "bigreactors:reinforced_reactorfuelrod" }
+					type: "item"
+				}
+				{
+					id: "3B37677C7F4A73EF"
+					item: { count: 1, id: "bigreactors:reinforced_reactorcontrolrod" }
+					type: "item"
+				}
+				{
+					id: "7AFDDE97BFB5085E"
+					item: { count: 1, id: "bigreactors:reinforced_reactorsolidaccessport" }
+					type: "item"
+				}
+				{
+					id: "749A6A106548180D"
+					item: { count: 1, id: "bigreactors:reinforced_reactorpowertapfe_active" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "004693AEEEDA8881"
+			shape: "octagon"
+			tasks: [{
+				id: "6A0CF7D91429D744"
+				item: { count: 1, id: "bigreactors:graphite_ingot" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E9AB98C779C11AC"]
+			id: "5C56A3472EFBBF75"
+			tasks: [
+				{
+					id: "45240CAAF243708D"
+					item: { count: 1, id: "bigreactors:fluidizercasing" }
+					type: "item"
+				}
+				{
+					id: "0F86206178E125AB"
+					item: { count: 1, id: "bigreactors:fluidizerglass" }
+					type: "item"
+				}
+				{
+					id: "152A82402884F4F8"
+					item: { count: 1, id: "bigreactors:fluidizercontroller" }
+					type: "item"
+				}
+				{
+					id: "3989B5AC9FD522E9"
+					item: { count: 1, id: "bigreactors:fluidizersolidinjector" }
+					type: "item"
+				}
+				{
+					id: "407ACFE71D26119D"
+					item: { count: 1, id: "bigreactors:fluidizeroutputport" }
+					type: "item"
+				}
+				{
+					id: "74CDAB5AE58A1FC5"
+					item: { count: 1, id: "bigreactors:fluidizerpowerport" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C95A03670B218D3"]
+			id: "4E93764343ABEC7D"
+			tasks: [{
+				id: "71110C300DD39DE1"
+				item: { count: 1, id: "bigreactors:blutonium_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4E93764343ABEC7D"
+				"5C56A3472EFBBF75"
+			]
+			id: "3FCEBCF5FAF181A5"
+			tasks: [{
+				id: "33079D122762CF72"
+				item: { count: 1, id: "bigreactors:ludicrite_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["14399293F904AFB2"]
+			id: "5ABA59ADB74B94FA"
+			tasks: [{
+				id: "48A8CCFD91D663B2"
+				item: { count: 1, id: "bigreactors:ridiculite_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4E93764343ABEC7D"]
+			id: "5BFC761807764DF1"
+			tasks: [{
+				id: "63DB36C885F14179"
+				item: { count: 1, id: "bigreactors:reinforced_reactorcontroller" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5BFC761807764DF1"
+				"3FCEBCF5FAF181A5"
+			]
+			id: "14399293F904AFB2"
+			tasks: [{
+				id: "6C6D103C67200114"
+				item: { count: 1, id: "bigreactors:reprocessorcontroller" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5ABA59ADB74B94FA"
+				"709FA34AF89CAC7A"
+			]
+			id: "06052CC4358FDB25"
+			tasks: [{
+				id: "2DD5F1B22EA35322"
+				item: { count: 1, id: "bigreactors:reprocessorcontroller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["38DEF831D64E9E0D"]
+			id: "709FA34AF89CAC7A"
+			tasks: [{
+				id: "08F7E9C16A983151"
+				item: { count: 1, id: "bigreactors:reinforced_reactorcontroller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4C8E817E671C30C9"
+				"1FFBC9027DF51468"
+			]
+			id: "38DEF831D64E9E0D"
+			tasks: [{
+				id: "1823D1B423C71221"
+				item: { count: 1, id: "bigreactors:fluidizerfluidinjector" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "4C8E817E671C30C9"
+			tasks: [{
+				id: "207AC7AEEF6C52E3"
+				item: { count: 1, id: "alltheores:uranium_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "1FFBC9027DF51468"
+			tasks: [{
+				id: "05FB9C068712F73B"
+				item: { count: 1, id: "bigreactors:blutonium_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06052CC4358FDB25"]
+			id: "469D009FF315A1B8"
+			tasks: [{
+				id: "2C1F257C790704C4"
+				item: { count: 1, id: "bigreactors:inanite_ingot" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1FFFA3063C410078"]
+			id: "342010ED6187CF7F"
+			tasks: [
+				{
+					id: "052F0ADA58C789B6"
+					item: { count: 1, id: "bigreactors:reinforced_turbinecontroller" }
+					type: "item"
+				}
+				{
+					id: "7E9A5824A444A557"
+					item: { count: 1, id: "bigreactors:reinforced_turbinecasing" }
+					type: "item"
+				}
+				{
+					id: "5F0E8BAEA7CAAD61"
+					item: { count: 1, id: "bigreactors:reinforced_turbineglass" }
+					type: "item"
+				}
+				{
+					id: "454044FBE06CDEAF"
+					item: { count: 1, id: "bigreactors:reinforced_turbinerotorbearing" }
+					type: "item"
+				}
+				{
+					id: "532F67C9C9EAEE8C"
+					item: { count: 1, id: "bigreactors:reinforced_turbinerotorshaft" }
+					type: "item"
+				}
+				{
+					id: "57533379A5119878"
+					item: { count: 1, id: "bigreactors:reinforced_turbinerotorblade" }
+					type: "item"
+				}
+				{
+					id: "06F13E8A6DD9F3E2"
+					item: { count: 1, id: "bigreactors:reinforced_turbinepowertapfe_active" }
+					type: "item"
+				}
+				{
+					id: "7595B46D14EF4529"
+					item: { count: 1, id: "bigreactors:reinforced_turbinefluidport_forge_active" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"06052CC4358FDB25"
+				"78DEB9A46F04CD32"
+			]
+			id: "362BA2D921770948"
+			tasks: [{
+				id: "2710B0BF63BD95DE"
+				item: { count: 1, id: "bigreactors:insanite_ingot" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "78DEB9A46F04CD32"
+			tasks: [{
+				id: "5C44356851A3F5E7"
+				item: { count: 1, id: "bigreactors:benitoite_crystal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+	]
 }

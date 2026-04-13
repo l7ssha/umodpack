@@ -6,17 +6,79 @@
 	id: "4E4BA7805C19F437"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		icon_scale: 0.7d
-		id: "712E8E6207EB887F"
-		shape: "octagon"
-		size: 2.0d
-		tasks: [{
-			dimension: "minecraft:overworld"
-			id: "6AE38D3CE23D47FC"
-			type: "dimension"
-		}]
-		x: 1.0d
-		y: 1.0d
-	}]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:poppy"
+			}
+			icon_scale: 0.7d
+			id: "712E8E6207EB887F"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "6AE38D3CE23D47FC"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "1688EE169F9598CB"
+			tasks: [{
+				id: "72AE7667A7DEBA96"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/map/decorations/woodland_mansion.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "29A5020EE6FF2FC3"
+			tasks: [{
+				id: "278D77513EEB7CEF"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "polylib:textures/gui/widgets/gear_light.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3620D267D486B810"
+			tasks: [{
+				id: "273DF851DD96EE87"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/teams.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "711850D26542F729"
+			tasks: [{
+				id: "64B2F93ED62EE839"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+	]
 }
