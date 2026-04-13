@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "count": 6,
-                "item": "minecraft:cooper_ingot"
+                "item": "minecraft:copper_ingot"
             },
             {
                 "count": 6,
