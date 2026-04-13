@@ -544,4 +544,300 @@ ServerEvents.recipes(event => {
       "id": "bigreactors:reinforced_turbinecontroller"
     }
   })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ACDCA",
+      "BDEDB",
+      "ACDCA",
+      "AABAA"
+    ],
+    "key": {
+      "A": {
+        "item": "alltheores:steel_plate"
+      },
+      "B": {
+        "item": "minecraft:iron_ingot"
+      },
+      "C": {
+        "item": "actuallyadditions:enori_crystal"
+      },
+      "D": {
+        "item": "bigreactors:cyanite_ingot"
+      },
+      "E": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    "result": {
+      "id": "bigreactors:reprocessorcasing"
+    }
+  })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABA",
+      "BBB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "bigreactors:reprocessorcasing"
+      },
+      "B": {
+        "item": "mekanism:structural_glass"
+      }
+    },
+    "result": {
+      "id": "bigreactor:reprocessorglass"
+    }
+  })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCBA",
+      "DECED",
+      "DEFED",
+      "DEGED",
+      "ABHBA"
+    ],
+    "key": {
+      "A": {
+        "item": "bigreactors:reprocessorcasing"
+      },
+      "B": {
+        "item": "actuallyadditions:enori_crystal"
+      },
+      "C": {
+        "item": "enderio:dark_steel_bars"
+      },
+      "D": {
+        "item": "alltheores:steel_plate"
+      },
+      "E": {
+        "item": "advancednetherite:netherite_iron_ingot"
+      },
+      "F": {
+        "items": "functionalstorage:collector_upgrade",
+        "components": {
+          "functionalstorage:direction": "north"
+        },
+        "type": "neoforge:components"
+      },
+      "G": {
+        "item": "minecraft:piston"
+      },
+      "H": {
+        "item": "minecraft:hopper"
+      }
+    },
+    "result": {
+      "id": "bigreactors:reprocessorcollector"
+    }
+  })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ACDCA",
+      "BCECB",
+      "AFGFA",
+      "AABAA"
+    ],
+    "key": {
+      "A": {
+        "item": "bigreactors:reprocessorcasing"
+      },
+      "B": {
+        "item": "alltheores:steel_plate"
+      },
+      "C": {
+        "item": "bigreactors:cyanite_ingot"
+      },
+      "D": {
+        "item": "mekanism:ultimate_fluid_tank"
+      },
+      "E": {
+        "item": "minecraft:sticky_piston"
+      },
+      "F": {
+        "item": "minecraft:redstone"
+      },
+      "G": {
+        "items": "functionalstorage:pusher_upgrade",
+        "components": {
+          "functionalstorage:direction": "north"
+        },
+        "type": "neoforge:components"
+      }
+    },
+    "result": {
+      "id": "bigreactors:reprocessorfluidinjector"
+    }
+  })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ACDCA",
+      "BCECB",
+      "AFGFA",
+      "AABAA"
+    ],
+    "key": {
+      "A": {
+        "item": "bigreactors:reprocessorcasing"
+      },
+      "B": {
+        "item": "alltheores:steel_plate"
+      },
+      "C": {
+        "item": "bigreactors:cyanite_ingot"
+      },
+      "D": {
+        "item": "mekanism:radioactive_waste_barrel"
+      },
+      "E": {
+        "item": "minecraft:sticky_piston"
+      },
+      "F": {
+        "item": "minecraft:redstone"
+      },
+      "G": {
+        "items": "functionalstorage:pusher_upgrade",
+        "components": {
+          "functionalstorage:direction": "north"
+        },
+        "type": "neoforge:components"
+      }
+    },
+    "result": {
+      "id": "bigreactors:reprocessorwasteinjector"
+    }
+  })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ABCBA",
+      "BDEDB",
+      "AFGFA",
+      "AAHAA"
+    ],
+    "key": {
+      "A": {
+        "item": "bigreactors:reprocessorcasing"
+      },
+      "B": {
+        "item": "alltheores:steel_plate"
+      },
+      "C": {
+        "item": "advancednetherite:netherite_iron_ingot"
+      },
+      "D": {
+        "item": "functionalstorage:oak_1"
+      },
+      "E": {
+        "item": "minecraft:dispenser"
+      },
+      "F": {
+        "item": "minecraft:redstone"
+      },
+      "G": {
+        "items": "functionalstorage:pusher_upgrade",
+        "components": {
+          "functionalstorage:direction": "north"
+        },
+        "type": "neoforge:components"
+      },
+      "H": {
+        "item": "mekanism:ultimate_logistical_transporter"
+      }
+    },
+    "result": {
+      "id": "bigreactors:reprocessoroutputport"
+    }
+  })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ACDCA",
+      "EFGFE",
+      "AHDHA",
+      "AABAA"
+    ],
+    "key": {
+      "A": {
+        "item": "bigreactors:reprocessorcasing"
+      },
+      "B": {
+        "item": "mekanism_extras:absolute_universal_cable"
+      },
+      "C": {
+        "item": "minecraft:diamond"
+      },
+      "D": {
+        "item": "minecraft:redstone"
+      },
+      "E": {
+        "item": "alltheores:steel_plate"
+      },
+      "F": {
+        "item": "bigreactors:cyanite_ingot"
+      },
+      "G": {
+        "item": "mekanism_extras:absolute_control_circuit"
+      },
+      "H": {
+        "item": "actuallyadditions:empowered_diamatine_crystal"
+      }
+    },
+    "result": {
+      "id": "bigreactors:reprocessorpowerport"
+    }
+  })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ACDCA",
+      "BEFEB",
+      "AGHGA",
+      "AAIAA"
+    ],
+    "key": {
+      "A": {
+        "item": "bigreactors:reprocessorcasing"
+      },
+      "B": {
+        "item": "alltheores:steel_plate"
+      },
+      "C": {
+        "item": "minecraft:redstone"
+      },
+      "D": {
+        "item": "ae2:fluix_smart_cable"
+      },
+      "E": {
+        "item": "mekanism_extras:absolute_control_circuit"
+      },
+      "F": {
+        "item": "ae2:terminal"
+      },
+      "G": {
+        "item": "advancednetherite:netherite_iron_ingot"
+      },
+      "H": {
+        "item": "immersiveengineering:redstone_switchboard"
+      },
+      "I": {
+        "item": "mekanism:structural_glass"
+      }
+    },
+    "result": {
+      "id": "bigreactors:reprocessorcontroller"
+    }
+  })
 });
