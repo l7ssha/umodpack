@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
     }
   },
   "result": {
-    "id": ""
+    "id": "bigreactors:reinforced_reactorcasing"
   }
 });
 
