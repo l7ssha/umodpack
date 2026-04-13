@@ -916,4 +916,56 @@ ServerEvents.recipes(event => {
             }
         ]
     });
+
+    event.custom({
+        "type": "malum:spirit_infusion",
+        "extraInputs": [
+            {
+                "count": 1,
+                "item": "reliquary:molten_core"
+            },
+            {
+                "count": 2,
+                "item": "reliquary:witch_hat"
+            },
+            {
+                "count": 1,
+                "item": "reliquary:eye_of_the_storm"
+            },
+            {
+                "count": 1,
+                "item": "reliquary:chelicerae"
+            },
+            {
+                "count": 2,
+                "tag": "malum:hallowed_gold_ingot"
+            },
+            {
+                "count": 2,
+                "tag": "enigmatic_arcana:agroconic_alloy"
+            },
+            {
+                "count": 2,
+                "tag": "malum:ancient_metal_ingot"
+            },
+        ],
+        "input": {
+            "count": 1,
+            "item": "minecraft:writable_book"
+        },
+        "result": {
+            "count": 1,
+            "id": "reliquary:alkahestry_tome"
+        },
+        "spirits": [
+            {
+                "type": "malum:wicked",
+                "count": 22
+            },
+            {
+                "type": "malum:eldritch",
+                "count": 22
+            }
+        ]
+    });
 });

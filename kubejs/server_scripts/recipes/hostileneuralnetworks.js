@@ -200,7 +200,7 @@ ServerEvents.recipes(event => {
             }
         },
         "result": {
-            "id": "extrahnn:extra_data_model"
+            "id": "extrahnn:blank_extra_data_model"
         }
     });
 });

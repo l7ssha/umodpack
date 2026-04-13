@@ -442,6 +442,7 @@ const recipesById = [
     'reliquary:fortune_coin',
     'reliquary:hero_medallion',
     'reliquary:infernal_tear',
+    'reliquary:alkahestry_tome',
 
     // Modular Routers
     'modularrouters:blank_module',
