@@ -310,22 +310,238 @@ ServerEvents.recipes(event => {
     }
   });
   event.custom({
-    "type": "extendedcrafting:shaped_table",
-    "pattern": [
-      "   ",
-      " AB",
-      "   "
-    ],
-    "key": {
-      "A": {
-        "item": "minecraft:stripped_spruce_wood"
-      },
-      "B": {
-        "item": "minecraft:spruce_stairs"
-      }
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABABA",
+    "BCDCB",
+    "AEFEA",
+    "BCDCB",
+    "ABABA"
+  ],
+  "key": {
+    "A": {
+      "item": "bigreactors:graphite_ingot"
     },
-    "result": {
-      "id": "minecraft:oak_log"
+    "B": {
+      "item": "immersiveengineering:ingot_hop_graphite"
+    },
+    "C": {
+      "item": "alltheores:steel_plate"
+    },
+    "D": {
+      "item": "bigreactors:blutonium_ingot"
+    },
+    "E": {
+      "item": "bigreactors:cyanite_ingot"
+    },
+    "F": {
+      "item": "actuallyadditions:empowered_enori_crystal_block"
     }
-  })
+  },
+  "result": {
+    "id": "bigreactors:reinforced_turbinecasing"
+  }
+})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABA",
+    "BBB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "bigreactors:reinforced_turbinecasing"
+    },
+    "B": {
+      "item": "mekanism:structural_glass"
+    }
+  },
+  "result": {
+    "id": "bigreactors:reinforced_turbineglass"
+  }
+})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "ABDBA",
+    "ABEBA",
+    "ABDBA",
+    "ABCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "alltheores:steel_plate"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "actuallyadditions:empowered_enori_crystal_block"
+    },
+    "D": {
+      "item": "allthemodium:allthemodium_gear"
+    },
+    "E": {
+      "item": "actuallyadditions:empowered_restonia_crystal_block"
+    }
+  },
+  "result": {
+    "id": "bigreactors:reinforced_turbinerotorbearing"
+  }
+})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABAA",
+    "ABCBA",
+    "DEEED",
+    "ABCBA",
+    "AABAA"
+  ],
+  "key": {
+    "A": {
+      "item": "bigreactors:reinforced_turbinecasing"
+    },
+    "B": {
+      "item": "alltheores:steel_plate"
+    },
+    "C": {
+      "item": "mekanism_extras:absolute_control_circuit"
+    },
+    "D": {
+      "item": "mekanism_extras:absolute_mechanical_pipe"
+    },
+    "E": {
+      "item": "pneumaticcraft:reinforced_pressure_tube"
+    }
+  },
+  "result": {
+    "id": "bigreactors:reinforced_turbinefluidport_forge_active"
+  }
+})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "     ",
+    "AAAAA",
+    "ABBBA",
+    "AAAAA",
+    "     "
+  ],
+  "key": {
+    "A": {
+      "item": "alltheores:steel_plate"
+    },
+    "B": {
+      "item": "bigreactors:blutonium_ingot"
+    }
+  },
+  "result": {
+    "id": "bigreactors:reinforced_turbinerotorblade"
+  }
+})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    " ABA ",
+    "AABAA",
+    " AAA "
+  ],
+  "key": {
+    "A": {
+      "item": "alltheores:steel_plate"
+    },
+    "B": {
+      "item": "bigreactors:blutonium_ingot"
+    }
+  },
+  "result": {
+    "id": "bigreactors:reinforced_turbinerotorshaft"
+  }
+})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABAA",
+    "ACDEA",
+    "AFGFA",
+    "AHDHA",
+    "AABAA"
+  ],
+  "key": {
+    "A": {
+      "item": "alltheores:steel_plate"
+    },
+    "B": {
+      "item": "mekanism_extras:absolute_universal_cable"
+    },
+    "C": {
+      "item": "powah:energy_cell_spirited"
+    },
+    "D": {
+      "item": "mekanism:energy_tablet"
+    },
+    "E": {
+      "item": "mekanism_extras:absolute_energy_cube"
+    },
+    "F": {
+      "item": "re_endergy:capacitor_crystalline"
+    },
+    "G": {
+      "item": "bigreactors:reinforced_turbinecasing"
+    },
+    "H": {
+      "item": "mekanism_extras:absolute_control_circuit"
+    }
+  },
+  "result": {
+    "id": "bigreactors:reinforced_turbinepowertapfe_active"
+  }
+})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "DEFED",
+    "DEGED",
+    "DHIHD",
+    "ADDDA"
+  ],
+  "key": {
+    "A": {
+      "item": "bigreactors:reinforced_turbinecasing"
+    },
+    "B": {
+      "item": "allthemodium:allthemodium_plate"
+    },
+    "C": {
+      "item": "ae2:fluix_smart_cable"
+    },
+    "D": {
+      "item": "alltheores:steel_plate"
+    },
+    "E": {
+      "item": "mekanism_extras:absolute_control_circuit"
+    },
+    "F": {
+      "item": "ae2:terminal"
+    },
+    "G": {
+      "item": "allthemodium:allthemodium_gear"
+    },
+    "H": {
+      "item": "actuallyadditions:empowered_restonia_crystal_block"
+    },
+    "I": {
+      "item": "immersiveengineering:redstone_switchboard"
+    }
+  },
+  "result": {
+    "id": "bigreactors:reinforced_turbinecontroller"
+  }
+})
 });
