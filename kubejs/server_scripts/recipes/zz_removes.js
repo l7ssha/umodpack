@@ -400,6 +400,9 @@ const recipesById = [
     // Hostile Neural Networks
     'hostilenetworks:sim_chamber',
     'hostilenetworks:loot_fabricator',
+    'hostilenetworks:framework',
+    'hostilenetworks:deep_learner',
+    'extrahnn:extra_data_model',
 
     // Iron's Spells
     'irons_spellbooks:arcane_ingot',
@@ -463,6 +466,10 @@ const recipesById = [
     'bigreactors:turbine/reinforced/controller',
     'bigreactors:reactor/reinforced/fluidaccessport',
     'bigreactors:turbine/reinforced/activetap_fe',
+
+    // Ice and Fire
+    /iceandfire:silver_(ingot|nugget)_.*/,
+    /enderio:smelting\/iceandfire\/silver_.*/,
 ];
 
 const recipesByType = [

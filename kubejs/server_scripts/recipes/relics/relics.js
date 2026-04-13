@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-        event.custom({
+    event.custom({
         "type": "malum:spirit_infusion",
         "extraInputs": [
             {
@@ -8,20 +8,20 @@ ServerEvents.recipes(event => {
             },
             {
                 "count": 4,
-                "item": "minecraft:gold_ingot"
+                "tag": "c:ingots/gold"
             },
             {
                 "count": 6,
-                "item": "minecraft:brown_carpet"
+                "tag": "chipped:brown_carpet"
             },
             {
                 "count": 24,
-                "item": "minecraft:string"
+                "tag": "c:strings"
             },
         ],
         "input": {
             "count": 10,
-            "item": "minecraft:leather"
+            "tag": "c:leathers"
         },
         "result": {
             "count": 1,
@@ -35,36 +35,36 @@ ServerEvents.recipes(event => {
             {
                 "type": "malum:wicked",
                 "count": 4
-            },{
+            }, {
                 "type": "malum:arcane",
                 "count": 2
             }
         ]
     });
 
-            event.custom({
+    event.custom({
         "type": "malum:spirit_infusion",
         "extraInputs": [
             {
                 "count": 2,
-                "item": "advancednetherite:netherite_iron_ingot"
+                "tag": "advancednetherite:ingot/netherites_iron"
             },
             {
                 "count": 6,
-                "item": "minecraft:cooper_ingot"
+                "tag": "c:ingots/copper"
             },
             {
                 "count": 6,
-                "item": "minecraft:green_carpet"
+                "tag": "chipped:green_carpet"
             },
             {
                 "count": 24,
-                "item": "minecraft:string"
+                "tag": "c:strings"
             },
         ],
         "input": {
             "count": 10,
-            "item": "minecraft:leather"
+            "tag": "c:leathers"
         },
         "result": {
             "count": 1,
@@ -78,36 +78,36 @@ ServerEvents.recipes(event => {
             {
                 "type": "malum:earthen",
                 "count": 4
-            },{
+            }, {
                 "type": "malum:sacred",
                 "count": 2
             }
         ]
     });
 
-            event.custom({
+    event.custom({
         "type": "malum:spirit_infusion",
         "extraInputs": [
             {
                 "count": 2,
-                "item": "advancednetherite:netherite_iron_ingot"
+                "tag": "advancednetherite:ingot/netherites_iron"
             },
             {
                 "count": 5,
-                "item": "alltheores:lead_ingot"
+                "tag": "c:ingots/lead"
             },
             {
                 "count": 6,
-                "item": "minecraft:blue_carpet"
+                "tag": "chipped:blue_carpet"
             },
             {
                 "count": 24,
-                "item": "minecraft:string"
+                "tag": "c:strings"
             },
         ],
         "input": {
             "count": 10,
-            "item": "minecraft:leather"
+            "tag": "c:leathers"
         },
         "result": {
             "count": 1,
@@ -121,11 +121,10 @@ ServerEvents.recipes(event => {
             {
                 "type": "malum:eldritch",
                 "count": 4
-            },{
+            }, {
                 "type": "malum:wicked",
                 "count": 2
             }
         ]
     });
-
 });

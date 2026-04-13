@@ -1,0 +1,1680 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mob_farming"
+	group: "55FB4BDED3066FD0"
+	icon: {
+		id: "mob_grinding_utils:saw"
+	}
+	id: "3F2CE8A44FAAC8D0"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "25101B7C6BCD6A9F"
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "7BDC0F683F208C57"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "4FBA46A7818F652C"
+			shape: "octagon"
+			tasks: [{
+				id: "249083E00940EAA3"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			icon: {
+				id: "kubejs:ultimate_prediction"
+			}
+			id: "79C2CCDB29AA3AB8"
+			shape: "octagon"
+			tasks: [{
+				id: "6C1C7DCD80963A23"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "woot_revived:factory_ctr_base_pri"
+			}
+			id: "784A0D72B1BE45D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30D597C884CBCAEB"
+				table_id: 937148472616130567L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "15D7839A42EDCB27"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["784A0D72B1BE45D7"]
+			id: "17CB377505BED5F2"
+			tasks: [{
+				count: 16L
+				id: "73C808B4EC64A22D"
+				item: { count: 1, id: "woot_revived:stygian_dust" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17CB377505BED5F2"]
+			id: "040BE6A23D728F01"
+			tasks: [
+				{
+					id: "2B449C7B987F9666"
+					item: { count: 1, id: "woot_revived:stygian_anvil" }
+					type: "item"
+				}
+				{
+					id: "345B85F245F06AF7"
+					item: { count: 1, id: "woot_revived:stygian_hammer" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["040BE6A23D728F01"]
+			id: "2606D139BDC321B4"
+			tasks: [{
+				id: "4334FA6F63277835"
+				item: { count: 1, id: "woot_revived:factory_base" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6222947116621C76"
+				"2606D139BDC321B4"
+				"46D12B7DF52936EC"
+			]
+			id: "21DDE9D750287AE1"
+			tasks: [
+				{
+					count: 17L
+					id: "61302F7FA4F316CA"
+					item: { count: 1, id: "woot_revived:copper_pylon" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "61A7C0526E536841"
+					item: { count: 1, id: "woot_revived:copper_plinth" }
+					type: "item"
+				}
+				{
+					id: "1CC0DED1A9E9D715"
+					item: { count: 1, id: "woot_revived:copper_cell" }
+					type: "item"
+				}
+				{
+					id: "5252F500C8DB58DF"
+					item: { count: 1, id: "woot_revived:import" }
+					type: "item"
+				}
+				{
+					id: "157781474D979DD6"
+					item: { count: 1, id: "woot_revived:export" }
+					type: "item"
+				}
+				{
+					id: "31FB2DFE9FDE63B4"
+					item: { count: 1, id: "woot_revived:factory_ctr_base_pri" }
+					type: "item"
+				}
+				{
+					id: "1814886100C5468F"
+					item: { count: 1, id: "woot_revived:heart" }
+					type: "item"
+				}
+				{
+					id: "28784559DF251428"
+					item: { count: 1, id: "woot_revived:factory_upgrade" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2606D139BDC321B4"]
+			id: "3B9A4C2A7C02589E"
+			tasks: [
+				{
+					id: "548B1258D36B1381"
+					item: { count: 1, id: "woot_revived:mob_shard" }
+					type: "item"
+				}
+				{
+					id: "1C22E7ACE8892369"
+					item: { count: 1, id: "woot_revived:fake_spawner" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2606D139BDC321B4"]
+			id: "0470A24C321B9525"
+			tasks: [{
+				id: "7B0DFCBE47935C83"
+				item: { count: 1, id: "woot_revived:dye_liquifier" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2606D139BDC321B4"]
+			id: "2CB8F736BD6E93A6"
+			tasks: [{
+				id: "6E7859CE6FC45278"
+				item: { count: 1, id: "woot_revived:fluid_infuser" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2CB8F736BD6E93A6"]
+			id: "16836E09CB12B7DA"
+			tasks: [{
+				id: "05D46C25B34377EC"
+				item: { count: 1, id: "woot_revived:mob_tears_fluid_bucket" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2CB8F736BD6E93A6"
+				"16836E09CB12B7DA"
+			]
+			id: "6222947116621C76"
+			tasks: [{
+				id: "56B03B0EEEF9A238"
+				item: { count: 1, id: "woot_revived:vitality_fuel_fluid_bucket" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0470A24C321B9525"]
+			id: "101CD14A7673D2E5"
+			tasks: [{
+				id: "41A0B22603EEDC03"
+				item: { count: 1, id: "woot_revived:pure_dye_fluid_bucket" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["101CD14A7673D2E5"]
+			id: "46D12B7DF52936EC"
+			tasks: [{
+				id: "7A69E3E0DB67D3A6"
+				item: { count: 1, id: "woot_revived:prism" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["21DDE9D750287AE1"]
+			id: "78823D47C5EB89B6"
+			tasks: [{
+				id: "5472A53F79FF6BF2"
+				item: { count: 1, id: "woot_revived:upgrade_base" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78823D47C5EB89B6"]
+			id: "5F5AC95A8E029FA1"
+			tasks: [{
+				id: "310A1CDF9201A97E"
+				item: { count: 1, id: "woot_revived:copper_efficiency_upgrade" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["78823D47C5EB89B6"]
+			id: "078E08510A92514F"
+			tasks: [{
+				id: "688DC69063FB0834"
+				item: { count: 1, id: "woot_revived:copper_decapitate_upgrade" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78823D47C5EB89B6"]
+			id: "3468E512D3F23976"
+			tasks: [{
+				id: "59812EDC5007C999"
+				item: { count: 1, id: "woot_revived:burn_upgrade" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78823D47C5EB89B6"]
+			id: "63E08F6FA19CBAED"
+			tasks: [{
+				id: "13E612AEF960D924"
+				item: { count: 1, id: "woot_revived:copper_looting_upgrade" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78823D47C5EB89B6"]
+			id: "62A70052BEC62C4F"
+			tasks: [{
+				id: "2A6CFCFF7DADC63A"
+				item: { count: 1, id: "woot_revived:copper_mass_upgrade" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78823D47C5EB89B6"]
+			id: "137D4A1C4A7B0FEB"
+			tasks: [{
+				id: "6707F2BF8CBEB1B1"
+				item: { count: 1, id: "woot_revived:copper_rate_upgrade" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78823D47C5EB89B6"]
+			id: "7A39679290E1E31C"
+			tasks: [{
+				id: "3649168789C9F809"
+				item: { count: 1, id: "woot_revived:iron_shard_drop_upgrade" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78823D47C5EB89B6"]
+			id: "440024A003A0E6E5"
+			tasks: [{
+				id: "53066E9CA1D148AD"
+				item: { count: 1, id: "woot_revived:copper_xp_upgrade" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21DDE9D750287AE1"]
+			id: "0B3D76D81BC6733F"
+			shape: "pentagon"
+			tasks: [{
+				id: "515932F8E063AFD4"
+				item: { count: 1, id: "woot_revived:iron_shard" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0B3D76D81BC6733F"]
+			id: "79A58C820FBA1D56"
+			tasks: [{
+				id: "4E5E7C518AC7AB81"
+				item: { count: 1, id: "woot_revived:gold_shard" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["79A58C820FBA1D56"]
+			id: "4CB26E52F43A0EBE"
+			tasks: [{
+				id: "27B53084EE150136"
+				item: { count: 1, id: "woot_revived:diamond_shard" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4CB26E52F43A0EBE"]
+			id: "3C5BD3E72557C063"
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "34DFBC3D3923E90A"
+				item: { count: 1, id: "woot_revived:netherite_shard" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["21DDE9D750287AE1"]
+			id: "09F87C2B8317991F"
+			tasks: [{
+				id: "3F426F49254E1FBB"
+				item: { count: 1, id: "woot_revived:xp_shard" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1C8E7D955F071BA8"]
+			id: "6D29A370AC83CB8C"
+			tasks: [{
+				id: "46EDF694E34177E4"
+				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C8E7D955F071BA8"]
+			id: "0C3F98CB72B51C22"
+			tasks: [{
+				id: "2D4C58AD52A744A7"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79C2CCDB29AA3AB8"]
+			id: "1C8E7D955F071BA8"
+			tasks: [
+				{
+					id: "7DAC6187D09E52D8"
+					item: { count: 1, id: "hostilenetworks:blank_data_model" }
+					type: "item"
+				}
+				{
+					id: "4458B1CFFE8447DA"
+					item: { count: 1, id: "hostilenetworks:deep_learner" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0C3F98CB72B51C22"
+				"6D29A370AC83CB8C"
+			]
+			id: "1AF4A1DF47C4B43D"
+			tasks: [
+				{
+					id: "5395DE4F257EE677"
+					item: { count: 1, id: "extrahnn:merger_camera" }
+					type: "item"
+				}
+				{
+					id: "1F29AF607B4C5DC1"
+					item: { count: 1, id: "extrahnn:blank_extra_data_model" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1AF4A1DF47C4B43D"]
+			id: "0F2E88EBF167FE64"
+			tasks: [{
+				id: "37A809A5D8980F44"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v1" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C3F98CB72B51C22"]
+			id: "3AAC811964C23F62"
+			tasks: [{
+				id: "5F881EB81BBA148E"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v1" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D29A370AC83CB8C"]
+			id: "537F8DE6B38BABC4"
+			tasks: [{
+				id: "7041E47A80C68161"
+				item: { count: 1, id: "extrahnn:simulator_modeling" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "629002E6D8A1D868"
+			tasks: [{
+				id: "3FBD379302448A3B"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:allthemodium/piglich" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			id: "0C9ED3DECB784B42"
+			tasks: [{
+				id: "64A759073DBC7411"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:artifacts/mimic" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			id: "20A32F5EF8A74376"
+			tasks: [{
+				id: "6EF019C84E2D8E9B"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:bat" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "12FAD0B4E3F99E27"
+			tasks: [{
+				id: "5A80F4DEE32748F6"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:bee" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "37B2464C15EE7F9D"
+			tasks: [{
+				id: "2122DCEFD97198F5"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:biomes_weve_gone/man_o_war" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "297F9B02F4FFFCE5"
+			tasks: [{
+				id: "57B194FF61C5D709"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:biomes_weve_gone/oddion" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "0D94495A7AB81F85"
+			tasks: [{
+				id: "3E462CADEA40C699"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:blaze" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "2587E5649F300B37"
+			tasks: [{
+				id: "7D0A8B43DE045756"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:breeze" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			id: "774243CDC53EC392"
+			tasks: [{
+				id: "4A0488F045D45984"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:chicken" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "5B87418C83F51987"
+			tasks: [{
+				id: "0B15E233A887E422"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:cod" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "03C9E7C8B001D163"
+			tasks: [{
+				id: "088148DAC4DCCBE3"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:cow" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			id: "157D37AD8F26A65B"
+			tasks: [{
+				id: "3A644B79BBC63A16"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:creeper" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			id: "22D70CFE3D596504"
+			tasks: [{
+				id: "5DA3A2E43E7FA39C"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:draconicevolution/chaos_guardian" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			id: "140337CDE0CDF78B"
+			tasks: [{
+				id: "7E0FA075BEC50567"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:drowned" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			id: "4B31494498D43561"
+			tasks: [{
+				id: "58FA723AE9342DB5"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:elder_guardian" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			id: "2821FB2AD5013EB0"
+			tasks: [{
+				id: "12E81AA9B66259AC"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:ender_dragon" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			id: "25A339AE49DACDF1"
+			tasks: [{
+				id: "29E41545F5B5B931"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/amethyst_crab" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "1BBDAAF7867D1CEA"
+			tasks: [{
+				id: "1605E1B9BFE74A49"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/ancient_remnant" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "7C807B947BAB6735"
+			tasks: [{
+				id: "0138DD676BAAAF88"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/aptrgangr" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "04A586129BF9E45B"
+			tasks: [{
+				id: "783885C45B02DA34"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/cindaria" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "389D0813430E1E6B"
+			tasks: [{
+				id: "1B185D2E04C97D3E"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/clawdian" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "262B760F320510A0"
+			tasks: [{
+				id: "7567833C375001DD"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/coral_golem" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "38D02FF20684963A"
+			tasks: [{
+				id: "40AFBB250A143D78"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/coralssus" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "3EDD3723831D88AF"
+			tasks: [{
+				id: "32D4E82611459A96"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/deepling" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			id: "0911E3F1D60F3393"
+			tasks: [{
+				id: "2871B9D6A10C110B"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/draugr" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			id: "4C57C175EAD929FD"
+			tasks: [{
+				id: "6D7215BAC922AF42"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/drowned_host" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "55454710DEEA9CAB"
+			tasks: [{
+				id: "6344B455DF20A102"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/elite_draugr" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "66C065237FCBE841"
+			tasks: [{
+				id: "7CA9A293EDBE7943"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/endermaptera" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "6291CF605A4E2BC9"
+			tasks: [{
+				id: "7DC3AAB7E99D711B"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/hippocamtus" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "53A37032152AD274"
+			tasks: [{
+				id: "1FAC47336B21E8E7"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/ignis" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "1F1FD526ED6691D9"
+			tasks: [{
+				id: "011BA16B1A00FDB7"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/ignited_berserker" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "5574A4835C8B57A2"
+			tasks: [{
+				id: "3FCF011B56F5EF3A"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/ignited_revenant" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			id: "6B388675A9D027EF"
+			tasks: [{
+				id: "05947F8B51D9C533"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/kobolediator" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			id: "5032320A75CCE2E6"
+			tasks: [{
+				id: "416BFC8B0C9595D9"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/lionfish" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			id: "5A25B44121B07AEB"
+			tasks: [{
+				id: "271FE7BA54BCDCB4"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/maledictus" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			id: "04F5CEFD0F5A53E1"
+			tasks: [{
+				id: "10776AAD831CB46C"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/netherite_monstrosity" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			id: "30B3BB5F884B502E"
+			tasks: [{
+				id: "278E17B73E454FA7"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/royal_draugr" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			id: "03086311549507B6"
+			tasks: [{
+				id: "7DAB6109C4EAE159"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/scylla" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			id: "02F37C8E865D2ABE"
+			tasks: [{
+				id: "1C83A5DEC9814EE6"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/symbiocto" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "47902ED27F56E0AB"
+			tasks: [{
+				id: "5B1418B6805DDFC2"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/the_harbinger" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			id: "0A74786E9876DD5E"
+			tasks: [{
+				id: "6A898529D12CA0D1"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/the_prowler" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			id: "3E65407FB422D9AA"
+			tasks: [{
+				id: "0B3B2AB9BA1E3C10"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/the_watcher" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			id: "334FCB7C9F001A8F"
+			tasks: [{
+				id: "414E58A382C3953B"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/urchinkin" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			id: "20AB2082218B46EE"
+			tasks: [{
+				id: "55D38635C656D6F8"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/wadjet" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			id: "70F1DA8BA96E84B2"
+			tasks: [{
+				id: "6F7A89583CA7DFDF"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:evoker" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.5d
+		}
+		{
+			id: "7DAF8E1D2043D37A"
+			tasks: [{
+				id: "7C686F8FC999F722"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:ghast" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "327A9F31C056CFA0"
+			tasks: [{
+				id: "05BFBD363F357A89"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:glow_squid" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			id: "794DDD3052761B2B"
+			tasks: [{
+				id: "613164F5466493AB"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:guardian" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			id: "1E7255814E6B7DA2"
+			tasks: [{
+				id: "4B531283D920DCF3"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:hoglin" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "78BBD2E506C1E8EB"
+			tasks: [{
+				id: "5631ED2BD52F915D"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:horse" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			id: "793B145FA3B9A227"
+			tasks: [{
+				id: "54A358FDB67478A1"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:iron_golem" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			id: "4E9E19448F630231"
+			tasks: [{
+				id: "3323A7A078810070"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/ancient_knight" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "550428A572B4D194"
+			tasks: [{
+				id: "2AB74560BFF1A665"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/apothecarist" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "1D581DB67723029C"
+			tasks: [{
+				id: "259A5C0F70072DEA"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/archevoker" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "4507FF94B8F74D5C"
+			tasks: [{
+				id: "51CE94E2ED91C3DD"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/cryomancer" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			id: "2A86A07AF3757578"
+			tasks: [{
+				id: "62F94FE37B902463"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/dead_king" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			id: "6A1D1ACCDE68D25D"
+			tasks: [{
+				id: "254BDF49A2027F0F"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/ice_spider" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			id: "7E6CB4303D6D9F3F"
+			tasks: [{
+				id: "3430870A4A813F8A"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/necromancer" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			id: "3F258460385F8AF4"
+			tasks: [{
+				id: "16111E74D66FA2A8"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/priest" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			id: "6ECED2AFAEEC08EC"
+			tasks: [{
+				id: "405607E83308EFFB"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/pyromancer" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			id: "78BFF844D8451E74"
+			tasks: [{
+				id: "68401CF49BC1A9EE"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:llama" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			id: "658A81B1BD615047"
+			tasks: [{
+				id: "704E53CDEDDD7D58"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:magma_cube" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "3E77BDEF4C47D574"
+			tasks: [{
+				id: "3B9B275D9671C2EC"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:mooshroom" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			id: "79C8E7FB0E1A4C2A"
+			tasks: [{
+				id: "59CE887778A2FC3F"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:occultism/afrit" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			id: "6FA6ACF231E059B6"
+			tasks: [{
+				id: "6276855A5E489BFE"
+				item: { components: { "hostilenetworks:data_model": "extradatamodels:occultism/possessed_endermite" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			id: "69600759D1E0E9E8"
+			tasks: [{
+				id: "03B596A447A8E06B"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:phantom" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			id: "5B1999099F2E8DC0"
+			tasks: [{
+				id: "27A136818ACE9F36"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:pig" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			id: "3D3BB967B8AD4CAE"
+			tasks: [{
+				id: "35D715A5C05CC6FF"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:pillager" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "0A16E03D4FC96E1C"
+			tasks: [{
+				id: "0983F58DFF73EDBC"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:polar_bear" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "4B4A4C071B48B314"
+			tasks: [{
+				id: "62A637EB7FDB2EEA"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:pufferfish" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "60FCDFE225DAD0B7"
+			tasks: [{
+				id: "4F8F36DFA2FB7990"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:rabbit" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			id: "7A561CC97B7007DB"
+			tasks: [{
+				id: "642FBFB3AC5751C5"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:rabbit" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			id: "134D2E995441347E"
+			tasks: [{
+				id: "372DF18A3991EAFC"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:ravager" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "64FE33A5B04F6A81"
+			tasks: [{
+				id: "71EE6B1586BE8911"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:salmon" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			id: "05B1B51976C7538C"
+			tasks: [{
+				id: "7686E7E3514699EB"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:sheep" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			id: "72E993EB2AA8017C"
+			tasks: [{
+				id: "1CC42551BE9A5726"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:shulker" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "39A333B34BE9CE2E"
+			tasks: [{
+				id: "7D150C21B058B83D"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:skeleton" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			id: "5F636AAFE01A4D9B"
+			tasks: [{
+				id: "4B3391D3BF33F736"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:skeleton_horse" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			id: "56F26F3535880FAB"
+			tasks: [{
+				id: "7005FE5ED38D4A60"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:slime" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			id: "392D9C445C11B0E0"
+			tasks: [{
+				id: "1A11EDE2757D1E37"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:sniffer" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			id: "681C6B5CCB28B928"
+			tasks: [{
+				id: "0E6AAD6393A43947"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:snow_golem" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			id: "43555F28058B9A9C"
+			tasks: [{
+				id: "234C1923AAD11CBD"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:spider" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			id: "6936898193810309"
+			tasks: [{
+				id: "7571C291CD03A5CD"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:squid" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			id: "76727F41DDEFB3BE"
+			tasks: [{
+				id: "11C95F645B306722"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:tropical_fish" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -3.0d
+		}
+		{
+			id: "33B91859BE9D1357"
+			tasks: [{
+				id: "61AB4E00CF56B394"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:turtle" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.0d
+		}
+		{
+			id: "7A37D85DF6EB918D"
+			tasks: [{
+				id: "5B9DC0A576CD07E3"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/alpha_yeti" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			id: "0B7FDF321FB19437"
+			tasks: [{
+				id: "217E41D93B0F10F5"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/carminite_golem" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			id: "02B07DD78731133D"
+			tasks: [{
+				id: "06F5947E28C81324"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/death_tome" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			id: "5CF29F1F573256D1"
+			tasks: [{
+				id: "497A67123604F410"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/deer" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			id: "542C8842A63EE22A"
+			tasks: [{
+				id: "734E0165CA8C2081"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/fire_beetle" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			id: "635E23A7D2F456CE"
+			tasks: [{
+				id: "204F11E4DF20E1CC"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/giant" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			id: "362BBC74C89E43DD"
+			tasks: [{
+				id: "2D68C024D080119A"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/goblin" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			id: "1E2D459E0C134875"
+			tasks: [{
+				id: "445D91A315D172DF"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/helmet_crab" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			id: "4C10D7283C876FCA"
+			tasks: [{
+				id: "7EF578EA61B466B7"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/hydra" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			id: "653BBDA01D903044"
+			tasks: [{
+				id: "397FD240D82E0E9B"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/kobold" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			id: "77D727EB3A3A7637"
+			tasks: [{
+				id: "39ACA88BDE29D12E"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/lich" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			id: "2CAF35520133F285"
+			tasks: [{
+				id: "298CF425CE34BBD9"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/minoshroom" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			id: "49482A10D9C66FC6"
+			tasks: [{
+				id: "0CC7649465E5C0DB"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/minotaur" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			id: "27BEDF03A4F410F5"
+			tasks: [{
+				id: "7D74CEEE6C525B23"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/naga" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			id: "07784F753C7219C0"
+			tasks: [{
+				id: "4F8007DB5D14E538"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/raven" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.0d
+		}
+		{
+			id: "65CCFB2265CAF47B"
+			tasks: [{
+				id: "2889C4744ED3A934"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/redcap" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			id: "3631704769915979"
+			tasks: [{
+				id: "5CF09C217E301040"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/skeleton_druid" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			id: "0202FD6338D3B39C"
+			tasks: [{
+				id: "566C88735EA37736"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/snow_queen" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			id: "383A449623446BA3"
+			tasks: [{
+				id: "355B1400F2046CC0"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/stable_ice_core" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			id: "5C03C84C2C3E82F4"
+			tasks: [{
+				id: "549FBB0E31DFB2ED"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/towerwood_borer" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			id: "14B0E61984BD0D03"
+			tasks: [{
+				id: "4039AE59AF8CB67A"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/troll" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			id: "2DA5CCF285EA206C"
+			tasks: [{
+				id: "07021543DE8EB473"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/ur_ghast" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			id: "0577E48CB513234F"
+			tasks: [{
+				id: "6C7ABACF0DEEE4A2"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/winter_wolf" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 9.0d
+		}
+		{
+			id: "516A19BAC2A597A2"
+			tasks: [{
+				id: "708FCC850C43E482"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/wraith" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			id: "03D7A41685476329"
+			tasks: [{
+				id: "5DC06E484794A45F"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:twilightforest/yeti" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 9.0d
+		}
+		{
+			id: "6BEA974F87B77B80"
+			tasks: [{
+				id: "0916B2862C3A2B05"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:vindicator" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			id: "7D7EB33127943F70"
+			tasks: [{
+				id: "1D16C76EC8E8A350"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:warden" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			id: "09CE22BE7B67C57D"
+			tasks: [{
+				id: "7ED679032FDDBA23"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:witch" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			id: "54E5882D2F0761D9"
+			tasks: [{
+				id: "5FD183342C82AA04"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:wither" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			id: "18A54CC52467A33C"
+			tasks: [{
+				id: "0891ED54DD464DFB"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:wither_skeleton" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "5730FA7D5F49288E"
+			tasks: [{
+				id: "5B84214A75CC8680"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:zombie" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			id: "7267E90E9D9B932D"
+			tasks: [{
+				id: "4DBCC95410A6552A"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:zombie_horse" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -3.0d
+		}
+		{
+			id: "6C0BA5B60E5D58E6"
+			tasks: [{
+				id: "4A45F8A77269C6BE"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:zombified_piglin" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+	]
+}

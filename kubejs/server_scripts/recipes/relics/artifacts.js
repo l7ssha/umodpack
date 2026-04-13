@@ -168,7 +168,7 @@ ServerEvents.recipes(event => {
         ]
     });
 
-        event.custom({
+    event.custom({
         "type": "malum:spirit_infusion",
         "extraInputs": [
             {
@@ -177,7 +177,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "count": 8,
-                "item": "extendedcrafting:redstone_ingot"
+                "tag": "c:ingots/redstone_ingot"
             },
             {
                 "count": 1,
@@ -185,16 +185,16 @@ ServerEvents.recipes(event => {
             },
             {
                 "count": 12,
-                "item": "occultism:amethyst_dust"
+                "tag": "c:dusts/amethyst"
             },
             {
                 "count": 2,
-                "item": "minecraft:red_dye"
+                "tag": "c:dyes/red"
             },
         ],
         "input": {
             "count": 1,
-            "item": "alltheores:silver_ingot"
+            "tag": "c:ingots/silver"
         },
         "result": {
             "count": 1,
@@ -208,11 +208,10 @@ ServerEvents.recipes(event => {
             {
                 "type": "malum:arcane",
                 "count": 8
-            },{
+            }, {
                 "type": "malum:sacred",
                 "count": 2
             }
         ]
     });
-    
 });

@@ -1,0 +1,13 @@
+{
+	id: "0D016B9214159807"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "3B714BF57878D1D5", item: { count: 1, id: "woot_revived:guide" } }
+		{
+			id: "1D13F6B518AF8DB9"
+			type: "xp_levels"
+			xp_levels: 1
+		}
+	]
+}

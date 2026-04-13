@@ -6,10 +6,10 @@ ServerEvents.recipes(event => {
             "A BBBBB A",
             "ABCD DCBA",
             "ABECDCEBA",
-            "ABFGHGFBA",
-            "ABG I GBA",
+            "ALFGHGFLA",
+            "ALG I GLA",
             "JJG H GJJ",
-            "A JKHKJ A",
+            "AMJKHKJMA",
             "AAAJJJAAA"
         ],
         "key": {
@@ -45,6 +45,12 @@ ServerEvents.recipes(event => {
             },
             "K": {
                 "item": "cataclysm:flame_eye"
+            },
+            "L": {
+                "item": "woot_revived:netherite_mass_upgrade"
+            },
+            "M": {
+                "item": "woot_revived:netherite_cell"
             }
         },
         "result": {
@@ -59,10 +65,10 @@ ServerEvents.recipes(event => {
             "A BBBBB A",
             "ABCD DCBA",
             "ABECDCEBA",
-            "ABFC CFBA",
-            "ABFGHGFBA",
+            "AJFC CFJA",
+            "AJFGHGFJA",
             "IIFHHHFII",
-            "A IG GI A",
+            "AKIG GIKA",
             "AAAIIIAAA"
         ],
         "key": {
@@ -92,10 +98,109 @@ ServerEvents.recipes(event => {
             },
             "I": {
                 "item": "deeperdarker:grime_brick"
+            },
+            "J": {
+                "item": "woot_revived:netherite_looting_upgrade"
+            },
+            "K": {
+                "item": "woot_revived:netherite_cell"
             }
         },
         "result": {
             "id": "hostilenetworks:loot_fabricator"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAAAA",
+            "ABBCA",
+            "ADEDA",
+            "ACBBA",
+            "AAAAA"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:plastics"
+            },
+            "B": {
+                "item": "hazennstuff:prismatic_shard"
+            },
+            "C": {
+                "item": "woot_revived:mob_shard"
+            },
+            "D": {
+                "tag": "c:circuits/absolute_overclocked"
+            },
+            "E": {
+                "item": "justdirethings:creaturecatcher"
+            }
+        },
+        "result": {
+            "id": "hostilenetworks:blank_data_model"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAAAA",
+            "ABCBA",
+            "ADEDA",
+            "FBCBF",
+            "FF FF"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:ingots/dark_steel"
+            },
+            "B": {
+                "item": "sfm:fancy_cable"
+            },
+            "C": {
+                "tag": "c:chests/wooden"
+            },
+            "D": {
+                "tag": "c:circuits/supreme"
+            },
+            "E": {
+                "item": "immersiveengineering:component_electronic_adv"
+            },
+            "F": {
+                "item": "cataclysm:black_steel_ingot"
+            }
+        },
+        "result": {
+            "id": "hostilenetworks:deep_learner"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AABAA",
+            "CBABC",
+            "CDDDC",
+            "BCCCB",
+            "ABBBA"
+        ],
+        "key": {
+            "A": {
+                "item": "hazennstuff:demonite_ingot"
+            },
+            "B": {
+                "item": "enigmatic_arcana:agroconic_alloy"
+            },
+            "C": {
+                "item": "woot_revived:netherite_enchanted_plate"
+            },
+            "D": {
+                "item": "hostilenetworks:blank_data_model"
+            }
+        },
+        "result": {
+            "id": "extrahnn:extra_data_model"
         }
     });
 });

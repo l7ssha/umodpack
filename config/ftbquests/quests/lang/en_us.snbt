@@ -5,6 +5,7 @@
 	chapter.242C3339860E9FE4.title: "Exploration"
 	chapter.30D7ED09D45FA441.title: "Extreme Reactors"
 	chapter.398B52BF230AEF25.title: "Power Storage and Generation"
+	chapter.3F2CE8A44FAAC8D0.title: "Mob Farming"
 	chapter.450CAB2AB1180BA2.title: "Applied Energistics"
 	chapter.4AE4A9A3D5925C8F.title: "Extended Crafting"
 	chapter.4E4BA7805C19F437.title: "Welcome"
@@ -35,6 +36,7 @@
 	quest.02A157D4DF5DAA52.title: "Basic Processors"
 	quest.02B29290745E59C2.title: "Cores"
 	quest.03AE2BE3A97ED46C.title: "Eye of the Storm"
+	quest.040BE6A23D728F01.quest_subtitle: "Needs Magma block under it."
 	quest.04479A58ED222218.quest_desc: ["Inifinite source of heat, ice and milk ..."]
 	quest.04479A58ED222218.quest_subtitle: "Fire, ice and milk?"
 	quest.04479A58ED222218.title: "Kitchen Upgrades"
@@ -68,9 +70,11 @@
 	quest.08222725BAC766F8.title: "Powah"
 	quest.0925E2F30E0FA26D.title: "Kill Naga"
 	quest.09821411A773C924.title: "Ancient City"
+	quest.09F87C2B8317991F.quest_desc: ["Putting &aXP Shards&r or &aXP Splinters&r in Extreme Reactor's &9Fluidizer&r, you can produce &2XP Fluid&r."]
 	quest.0A1A5FD421131A64.title: "Compressed Singularities"
 	quest.0A675D2D02C1687D.title: "Kill Minoshroom"
 	quest.0B02159C224A96F5.title: "Going Wireless!"
+	quest.0B3D76D81BC6733F.title: "Tier 2 Factory"
 	quest.0BB12CC02CF8C2FA.title: "Derium"
 	quest.0C4D34A7C14A3191.title: "Meterial Discount"
 	quest.0C6B7F48C44E7351.quest_desc: [
@@ -90,6 +94,7 @@
 	quest.0EE7B506F65FB5B8.quest_subtitle: "Netherite is only craftable in Pressure Chamber"
 	quest.0EE7B506F65FB5B8.title: "Netherite"
 	quest.0F0A573408829380.title: "Tertium"
+	quest.0F2E88EBF167FE64.quest_desc: ["Works like a regular mechanism, except that only Extra Data Model can be placed here. It will create predictions of all types that are in the model at once. It is also slightly accelerated compared to its analogues."]
 	quest.0F569B5EE65D41C2.quest_desc: [
 		"Go ahead, put a Book in a Furnace and smelt it."
 		""
@@ -131,11 +136,13 @@
 	quest.159CF664D7FCFA49.title: "Basic Powah Reactor"
 	quest.15CDE9B0EB2141D9.quest_desc: ["To visit &1The Otherside&r, you need to clean portal frame that is placed in the middle of Ancient City, and right click portal frame with Deep of The Dark, which is dropped from Warden."]
 	quest.15CDE9B0EB2141D9.title: "Visit the Otherside"
+	quest.16836E09CB12B7DA.title: "Liquified Mob Tears"
 	quest.16E8AAAC211ACF76.title: "Storing Spirits"
 	quest.172B3E6FF69E743F.quest_desc: ["Kill Wither or Ender Dragon with weapon enchanted with Mystical Enlightment enchantment."]
 	quest.172B3E6FF69E743F.quest_subtitle: "Wither and Ender Dragon drop"
 	quest.172B3E6FF69E743F.title: "Cognizant Dust"
 	quest.175DA2B8B3257FCE.title: "Liquid Sculk Matter"
+	quest.17CB377505BED5F2.title: "Stygian Dust"
 	quest.1899ED3C893F61CD.quest_desc: [
 		"Found within the Void Altar."
 		""
@@ -176,9 +183,11 @@
 	quest.19CE2D0320EACFAA.title: "Netherite Monstrosity"
 	quest.19D9F3CF80327FE8.title: "Functional Storage"
 	quest.1ADEEB75BA85A2BC.title: "Visit The End"
+	quest.1AF4A1DF47C4B43D.quest_desc: ["Adds the ability to combine 4 Data Modes equal to the Self Aware tier into a perfect Data Mode that combines all 4 of those models into one."]
 	quest.1B5DD366A85EB217.title: "Awakening"
 	quest.1BEA03BF98E7419B.title: "Redstone"
 	quest.1C043E3C873423D9.title: "Imperium"
+	quest.1C8E7D955F071BA8.title: "Gaining Knowledge about mobs"
 	quest.1D0CB39B8F2257B2.title: "Reinforced Blast Furnace"
 	quest.1E582F11A6319F52.title: "Kill Chaos Dragon"
 	quest.1F2CCA09C0C20755.title: "Sun Spirit"
@@ -189,6 +198,7 @@
 	quest.20654903065E545D.title: "Runewood"
 	quest.2191C4C50F9BB1D0.title: "Easy Ore Doubling"
 	quest.2193B23697447EED.title: "Coke Oven"
+	quest.21DDE9D750287AE1.title: "First Factory"
 	quest.236CFF3613030187.quest_desc: [
 		"Found deep underground in caves."
 		""
@@ -285,9 +295,13 @@
 	quest.39FF084021A5FEAC.title: "Awakened Draconium"
 	quest.3A0686AAEBCF9C88.title: "Diamonds!!!"
 	quest.3A5F5E38EB7F1A0F.title: "Better than diamond"
+	quest.3AAC811964C23F62.quest_desc: ["A more advanced version of Loot Fabricator from Hostile Neural Networks. Allows processing up to 4 predictions simultaneously."]
+	quest.3B9A4C2A7C02589E.quest_desc: ["&dMob Shard&r needs to be crafted into Fake Spawner"]
+	quest.3B9A4C2A7C02589E.title: "Capturing Mobs"
 	quest.3B9CA9C2E0AF3A60.title: "Quantum Connections"
 	quest.3C5057617AF2E010.title: "Demon's Dream"
 	quest.3C56124632611995.title: "The End"
+	quest.3C5BD3E72557C063.title: "Tier 5 Factory"
 	quest.3D315871C83F5B4E.title: "Seed Infusion"
 	quest.3DD2C826F3F98DBC.quest_desc: [
 		"Found in desert temples."
@@ -332,6 +346,7 @@
 	quest.488B539CE42EB69D.title: "Getting wood"
 	quest.49EF0242BDE42C6A.title: "Basic Industrial Foregoing"
 	quest.4C899798872FACC0.title: "Easy Ore Doubling"
+	quest.4CB26E52F43A0EBE.title: "Tier 4 Factory"
 	quest.4D4FAF5EB6AE845E.title: "Sky Steel"
 	quest.4DBECE1B3906A1F6.title: "Combination Crafting"
 	quest.4DEC2A1C61FBD22B.title: "Better Crafting Table"
@@ -356,6 +371,7 @@
 	quest.5279C4BFCE63CC8F.title: "Your first Router"
 	quest.5323DAD30FA78DF2.title: "Lavium"
 	quest.534A5B38D070561C.title: "Sophisticated Storage upgrades"
+	quest.537F8DE6B38BABC4.quest_desc: ["Allows you to quickly train models to the maximum level, consuming a large amount of energy. Does not produce loot during simulation. Supports 2 upgrades."]
 	quest.54B95EA400D84746.title: "Pressure Chamber"
 	quest.563C8F1BB39AAC68.title: "Advanced Circuits"
 	quest.56A9C90C31DDB96F.quest_desc: ["You might as well take a look at storage chapter, to explore some of the starting storage solutions that modpack offers."]
@@ -377,6 +393,7 @@
 	quest.6140D46EEECCDA97.quest_desc: ["Before you can replicate given item, you need to pass it through the &9Identification Chamber&r. It will be saved onto &9Memory Chip&r, which then can be transferred to &9Chip Storage&r, for system to recognize new item for replication."]
 	quest.6173FF975787DD1C.title: "Better Furnaces"
 	quest.61B69DEF57769ACB.title: "Meteor Materials"
+	quest.6222947116621C76.title: "Fuel for your Factory"
 	quest.64323A6786208121.title: "Fiery Ingot"
 	quest.6441A910B461C9C4.title: "Blazum"
 	quest.6505B4A74CB9A1B9.title: "Blast Furnace"
@@ -506,7 +523,10 @@
 	quest.75A2DCBBB0144C00.title: "Visit Mining Dimension"
 	quest.75FCA1CF475B9D10.quest_desc: ["These tank allow to store &1Matter.&r You will need separate tank for each &1Matter&r type."]
 	quest.76F458EC8BF1CEBF.title: "As basic as One can get"
+	quest.784A0D72B1BE45D7.quest_desc: ["Early game-ish mob farming solution, not as good as HNN tho."]
+	quest.78823D47C5EB89B6.title: "Factory Upgrades"
 	quest.78CA7E3F388673C0.title: "Unobtainium"
+	quest.79A58C820FBA1D56.title: "Tier 3 Factory"
 	quest.7BC9F3265D060D27.quest_desc: ["Kitchen equipment that will help you prepare more dishes"]
 	quest.7BC9F3265D060D27.quest_subtitle: "You can't cut bread without a board"
 	quest.7BC9F3265D060D27.title: "Kitchen Equipment"
@@ -532,6 +552,7 @@
 	quest.7D87E36E08D810B1.quest_subtitle: "Allows accessing whole storage using single block"
 	quest.7D87E36E08D810B1.title: "Controller for your storage"
 	quest.7F842F6B329771F8.title: "Visit Ancient City"
+	reward_table.0D016B9214159807.title: "WOOT Welcome"
 	task.03E5DC025E07EB9B.title: "Advanced Circuits"
 	task.059A89C7F523F14C.title: "Visit Unfinished Castle"
 	task.07858C3453698AC6.title: "Applied Pneumatics"
@@ -549,6 +570,7 @@
 	task.13C71FDF85F77A2C.title: "A LOT of antimatter"
 	task.155C3C560585AF56.title: "Any Allthemodium Gear"
 	task.1595335CB935CC4C.title: "Antimatter"
+	task.15D7839A42EDCB27.title: "WOOT"
 	task.17A2D48FE823FABA.title: "Ruined Citadel"
 	task.17ABA8D7BC454F54.title: "Any Soulstone"
 	task.187857538AC09450.title: "Find Meteorite"
@@ -561,6 +583,7 @@
 	task.224C68397BFCA134.title: "Any Logs"
 	task.233BCFEB02413449.title: "Any Runewood Planks or Logs"
 	task.2452756068317538.title: "Any Radiance"
+	task.249083E00940EAA3.title: "Industrial Foregoing"
 	task.252050C5D6C3E031.title: "Look in End Hightlands"
 	task.27A688CC25800776.title: "Endgame"
 	task.29CC17C238FD340E.title: "Any ME Energy Component"
@@ -602,6 +625,7 @@
 	task.65D588240DFAE9F1.title: "Industrial Foregoing"
 	task.6BA03FEF43EEA50B.title: "Any Foods or Seeds"
 	task.6BD19ACCEEA7D0A4.title: "Storing Items"
+	task.6C1C7DCD80963A23.title: "Hostile Neural Networks"
 	task.6C3EA933D512422E.title: "Better Gold"
 	task.6C57E873CA41575C.title: "Miscellaneous AE2 Stuff"
 	task.6DE8191EEA2B4FB2.title: "Any Flowers"
@@ -612,6 +636,7 @@
 	task.7577885B4DE82971.title: "Storing files with AE2"
 	task.76414AF72A75B4E7.title: "Superheated Sodium"
 	task.766CC746F6290C55.title: "Any Dragonforge"
+	task.7BDC0F683F208C57.title: "Mob Grinding Utils"
 	task.7BDC28C15BB695C4.title: "Any Mekanism pipe"
 	task.7CE209FA8ABF8693.title: "Occultism"
 	task.7EE6419DC7861A33.title: "Applied Energistics 2"
