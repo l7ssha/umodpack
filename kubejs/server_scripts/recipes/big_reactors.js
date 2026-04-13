@@ -309,4 +309,23 @@ ServerEvents.recipes(event => {
       "id": "bigreactors:reinforced_turbinepowertapfe_active"
     }
   });
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "   ",
+      " AB",
+      "   "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stripped_spruce_wood"
+      },
+      "B": {
+        "item": "minecraft:spruce_stairs"
+      }
+    },
+    "result": {
+      "id": "minecraft:oak_log"
+    }
+  })
 });
