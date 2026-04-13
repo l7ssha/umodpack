@@ -167,5 +167,52 @@ ServerEvents.recipes(event => {
             }
         ]
     });
+
+        event.custom({
+        "type": "malum:spirit_infusion",
+        "extraInputs": [
+            {
+                "count": 1,
+                "item": "irons_spellbooks:lightning_bottle"
+            },
+            {
+                "count": 8,
+                "item": "extendedcrafting:redstone_ingot"
+            },
+            {
+                "count": 1,
+                "item": "draconicevolution:dragon_heart"
+            },
+            {
+                "count": 12,
+                "item": "occultism:amethyst_dust"
+            },
+            {
+                "count": 2,
+                "item": "minecraft:red_dye"
+            },
+        ],
+        "input": {
+            "count": 1,
+            "item": "alltheores:silver_ingot"
+        },
+        "result": {
+            "count": 1,
+            "id": "artifacts:crystal_heart"
+        },
+        "spirits": [
+            {
+                "type": "malum:infernal",
+                "count": 24
+            },
+            {
+                "type": "malum:arcane",
+                "count": 8
+            },{
+                "type": "malum:sacred",
+                "count": 2
+            }
+        ]
+    });
     
 });
