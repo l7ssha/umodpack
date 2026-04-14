@@ -928,4 +928,125 @@ ServerEvents.recipes(event => {
       "id": "bigreactors:fluidizerfluidinjector"
     }
   })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ABCBA",
+      "BDEDB",
+      "AFGFA",
+      "AAHAA"
+    ],
+    "key": {
+      "A": {
+        "item": "bigreactors:fluidizercasing"
+      },
+      "B": {
+        "item": "alltheores:steel_plate"
+      },
+      "C": {
+        "item": "advancednetherite:netherite_iron_ingot"
+      },
+      "D": {
+        "tag": "functionalstorage:drawer_1x1"
+      },
+      "E": {
+        "item": "minecraft:dispenser"
+      },
+      "F": {
+        "item": "minecraft:redstone"
+      },
+      "G": {
+        "item": "minecraft:piston"
+      },
+      "H": {
+        "items": "functionalstorage:puller_upgrade",
+        "components": {
+          "functionalstorage:direction": "north"
+        },
+        "type": "neoforge:components"
+      }
+    },
+    "result": {
+      "id": "bigreactors:fluidizeroutputport"
+    }
+  })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ACDCA",
+      "EFGFE",
+      "AHDHA",
+      "AABAA"
+    ],
+    "key": {
+      "A": {
+        "item": "bigreactors:fluidizercasing"
+      },
+      "B": {
+        "item": "mekanism_extras:absolute_universal_cable"
+      },
+      "C": {
+        "item": "minecraft:diamond"
+      },
+      "D": {
+        "item": "minecraft:redstone"
+      },
+      "E": {
+        "item": "alltheores:steel_plate"
+      },
+      "F": {
+        "item": "mekanism:yellow_cake_uranium"
+      },
+      "G": {
+        "item": "mekanism_extras:absolute_control_circuit"
+      },
+      "H": {
+        "item": "actuallyadditions:empowered_diamatine_crystal"
+      }
+    },
+    "result": {
+      "id": "bigreactors:fluidizerpowerport"
+    }
+  })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABBBA",
+      "CDEDC",
+      "CDFDC",
+      "CGHGC",
+      "ACCCA"
+    ],
+    "key": {
+      "A": {
+        "item": "bigreactors:fluidizercasing"
+      },
+      "B": {
+        "item": "alltheores:lumium_plate"
+      },
+      "C": {
+        "item": "alltheores:steel_plate"
+      },
+      "D": {
+        "item": "mekanism_extras:absolute_control_circuit"
+      },
+      "E": {
+        "item": "ae2:fluix_smart_cable"
+      },
+      "F": {
+        "item": "ae2:terminal"
+      },
+      "G": {
+        "item": "actuallyadditions:empowered_restonia_crystal"
+      },
+      "H": {
+        "item": "immersiveengineering:redstone_switchboard"
+      }
+    },
+    "result": {
+      "id": "bigreactors:fluidizercontroller"
+    }
+  })
 });
