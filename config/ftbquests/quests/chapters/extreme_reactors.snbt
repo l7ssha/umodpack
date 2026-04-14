@@ -320,6 +320,7 @@
 		}
 		{
 			id: "4C8E817E671C30C9"
+			shape: "octagon"
 			tasks: [{
 				id: "207AC7AEEF6C52E3"
 				item: { count: 1, id: "alltheores:uranium_ingot" }
@@ -330,6 +331,7 @@
 		}
 		{
 			id: "1FFBC9027DF51468"
+			shape: "octagon"
 			tasks: [{
 				id: "05FB9C068712F73B"
 				item: { count: 1, id: "bigreactors:blutonium_ingot" }
@@ -413,6 +415,7 @@
 		}
 		{
 			id: "78DEB9A46F04CD32"
+			shape: "octagon"
 			tasks: [{
 				id: "5C44356851A3F5E7"
 				item: { count: 1, id: "bigreactors:benitoite_crystal" }
