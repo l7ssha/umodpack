@@ -799,4 +799,133 @@ ServerEvents.recipes(event => {
       "id": "bigreactors:reprocessorcontroller"
     }
   });
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AA AA",
+      "ABCBA",
+      " CCC ",
+      "ABCBA",
+      "AA AA"
+    ],
+    "key": {
+      "A": {
+        "item": "alltheores:iron_plate"
+      },
+      "B": {
+        "item": "mekanism:yellow_cake_uranium"
+      },
+      "C": {
+        "item": "mysticalagriculture:water_essence"
+      }
+    },
+    "result": {
+      "id": "bigreactors:fluidizercasing"
+    }
+  })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABA",
+      "BBB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "bigreactors:fluidizercasing"
+      },
+      "B": {
+        "item": "mekanism:structural_glass"
+      }
+    },
+    "result": {
+      "id": "bigreactors:fluidizerglass"
+    }
+  })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ACDCA",
+      "BEDEB",
+      "ACFCA",
+      "AAGAA"
+    ],
+    "key": {
+      "A": {
+        "item": "bigreactors:fluidizercasing"
+      },
+      "B": {
+        "item": "alltheores:steel_plate"
+      },
+      "C": {
+        "item": "mekanism:yellow_cake_uranium"
+      },
+      "D": {
+        "item": "alltheores:uranium_ingot"
+      },
+      "E": {
+        "item": "minecraft:redstone"
+      },
+      "F": {
+        "item": "minecraft:sticky_piston"
+      },
+      "G": {
+        "items": "functionalstorage:pusher_upgrade",
+        "components": {
+          "functionalstorage:direction": "north"
+        },
+        "type": "neoforge:components"
+      }
+    },
+    "result": {
+      "id": "bigreactors:fluidizersolidinjector"
+    }
+  })
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ACBCA",
+      "DEFED",
+      "AGHGA",
+      "AAIAA"
+    ],
+    "key": {
+      "A": {
+        "item": "bigreactors:fluidizercasing"
+      },
+      "B": {
+        "item": "pipez:fluid_pipe"
+      },
+      "C": {
+        "item": "minecraft:diamond"
+      },
+      "D": {
+        "item": "alltheores:steel_plate"
+      },
+      "E": {
+        "item": "advancednetherite:netherite_iron_ingot"
+      },
+      "F": {
+        "item": "mekanism:ultimate_fluid_tank"
+      },
+      "G": {
+        "item": "minecraft:redstone"
+      },
+      "H": {
+        "item": "minecraft:piston"
+      },
+      "I": {
+        "items": "functionalstorage:pusher_upgrade",
+        "components": {
+          "functionalstorage:direction": "north"
+        },
+        "type": "neoforge:components"
+      }
+    },
+    "result": {
+      "id": "bigreactors:fluidizerfluidinjector"
+    }
+  })
 });
