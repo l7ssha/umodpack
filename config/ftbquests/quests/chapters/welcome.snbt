@@ -3,6 +3,12 @@
 	default_quest_shape: ""
 	filename: "welcome"
 	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:textures/gui/sprites/icon/checkmark.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "4E4BA7805C19F437"
 	order_index: 0
 	quest_links: [ ]

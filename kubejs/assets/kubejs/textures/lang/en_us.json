@@ -1,5 +1,30 @@
 {
 	"announcements.click_here": "Click here to dismiss",
 	"announcements.dismiss_up_to_version": "[Dismiss announcements up to version '%s']",
-	"announcements.dismissed_up_to_version": "Dismissed announcements up to version '%s'!"
+	"announcements.dismissed_up_to_version": "Dismissed announcements up to version '%s'!",
+
+	"singularity.extendedcrafting.unobtanium_allthemodium": "Unobtanium - Allthemodium",
+	"singularity.extendedcrafting.unobtainium_vibranium": "Unobtainium - Vibranium",
+	"singularity.extendedcrafting.vibranium_allthemodium": "Vibranium - Allthemodium",
+	"singularity.extendedcrafting.brass": "Brass",
+	"singularity.extendedcrafting.awakened_draconium": "Awakened Draconium",
+	"singularity.extendedcrafting.awakened_supremium": "Awakened Supremium",
+	"singularity.extendedcrafting.arcane_essence": "Arcane Essence",
+	"singularity.extendedcrafting.dust_of_frost": "Dust of Frost",
+	"singularity.extendedcrafting.dry_ice": "Dry Ice",
+	"singularity.extendedcrafting.netherite_diamond": "Netherite-Diamond",
+	"singularity.extendedcrafting.eclipsealloy": "Eclipse Alloy",
+	"singularity.extendedcrafting.exoversal": "Exoversal Alloy",
+	"singularity.extendedcrafting.iesnium": "Iesnium",
+	"singularity.extendedcrafting.peridot": "Peridot",
+	"singularity.extendedcrafting.infused_entro": "Entro Infused",
+	"singularity.extendedcrafting.log": "Wood",
+	"singularity.extendedcrafting.ruby": "Ruby",
+	"singularity.extendedcrafting.time_crystal": "Time Crystal",
+	"singularity.extendedcrafting.naquadah": "Naquadah",
+	"singularity.extendedcrafting.quantum": "Quantum Alloy",
+	"singularity.extendedcrafting.sky_replica": "Sky Replica",
+	"singularity.extendedcrafting.spectrum": "Spectrum Alloy",
+	"singularity.extendedcrafting.shrieker": "Shrieker",
+	"singularity.extendedcrafting.sapphire": "Sapphire"
 }

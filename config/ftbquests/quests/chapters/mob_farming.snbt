@@ -506,7 +506,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -517,8 +517,8 @@
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:artifacts/mimic" }, count: 1, id: "hostilenetworks:prediction" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.5d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -578,7 +578,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -589,8 +589,8 @@
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:breeze" }, count: 1, id: "hostilenetworks:prediction" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.5d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -650,7 +650,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -674,7 +674,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -686,7 +686,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -698,7 +698,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -710,7 +710,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -722,7 +722,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -734,7 +734,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -746,7 +746,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -758,7 +758,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -770,7 +770,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -782,7 +782,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -794,7 +794,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -806,7 +806,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -818,7 +818,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -830,7 +830,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -842,7 +842,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -854,7 +854,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -866,7 +866,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -878,7 +878,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -890,7 +890,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -902,7 +902,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -914,7 +914,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -926,7 +926,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -938,7 +938,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -950,7 +950,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -962,7 +962,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -974,7 +974,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -986,7 +986,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -998,7 +998,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1010,7 +1010,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1022,7 +1022,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1034,7 +1034,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1046,7 +1046,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1070,7 +1070,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1082,7 +1082,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1118,7 +1118,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1130,7 +1130,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1142,7 +1142,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1154,7 +1154,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1166,7 +1166,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1178,7 +1178,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1190,7 +1190,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1202,7 +1202,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1214,7 +1214,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1238,7 +1238,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1262,7 +1262,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1274,7 +1274,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1406,8 +1406,8 @@
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:shulker" }, count: 1, id: "hostilenetworks:prediction" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 10.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1527,7 +1527,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1539,7 +1539,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1551,7 +1551,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1563,7 +1563,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1575,7 +1575,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1587,7 +1587,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1599,7 +1599,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1611,7 +1611,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1623,7 +1623,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1635,7 +1635,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1647,7 +1647,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1659,7 +1659,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1671,7 +1671,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1683,7 +1683,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1695,7 +1695,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1707,7 +1707,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1719,7 +1719,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1731,7 +1731,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1743,7 +1743,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1755,7 +1755,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1767,7 +1767,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1779,7 +1779,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1791,7 +1791,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1803,7 +1803,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1815,7 +1815,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1839,7 +1839,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1863,7 +1863,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1875,7 +1875,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["79C2CCDB29AA3AB8"]
@@ -1910,8 +1910,8 @@
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:zombified_piglin" }, count: 1, id: "hostilenetworks:prediction" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: 0.0d
+			x: 11.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4FBA46A7818F652C"]
@@ -2029,6 +2029,203 @@
 			]
 			x: -2.0d
 			y: -5.5d
+		}
+		{
+			dependencies: [
+				"635E23A7D2F456CE"
+				"5C03C84C2C3E82F4"
+				"2CAF35520133F285"
+				"0B7FDF321FB19437"
+				"383A449623446BA3"
+				"7A37D85DF6EB918D"
+				"5CF29F1F573256D1"
+				"653BBDA01D903044"
+				"2DA5CCF285EA206C"
+				"1E2D459E0C134875"
+				"14B0E61984BD0D03"
+				"516A19BAC2A597A2"
+				"49482A10D9C66FC6"
+				"362BBC74C89E43DD"
+				"3631704769915979"
+				"65CCFB2265CAF47B"
+				"0577E48CB513234F"
+				"02B07DD78731133D"
+				"0202FD6338D3B39C"
+				"03D7A41685476329"
+				"77D727EB3A3A7637"
+				"4C10D7283C876FCA"
+				"542C8842A63EE22A"
+				"27BEDF03A4F410F5"
+				"07784F753C7219C0"
+			]
+			hide_dependency_lines: true
+			id: "21CD0A0FF56FAF2E"
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "15EC0F965A7C1F85"
+				item: { count: 1, id: "kubejs:twilight_ultimate_prediction" }
+				type: "item"
+			}]
+			x: 2.6d
+			y: 6.500000000000001d
+		}
+		{
+			dependencies: [
+				"681C6B5CCB28B928"
+				"6C0BA5B60E5D58E6"
+				"140337CDE0CDF78B"
+				"78BFF844D8451E74"
+				"5730FA7D5F49288E"
+				"7DAF8E1D2043D37A"
+				"37B2464C15EE7F9D"
+				"5F636AAFE01A4D9B"
+				"12FAD0B4E3F99E27"
+				"4B4A4C071B48B314"
+				"6BEA974F87B77B80"
+				"64FE33A5B04F6A81"
+				"72E993EB2AA8017C"
+				"39A333B34BE9CE2E"
+				"392D9C445C11B0E0"
+				"658A81B1BD615047"
+				"3D3BB967B8AD4CAE"
+				"7267E90E9D9B932D"
+				"76727F41DDEFB3BE"
+				"774243CDC53EC392"
+				"03C9E7C8B001D163"
+				"05B1B51976C7538C"
+				"56F26F3535880FAB"
+				"297F9B02F4FFFCE5"
+				"43555F28058B9A9C"
+				"33B91859BE9D1357"
+				"09CE22BE7B67C57D"
+				"134D2E995441347E"
+				"3E77BDEF4C47D574"
+				"20A32F5EF8A74376"
+				"157D37AD8F26A65B"
+				"69600759D1E0E9E8"
+				"60FCDFE225DAD0B7"
+				"0D94495A7AB81F85"
+				"7A561CC97B7007DB"
+				"78BBD2E506C1E8EB"
+				"5B87418C83F51987"
+				"793B145FA3B9A227"
+				"1E7255814E6B7DA2"
+				"18A54CC52467A33C"
+				"327A9F31C056CFA0"
+				"0A16E03D4FC96E1C"
+				"5B1999099F2E8DC0"
+				"6936898193810309"
+			]
+			hide_dependency_lines: true
+			id: "2B7A2F682637E05A"
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "2C04C299D5F7302F"
+				item: { count: 1, id: "kubejs:vanilla_ultimate_prediction" }
+				type: "item"
+			}]
+			x: 2.6d
+			y: -2.6d
+		}
+		{
+			dependencies: [
+				"4B31494498D43561"
+				"70F1DA8BA96E84B2"
+				"7D7EB33127943F70"
+				"04F5CEFD0F5A53E1"
+				"22D70CFE3D596504"
+				"54E5882D2F0761D9"
+				"2821FB2AD5013EB0"
+				"03086311549507B6"
+				"629002E6D8A1D868"
+				"47902ED27F56E0AB"
+				"5A25B44121B07AEB"
+			]
+			hide_dependency_lines: true
+			id: "03048CC50ECA074A"
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "39E986369DDE081E"
+				item: { count: 1, id: "kubejs:bosses_ultimate_prediction" }
+				type: "item"
+			}]
+			x: 2.6d
+			y: -5.2d
+		}
+		{
+			dependencies: [
+				"550428A572B4D194"
+				"262B760F320510A0"
+				"6FA6ACF231E059B6"
+				"79C8E7FB0E1A4C2A"
+				"4C57C175EAD929FD"
+				"1F1FD526ED6691D9"
+				"4E9E19448F630231"
+				"30B3BB5F884B502E"
+				"7C807B947BAB6735"
+				"3EDD3723831D88AF"
+				"20AB2082218B46EE"
+				"7E6CB4303D6D9F3F"
+				"53A37032152AD274"
+				"1D581DB67723029C"
+				"5032320A75CCE2E6"
+				"3E65407FB422D9AA"
+				"55454710DEEA9CAB"
+				"04A586129BF9E45B"
+				"38D02FF20684963A"
+				"1BBDAAF7867D1CEA"
+				"5574A4835C8B57A2"
+				"02F37C8E865D2ABE"
+				"794DDD3052761B2B"
+				"6ECED2AFAEEC08EC"
+				"6A1D1ACCDE68D25D"
+				"25A339AE49DACDF1"
+				"66C065237FCBE841"
+				"389D0813430E1E6B"
+				"3F258460385F8AF4"
+				"2A86A07AF3757578"
+				"6B388675A9D027EF"
+				"0A74786E9876DD5E"
+				"6291CF605A4E2BC9"
+				"4507FF94B8F74D5C"
+				"0911E3F1D60F3393"
+				"334FCB7C9F001A8F"
+				"2587E5649F300B37"
+				"0C9ED3DECB784B42"
+			]
+			hide_dependency_lines: true
+			id: "2CDE100E79154C37"
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "6D768A65B0A7D53D"
+				item: { count: 1, id: "kubejs:misc_ultimate_prediction" }
+				type: "item"
+			}]
+			x: 2.6d
+			y: 2.6d
+		}
+		{
+			dependencies: [
+				"03048CC50ECA074A"
+				"2CDE100E79154C37"
+				"21CD0A0FF56FAF2E"
+				"2B7A2F682637E05A"
+			]
+			hide_dependency_lines: true
+			id: "131C3E8AC789E3B7"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3ECAE1D253C51A42"
+				item: { count: 1, id: "kubejs:ultimate_prediction" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
 		}
 	]
 }
