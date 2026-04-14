@@ -1,143 +1,167 @@
+const miscItems = [
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:allthemodium/piglich" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:artifacts/mimic" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:biomes_weve_gone/man_o_war" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:biomes_weve_gone/oddion" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/amethyst_crab" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/aptrgangr" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/cindaria" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/clawdian" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/coral_golem" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/coralssus" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/deepling" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/draugr" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/drowned_host" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/elite_draugr" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/endermaptera" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/hippocamtus" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/ignited_berserker" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/ignited_revenant" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/kobolediator" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/lionfish" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/royal_draugr" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/symbiocto" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/urchinkin" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/wadjet" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/ancient_knight" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/apothecarist" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/archevoker" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/cryomancer" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/ice_spider" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/necromancer" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/priest" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/pyromancer" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:occultism/afrit" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:occultism/possessed_endermite" } }
+];
+
+const vanillaItems = [
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:bat" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:bee" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:blaze" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:breeze" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:chicken" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:cod" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:cow" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:creeper" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:drowned" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:evoker" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:ghast" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:glow_squid" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:guardian" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:hoglin" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:horse" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:iron_golem" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:llama" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:magma_cube" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:mooshroom" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:phantom" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:pig" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:pillager" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:polar_bear" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:pufferfish" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:rabbit" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:ravager" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:salmon" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:sheep" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:shulker" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:skeleton" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:skeleton_horse" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:slime" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:sniffer" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:snow_golem" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:spider" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:squid" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:tropical_fish" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:turtle" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:vindicator" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:witch" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:wither_skeleton" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:zombie" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:zombie_horse" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:zombified_piglin" } }
+];
+const twilightItems = [
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/carminite_golem" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/death_tome" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/deer" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/fire_beetle" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/giant" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/goblin" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/helmet_crab" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/kobold" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/minotaur" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/raven" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/redcap" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/skeleton_druid" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/stable_ice_core" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/towerwood_borer" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/troll" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/winter_wolf" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/wraith" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/yeti" } }
+];
+const bossesItems = [
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:draconicevolution/chaos_guardian" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:elder_guardian" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:ender_dragon" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/ancient_remnant" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/ignis" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/maledictus" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/netherite_monstrosity" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/scylla" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/the_harbinger" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/the_prowler" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/the_watcher" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/dead_king" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/alpha_yeti" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/hydra" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/lich" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/minoshroom" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/naga" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/snow_queen" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/ur_ghast" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:warden" } },
+  { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:wither" } }
+];
+
 ServerEvents.recipes(event => {
-  const make = (items, resultId) => {
+  const makeRecipe = (items, resultId) => {
     event.custom({
-        "type": "extendedcrafting:shapeless_table",
-        "tier": 4,
-        "ingredients": items,
-        "result": { "id": resultId }
-      });
+      "type": "extendedcrafting:shapeless_table",
+      "tier": 4,
+      "ingredients": items,
+      "result": { "id": resultId }
+    });
   };
 
-  const vanillaItems = [
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:bat" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:bee" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:blaze" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:breeze" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:chicken" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:cod" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:cow" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:creeper" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:drowned" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:evoker" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:ghast" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:glow_squid" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:guardian" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:hoglin" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:horse" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:iron_golem" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:llama" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:magma_cube" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:mooshroom" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:phantom" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:pig" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:pillager" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:polar_bear" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:pufferfish" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:rabbit" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:ravager" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:salmon" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:sheep" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:shulker" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:skeleton" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:skeleton_horse" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:slime" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:sniffer" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:snow_golem" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:spider" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:squid" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:tropical_fish" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:turtle" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:vindicator" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:witch" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:wither_skeleton" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:zombie" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:zombie_horse" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:zombified_piglin" } }
-  ];
-  make(vanillaItems, 'kubejs:vanilla_ultimate_prediction');
+  makeRecipe(vanillaItems, 'kubejs:vanilla_ultimate_prediction');
+  makeRecipe(twilightItems, 'kubejs:twilight_ultimate_prediction');
+  makeRecipe(bossesItems, 'kubejs:bosses_ultimate_prediction');
+  makeRecipe(miscItems, 'kubejs:misc_ultimate_prediction');
 
-  const twilightItems = [
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/carminite_golem" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/death_tome" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/deer" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/fire_beetle" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/giant" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/goblin" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/helmet_crab" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/kobold" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/minotaur" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/raven" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/redcap" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/skeleton_druid" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/stable_ice_core" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/towerwood_borer" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/troll" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/winter_wolf" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/wraith" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/yeti" } }
-  ];
-  make(twilightItems, 'kubejs:twilight_ultimate_prediction');
-
-  const bossesItems = [
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:draconicevolution/chaos_guardian" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:elder_guardian" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:ender_dragon" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/ancient_remnant" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/ignis" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/maledictus" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/netherite_monstrosity" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/scylla" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/the_harbinger" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/the_prowler" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/the_watcher" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/dead_king" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/alpha_yeti" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/hydra" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/lich" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/minoshroom" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/naga" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/snow_queen" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:twilightforest/ur_ghast" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:warden" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:wither" } }
-  ];
-  make(bossesItems, 'kubejs:bosses_ultimate_prediction');
-
-  const miscItems = [
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:allthemodium/piglich" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "hostilenetworks:artifacts/mimic" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:biomes_weve_gone/man_o_war" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:biomes_weve_gone/oddion" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/amethyst_crab" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/aptrgangr" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/cindaria" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/clawdian" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/coral_golem" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/coralssus" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/deepling" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/draugr" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/drowned_host" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/elite_draugr" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/endermaptera" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/hippocamtus" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/ignited_berserker" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/ignited_revenant" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/kobolediator" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/lionfish" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/royal_draugr" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/symbiocto" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/urchinkin" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:enders_cataclysm/wadjet" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/ancient_knight" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/apothecarist" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/archevoker" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/cryomancer" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/ice_spider" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/necromancer" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/priest" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/pyromancer" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:occultism/afrit" } },
-    { "type": "neoforge:components", "items": "hostilenetworks:prediction", "components": { "hostilenetworks:data_model": "extradatamodels:occultism/possessed_endermite" } }
-  ];
-  make(miscItems, 'kubejs:misc_ultimate_prediction');
+  event.custom({
+    "type": "extendedcrafting:combination",
+    "power_cost": 100000000000000,
+    "input": {
+      "item": "enigmatic_arcana:agroconic_alloy"
+    },
+    "ingredients": [
+      {
+        "item": "kubejs:bosses_ultimate_prediction"
+      },
+      {
+        "item": "kubejs:misc_ultimate_prediction"
+      },
+      {
+        "item": "kubejs:twilight_ultimate_prediction"
+      },
+      {
+        "item": "kubejs:vanilla_ultimate_prediction"
+      }
+    ],
+    "result": {
+      "id": "kubejs:ultimate_prediction"
+    }
+  });
 });

@@ -14,4 +14,9 @@ StartupEvents.registry('item', event => {
   event.create("tesseract").tooltip('It feels weird in your hand').fireResistant();
 
   event.create("divinium_essence");
+
+  event.create("kubejs:vanilla_ultimate_prediction").texture('kubejs:item/ultimate_prediction');
+  event.create("kubejs:twilight_ultimate_prediction").texture('kubejs:item/ultimate_prediction');
+  event.create("kubejs:bosses_ultimate_prediction").texture('kubejs:item/ultimate_prediction');
+  event.create("kubejs:misc_ultimate_prediction").texture('kubejs:item/ultimate_prediction');
 });
