@@ -309,6 +309,7 @@ ServerEvents.recipes(event => {
       "id": "bigreactors:reinforced_turbinepowertapfe_active"
     }
   });
+
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
@@ -318,6 +319,7 @@ ServerEvents.recipes(event => {
       "BCDCB",
       "ABABA"
     ],
+    "tier": 2,
     "key": {
       "A": {
         "item": "bigreactors:graphite_ingot"
@@ -341,9 +343,9 @@ ServerEvents.recipes(event => {
     "result": {
       "id": "bigreactors:reinforced_turbinecasing"
     }
-  })
-  event.custom({
-    "type": "extendedcrafting:shaped_table",
+  });
+
+  event.shaped({
     "pattern": [
       "ABA",
       "BBB",
@@ -358,9 +360,11 @@ ServerEvents.recipes(event => {
       }
     },
     "result": {
+      "count": 4,
       "id": "bigreactors:reinforced_turbineglass"
     }
-  })
+  });
+
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
@@ -370,18 +374,19 @@ ServerEvents.recipes(event => {
       "ABDBA",
       "ABCBA"
     ],
+    "tier": 2,
     "key": {
       "A": {
-        "item": "alltheores:steel_plate"
+        "tag": "c:plates/steel"
       },
       "B": {
-        "item": "minecraft:iron_ingot"
+        "tag": "c:ingots/iron"
       },
       "C": {
         "item": "actuallyadditions:empowered_enori_crystal_block"
       },
       "D": {
-        "item": "allthemodium:allthemodium_gear"
+        "tag": "c:gears/allthemodium"
       },
       "E": {
         "item": "actuallyadditions:empowered_restonia_crystal_block"
@@ -390,7 +395,8 @@ ServerEvents.recipes(event => {
     "result": {
       "id": "bigreactors:reinforced_turbinerotorbearing"
     }
-  })
+  });
+
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
@@ -400,15 +406,16 @@ ServerEvents.recipes(event => {
       "ABCBA",
       "AABAA"
     ],
+    "tier": 2,
     "key": {
       "A": {
         "item": "bigreactors:reinforced_turbinecasing"
       },
       "B": {
-        "item": "alltheores:steel_plate"
+        "tag": "c:plates/steel"
       },
       "C": {
-        "item": "mekanism_extras:absolute_control_circuit"
+        "tag": "c:circuits/absolute"
       },
       "D": {
         "item": "mekanism_extras:absolute_mechanical_pipe"
@@ -420,7 +427,40 @@ ServerEvents.recipes(event => {
     "result": {
       "id": "bigreactors:reinforced_turbinefluidport_forge_active"
     }
-  })
+  });
+
+  event.custom({
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ABCBA",
+      "DEEED",
+      "ABCBA",
+      "AABAA"
+    ],
+    "tier": 2,
+    "key": {
+      "A": {
+        "item": "bigreactors:reinforced_reactorcasing"
+      },
+      "B": {
+        "tag": "c:plates/steel"
+      },
+      "C": {
+        "tag": "c:circuits/absolute"
+      },
+      "D": {
+        "item": "mekanism_extras:absolute_mechanical_pipe"
+      },
+      "E": {
+        "item": "pneumaticcraft:reinforced_pressure_tube"
+      }
+    },
+    "result": {
+      "id": "bigreactors:reinforced_reactorfluidport_forge_active"
+    }
+  });
+
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
@@ -430,18 +470,20 @@ ServerEvents.recipes(event => {
       "AAAAA",
       "     "
     ],
+    "tier": 2,
     "key": {
       "A": {
-        "item": "alltheores:steel_plate"
+        "tag": "c:plates/steel"
       },
       "B": {
-        "item": "bigreactors:blutonium_ingot"
+        "tag": "c:ingots/blutonium"
       }
     },
     "result": {
       "id": "bigreactors:reinforced_turbinerotorblade"
     }
-  })
+  });
+
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
@@ -451,99 +493,20 @@ ServerEvents.recipes(event => {
       "AABAA",
       " AAA "
     ],
+    "tier": 2,
     "key": {
       "A": {
-        "item": "alltheores:steel_plate"
+        "tag": "c:plates/steel"
       },
       "B": {
-        "item": "bigreactors:blutonium_ingot"
+        "tag": "c:ingots/blutonium"
       }
     },
     "result": {
       "id": "bigreactors:reinforced_turbinerotorshaft"
     }
-  })
-  event.custom({
-    "type": "extendedcrafting:shaped_table",
-    "pattern": [
-      "AABAA",
-      "ACDEA",
-      "AFGFA",
-      "AHDHA",
-      "AABAA"
-    ],
-    "key": {
-      "A": {
-        "item": "alltheores:steel_plate"
-      },
-      "B": {
-        "item": "mekanism_extras:absolute_universal_cable"
-      },
-      "C": {
-        "item": "powah:energy_cell_spirited"
-      },
-      "D": {
-        "item": "mekanism:energy_tablet"
-      },
-      "E": {
-        "item": "mekanism_extras:absolute_energy_cube"
-      },
-      "F": {
-        "item": "re_endergy:capacitor_crystalline"
-      },
-      "G": {
-        "item": "bigreactors:reinforced_turbinecasing"
-      },
-      "H": {
-        "item": "mekanism_extras:absolute_control_circuit"
-      }
-    },
-    "result": {
-      "id": "bigreactors:reinforced_turbinepowertapfe_active"
-    }
-  })
-  event.custom({
-    "type": "extendedcrafting:shaped_table",
-    "pattern": [
-      "ABCBA",
-      "DEFED",
-      "DEGED",
-      "DHIHD",
-      "ADDDA"
-    ],
-    "key": {
-      "A": {
-        "item": "bigreactors:reinforced_turbinecasing"
-      },
-      "B": {
-        "item": "allthemodium:allthemodium_plate"
-      },
-      "C": {
-        "item": "ae2:fluix_smart_cable"
-      },
-      "D": {
-        "item": "alltheores:steel_plate"
-      },
-      "E": {
-        "item": "mekanism_extras:absolute_control_circuit"
-      },
-      "F": {
-        "item": "ae2:terminal"
-      },
-      "G": {
-        "item": "allthemodium:allthemodium_gear"
-      },
-      "H": {
-        "item": "actuallyadditions:empowered_restonia_crystal_block"
-      },
-      "I": {
-        "item": "immersiveengineering:redstone_switchboard"
-      }
-    },
-    "result": {
-      "id": "bigreactors:reinforced_turbinecontroller"
-    }
-  })
+  });
+
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
@@ -553,29 +516,30 @@ ServerEvents.recipes(event => {
       "ACDCA",
       "AABAA"
     ],
+    "tier": 2,
     "key": {
       "A": {
-        "item": "alltheores:steel_plate"
+        "tag": "c:plates/steel"
       },
       "B": {
-        "item": "minecraft:iron_ingot"
+        "tag": "c:ingots/iron"
       },
       "C": {
         "item": "actuallyadditions:enori_crystal"
       },
       "D": {
-        "item": "bigreactors:cyanite_ingot"
+        "tag": "c:ingots/cyanite"
       },
       "E": {
-        "item": "minecraft:water_bucket"
+        "tag": "c:buckets/water"
       }
     },
     "result": {
       "id": "bigreactors:reprocessorcasing"
     }
-  })
-  event.custom({
-    "type": "extendedcrafting:shaped_table",
+  });
+
+  event.shaped({
     "pattern": [
       "ABA",
       "BBB",
@@ -590,9 +554,11 @@ ServerEvents.recipes(event => {
       }
     },
     "result": {
-      "id": "bigreactor:reprocessorglass"
+      "count": 4,
+      "id": "bigreactors:reprocessorglass"
     }
-  })
+  });
+
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
@@ -602,6 +568,7 @@ ServerEvents.recipes(event => {
       "DEGED",
       "ABHBA"
     ],
+    "tier": 2,
     "key": {
       "A": {
         "item": "bigreactors:reprocessorcasing"
@@ -613,29 +580,26 @@ ServerEvents.recipes(event => {
         "item": "enderio:dark_steel_bars"
       },
       "D": {
-        "item": "alltheores:steel_plate"
+        "tag": "c:plates/steel"
       },
       "E": {
         "item": "advancednetherite:netherite_iron_ingot"
       },
       "F": {
-        "items": "functionalstorage:collector_upgrade",
-        "components": {
-          "functionalstorage:direction": "north"
-        },
-        "type": "neoforge:components"
+        "item": "functionalstorage:collector_upgrade"
       },
       "G": {
-        "item": "minecraft:piston"
+        "tag": "c:pistons"
       },
       "H": {
-        "item": "minecraft:hopper"
+        "tag": "c:hoppers"
       }
     },
     "result": {
       "id": "bigreactors:reprocessorcollector"
     }
-  })
+  });
+
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
@@ -645,15 +609,16 @@ ServerEvents.recipes(event => {
       "AFGFA",
       "AABAA"
     ],
+    "tier": 2,
     "key": {
       "A": {
         "item": "bigreactors:reprocessorcasing"
       },
       "B": {
-        "item": "alltheores:steel_plate"
+        "tag": "c:plates/steel"
       },
       "C": {
-        "item": "bigreactors:cyanite_ingot"
+        "tag": "c:ingots/cyanite"
       },
       "D": {
         "item": "mekanism:ultimate_fluid_tank"
@@ -662,20 +627,17 @@ ServerEvents.recipes(event => {
         "item": "minecraft:sticky_piston"
       },
       "F": {
-        "item": "minecraft:redstone"
+        "tag": "c:dusts/redstone"
       },
       "G": {
-        "items": "functionalstorage:pusher_upgrade",
-        "components": {
-          "functionalstorage:direction": "north"
-        },
-        "type": "neoforge:components"
+        "item": "functionalstorage:pusher_upgrade",
       }
     },
     "result": {
       "id": "bigreactors:reprocessorfluidinjector"
     }
-  })
+  });
+
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
@@ -685,15 +647,16 @@ ServerEvents.recipes(event => {
       "AFGFA",
       "AABAA"
     ],
+    "tier": 2,
     "key": {
       "A": {
         "item": "bigreactors:reprocessorcasing"
       },
       "B": {
-        "item": "alltheores:steel_plate"
+        "tag": "c:plates/steel"
       },
       "C": {
-        "item": "bigreactors:cyanite_ingot"
+        "tag": "c:ingots/cyanite"
       },
       "D": {
         "item": "mekanism:radioactive_waste_barrel"
@@ -702,20 +665,17 @@ ServerEvents.recipes(event => {
         "item": "minecraft:sticky_piston"
       },
       "F": {
-        "item": "minecraft:redstone"
+        "tag": "c:dusts/redstone"
       },
       "G": {
-        "items": "functionalstorage:pusher_upgrade",
-        "components": {
-          "functionalstorage:direction": "north"
-        },
-        "type": "neoforge:components"
+        "item": "functionalstorage:pusher_upgrade"
       }
     },
     "result": {
       "id": "bigreactors:reprocessorwasteinjector"
     }
-  })
+  });
+
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
@@ -725,31 +685,28 @@ ServerEvents.recipes(event => {
       "AFGFA",
       "AAHAA"
     ],
+    "tier": 2,
     "key": {
       "A": {
         "item": "bigreactors:reprocessorcasing"
       },
       "B": {
-        "item": "alltheores:steel_plate"
+        "tag": "c:plates/steel"
       },
       "C": {
         "item": "advancednetherite:netherite_iron_ingot"
       },
       "D": {
-        "item": "functionalstorage:oak_1"
+        "tag": "functionalstorage:drawer"
       },
       "E": {
         "item": "minecraft:dispenser"
       },
       "F": {
-        "item": "minecraft:redstone"
+        "tag": "c:dusts/redstone"
       },
       "G": {
-        "items": "functionalstorage:pusher_upgrade",
-        "components": {
-          "functionalstorage:direction": "north"
-        },
-        "type": "neoforge:components"
+        "item": "functionalstorage:pusher_upgrade"
       },
       "H": {
         "item": "mekanism:ultimate_logistical_transporter"
@@ -758,7 +715,8 @@ ServerEvents.recipes(event => {
     "result": {
       "id": "bigreactors:reprocessoroutputport"
     }
-  })
+  });
+
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
@@ -776,16 +734,16 @@ ServerEvents.recipes(event => {
         "item": "mekanism_extras:absolute_universal_cable"
       },
       "C": {
-        "item": "minecraft:diamond"
+        "tag": "c:gems/diamond"
       },
       "D": {
-        "item": "minecraft:redstone"
+        "tag": "c:dusts/redstone"
       },
       "E": {
-        "item": "alltheores:steel_plate"
+        "tag": "c:plates/steel"
       },
       "F": {
-        "item": "bigreactors:cyanite_ingot"
+        "tag": "c:ingots/cyanite"
       },
       "G": {
         "item": "mekanism_extras:absolute_control_circuit"
@@ -797,7 +755,8 @@ ServerEvents.recipes(event => {
     "result": {
       "id": "bigreactors:reprocessorpowerport"
     }
-  })
+  });
+
   event.custom({
     "type": "extendedcrafting:shaped_table",
     "pattern": [
@@ -839,5 +798,5 @@ ServerEvents.recipes(event => {
     "result": {
       "id": "bigreactors:reprocessorcontroller"
     }
-  })
+  });
 });
