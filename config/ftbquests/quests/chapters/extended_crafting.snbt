@@ -364,5 +364,779 @@
 			x: -2.5d
 			y: -4.5d
 		}
+		{
+			id: "A1B2C3D4E5F60701"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60701"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:aluminum"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			id: "A1B2C3D4E5F60702"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60702"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:arcane_essence"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			id: "A1B2C3D4E5F60703"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60703"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:awakended_supremium"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			id: "A1B2C3D4E5F60704"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60704"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:awakened_draconium"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			id: "A1B2C3D4E5F60705"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60705"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:brass"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			id: "A1B2C3D4E5F60706"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60706"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:bronze"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			id: "A1B2C3D4E5F60707"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60707"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:coal"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			id: "A1B2C3D4E5F60708"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60708"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:copper"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			id: "A1B2C3D4E5F60709"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60709"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:diamond"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			id: "A1B2C3D4E5F6070A"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A6070A"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:diamond_netherite"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "A1B2C3D4E5F6070B"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A6070B"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:dry_ice"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "A1B2C3D4E5F6070C"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A6070C"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:dust_of_frost"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "A1B2C3D4E5F6070D"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A6070D"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:eclipse_alloy"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			id: "A1B2C3D4E5F6070E"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A6070E"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:electrum"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			id: "A1B2C3D4E5F6070F"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A6070F"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:emerald"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "A1B2C3D4E5F60710"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60710"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:exoversal"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "A1B2C3D4E5F60711"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60711"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:glowstone"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "A1B2C3D4E5F60712"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60712"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:gold"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "A1B2C3D4E5F60713"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60713"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:iesnium"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "A1B2C3D4E5F60714"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60714"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:infused_entro"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "A1B2C3D4E5F60715"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60715"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:invar"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "A1B2C3D4E5F60716"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60716"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:iron"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "A1B2C3D4E5F60717"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60717"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:lapis_lazuli"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "A1B2C3D4E5F60718"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60718"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:lead"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "A1B2C3D4E5F60719"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60719"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:log"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "A1B2C3D4E5F6071A"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A6071A"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:naquadah"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "A1B2C3D4E5F6071B"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A6071B"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:nickel"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "A1B2C3D4E5F6071C"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A6071C"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:peridot"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "A1B2C3D4E5F6071D"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A6071D"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:platinum"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "A1B2C3D4E5F6071E"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A6071E"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:quantum_alloy"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "A1B2C3D4E5F6071F"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A6071F"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:redstone"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "A1B2C3D4E5F60720"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60720"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:ruby"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "A1B2C3D4E5F60721"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60721"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:sapphire"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "A1B2C3D4E5F60722"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60722"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:shrieker"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "A1B2C3D4E5F60723"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60723"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:silver"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "A1B2C3D4E5F60724"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60724"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:sky_replica"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "A1B2C3D4E5F60725"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60725"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:spectral"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "A1B2C3D4E5F60726"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60726"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:steel"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "A1B2C3D4E5F60727"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60727"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:time_crystal"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "A1B2C3D4E5F60728"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60728"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:tin"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "A1B2C3D4E5F60729"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A60729"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:unobtanium_allthemodium"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "A1B2C3D4E5F6072A"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A6072A"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:unobtanium_vibranium"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "A1B2C3D4E5F6072B"
+			rewards: []
+			tasks: [{
+				id: "B1C2D3E4F5A6072B"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:vibranium_allthemodium"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
 	]
 }
