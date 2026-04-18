@@ -33,4 +33,37 @@ ServerEvents.recipes(event => {
         },
         "per_tick_usage": true
     });
+
+    event.custom({
+        "type": "mekanism:nucleosynthesizing",
+        "duration": 1000,
+        "chemical_input": {
+            "amount": 4,
+            "chemical": "kubejs:derium"
+        },
+        "item_input": {
+            "tag": "evolvedmekanism:alloys/hypercharged"
+        },
+        "output": {
+            "id": "evolvedmekanism:alloy_subatomic"
+        },
+        "per_tick_usage": true
+    });
+
+    event.custom({
+        "type": "ifeu:infuser",
+        "input": {
+            "count": 2,
+            "id": "mekanism_extras:enriched_thermonuclear"
+        },
+        "inputFluid": {
+            "amount": 4000,
+            "id": "ifeu:liquid_sculk_matter"
+        },
+        "output": {
+            "count": 1,
+            "id": "mekanism_extras:enriched_shining"
+        },
+        "processingTime": 400
+    });
 });

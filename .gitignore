@@ -79,5 +79,4 @@ win_event*.txt
 config/sodium-options.json
 servers.dat*
 config/sodium-fingerprint.json
-fml.toml
 kubejs/README.txt

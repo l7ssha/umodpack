@@ -95,6 +95,7 @@ const recipesById = [
     'mekanism:thermal_evaporation/block',
     'mekanism:thermal_evaporation/controller',
     'mekanism:laser',
+    'evolvedmekanism:nucleosynthesizing/alloy_subatomic',
 
     // Ender IO
     'enderio:void_chassis',
@@ -230,6 +231,7 @@ const recipesById = [
     'appliedsoul:range_card',
     'appflux:fe_housing',
     'extendedae_plus:mirror_pattern_binding_tool',
+    'ae2_autorequester:autorequester',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',

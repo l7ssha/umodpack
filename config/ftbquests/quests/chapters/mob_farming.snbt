@@ -1943,8 +1943,8 @@
 				item: { count: 1, id: "industrialforegoing:animal_rancher" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.5d
+			x: -0.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["6A2C18C2878001AE"]
@@ -2226,6 +2226,18 @@
 			}]
 			x: -0.5d
 			y: 7.0d
+		}
+		{
+			dependencies: ["6A2C18C2878001AE"]
+			id: "189FC4AB5F2D240E"
+			shape: "square"
+			tasks: [{
+				id: "7A207E3DAD4D391F"
+				item: { count: 1, id: "industrialforegoing:pink_slime_bucket" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
 		}
 	]
 }

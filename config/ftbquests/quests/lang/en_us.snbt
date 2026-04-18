@@ -458,6 +458,7 @@
 	quest.5121F91BA8E6CFDC.title: "Aether's Altar"
 	quest.522B491F7B2B7618.quest_desc: ["Disintegrate a materials into its base components for later use in &#00032EReplicator&r"]
 	quest.5279C4BFCE63CC8F.title: "Your first Router"
+	quest.52E661275A2B5499.title: "Yttrium Dust"
 	quest.5323DAD30FA78DF2.title: "Lavium"
 	quest.534A5B38D070561C.title: "Sophisticated Storage upgrades"
 	quest.537F8DE6B38BABC4.quest_desc: ["Allows you to quickly train models to the maximum level, consuming a large amount of energy. Does not produce loot during simulation. Supports 2 upgrades."]
@@ -759,7 +760,9 @@
 	task.4EAD9AA15B8093B3.title: "Any Cell Housing"
 	task.4F1C825E5544B36C.title: "Beyond"
 	task.4FE22DFD69E70545.title: "Storing items"
+	task.501C80C6B20CD434.title: "Fission Reactor"
 	task.52BD0579D5E9CC51.title: "Completed?"
+	task.574A78E1E4094086.title: "Mekanism Turbine"
 	task.5954F4F01B25A4BD.title: "Nuclear Waste"
 	task.59B122F80F000A2B.title: "Any basic pipe"
 	task.5AB1F8FC9FD2E38D.title: "Any chest"
