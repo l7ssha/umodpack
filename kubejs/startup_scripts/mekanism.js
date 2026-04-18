@@ -16,4 +16,9 @@ StartupEvents.registry('mekanism:chemical', event => {
         let builder = $ChemicalBuilder.builder().tint(0x942bd1);
         return new $Chemical(builder);
     });
+
+    event.createCustom('derium', () => {
+        let builder = $ChemicalBuilder.builder().tint(0x6a5acd);
+        return new $Chemical(builder);
+    });
 });

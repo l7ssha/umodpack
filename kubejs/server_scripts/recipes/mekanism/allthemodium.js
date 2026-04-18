@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
         });
     };
 
-    ['allthemodium', 'vibranium', 'unobtainium'].forEach(name => {
+    ['allthemodium', 'vibranium', 'unobtainium', 'derium'].forEach(name => {
         chemicalConversionRecipe(name);
     });
 

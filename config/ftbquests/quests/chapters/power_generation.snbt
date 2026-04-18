@@ -108,38 +108,10 @@
 		{
 			dependencies: ["5B6A55314736E0F5"]
 			id: "200B11B6D9005110"
-			tasks: [
-				{
-					count: 44L
-					id: "74B806319119EF43"
-					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "298FF56BB3847539"
-					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "6A754E54CE3771A8"
-					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "36242599519D58B6"
-					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
-					type: "item"
-				}
-				{
-					count: 50L
-					id: "793A8644B9C216DB"
-					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "501C80C6B20CD434"
+				type: "checkmark"
+			}]
 			x: -7.0d
 			y: 3.0d
 		}
@@ -149,66 +121,10 @@
 				id: "mekanismgenerators:rotational_complex"
 			}
 			id: "56C2C5E62E9C2AB4"
-			tasks: [
-				{
-					count: 48L
-					id: "44F76DF9CE615B19"
-					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "43ADA02CEE6568D9"
-					item: { count: 1, id: "mekanismgenerators:turbine_valve" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "7B1381CF38E92EB9"
-					item: { count: 1, id: "mekanismgenerators:turbine_vent" }
-					type: "item"
-				}
-				{
-					id: "578FD7182E590339"
-					item: { count: 1, id: "mekanismgenerators:rotational_complex" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "694AE864BECA2F92"
-					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "0D7807DA4CDF007C"
-					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "4C5473135A22BEA0"
-					item: { count: 1, id: "mekanismgenerators:saturating_condenser" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "3D7808726FCE3E3F"
-					item: { count: 1, id: "mekanism:pressure_disperser" }
-					type: "item"
-				}
-				{
-					id: "32E6492DBFAA7409"
-					item: { count: 1, id: "mekanismgenerators:electromagnetic_coil" }
-					type: "item"
-				}
-				{
-					count: 48L
-					id: "4B1D7313EB904C62"
-					item: { count: 1, id: "mekanism:structural_glass" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "574A78E1E4094086"
+				type: "checkmark"
+			}]
 			x: -6.0d
 			y: 3.0d
 		}

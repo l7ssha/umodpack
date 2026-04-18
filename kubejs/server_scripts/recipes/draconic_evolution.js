@@ -386,4 +386,26 @@ ServerEvents.recipes(event => {
             "id": "draconicevolution:wyvern_core"
         }
     });
+
+    event.custom({
+        "type": "skyfalltesla:quasar_calling",
+        "pattern": [
+            "          ",
+            "          ",
+            "  AA  AA  ",
+            "  ABAABA  ",
+            "   ACCA   ",
+            "   ACCA   ",
+            "  ABAABA  ",
+            "  AA  AA  ",
+            "          ",
+            "          ",
+        ],
+        "key": {
+            "A": { "tag": "c:ingots/draconium_awakened" },
+            "B": { "item": "draconicevolution:large_chaos_frag" },
+            "C": { "item": "draconicevolution:awakened_core" },
+        },
+        "result": { "id": "draconicevolution:chaotic_core", "count": 1 }
+    });
 });
