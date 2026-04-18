@@ -96,6 +96,7 @@ const recipesById = [
     'mekanism:thermal_evaporation/controller',
     'mekanism:laser',
     'evolvedmekanism:nucleosynthesizing/alloy_subatomic',
+    'mekanism_extras:reaction/naquadah_uranium_fuel',
 
     // Ender IO
     'enderio:void_chassis',
