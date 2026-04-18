@@ -16,6 +16,7 @@
 	chapter.690F836F17324664.title: "PneumaticCraft"
 	chapter.69132560C39CCEB8.title: "Modpack's Multiblocks"
 	chapter.6DD97C624CBC07C0.title: "Storage and Logistics"
+	chapter.75BEF98C07B165AD.title: "Productive Bees"
 	chapter.75FC41543D04A4CF.title: "Magic"
 	chapter_group.2ABC132BCB871ED4.title: "Main Questline"
 	chapter_group.55FB4BDED3066FD0.title: "Topics"
@@ -37,7 +38,7 @@
 	quest.02B29290745E59C2.title: "Cores"
 	quest.03AE2BE3A97ED46C.title: "Eye of the Storm"
 	quest.040BE6A23D728F01.quest_subtitle: "Needs Magma block under it."
-	quest.04479A58ED222218.quest_desc: ["Inifinite source of heat, ice and milk ..."]
+	quest.04479A58ED222218.quest_desc: ["Infinite source of heat, ice and milk ..."]
 	quest.04479A58ED222218.quest_subtitle: "Fire, ice and milk?"
 	quest.04479A58ED222218.title: "Kitchen Upgrades"
 	quest.046183E1721A2D6A.title: "Vibranium"
@@ -156,7 +157,7 @@
 	quest.1688EE169F9598CB.quest_subtitle: "Guidance, not limitation"
 	quest.1688EE169F9598CB.title: "Quests"
 	quest.16E8AAAC211ACF76.title: "Storing Spirits"
-	quest.172B3E6FF69E743F.quest_desc: ["Kill Wither or Ender Dragon with weapon enchanted with Mystical Enlightment enchantment."]
+	quest.172B3E6FF69E743F.quest_desc: ["Kill Wither or Ender Dragon with weapon enchanted with Mystical Enlightenment enchantment."]
 	quest.172B3E6FF69E743F.quest_subtitle: "Wither and Ender Dragon drop"
 	quest.172B3E6FF69E743F.title: "Cognizant Dust"
 	quest.175DA2B8B3257FCE.title: "Liquid Sculk Matter"
@@ -228,7 +229,7 @@
 	quest.1F2CCA09C0C20755.title: "Sun Spirit"
 	quest.1F91B0C22E57B016.quest_subtitle: "Look for unobtainium in End Highlands"
 	quest.200B11B6D9005110.title: "Mekanism Fission Reactor"
-	quest.20153214A2E62564.quest_desc: ["AE2 solution to storing items are storage cell which can hold almost infinite amout of items. You might want to start small tho, you can use AE2's Storage Busses which can plug into your existing storage."]
+	quest.20153214A2E62564.quest_desc: ["AE2 solution to storing items are storage cell which can hold almost infinite amount of items. You might want to start small tho, you can use AE2's Storage Busses which can plug into your existing storage."]
 	quest.20153214A2E62564.title: "Storing items with AE2"
 	quest.20654903065E545D.title: "Runewood"
 	quest.2191C4C50F9BB1D0.title: "Easy Ore Doubling"
@@ -256,6 +257,7 @@
 	quest.23D8A64112364174.title: "Ether Gas"
 	quest.25DB013FA9367D22.title: "Supercritical Phase Shifter"
 	quest.27A9AC29C46CDD5E.title: "Sophisticated Storage"
+	quest.291A285F02FEB5F4.title: "Steel"
 	quest.29A2FBE9686A9669.title: "ME Energy Cell"
 	quest.29A5020EE6FF2FC3.quest_desc: [
 		"You can claim chunks to prevent griefing and chunk unloading."
@@ -363,7 +365,7 @@
 	quest.384DF6512D66ADDD.quest_desc: ["Since your starting HP is 5 hearts, you might start farming various fruits and vegetables early on. Each 10 unique meals eaten, you will gain 1 heart."]
 	quest.384DF6512D66ADDD.title: "Farming?"
 	quest.388ED4924F9C845C.title: "Draconium Core"
-	quest.38B0553C13704960.quest_desc: ["To start with Applied Energistics, you need to find a meteorite which will contains all necessary metarial for you to start."]
+	quest.38B0553C13704960.quest_desc: ["To start with Applied Energistics, you need to find a meteorite which will contains all necessary material for you to start."]
 	quest.38DEF831D64E9E0D.quest_desc: ["To make Verderium you need to mix Yellorium and Blutonium"]
 	quest.3939083010F6C52C.title: "Basic Pipe Upgrade"
 	quest.39AFC68F43B3EE11.title: "Radioactive Waste"
@@ -480,7 +482,7 @@
 	quest.5D14C4CD354FEE53.title: "Awakened Supremium"
 	quest.5D7BE545B3E760A4.title: "Ender Steel"
 	quest.5DABEB09B08AC921.quest_desc: ["Extracted from &2Liquid Naquadah Hexafluoride&r source block via Advanced Electric Pump with Ionic Membrane upgrade"]
-	quest.5DBBF71675201DB4.quest_desc: ["You can install many useful upgrades to your backpack. Ones I would reccomend are: 1) Crafting Upgrade, 2) Magnet upgrade, 3) Stack upgrade - to increase stack size inside backpack"]
+	quest.5DBBF71675201DB4.quest_desc: ["You can install many useful upgrades to your backpack. Ones I would recommend are: 1) Crafting Upgrade, 2) Magnet upgrade, 3) Stack upgrade - to increase stack size inside backpack"]
 	quest.5DBBF71675201DB4.title: "Backpack Upgrades"
 	quest.5E8C5A827F9FF35B.title: "Kill Piglich"
 	quest.6103C1881D338A4F.title: "Prudentium"
@@ -765,6 +767,7 @@
 	task.43B579B8521D4F80.title: "Immersive Engineering"
 	task.465365E0F9FC4986.title: "Meteor"
 	task.487980A87C348D7F.title: "Naquadah Uranium Fuel"
+	task.49BD7D1B2001C85B.title: "Any Steel Comb"
 	task.4B1A0C99635F4781.title: "Dragons"
 	task.4E21172BFE62F663.title: "Malum"
 	task.4EAD9AA15B8093B3.title: "Any Cell Housing"

@@ -349,5 +349,16 @@
 			x: -9.5d
 			y: -6.5d
 		}
+		{
+			dependencies: ["36E5AB40B180D6AC"]
+			id: "7106BCB31EE39187"
+			tasks: [{
+				id: "26261B0F19A7306F"
+				item: { components: { "relics:data": { abilities: { abilities: { runner: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { speed: { initialValue: 0.79873d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:running_shoes" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
 	]
 }

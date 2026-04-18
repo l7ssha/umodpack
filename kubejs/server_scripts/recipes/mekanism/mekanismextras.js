@@ -3,25 +3,25 @@ ServerEvents.recipes(event => {
         "type": "mekanism:reaction",
         "duration": 90,
         "energyRequired": 10000,
-        "fluidInput": {
+        "fluid_input": {
             "amount": 300,
             "fluid": "mekanism_extras:fluorinated_naquadah_uranium_fuel"
         },
-        "gasInput": {
-            "amount": 400,
-            "gas": "mekanism:osmium"
+        "chemical_input": {
+            "amount": 500,
+            "chemical": "mekanism:osmium"
         },
-        "itemInput": {
-            "ingredient": {
-                "tag": "c:dusts/vibranium_allthemodium"
-            }
+        "item_input": {
+            "count": 6,
+            "tag": "c:dusts/vibranium_allthemodium_alloy"
         },
-        "itemOutput": {
-            "item": "makmm:scrap_box"
+        "item_output": {
+            "count": 1,
+            "id": "mekmm:scrap_box"
         },
-        "gasOutput": {
+        "chemical_output": {
             "amount": 200,
-            "gas": "mekanism_extras:naquadah_uranium_fuel"
+            "id": "mekanism_extras:naquadah_uranium_fuel"
         }
     });
 });
