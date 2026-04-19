@@ -1923,6 +1923,7 @@ ServerEvents.recipes(event => {
             "CDE",
             "AB "
         ],
+        "tier": 1,
         "key": {
             "A": {
                 "tag": "c:alloys/overclocked"
@@ -1942,6 +1943,43 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "mekanism:laser"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "     ",
+            "ABCBA",
+            "AD EA",
+            "FAGAF",
+            " FFF "
+        ],
+        "key": {
+            "A": {
+                "item": "mekanismgenerators:saturating_condenser"
+            },
+            "B": {
+                "item": "mekanism:energy_tablet"
+            },
+            "C": {
+                "item": "industrialforegoing:water_condensator"
+            },
+            "D": {
+                "item": "mekanism:ultimate_fluid_tank"
+            },
+            "E": {
+                "item": "mekanism:ultimate_chemical_tank"
+            },
+            "F": {
+                "item": "mekanism:structural_glass"
+            },
+            "G": {
+                "item": "mekanism:steel_casing"
+            }
+        },
+        "result": {
+            "id": "mekanism:rotary_condensentrator"
         }
     });
 });

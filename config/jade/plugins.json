@@ -169,6 +169,11 @@
     "dim_block_base": true,
     "dim_tank": true
   },
+  "neoecoae": {
+    "eco_drive": true,
+    "eco_crafting_worker": true,
+    "eco_crafting_system": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,

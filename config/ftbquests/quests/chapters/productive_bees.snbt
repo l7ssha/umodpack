@@ -12,6 +12,605 @@
 	quests: [
 		{
 			icon: {
+				id: "actuallyadditions:black_quartz"
+			}
+			id: "7A1B2C3D4E5F6789"
+			tasks: [{
+				id: "5B289B8892D7F858"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:black_quartz\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "extendedae:entro_crystal"
+			}
+			id: "070251921028E098"
+			tasks: [{
+				id: "0C3D4E5F60718293"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:entro\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "ae2:fluix_crystal"
+			}
+			id: "326B0542CF1BFAA4"
+			tasks: [{
+				id: "30DA212E226EE4EC"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:fluix\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "appflux:redstone_crystal"
+			}
+			id: "57573D97AFA0C1B4"
+			tasks: [{
+				id: "04F9980C9AD54568"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:redstone_crystal\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "megacells:sky_bronze_ingot"
+			}
+			id: "00C48C39AD46CAC3"
+			tasks: [{
+				id: "7E43605266C9DB4B"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:sky_bronze\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "megacells:sky_osmium_ingot"
+			}
+			id: "0A1B2C3D4E5F6789"
+			tasks: [{
+				id: "1B2C3D4E5F67890A"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:sky_osmium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "megacells:sky_steel_ingot"
+			}
+			id: "2C3D4E5F67890AB1"
+			tasks: [{
+				id: "3D4E5F67890AB1C2"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:sky_steel\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "ae2:certus_quartz_crystal"
+			}
+			id: "4E5F67890AB1C2D3"
+			tasks: [{
+				id: "5F67890AB1C2D3E4"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:spacial\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "alltheores:brass_ingot"
+			}
+			id: "6F708192A3B4C5D6"
+			tasks: [{
+				id: "708192A3B4C5D6E7"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:brass\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "alltheores:bronze_ingot"
+			}
+			id: "64FC5BF96CF9CCBF"
+			tasks: [{
+				id: "13FDCF1A4919A187"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:bronze\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "alltheores:constantan_ingot"
+			}
+			id: "35FEBB14FEE92218"
+			tasks: [{
+				id: "355BEF0D61017F04"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:constantan\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "alltheores:electrum_ingot"
+			}
+			id: "6AC6FDDC7CF96CEE"
+			tasks: [{
+				id: "350C28C76C7D375B"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:electrum\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "alltheores:enderium_ingot"
+			}
+			id: "6B46F4613F3D2B95"
+			tasks: [{
+				id: "0CFAFF338E447C84"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:enderium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: 7.0d
+		}
+		{
+			icon: {
+				id: "alltheores:invar_ingot"
+			}
+			id: "09B0C1D2E3F4A5B6"
+			tasks: [{
+				id: "42CDD65FBEBE1E23"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:invar\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "alltheores:lumium_ingot"
+			}
+			id: "7E2CF111B2B8D8B1"
+			tasks: [{
+				id: "62B1AC24E3781CF3"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:lumium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "alltheores:signalum_ingot"
+			}
+			id: "263A23D676419AD7"
+			tasks: [{
+				id: "56255E1ECD86F51A"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:signalum\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: 6.0d
+		}
+		{
+			hide_lock_icon: true
+			icon: {
+				id: "allthemodium:allthemodium_ingot"
+			}
+			id: "6F3A4B5C6D7E8F01"
+			tasks: [{
+				id: "7A4B5C6D7E8F0123"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:allthemodium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -22.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "allthemodium:soul_lava_bucket"
+			}
+			id: "7EED1BB4F047B0D3"
+			tasks: [{
+				id: "308090123456789A"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:soul_lava\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -22.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "allthemodium:unobtainium_ingot"
+			}
+			id: "4C60A5ACB26E0F4E"
+			tasks: [{
+				id: "7C98F0B88B22D33E"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:unobtainium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -22.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "allthemodium:vibranium_ingot"
+			}
+			id: "164896E18671A7DE"
+			tasks: [{
+				id: "74405D02F1E3C8A1"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:vibranium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -21.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "draconicevolution:awakened_draconium_ingot"
+			}
+			id: "2A9900087C692B31"
+			tasks: [{
+				id: "1DF60A222E3657DA"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:awakened\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "draconicevolution:chaos_shard"
+			}
+			id: "5EA31636919BCEFA"
+			tasks: [{
+				id: "668FC430CE90E71B"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:chaos\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "draconicevolution:draconium_ingot"
+			}
+			id: "26F5C59DFBDA7E9A"
+			tasks: [{
+				id: "7FA63D899EFAB842"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:draconium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "minecraft:blaze_powder"
+			}
+			id: "49DA9CB37EEBC39A"
+			tasks: [{
+				id: "7665341E1D37FF07"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:blazing\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "minecraft:glowstone_dust"
+			}
+			id: "2762A499DF5B6CA2"
+			tasks: [{
+				id: "377BD08D7DC67FFC"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:glowing\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "alltheores:salt"
+			}
+			id: "631BFF99364CE548"
+			tasks: [{
+				id: "22BF72B91F1260A0"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:salty\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "alltheores:sulfur"
+			}
+			id: "3FE75716138F847B"
+			tasks: [{
+				id: "62C1E93E6CD569A4"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:sulfur\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "enderio:conductive_alloy_ingot"
+			}
+			id: "1F68F634E6D5EC05"
+			tasks: [{
+				id: "2D5A9E096F0B75C4"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:conductive_alloy\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -26.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "enderio:dark_steel_ingot"
+			}
+			id: "2657027B3C8A1149"
+			tasks: [{
+				id: "3742A0A40D36215C"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:dark_steel\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -25.5d
+			y: 7.0d
+		}
+		{
+			icon: {
+				id: "enderio:end_steel_ingot"
+			}
+			id: "7BDE48E2C50002A1"
+			tasks: [{
+				id: "0C3D7DE318AFAC1E"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:end_steel\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -25.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "enderio:energetic_alloy_ingot"
+			}
+			id: "45FDE9ADD8196923"
+			tasks: [{
+				id: "4F4E9E23A83A5F87"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:energetic_alloy\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -26.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "enderio:grains_of_infinity"
+			}
+			id: "4A0123456789012E"
+			tasks: [{
+				id: "5B1234567890123F"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:infinity\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -25.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "enderio:pulsating_alloy_ingot"
+			}
+			id: "5B12345678901234"
+			tasks: [{
+				id: "6C23456789012345"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:pulsating_alloy\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -25.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "enderio:redstone_alloy_ingot"
+			}
+			id: "4D95D81BB289C9F5"
+			tasks: [{
+				id: "7D34567890123456"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:redstone_alloy\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -26.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "enderio:soularium_ingot"
+			}
+			id: "253EA4733273F764"
+			tasks: [{
+				id: "7FB5F482915ABE7A"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:soularium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -24.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "enderio:vibrant_alloy_ingot"
+			}
+			id: "0AFD247DE5D499D8"
+			tasks: [{
+				id: "072B1A0253FD4088"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:vibrant_alloy\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -25.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "pneumaticcraft:oil_bucket"
+			}
+			id: "675EC4919F47131C"
+			tasks: [{
+				id: "37977A92DAF16B82"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:oily\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -26.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "fluxnetworks:flux_dust"
+			}
+			id: "44BF5D353DDD718A"
+			tasks: [{
+				id: "7FCBA07D19C12F8F"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:flux\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:amethyst_shard"
+			}
+			id: "028C411F076AC781"
+			tasks: [{
+				id: "4D5FC08C62A876BC"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:amethyst\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "alltheores:cinnabar"
+			}
+			id: "043C56D0C7C95341"
+			tasks: [{
+				id: "4C71E1CBB97949B6"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:cinnabar\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:quartz"
+			}
+			id: "1A360EFF48B7A3C7"
+			tasks: [{
+				id: "02DD6A210167C6A6"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:crystalline\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "alltheores:fluorite"
+			}
+			id: "5EFE2B5DD9A77DEB"
+			tasks: [{
+				id: "23A9E9832F4A0B03"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:fluorite\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "alltheores:peridot"
+			}
+			id: "4C26AF6BC5B68926"
+			tasks: [{
+				id: "4D0648B0574C1538"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:peridot\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "alltheores:ruby"
+			}
+			id: "27EFF840B488330B"
+			tasks: [{
+				id: "741A6375D3B21C8A"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:ruby\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "alltheores:sapphire"
+			}
+			id: "3253019341F93BD3"
+			tasks: [{
+				id: "4BCDEF0123579ABF"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:sapphire\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "alltheores:zinc_ingot"
+			}
+			id: "26856489F3B77A4F"
+			tasks: [{
+				id: "5B7E1EEC89F2CB63"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:zinc\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: 4.0d
+		}
+		{
+			icon: {
 				id: "alltheores:steel_ingot"
 			}
 			id: "291A285F02FEB5F4"
@@ -20,8 +619,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:steel\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.0d
+			x: -6.0d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -33,8 +632,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:iron\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 2.0d
+			x: -10.5d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -46,8 +645,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:coal\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 3.0d
+			x: -9.0d
+			y: 4.0d
 		}
 		{
 			icon: {
@@ -72,8 +671,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:diamond\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -12.0d
-			y: 5.0d
+			x: -11.0d
+			y: 4.0d
 		}
 		{
 			icon: {
@@ -85,8 +684,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:redstone\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: 6.0d
+			x: -10.5d
+			y: 5.0d
 		}
 		{
 			icon: {
@@ -98,8 +697,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:emerald\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -16.0d
-			y: 7.0d
+			x: -11.5d
+			y: 5.0d
 		}
 		{
 			icon: {
@@ -111,8 +710,405 @@
 				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:lapis\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -18.0d
-			y: 8.0d
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "iceandfire:dragonsteel_fire_ingot"
+			}
+			id: "75D87951CE54C073"
+			tasks: [{
+				id: "67890123456789BC"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:fire_dragonsteel\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "iceandfire:dragonsteel_ice_ingot"
+			}
+			id: "07890123456789CD"
+			tasks: [{
+				id: "01890123456789DE"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:ice_dragonsteel\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "iceandfire:dragonsteel_lightning_ingot"
+			}
+			id: "4E813CFCC965FC9D"
+			tasks: [{
+				id: "028A0123456789EF"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:lightning_dragonsteel\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "immersiveengineering:ingot_hop_graphite"
+			}
+			id: "28A0123456789EF0"
+			tasks: [{
+				id: "39B01234567890A1"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:hop_graphite\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "industrialforegoing:ether_gas_bucket"
+			}
+			id: "1C2858A5B6346F89"
+			tasks: [{
+				id: "4A97413512B145B2"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:ether_gas\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -29.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "industrialforegoing:pink_slime_bucket"
+			}
+			id: "3A86C2891B407BC3"
+			tasks: [{
+				id: "05E152377E923B5A"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:pink_slimy\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -28.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "irons_spellbooks:arcane_essence"
+			}
+			id: "61A721E7CCB73DA3"
+			tasks: [{
+				id: "034FAB7F3EFAFFC1"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:arcane_essence\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "justdirethings:blazegold_ingot"
+			}
+			id: "1B31B1E8D0EEA4AE"
+			tasks: [{
+				id: "46944CCC2946BFE8"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:blazegold\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -22.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "justdirethings:celestigem"
+			}
+			id: "0699F358A5F2A670"
+			tasks: [{
+				id: "2BF50DB773462CF2"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:celestigem\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "justdirethings:eclipsealloy_ingot"
+			}
+			id: "3D9D2982B37A8A8E"
+			tasks: [{
+				id: "59E43D5BDD61561A"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:eclipsealloy\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -22.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "justdirethings:ferricore_ingot"
+			}
+			id: "0671C864E3939327"
+			tasks: [{
+				id: "01902644ACA270D1"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:ferricore\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -23.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "justdirethings:time_crystal"
+			}
+			id: "21437BEED361B8E5"
+			tasks: [{
+				id: "1DB9F6E20A21F006"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:time_crystal\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -21.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "industrialforegoing:plastic"
+			}
+			id: "7E3177F311FE9DDB"
+			tasks: [{
+				id: "2277916A229C8BEB"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:plastic\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -29.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "mekanism:lithium_bucket"
+			}
+			id: "25508CDFA70657CF"
+			tasks: [{
+				id: "1399EBEE5B066A22"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:lithium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "mekanism:ingot_refined_glowstone"
+			}
+			id: "73D940F486D3FFF6"
+			tasks: [{
+				id: "68EEDDE0C49560F5"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:refined_glowstone\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "mekanism:ingot_refined_obsidian"
+			}
+			id: "5107FC83B1CBEA0C"
+			tasks: [{
+				id: "3B6D567B84FA6EB9"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:refined_obsidian\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "mekanism:radioactive_waste_barrel"
+			}
+			id: "110C25E7B1F4FC60"
+			tasks: [{
+				id: "440C71D45FD637A2"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:wasted_radioactive\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "minecraft:honey_block"
+			}
+			id: "54F199F6E6168B4D"
+			tasks: [{
+				id: "294CB4BCA4D4F2B8"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:imperial\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "mysticalagriculture:awakened_supremium_essence"
+			}
+			id: "45C241DDA051C8DE"
+			tasks: [{
+				id: "581AF8BBE3142CF2"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:awakened_supremium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -28.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "mysticalagriculture:imperium_essence"
+			}
+			id: "1119E7AF49D1C32C"
+			tasks: [{
+				id: "355751E5A0DF1506"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:imperium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -30.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "mysticalagriculture:inferium_essence"
+			}
+			id: "1B24F784005F5A9A"
+			tasks: [{
+				id: "6B3767E51C4B7707"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:inferium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -29.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "mysticalagradditions:insanium_essence"
+			}
+			id: "23EF000A3CA68014"
+			tasks: [{
+				id: "269828B2E11BF4E7"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:insanium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -28.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "mysticalagriculture:prosperity_shard"
+			}
+			id: "4F8C52E9AE911342"
+			tasks: [{
+				id: "0796C0EA33EF5533"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:prosperity\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -29.0d
+			y: 7.0d
+		}
+		{
+			icon: {
+				id: "mysticalagriculture:prudentium_essence"
+			}
+			id: "75317E7204C5B028"
+			tasks: [{
+				id: "3953EDDE28548AE0"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:prudentium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -29.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "mysticalagriculture:soulium_ingot"
+			}
+			id: "2D327E063E846AC6"
+			tasks: [{
+				id: "7F1D23EEFD06B681"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:soulium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -29.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "mysticalagriculture:supremium_essence"
+			}
+			id: "0693A5377FEE0B58"
+			tasks: [{
+				id: "6461F75534D6F3AA"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:supremium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -29.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "mysticalagriculture:tertium_essence"
+			}
+			id: "518837A751EC5646"
+			tasks: [{
+				id: "755741EAF08781DE"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:tertium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -28.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "occultism:iesnium_ingot"
+			}
+			id: "1605E61BBB719367"
+			tasks: [{
+				id: "68163E993F3D2CBD"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:iesnium\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "pneumaticcraft:ingot_iron_compressed"
+			}
+			id: "16FACE4EEF970A9E"
+			tasks: [{
+				id: "677246A1DB79F4FA"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"productivebees:bee_type\":\"productivebees:compressed_iron\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -25.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "0043CAA2021F4AF5"
+			tasks: [
+				{
+					id: "6CC876E449B18650"
+					type: "checkmark"
+				}
+				{
+					id: "1E5825B38E88CD71"
+					item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:water" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 1.0d
 		}
 	]
 }

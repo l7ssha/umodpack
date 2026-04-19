@@ -97,6 +97,7 @@ const recipesById = [
     'mekanism:laser',
     'evolvedmekanism:nucleosynthesizing/alloy_subatomic',
     'mekanism_extras:reaction/naquadah_uranium_fuel',
+    'mekanism:rotary_condensentrator',
 
     // Ender IO
     'enderio:void_chassis',
@@ -233,6 +234,8 @@ const recipesById = [
     'appflux:fe_housing',
     'extendedae_plus:mirror_pattern_binding_tool',
     'ae2_autorequester:autorequester',
+    'ae2tb:terminal_bookmark_interact_card',
+    'ae2:shaped/not_so_mysterious_cube',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',

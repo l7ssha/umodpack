@@ -22,11 +22,17 @@
 			y: 0.0d
 		}
 		{
+			icon: {
+				components: {
+					"ironjetpacks:jetpack_id": "ironjetpacks:creative"
+					"minecraft:rarity": "epic"
+				}
+				id: "ironjetpacks:jetpack"
+			}
 			id: "2B5090C97BCFAA49"
 			tasks: [{
-				id: "3D921F745BB72CEC"
-				item: { components: { "ironjetpacks:jetpack_id": "ironjetpacks:wood" }, count: 1, id: "ironjetpacks:jetpack" }
-				type: "item"
+				id: "3C2AD9698067AED1"
+				type: "checkmark"
 			}]
 			x: 0.5d
 			y: 2.0d

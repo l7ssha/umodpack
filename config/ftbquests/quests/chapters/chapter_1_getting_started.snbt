@@ -494,8 +494,8 @@
 				item: { count: 1, id: "minecraft:lava_bucket" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.5d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["71F3692E37561F71"]
@@ -890,6 +890,21 @@
 			}]
 			x: -9.5d
 			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3A0686AAEBCF9C88"
+				"2B5090C97BCFAA49"
+			]
+			id: "6B24855CE289E49E"
+			shape: "pentagon"
+			tasks: [{
+				id: "132C379AA05D7F68"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
 		}
 	]
 }

@@ -185,7 +185,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -244,8 +244,8 @@
 				item: { count: 1, id: "ae2:interface" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.5d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -517,7 +517,7 @@
 				item: { count: 1, id: "appgen:origination_processor" }
 				type: "item"
 			}]
-			x: -10.5d
+			x: -9.5d
 			y: 5.0d
 		}
 		{
@@ -551,12 +551,13 @@
 		{
 			dependencies: ["7F30E917DB781CD7"]
 			id: "2933B1442110F9E8"
+			shape: "octagon"
 			tasks: [{
 				id: "0EB9EF88BBBECD70"
 				item: { count: 1, id: "appgen:ember_crystal" }
 				type: "item"
 			}]
-			x: -11.5d
+			x: -8.0d
 			y: 5.0d
 		}
 		{
@@ -631,7 +632,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["5CE41900F0ACE50B"]
+			dependencies: ["1F579F8EC0B67D8B"]
 			id: "2370A6EA7631799B"
 			shape: "pentagon"
 			size: 1.3d
@@ -660,8 +661,8 @@
 					type: "item"
 				}
 			]
-			x: -1.9500000000000002d
-			y: 2.6d
+			x: -0.65d
+			y: 1.9500000000000002d
 		}
 		{
 			dependencies: ["321A93DE6ECA689B"]
@@ -682,7 +683,7 @@
 				item: { count: 1, id: "ae2:singularity" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: -7.0d
 		}
 		{
@@ -695,7 +696,7 @@
 				item: { count: 1, id: "ae2:quantum_entangled_singularity" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: -8.0d
 		}
 		{
@@ -711,7 +712,7 @@
 				item: { count: 1, id: "advanced_ae:shattered_singularity" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: -8.0d
 		}
 		{
@@ -838,7 +839,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -854,7 +855,7 @@
 				item: { count: 1, id: "extendedae:wireless_connect" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -10.0d
 			y: 1.0d
 		}
 		{
@@ -865,7 +866,7 @@
 				item: { count: 1, id: "extendedae:wireless_hub" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -10.0d
 			y: -0.5d
 		}
 		{
@@ -876,8 +877,8 @@
 				item: { count: 1, id: "ae2:wireless_access_point" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0B02159C224A96F5"]
@@ -887,8 +888,8 @@
 				item: { count: 1, id: "ae2:wireless_crafting_terminal" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["45A3DE1BF36C2AD8"]
@@ -898,8 +899,8 @@
 				item: { count: 1, id: "ae2wtlib:wireless_universal_terminal" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1113,7 +1114,7 @@
 				item: { count: 1, id: "extendedae_plus:wireless_transceiver" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -10.0d
 			y: -2.0d
 		}
 		{
@@ -1124,7 +1125,7 @@
 				item: { count: 1, id: "extendedae_plus:labeled_wireless_transceiver" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -10.0d
 			y: -3.5d
 		}
 		{
@@ -1135,7 +1136,7 @@
 				item: { count: 1, id: "extendedae_plus:channel_card" }
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.5d
 			y: -2.0d
 		}
 		{
@@ -1146,8 +1147,8 @@
 				item: { count: 1, id: "extendedae_plus:assembler_matrix_speed_plus" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.5d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["71D5E96BD3499E79"]
@@ -1157,8 +1158,8 @@
 				item: { count: 1, id: "extendedae_plus:assembler_matrix_crafter_plus" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["71D5E96BD3499E79"]
@@ -1168,8 +1169,8 @@
 				item: { count: 1, id: "extendedae_plus:assembler_matrix_pattern_plus" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["71D5E96BD3499E79"]
@@ -1179,8 +1180,8 @@
 				item: { count: 1, id: "extendedae_plus:assembler_matrix_upload_core" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0642BCFDF2C0DFC7"]
@@ -1190,7 +1191,7 @@
 				item: { count: 1, id: "extendedae_plus:mirror_pattern_provider" }
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.5d
 			y: 1.0d
 		}
 		{
@@ -1516,6 +1517,142 @@
 			}]
 			x: -11.5d
 			y: -7.5d
+		}
+		{
+			dependencies: ["7EA0107CE91A9B75"]
+			id: "4B9647ABBD08BE53"
+			tasks: [{
+				id: "2D1ADB56B1FD64AD"
+				item: { count: 1, id: "extendedae:ex_interface" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["40DE06C69D4CB23E"]
+			id: "6775727D76C842FC"
+			tasks: [{
+				id: "48A9C579CAFFC5E6"
+				item: { count: 1, id: "extendedae:ex_pattern_provider" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B9647ABBD08BE53"]
+			id: "7E037FD764D974E7"
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "7B8965774166ABF9"
+				item: { count: 1, id: "ae2tb:terminal_bookmark_interact_card" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D246348594A7CFF"]
+			id: "04C8C8A9951179D3"
+			tasks: [{
+				id: "3F15DC790150E2CD"
+				item: { count: 1, id: "appgen:generating_component_1k" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04C8C8A9951179D3"]
+			id: "751BFF7A5DEDE90B"
+			tasks: [{
+				id: "5CF81058D2FD60C6"
+				item: { count: 1, id: "appgen:flux_generator_1k" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["04C8C8A9951179D3"]
+			id: "4715777C0911A9AB"
+			tasks: [{
+				id: "26C5106CC33516B5"
+				item: { count: 1, id: "appgen:singularity_generator_1k" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2D246348594A7CFF"]
+			id: "593C529ACCADE441"
+			tasks: [{
+				id: "1885E971532A81AD"
+				item: { count: 1, id: "appgen:genesis_synthesizer" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5CE41900F0ACE50B"]
+			id: "1F579F8EC0B67D8B"
+			tasks: [{
+				id: "2391471CC11C0A52"
+				item: { count: 1, id: "advanced_ae:quantum_core" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40FF16AAE9CCEEB6"]
+			id: "5477DDED5B2F166A"
+			tasks: [{
+				id: "6594ED80B7FB78CD"
+				item: { count: 1, id: "merequester:requester" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1F579F8EC0B67D8B"]
+			id: "266385CEB26E24B4"
+			shape: "pentagon"
+			tasks: [{
+				id: "49DF5137FE239ACA"
+				item: { count: 1, id: "advanced_ae:quantum_crafter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5477DDED5B2F166A"]
+			id: "15AE1A4D65C7BAB8"
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "743534B223E81E01"
+				item: { count: 1, id: "ae2_autorequester:autorequester" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			id: "5C364241220EA176"
+			tasks: [{
+				id: "6BC216E9AA1D725D"
+				item: { count: 1, id: "extendedae_plus:entity_speed_ticker" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
 		}
 	]
 }
