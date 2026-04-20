@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
             {
                 "amount": 12,
                 "ingredient": {
-                    "item": "c:gems/amethyst"
+                    "tag": "c:gems/amethyst"
                 }
             }
         ],

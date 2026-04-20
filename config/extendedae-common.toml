@@ -28,7 +28,7 @@
 	#ME Infinity Cell idle energy cost (unit: AE/t)
 	# Default: 8.0
 	# Range: 0.1 ~ 64.0
-	infinity_cell_energy_cost = 5120
+	infinity_cell_energy_cost = 64.0
 	#Pattern modifier multipliers
 	pattern_modifier_multipliers = [2, 3, 5, 7]
 	#The AE device/part that can be packed by ME Packing Tape
