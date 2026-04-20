@@ -281,6 +281,12 @@ const recipesById = [
 
     // Productive Bees
     'modularbees:fill_dragon_breath',
+    'modularbees:scented_plank',
+    'modularbees:modular_centrifuge_part',
+    'modularbees:modular_beehive_part',
+    'modularbees:electrode_copper',
+    'modularbees:electrode_iron',
+    'modularbees:electrode_gold',
 
     // Allthemodium
     'allthemodium:teleport_pad',

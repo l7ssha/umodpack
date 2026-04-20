@@ -7,7 +7,7 @@
 		id: "minecraft:honeycomb"
 	}
 	id: "75BEF98C07B165AD"
-	order_index: 7
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -1576,6 +1576,452 @@
 			}]
 			x: -10.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["401E7E5835EDB911"]
+			id: "5BD63C07A64BE9FE"
+			shape: "circle"
+			tasks: [
+				{
+					id: "05BFCF971CB13AFD"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(productivebees:advanced_beehives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4C06C2832880A7C1"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(productivebees:expansion_boxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5BD63C07A64BE9FE"]
+			id: "1CBE54D25686514B"
+			tasks: [{
+				id: "51791E100C9B06A3"
+				item: { count: 1, id: "productivebees:centrifuge" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1CBE54D25686514B"]
+			id: "1D513485E135D3ED"
+			tasks: [{
+				id: "67148C6DE0C95E7E"
+				item: { count: 1, id: "productivebees:powered_centrifuge" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1D513485E135D3ED"]
+			id: "20BBFEFEEAF17040"
+			tasks: [{
+				id: "6FDFCC1B7ABF2C3E"
+				item: { count: 1, id: "productivebees:heated_centrifuge" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5BD63C07A64BE9FE"]
+			id: "024D5EB503141560"
+			tasks: [{
+				id: "7AC3039DF1D8F46D"
+				item: { count: 1, id: "productivelib:upgrade_productivity" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["024D5EB503141560"]
+			id: "6D517D3E43400F04"
+			tasks: [{
+				id: "424B06687331E81E"
+				item: { count: 1, id: "productivelib:upgrade_productivity_2" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6D517D3E43400F04"]
+			id: "7C669EC7BDF2BB6E"
+			tasks: [{
+				id: "4F65B9A1386FE87C"
+				item: { count: 1, id: "productivelib:upgrade_productivity_3" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"2397BFA00E7D575B"
+				"7C669EC7BDF2BB6E"
+			]
+			id: "343C0511A78A310B"
+			tasks: [{
+				id: "105B6CB888C99C11"
+				item: { count: 1, id: "productivelib:upgrade_productivity_4" }
+				type: "item"
+			}]
+			x: -20.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5BD63C07A64BE9FE"]
+			id: "328A3EF90D064CBC"
+			tasks: [{
+				id: "32AB998F97F2589A"
+				item: { count: 1, id: "productivelib:upgrade_time" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["328A3EF90D064CBC"]
+			id: "6236C787D99C17CD"
+			tasks: [{
+				id: "5713ED099CC6A4BA"
+				item: { count: 1, id: "productivelib:upgrade_time_2" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["29FF4481A97550F9"]
+			id: "5F9BB39CB9FADCFC"
+			tasks: [{
+				id: "22297C980E6855B5"
+				item: { count: 1, id: "productivelib:upgrade_simulator" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"6236C787D99C17CD"
+				"7C669EC7BDF2BB6E"
+			]
+			id: "2061671BBB5B030B"
+			tasks: [{
+				id: "49CDDA75B9AEAD95"
+				item: { count: 1, id: "productivelib:upgrade_stability" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5BD63C07A64BE9FE"]
+			id: "0FC8707A06A0C66C"
+			tasks: [{
+				id: "7A55C6196524F180"
+				item: { count: 1, id: "modularbees:scented_plank" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5BD63C07A64BE9FE"]
+			id: "57D02A79CAF220F5"
+			tasks: [{
+				id: "77575DF5726F3363"
+				item: { count: 1, id: "modular_machinery_reborn:casing_plain" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0FC8707A06A0C66C"]
+			hide_dependent_lines: true
+			id: "6273EB3924CEB432"
+			tasks: [{
+				id: "00D463540A6382F0"
+				item: { count: 1, id: "modularbees:modular_beehive_part" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6273EB3924CEB432"]
+			id: "78A1F7F4C06FE9EB"
+			size: 1.3d
+			tasks: [{
+				id: "40CDC5886207707F"
+				item: { count: 1, id: "modularbees:modular_beehive_core" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6273EB3924CEB432"]
+			id: "0EF644ECB30D43A6"
+			tasks: [{
+				id: "6F30703D1D452F65"
+				item: { count: 1, id: "modularbees:modular_beehive_alveary" }
+				type: "item"
+			}]
+			x: -22.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"6273EB3924CEB432"
+				"3FA6F6E38EC70710"
+				"23F93255BBEFD6AB"
+				"3A269E8C066ECEE8"
+				"7D2D58548FECBB1B"
+			]
+			id: "630846A46F1AB2BB"
+			tasks: [{
+				id: "1B97AD640E1C2DF1"
+				item: { count: 1, id: "modularbees:modular_beehive_overclocker" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6273EB3924CEB432"]
+			id: "1B788DA539F1F827"
+			tasks: [{
+				id: "450C69744EDDB8B1"
+				item: { count: 1, id: "modularbees:modular_treater" }
+				type: "item"
+			}]
+			x: -22.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6273EB3924CEB432"]
+			id: "7F82C207D02E631B"
+			tasks: [{
+				id: "41294454A089F537"
+				item: { count: 1, id: "modularbees:modular_export" }
+				type: "item"
+			}]
+			x: -20.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6273EB3924CEB432"]
+			id: "41BE660060F3C412"
+			tasks: [{
+				id: "29E1ACD18C615C26"
+				item: { count: 1, id: "modularbees:modular_beehive_stacker" }
+				type: "item"
+			}]
+			x: -22.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6273EB3924CEB432"]
+			id: "657CE9EA9AE52645"
+			tasks: [{
+				id: "2EF27D3552FF885F"
+				item: { count: 1, id: "modularbees:modular_beehive_feeder" }
+				type: "item"
+			}]
+			x: -21.5d
+			y: -7.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "3FA6F6E38EC70710"
+			tasks: [{
+				id: "2FECEA73495EBD0A"
+				item: { count: 1, id: "modularbees:electrode_copper" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -5.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "7D2D58548FECBB1B"
+			tasks: [{
+				id: "1D26F1B6309AE958"
+				item: { count: 1, id: "modularbees:electrode_iron" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -5.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "3A269E8C066ECEE8"
+			tasks: [{
+				id: "3122A0C5BE32CDFF"
+				item: { count: 1, id: "modularbees:electrode_gold" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -5.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "23F93255BBEFD6AB"
+			tasks: [{
+				id: "3E97C900128AD935"
+				item: { count: 1, id: "modularbees:electrode_netherite" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["57D02A79CAF220F5"]
+			hide_dependent_lines: true
+			id: "46368005C2CA45EF"
+			tasks: [{
+				id: "56BF955DAA940382"
+				item: { count: 1, id: "modularbees:modular_centrifuge_part" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"46368005C2CA45EF"
+				"1D513485E135D3ED"
+			]
+			hide_dependency_lines: true
+			id: "56CF9633ED2CB30C"
+			size: 1.3d
+			tasks: [{
+				id: "3D1FC3C787D3AB68"
+				item: { count: 1, id: "modularbees:modular_centrifuge_core" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"46368005C2CA45EF"
+				"3FA6F6E38EC70710"
+				"23F93255BBEFD6AB"
+				"3A269E8C066ECEE8"
+				"7D2D58548FECBB1B"
+			]
+			id: "41860E714AF6A97F"
+			tasks: [{
+				id: "4DA3CDC07CC756E8"
+				item: { count: 1, id: "modularbees:modular_centrifuge_overclocker" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["46368005C2CA45EF"]
+			id: "2A1B767C0CA5FEB7"
+			tasks: [{
+				id: "37BC44B838313749"
+				item: { count: 1, id: "modularbees:modular_centrifuge_export" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["46368005C2CA45EF"]
+			id: "425D758085E5D7D2"
+			tasks: [{
+				id: "22A94BA1614F116D"
+				item: { count: 1, id: "modularbees:modular_centrifuge_export" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["46368005C2CA45EF"]
+			id: "34FB822F5C004957"
+			tasks: [{
+				id: "3EF654DBF1C1774A"
+				item: { count: 1, id: "modularbees:modular_centrifuge_import" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"46368005C2CA45EF"
+				"20BBFEFEEAF17040"
+			]
+			hide_dependency_lines: true
+			id: "661721F2A54F5D4E"
+			tasks: [{
+				id: "039DD8261636A679"
+				item: { count: 1, id: "modularbees:modular_centrifuge_heater" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["46368005C2CA45EF"]
+			id: "5091FBBB093561D8"
+			tasks: [{
+				id: "3B2E7D82C58D6968"
+				item: { count: 1, id: "modularbees:modular_centrifuge_gearbox" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			id: "401E7E5835EDB911"
+			shape: "octagon"
+			size: 1.3d
+			tasks: [{
+				id: "7625EA169655077A"
+				item: { count: 1, id: "minecraft:honeycomb" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["5BD63C07A64BE9FE"]
+			id: "29FF4481A97550F9"
+			tasks: [{
+				id: "6BA651FFEACDACB8"
+				item: { count: 1, id: "productivelib:upgrade_anti_teleport" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6D517D3E43400F04"]
+			id: "2397BFA00E7D575B"
+			tasks: [{
+				id: "778CB31E5D974D9B"
+				item: { count: 1, id: "productivelib:upgrade_block" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: -13.5d
 		}
 	]
 }

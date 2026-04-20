@@ -264,6 +264,7 @@
 	quest.20153214A2E62564.quest_desc: ["AE2 solution to storing items are storage cell which can hold almost infinite amount of items. You might want to start small tho, you can use AE2's Storage Busses which can plug into your existing storage."]
 	quest.20153214A2E62564.title: "Storing items with AE2"
 	quest.20654903065E545D.title: "Runewood"
+	quest.20BBFEFEEAF17040.quest_subtitle: "Allows to procees comb blocks"
 	quest.21437BEED361B8E5.title: "Time Crystal"
 	quest.2191C4C50F9BB1D0.title: "Easy Ore Doubling"
 	quest.2193B23697447EED.title: "Coke Oven"
@@ -456,6 +457,7 @@
 	quest.3EFF5DCAF0077EB9.title: "Valkyrie Queen"
 	quest.3F04BC5CEA587B6A.title: "Plaslitherite"
 	quest.3FE75716138F847B.title: "Sulfur"
+	quest.401E7E5835EDB911.quest_subtitle: "It all starts with Honey"
 	quest.40FF16AAE9CCEEB6.title: "Using more than 8 channels"
 	quest.41598D162E9EC5EC.quest_desc: [
 		"Found above ground — easy to spot from distance."
@@ -557,6 +559,7 @@
 	quest.5B12345678901234.title: "Pulsating Alloy"
 	quest.5B520AB8CDB65058.title: "Redstone"
 	quest.5B6598E2A2BCDA62.title: "Pressurized Reaction Chamber"
+	quest.5BD63C07A64BE9FE.title: "Advanced Beehives"
 	quest.5BE0DF4F2BB0B3B3.title: "DimStorage"
 	quest.5BFC761807764DF1.quest_desc: ["Burning Blutonium in reactor will give you Magnetite"]
 	quest.5CE41900F0ACE50B.title: "MEGA Crafting Storage"
@@ -818,6 +821,7 @@
 	task.03E5DC025E07EB9B.title: "Advanced Circuits"
 	task.04F9980C9AD54568.title: "Any Redstone Crystal Comb"
 	task.059A89C7F523F14C.title: "Visit Unfinished Castle"
+	task.05BFCF971CB13AFD.title: "Any Advanced Beehive"
 	task.05E152377E923B5A.title: "Any Pink Slime Comb"
 	task.072B1A0253FD4088.title: "Any Vibrant Alloy Comb"
 	task.07858C3453698AC6.title: "Applied Pneumatics"
@@ -940,6 +944,7 @@
 	task.4A97413512B145B2.title: "Any Ether Comb"
 	task.4B1A0C99635F4781.title: "Dragons"
 	task.4BCDEF0123579ABF.title: "Any Sapphire Comb"
+	task.4C06C2832880A7C1.title: "Any Expansion Box"
 	task.4C71E1CBB97949B6.title: "Any Cinnabar Comb"
 	task.4D0648B0574C1538.title: "Any Peridot Comb"
 	task.4D5FC08C62A876BC.title: "Any Amethyst Comb"
