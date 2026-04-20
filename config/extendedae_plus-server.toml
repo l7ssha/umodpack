@@ -27,13 +27,13 @@
 	#无线收发器的基础待机能耗（AE/t），同时作用于普通与标签无线收发器
 	# Default: 100.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	wirelessIdlePower = 500.0
+	wirelessIdlePower = 1000
 
 [entitySpeedTicker]
 	#实体加速器能量消耗基础值
 	# Default: 512
 	# Range: > 0
-	entityTickerCost = 1024
+	entityTickerCost = 2048
 	#实体加速器黑名单：匹配的方块将不会被加速。支持通配符/正则（例如：minecraft:*）
 	#格式：全名或通配符/正则字符串，例如 'minecraft:chest'、'minecraft:*'、'modid:.*_fluid'
 	entityTickerBlackList = []

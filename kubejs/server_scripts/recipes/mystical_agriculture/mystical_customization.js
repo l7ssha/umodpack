@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
                 "item": "mysticalagradditions:insanium_coal_block"
             },
             "C": {
-                "item": "mysticalagradditions:insanium_gemstone_block"
+                "item": "mysticalagriculture:awakened_supremium_ingot_block"
             },
             "D": {
                 "item": "mysticalagradditions:insanium_block"

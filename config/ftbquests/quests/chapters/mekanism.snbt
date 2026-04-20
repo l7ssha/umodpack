@@ -178,7 +178,9 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["24FA34433BFA39DB"]
 			id: "69B1D635384818B2"
+			shape: "octagon"
 			tasks: [{
 				id: "5A0E06BC38B1FF0C"
 				item: { count: 1, id: "mekanism:rotary_condensentrator" }
@@ -222,6 +224,7 @@
 		}
 		{
 			id: "4A52229BF99CA3E5"
+			shape: "octagon"
 			tasks: [{
 				id: "03FBF5D9B2A593E1"
 				item: { count: 1, id: "mekanism:electric_pump" }
@@ -253,6 +256,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["0159B919DDB6C50C"]
 			id: "0944416E6E80F3F2"
 			shape: "octagon"
 			tasks: [
@@ -342,8 +346,8 @@
 				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 4.5d
+			x: -8.5d
+			y: 7.5d
 		}
 		{
 			id: "68A9D755E071F4E5"
@@ -353,8 +357,8 @@
 				item: { count: 1, id: "alltheores:fluorite" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 3.0d
+			x: -8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["17ECCEE70366069D"]
@@ -364,8 +368,8 @@
 				item: { count: 1, id: "mekanism:chemical_oxidizer" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: 4.5d
+			x: -7.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5D88146EC9D329AF"]
@@ -375,8 +379,8 @@
 				item: { count: 1, id: "mekanism:yellow_cake_uranium" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: 3.0d
+			x: -7.5d
+			y: 9.0d
 		}
 		{
 			id: "5D88146EC9D329AF"
@@ -386,8 +390,8 @@
 				item: { count: 1, id: "alltheores:uranium_ingot" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.5d
+			x: -7.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["2E166482A590576B"]
@@ -533,8 +537,8 @@
 				item: { count: 1, id: "mekanism:pellet_antimatter" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.5d
+			x: 4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["548074A5C0E5CD43"]
@@ -544,8 +548,8 @@
 				item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.5d
+			x: 3.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -553,6 +557,8 @@
 				"491AE3F0FF05C16C"
 			]
 			id: "136B7DB863F38456"
+			shape: "pentagon"
+			size: 1.3d
 			tasks: [
 				{
 					id: "686391DAD7B1BAE3"
@@ -565,8 +571,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 6.0d
+			x: 3.9000000000000004d
+			y: 9.75d
 		}
 		{
 			dependencies: [
@@ -606,10 +612,15 @@
 			y: 5.0d
 		}
 		{
+			dependencies: [
+				"6AEC30C45D80423E"
+				"6AE8611CDFAE5A13"
+			]
 			icon: {
 				id: "mekanism:laser"
 			}
 			id: "109046C9A2819DF6"
+			shape: "octagon"
 			tasks: [
 				{
 					count: 4L
@@ -625,6 +636,177 @@
 			]
 			x: 2.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["660B83E25AA809DF"]
+			id: "187401F3B979E018"
+			tasks: [
+				{
+					id: "136CF4BD05CC993A"
+					item: { count: 1, id: "mekanism_extras:naquadah_reactor_controller" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1E39040E8B7F15E1"
+					item: { count: 1, id: "mekanism_extras:naquadah_reactor_port" }
+					type: "item"
+				}
+				{
+					count: 108L
+					id: "650EE760D773D846"
+					item: { count: 1, id: "mekanism_extras:naquadah_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 214L
+					id: "3472BE0B69019212"
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+				{
+					id: "42419FC2D70A75EF"
+					item: { count: 1, id: "mekanism_extras:lead_coated_laser_focus_matrix" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"48A1F90BD5DCEFF5"
+				"187401F3B979E018"
+				"1366158BE7198637"
+				"5DABEB09B08AC921"
+			]
+			id: "03A4186ABDF5E68A"
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "1C41787A7FE2DF96"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"5D5E5CE962CD435E"
+				"67BB893F0D20300A"
+			]
+			id: "48A1F90BD5DCEFF5"
+			tasks: [{
+				id: "487980A87C348D7F"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5C8C4ED786F279DC"
+				"17ECCEE70366069D"
+			]
+			id: "5D5E5CE962CD435E"
+			tasks: [{
+				id: "5D90485DA4AFAD5E"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"5E1AF46D865B6AFF"
+				"5C8C4ED786F279DC"
+			]
+			id: "67BB893F0D20300A"
+			tasks: [{
+				id: "63572537BC622D1E"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			id: "5E1AF46D865B6AFF"
+			shape: "octagon"
+			tasks: [{
+				id: "0A6AB1493EE6D607"
+				item: { count: 1, id: "mekanism_extras:ingot_naquadah" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			id: "5C8C4ED786F279DC"
+			shape: "octagon"
+			tasks: [{
+				id: "6E0CCB1C0CAB3D58"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5D5E5CE962CD435E"]
+			id: "1366158BE7198637"
+			tasks: [{
+				id: "50EC8E230C9152A9"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["67BB893F0D20300A"]
+			id: "5DABEB09B08AC921"
+			tasks: [{
+				id: "41BD1E60F6947E90"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["03A4186ABDF5E68A"]
+			id: "45DF481E0C8E4841"
+			tasks: [{
+				id: "13DA6EE02A3B1C6B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["45DF481E0C8E4841"]
+			icon: {
+				id: "mekanism:thermal_evaporation_controller"
+			}
+			id: "35E3A460B296486E"
+			tasks: [{
+				id: "2046E7FE474AB58E"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["35E3A460B296486E"]
+			icon: {
+				id: "mekanism:solar_neutron_activator"
+			}
+			id: "4F070827562B61A8"
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "375A2C445F1C87CD"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 12.5d
 		}
 	]
 }

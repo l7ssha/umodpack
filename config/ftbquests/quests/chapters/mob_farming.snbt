@@ -259,6 +259,7 @@
 		{
 			dependencies: ["78823D47C5EB89B6"]
 			id: "5F5AC95A8E029FA1"
+			shape: "square"
 			tasks: [{
 				id: "310A1CDF9201A97E"
 				item: { count: 1, id: "woot_revived:copper_efficiency_upgrade" }
@@ -270,6 +271,7 @@
 		{
 			dependencies: ["78823D47C5EB89B6"]
 			id: "078E08510A92514F"
+			shape: "square"
 			tasks: [{
 				id: "688DC69063FB0834"
 				item: { count: 1, id: "woot_revived:copper_decapitate_upgrade" }
@@ -281,6 +283,7 @@
 		{
 			dependencies: ["78823D47C5EB89B6"]
 			id: "3468E512D3F23976"
+			shape: "square"
 			tasks: [{
 				id: "59812EDC5007C999"
 				item: { count: 1, id: "woot_revived:burn_upgrade" }
@@ -292,6 +295,7 @@
 		{
 			dependencies: ["78823D47C5EB89B6"]
 			id: "63E08F6FA19CBAED"
+			shape: "square"
 			tasks: [{
 				id: "13E612AEF960D924"
 				item: { count: 1, id: "woot_revived:copper_looting_upgrade" }
@@ -303,6 +307,7 @@
 		{
 			dependencies: ["78823D47C5EB89B6"]
 			id: "62A70052BEC62C4F"
+			shape: "square"
 			tasks: [{
 				id: "2A6CFCFF7DADC63A"
 				item: { count: 1, id: "woot_revived:copper_mass_upgrade" }
@@ -314,6 +319,7 @@
 		{
 			dependencies: ["78823D47C5EB89B6"]
 			id: "137D4A1C4A7B0FEB"
+			shape: "square"
 			tasks: [{
 				id: "6707F2BF8CBEB1B1"
 				item: { count: 1, id: "woot_revived:copper_rate_upgrade" }
@@ -325,6 +331,7 @@
 		{
 			dependencies: ["78823D47C5EB89B6"]
 			id: "7A39679290E1E31C"
+			shape: "square"
 			tasks: [{
 				id: "3649168789C9F809"
 				item: { count: 1, id: "woot_revived:iron_shard_drop_upgrade" }
@@ -336,6 +343,7 @@
 		{
 			dependencies: ["78823D47C5EB89B6"]
 			id: "440024A003A0E6E5"
+			shape: "square"
 			tasks: [{
 				id: "53066E9CA1D148AD"
 				item: { count: 1, id: "woot_revived:copper_xp_upgrade" }
@@ -394,6 +402,7 @@
 		{
 			dependencies: ["21DDE9D750287AE1"]
 			id: "09F87C2B8317991F"
+			shape: "pentagon"
 			tasks: [{
 				id: "3F426F49254E1FBB"
 				item: { count: 1, id: "woot_revived:xp_shard" }
@@ -1943,8 +1952,8 @@
 				item: { count: 1, id: "industrialforegoing:animal_rancher" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.5d
+			x: -0.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["6A2C18C2878001AE"]
@@ -2226,6 +2235,41 @@
 			}]
 			x: -0.5d
 			y: 7.0d
+		}
+		{
+			dependencies: ["6A2C18C2878001AE"]
+			id: "189FC4AB5F2D240E"
+			shape: "square"
+			tasks: [{
+				id: "7A207E3DAD4D391F"
+				item: { count: 1, id: "industrialforegoing:pink_slime_bucket" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			id: "2BDAD814945A4A4D"
+			shape: "octagon"
+			tasks: [{
+				id: "5814F9A071994328"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:amber" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BDAD814945A4A4D"]
+			id: "61A8A577FD56AC5A"
+			shape: "pentagon"
+			tasks: [{
+				id: "0BAD07C0C1272342"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:wanna" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
 		}
 	]
 }
