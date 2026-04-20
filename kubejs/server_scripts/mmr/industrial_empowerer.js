@@ -276,4 +276,22 @@ ServerEvents.recipes(event => {
         ],
         []
     );
+
+    mmrRecipe(
+        "mmr:industrial_empowerer",
+        600,
+        1000,
+        [
+            "12x #c:gunpowders",
+            "12x minecraft:rotten_flesh",
+            "12x minecraft:spider_eye",
+        ],
+        [
+            "6000x pneumaticcraft:plastic",
+        ],
+        [],
+        [
+            "3000x pneumaticcraft:etching_acid"
+        ]
+    );
 });

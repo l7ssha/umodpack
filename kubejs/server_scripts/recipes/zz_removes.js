@@ -237,6 +237,10 @@ const recipesById = [
     'ae2tb:terminal_bookmark_interact_card',
     'ae2:shaped/not_so_mysterious_cube',
 
+    // Neo Eco AE
+    /neoecoae:aluminum_(axe|shovel|pickaxe|sword)/,
+    /neoecoae:\/crafting\/repairing\/neoecoae\/aluminum_(axe|shovel|pickaxe|sword)/,
+
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
 
@@ -287,6 +291,7 @@ const recipesById = [
     'modularbees:electrode_copper',
     'modularbees:electrode_iron',
     'modularbees:electrode_gold',
+    'productivelib:upgrades/base_pb',
 
     // Allthemodium
     'allthemodium:teleport_pad',

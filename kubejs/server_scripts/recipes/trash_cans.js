@@ -1,4 +1,4 @@
- n ServerEvents.recipes(event => {
+ServerEvents.recipes(event => {
     event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [

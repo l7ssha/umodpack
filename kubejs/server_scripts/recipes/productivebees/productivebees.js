@@ -159,4 +159,40 @@ ServerEvents.recipes(event => {
             "id": "modularbees:electrode_gold"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "    A    ",
+            "   ABA   ",
+            "  ABBBA  ",
+            " ACDEDCA ",
+            " ACEDECA ",
+            " ACDEDCA ",
+            "  ABBBA  ",
+            "   ABA   ",
+            "    A    "
+        ],
+        "key": {
+            "A": {
+                "tag": "c:rods/treated_wood"
+            },
+            "B": {
+                "tag": "c:gems/emerald"
+            },
+            "C": {
+                "tag": "c:plates/diamond"
+            },
+            "D": {
+                "tag": "c:paper"
+            },
+            "E": {
+                "tag": "c:honeycombs"
+            }
+        },
+        "result": {
+            "count": 2,
+            "id": "productivelib:upgrade_base"
+        }
+    });
 });
