@@ -1,0 +1,124 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "draconic_evolution"
+	group: "77EEC754FC5E3E91"
+	icon: {
+		id: "draconicevolution:awakened_core"
+	}
+	id: "4198791CE7715744"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "25589C1963850232"
+			shape: "octagon"
+			tasks: [{
+				id: "7A87DFB65D36887C"
+				item: { count: 1, id: "draconicevolution:draconium_ingot" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25589C1963850232"]
+			id: "2552087B6454C3E3"
+			tasks: [{
+				id: "62EAD85D8B742C78"
+				item: { count: 1, id: "draconicevolution:draconium_core" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2552087B6454C3E3"]
+			id: "6459B8B55028A3B1"
+			tasks: [{
+				id: "37D7DEBA209F3339"
+				item: { count: 1, id: "draconicevolution:crafting_core" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6459B8B55028A3B1"]
+			id: "68C37FA06ADD1B89"
+			tasks: [{
+				id: "0941866EE97CD688"
+				item: { count: 1, id: "draconicevolution:basic_crafting_injector" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68C37FA06ADD1B89"]
+			id: "010BFCF25D098CDF"
+			tasks: [{
+				id: "21DD86660A464FBF"
+				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["010BFCF25D098CDF"]
+			id: "10DA5AFAB35E16D5"
+			tasks: [{
+				id: "1E50799C68596F11"
+				item: { count: 1, id: "draconicevolution:awakened_crafting_injector" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10DA5AFAB35E16D5"]
+			id: "1BD43B9DE8CEF6E0"
+			tasks: [{
+				id: "5F0248927C640600"
+				item: { count: 1, id: "draconicevolution:chaotic_crafting_injector" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["62E89960237991A8"]
+			id: "67F2E130894C2DE9"
+			tasks: [{
+				id: "525AB12E343289EC"
+				item: { count: 1, id: "draconicevolution:awakened_core" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2552087B6454C3E3"]
+			id: "11390B901CFC2398"
+			tasks: [{
+				id: "72405E8E20DEC52D"
+				item: { count: 1, id: "draconicevolution:wyvern_core" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["010BFCF25D098CDF"]
+			id: "62E89960237991A8"
+			tasks: [{
+				id: "630867E73066E919"
+				item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+	]
+}
