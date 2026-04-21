@@ -195,4 +195,113 @@ ServerEvents.recipes(event => {
             "id": "productivelib:upgrade_base"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAA  AA",
+            "ABBCBBA",
+            "ABDCDBA",
+            "EEFGFEE",
+            "EBHFHBE",
+            "ABBEBBA",
+            "AAAAAAA"
+        ],
+        "key": {
+            "A": {
+                "item": "modularbees:modular_centrifuge_part"
+            },
+            "B": {
+                "tag": "c:plates/allthemodium"
+            },
+            "C": {
+                "item": "pneumaticcraft:printed_circuit_board"
+            },
+            "D": {
+                "tag": "c:circuits/supreme"
+            },
+            "E": {
+                "tag": "advancednetherite:ingot/netherites_diamond"
+            },
+            "F": {
+                "item": "productivebees:powered_centrifuge"
+            },
+            "G": {
+                "item": "immersiveengineering:logic_unit"
+            },
+            "H": {
+                "item": "productivelib:upgrade_entity_filter"
+            }
+        },
+        "result": {
+            "id": "modularbees:modular_centrifuge_core"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAAAAAA",
+            "ABBBBBA",
+            "ACDDDCA",
+            "ACEEECA",
+            "ACF FCA",
+            "ABBGBBA",
+            "AAAAAAA"
+        ],
+        "key": {
+            "A": {
+                "item": "modularbees:scented_plank"
+            },
+            "B": {
+                "tag": "c:plates/allthemodium"
+            },
+            "C": {
+                "tag": "c:iron_bars"
+            },
+            "D": {
+                "item": "productivelib:upgrade_simulator"
+            },
+            "E": {
+                "item": "productivetrees:advanced_alder_beehive"
+            },
+            "F": {
+                "tag": "c:circuits/supreme"
+            },
+            "G": {
+                "item": "productivelib:upgrade_adult"
+            }
+        },
+        "result": {
+            "id": "modularbees:modular_beehive_core"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AABAA",
+            "ACDCA",
+            "BD DB",
+            "ACDCA",
+            "AABAA"
+        ],
+        "key": {
+            "A": {
+                "item": "modularbees:scented_plank"
+            },
+            "B": {
+                "item": "productivebees:wax_block"
+            },
+            "C": {
+                "tag": "advancednetherite:ingot/netherites_diamond"
+            },
+            "D": {
+                "tag": "c:iron_bars"
+            }
+        },
+        "result": {
+            "id": "modularbees:modular_beehive_part"
+        }
+    });
 });

@@ -236,10 +236,27 @@ const recipesById = [
     'ae2_autorequester:autorequester',
     'ae2tb:terminal_bookmark_interact_card',
     'ae2:shaped/not_so_mysterious_cube',
+    'advanced_ae:eaequantumaccel',
+    'advanced_ae:quantumstorage128',
 
     // Neo Eco AE
     /neoecoae:aluminum_(axe|shovel|pickaxe|sword)/,
     /neoecoae:\/crafting\/repairing\/neoecoae\/aluminum_(axe|shovel|pickaxe|sword)/,
+    'neoecoae:computation_parallel_core_l4',
+    'neoecoae:eco_cell_component_16m',
+    'neoecoae:eco_computation_cell_l4',
+    'neoecoae:computation_threading_core_l4',
+    'neoecoae:computation_drive',
+    'neoecoae:computation_cooling_controller_l4',
+    'neoecoae:crafting_casing',
+    'neoecoae:crafting_pattern_bus',
+    'neoecoae:crafting_worker',
+    'neoecoae:crafting_parallel_core_l4',
+    'neoecoae:crafting_vent',
+    'neoecoae:computation_transmitter',
+    /neoecoae:eco_.*_cell_housing/,
+    /neoecoae:add_item_upgrade\/eco_.*_storage_cell_.*m/,
+    /neoecoae:eco_.*_storage_cell_.*m/,
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
@@ -287,11 +304,13 @@ const recipesById = [
     'modularbees:fill_dragon_breath',
     'modularbees:scented_plank',
     'modularbees:modular_centrifuge_part',
-    'modularbees:modular_beehive_part',
     'modularbees:electrode_copper',
     'modularbees:electrode_iron',
     'modularbees:electrode_gold',
     'productivelib:upgrades/base_pb',
+    'modularbees:modular_centrifuge_core',
+    'modularbees:modular_beehive_core',
+    'modularbees:modular_beehive_part',
 
     // Allthemodium
     'allthemodium:teleport_pad',

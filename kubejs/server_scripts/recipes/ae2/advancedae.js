@@ -235,4 +235,65 @@ ServerEvents.recipes(event => {
             "id": "extendedae_plus:mirror_pattern_binding_tool"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "  A  ",
+            " BCB ",
+            "ACDCA",
+            " BCB ",
+            "  A  "
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "item": "advanced_ae:quantum_unit"
+            },
+            "B": {
+                "item": "extendedae:concurrent_processor"
+            },
+            "C": {
+                "item": "advanced_ae:shattered_singularity"
+            },
+            "D": {
+                "item": "megacells:mega_crafting_accelerator"
+            }
+        },
+        "result": {
+            "id": "advanced_ae:quantum_accelerator"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "A BCC",
+            " CACC",
+            "BDEDB",
+            "CCAC ",
+            "CCB A"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "item": "advanced_ae:shattered_singularity"
+            },
+            "B": {
+                "item": "megacells:cell_component_4m"
+            },
+            "C": {
+                "item": "advanced_ae:quantum_unit"
+            },
+            "D": {
+                "item": "advanced_ae:quantum_storage_component"
+            },
+            "E": {
+                "item": "megacells:1m_crafting_storage"
+            }
+        },
+        "result": {
+            "id": "advanced_ae:quantum_storage_128"
+        }
+    });
 });

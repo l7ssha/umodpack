@@ -19,6 +19,11 @@
 			}
 			icon_scale: 0.7d
 			id: "712E8E6207EB887F"
+			rewards: [{
+				id: "4B40F847307ED3C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{

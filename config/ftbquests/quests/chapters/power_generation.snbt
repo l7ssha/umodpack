@@ -107,6 +107,9 @@
 		}
 		{
 			dependencies: ["5B6A55314736E0F5"]
+			icon: {
+				id: "mekanismgenerators:control_rod_assembly"
+			}
 			id: "200B11B6D9005110"
 			tasks: [{
 				id: "501C80C6B20CD434"

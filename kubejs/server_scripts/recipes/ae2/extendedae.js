@@ -704,7 +704,7 @@ ServerEvents.recipes(event => {
         ],
         "key": {
             "A": {
-                "item": "avaritia_integration:blaze_cube_double_plate"
+                "tag": "c:plates/diamond"
             },
             "B": {
                 "item": "re_endergy:capacitor_crystalline"
@@ -749,7 +749,7 @@ ServerEvents.recipes(event => {
                 "tag": "c:storage_blocks/quartz"
             },
             "E": {
-                "item": "avaritia_integration:blaze_cube_double_plate"
+                "tag": "c:plates/diamond"
             }
         },
         "result": {

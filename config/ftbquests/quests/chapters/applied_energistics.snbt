@@ -230,8 +230,8 @@
 				item: { count: 1, id: "ae2:pattern_provider" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.5d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -373,7 +373,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -388,7 +388,7 @@
 				item: { count: 1, id: "megacells:cell_component_1m" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 2.5d
 			y: 1.0d
 		}
 		{
@@ -400,7 +400,7 @@
 				item: { count: 1, id: "megacells:cell_component_4m" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -412,7 +412,7 @@
 				item: { count: 1, id: "megacells:cell_component_16m" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -424,7 +424,7 @@
 				item: { count: 1, id: "megacells:cell_component_64m" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 4.0d
 			y: 0.5d
 		}
 		{
@@ -436,7 +436,7 @@
 				item: { count: 1, id: "megacells:cell_component_256m" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 3.5d
 			y: 1.0d
 		}
 		{
@@ -448,7 +448,7 @@
 				item: { count: 1, id: "megacells:mega_item_cell_housing" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 2.0d
 			y: 0.5d
 		}
 		{
@@ -459,7 +459,7 @@
 				item: { count: 1, id: "megacells:accumulation_processor" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -473,7 +473,7 @@
 				item: { count: 1, id: "megacells:sky_steel_ingot" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -484,7 +484,7 @@
 				item: { count: 1, id: "appflux:energy_processor" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 3.5d
 		}
 		{
@@ -495,7 +495,7 @@
 				item: { count: 1, id: "extendedae:concurrent_processor" }
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.5d
 			y: 4.0d
 		}
 		{
@@ -506,8 +506,8 @@
 				item: { count: 1, id: "advanced_ae:quantum_processor" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.5d
+			x: 8.999999999999998d
+			y: 10.3d
 		}
 		{
 			dependencies: ["2933B1442110F9E8"]
@@ -517,8 +517,8 @@
 				item: { count: 1, id: "appgen:origination_processor" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: 5.0d
+			x: -10.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7F30E917DB781CD7"]
@@ -529,7 +529,7 @@
 				item: { count: 1, id: "appflux:redstone_crystal" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 3.5d
 		}
 		{
@@ -545,8 +545,8 @@
 				item: { count: 1, id: "advanced_ae:quantum_alloy" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.5d
+			x: 7.999999999999999d
+			y: 10.3d
 		}
 		{
 			dependencies: ["7F30E917DB781CD7"]
@@ -557,8 +557,8 @@
 				item: { count: 1, id: "appgen:ember_crystal" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 5.0d
+			x: -10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["54C1227A2440B1A9"]
@@ -569,7 +569,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -582,7 +582,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(megacells:1m_crafting_storage)item(megacells:4m_crafting_storage)item(megacells:16m_crafting_storage)item(megacells:64m_crafting_storage)item(megacells:256m_crafting_storage))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.0d
 			y: 2.5d
 		}
 		{
@@ -628,8 +628,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -0.5d
+			x: -2.6d
+			y: 3.2500000000000004d
 		}
 		{
 			dependencies: ["1F579F8EC0B67D8B"]
@@ -641,11 +641,6 @@
 					count: 98L
 					id: "4A2BAB6AE88F6115"
 					item: { count: 1, id: "advanced_ae:quantum_structure" }
-					type: "item"
-				}
-				{
-					id: "20B0B766D46A1605"
-					item: { count: 1, id: "advanced_ae:quantum_storage_128" }
 					type: "item"
 				}
 				{
@@ -661,8 +656,8 @@
 					type: "item"
 				}
 			]
-			x: -0.65d
-			y: 1.9500000000000002d
+			x: -7.15d
+			y: 5.2d
 		}
 		{
 			dependencies: ["321A93DE6ECA689B"]
@@ -730,8 +725,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 7.5d
+			x: 6.5d
+			y: 10.3d
 		}
 		{
 			dependencies: [
@@ -746,8 +741,8 @@
 				item: { count: 1, id: "advanced_ae:quantum_storage_component" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.5d
+			x: 5.0d
+			y: 10.3d
 		}
 		{
 			dependencies: ["3F21A853185589C4"]
@@ -760,8 +755,8 @@
 				item: { count: 1, id: "enderdrives:ender_storage_component_1k" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 8.8d
+			x: 5.0d
+			y: 11.600000000000001d
 		}
 		{
 			dependencies: ["64FE6DDF2B7C31D0"]
@@ -774,8 +769,8 @@
 				item: { count: 1, id: "enderdrives:ender_storage_component_4k" }
 				type: "item"
 			}]
-			x: -2.3d
-			y: 8.8d
+			x: 4.2d
+			y: 11.600000000000001d
 		}
 		{
 			dependencies: ["590AF057F992946D"]
@@ -788,8 +783,8 @@
 				item: { count: 1, id: "enderdrives:ender_storage_component_16k" }
 				type: "item"
 			}]
-			x: -2.3d
-			y: 9.600000000000001d
+			x: 4.2d
+			y: 12.400000000000002d
 		}
 		{
 			dependencies: ["0C341A57418C7D0C"]
@@ -802,8 +797,8 @@
 				item: { count: 1, id: "enderdrives:ender_storage_component_64k" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 9.600000000000001d
+			x: 5.0d
+			y: 12.400000000000002d
 		}
 		{
 			dependencies: ["23DFAA3AAB876991"]
@@ -816,8 +811,8 @@
 				item: { count: 1, id: "enderdrives:ender_storage_component_256k" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 10.4d
+			x: 5.0d
+			y: 13.2d
 		}
 		{
 			dependencies: [
@@ -929,7 +924,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(appflux:core_1k)item(appflux:core_4k)item(appflux:core_16k)item(appflux:core_64k)item(appflux:core_256k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: 3.5d
 		}
 		{
@@ -941,7 +936,7 @@
 				item: { count: 1, id: "appflux:fe_cell_housing" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -953,8 +948,8 @@
 				item: { count: 1, id: "ae2omnicells:omni_cell_component_1k" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.5d
+			x: 1.9999999999999998d
+			y: 8.3d
 		}
 		{
 			dependencies: ["3D8BC89124C475CA"]
@@ -965,8 +960,8 @@
 				item: { count: 1, id: "ae2omnicells:complex_omni_cell_component_1k" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 4.5d
+			x: 0.9999999999999998d
+			y: 7.3d
 		}
 		{
 			dependencies: [
@@ -984,8 +979,8 @@
 				item: { count: 1, id: "ae2omnicells:quantum_omni_cell_component_1k" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 7.5d
+			x: 1.9999999999999998d
+			y: 10.3d
 		}
 		{
 			dependencies: ["2599AE4728216BC5"]
@@ -996,8 +991,8 @@
 				item: { count: 1, id: "ae2omnicells:complex_omni_cell_housing" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.0d
+			x: 1.4999999999999998d
+			y: 6.8d
 		}
 		{
 			dependencies: ["231054F9F1F3E202"]
@@ -1008,8 +1003,8 @@
 				item: { count: 1, id: "ae2omnicells:omni_cell_housing" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.0d
+			x: 2.5d
+			y: 7.8d
 		}
 		{
 			dependencies: ["5D7BE545B3E760A4"]
@@ -1019,8 +1014,8 @@
 				item: { count: 1, id: "ae2omnicells:omni_link_processor" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.5d
+			x: 5.0d
+			y: 8.3d
 		}
 		{
 			dependencies: ["2B087CA6B08DA3C1"]
@@ -1030,8 +1025,8 @@
 				item: { count: 1, id: "ae2omnicells:complex_link_processor" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.5d
+			x: 4.5d
+			y: 7.3d
 		}
 		{
 			dependencies: ["7F30E917DB781CD7"]
@@ -1043,8 +1038,8 @@
 				item: { count: 1, id: "ae2omnicells:ender_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: 6.5d
+			y: 8.3d
 		}
 		{
 			dependencies: [
@@ -1059,8 +1054,8 @@
 				item: { count: 1, id: "ae2omnicells:netherite_scrap_block" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.5d
+			x: 6.0d
+			y: 7.3d
 		}
 		{
 			dependencies: ["0A1A5FD421131A64"]
@@ -1070,8 +1065,8 @@
 				item: { count: 1, id: "ae2omnicells:multidimensional_expansion_processor" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 7.5d
+			x: -0.30000000000000004d
+			y: 10.3d
 		}
 		{
 			dependencies: [
@@ -1086,8 +1081,8 @@
 				item: { count: 1, id: "ae2omnicells:singularity_block" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: 7.5d
+			x: -0.8d
+			y: 9.0d
 		}
 		{
 			dependencies: ["78F76D1A70319C59"]
@@ -1098,8 +1093,8 @@
 				item: { count: 1, id: "ae2omnicells:quantum_omni_cell_housing" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 6.5d
+			x: 3.0d
+			y: 9.3d
 		}
 		{
 			dependencies: [
@@ -1147,8 +1142,8 @@
 				item: { count: 1, id: "extendedae_plus:assembler_matrix_speed_plus" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: -1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["71D5E96BD3499E79"]
@@ -1158,8 +1153,8 @@
 				item: { count: 1, id: "extendedae_plus:assembler_matrix_crafter_plus" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: -2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["71D5E96BD3499E79"]
@@ -1169,8 +1164,8 @@
 				item: { count: 1, id: "extendedae_plus:assembler_matrix_pattern_plus" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: -3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["71D5E96BD3499E79"]
@@ -1180,8 +1175,8 @@
 				item: { count: 1, id: "extendedae_plus:assembler_matrix_upload_core" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0642BCFDF2C0DFC7"]
@@ -1206,8 +1201,8 @@
 				item: { count: 1, id: "appliedpneumatics:air_cell_shell" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 5.6d
+			y: 1.8000000000000003d
 		}
 		{
 			dependencies: ["118B2836D47B5BD7"]
@@ -1218,8 +1213,8 @@
 				item: { count: 1, id: "appliedpneumatics:mega_air_cell_shell" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.5d
+			x: 6.1d
+			y: 1.3d
 		}
 		{
 			dependencies: ["2CDB80848489297E"]
@@ -1230,7 +1225,7 @@
 				item: { count: 1, id: "apprep:matter_cell_housing" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
@@ -1242,7 +1237,7 @@
 				item: { count: 1, id: "apprep:mega_matter_cell_housing" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: 5.0d
 		}
 		{
@@ -1254,7 +1249,7 @@
 				item: { count: 1, id: "apprep:sky_replica_ingot" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 5.5d
 		}
 		{
@@ -1266,7 +1261,7 @@
 				item: { count: 1, id: "appmek:chemical_cell_housing" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.0d
 			y: 5.5d
 		}
 		{
@@ -1278,7 +1273,7 @@
 				item: { count: 1, id: "megacells:mega_chemical_cell_housing" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.5d
 			y: 6.0d
 		}
 		{
@@ -1289,7 +1284,7 @@
 				item: { count: 1, id: "megacells:radioactive_chemical_cell" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -1300,8 +1295,8 @@
 				item: { count: 1, id: "ae2omnicells:spent_nuclear_waste_cell" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 9.0d
+			x: 0.19999999999999996d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -1316,8 +1311,8 @@
 				item: { count: 1, id: "appliedsoul:soul_cell_housing" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.5d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2CDB80848489297E"]
@@ -1327,7 +1322,7 @@
 				item: { count: 1, id: "apprep:replication_connector" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 5.5d
 		}
 		{
@@ -1338,8 +1333,8 @@
 				item: { count: 1, id: "appliedsoul:soul_collector" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 7.5d
+			x: 10.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3674EE9AD94BC10C"]
@@ -1351,8 +1346,8 @@
 				item: { count: 1, id: "appliedsoul:range_card" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 7.5d
+			x: 12.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1366,7 +1361,7 @@
 				item: { count: 1, id: "megacells:sky_osmium_ingot" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.0d
 			y: 5.5d
 		}
 		{
@@ -1380,8 +1375,8 @@
 				item: { count: 1, id: "appliedpneumatics:security_card" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.0d
+			x: 7.1d
+			y: 0.8d
 		}
 		{
 			dependencies: ["0474337975D81127"]
@@ -1394,8 +1389,8 @@
 				item: { count: 1, id: "appliedpneumatics:vacuum_card" }
 				type: "item"
 			}]
-			x: 9.8d
-			y: 1.0d
+			x: 7.9d
+			y: 0.8d
 		}
 		{
 			dependencies: ["0474337975D81127"]
@@ -1408,8 +1403,8 @@
 				item: { count: 1, id: "appliedpneumatics:volume_card" }
 				type: "item"
 			}]
-			x: 10.6d
-			y: 1.0d
+			x: 8.7d
+			y: 0.8d
 		}
 		{
 			dependencies: ["0474337975D81127"]
@@ -1420,8 +1415,8 @@
 				item: { count: 1, id: "appliedpneumatics:me_pressure_interface_block" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 8.1d
+			y: 2.8d
 		}
 		{
 			dependencies: ["0474337975D81127"]
@@ -1431,8 +1426,8 @@
 				item: { count: 1, id: "appliedpneumatics:me_temperature_interface" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 8.1d
+			y: 1.8000000000000003d
 		}
 		{
 			dependencies: ["7F30E917DB781CD7"]
@@ -1445,8 +1440,8 @@
 				id: "07858C3453698AC6"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: 3.5d
+			x: 5.6d
+			y: 3.3d
 		}
 		{
 			dependencies: ["0474337975D81127"]
@@ -1456,8 +1451,8 @@
 				item: { count: 1, id: "appliedpneumatics:me_amadron_process_station" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 8.1d
+			y: 3.8d
 		}
 		{
 			dependencies: ["53A756D46B229960"]
@@ -1467,8 +1462,8 @@
 				item: { count: 1, id: "appliedpneumatics:me_amadron_extended_process_station" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 4.0d
+			x: 9.1d
+			y: 3.8d
 		}
 		{
 			dependencies: ["7FF9834DAF987B71"]
@@ -1538,7 +1533,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4B9647ABBD08BE53"]
@@ -1561,8 +1556,8 @@
 				item: { count: 1, id: "appgen:generating_component_1k" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: 5.0d
+			x: -10.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["04C8C8A9951179D3"]
@@ -1572,8 +1567,8 @@
 				item: { count: 1, id: "appgen:flux_generator_1k" }
 				type: "item"
 			}]
-			x: -12.5d
-			y: 4.5d
+			x: -11.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["04C8C8A9951179D3"]
@@ -1583,8 +1578,8 @@
 				item: { count: 1, id: "appgen:singularity_generator_1k" }
 				type: "item"
 			}]
-			x: -12.5d
-			y: 5.5d
+			x: -9.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2D246348594A7CFF"]
@@ -1594,19 +1589,22 @@
 				item: { count: 1, id: "appgen:genesis_synthesizer" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: 6.0d
+			x: -9.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["5CE41900F0ACE50B"]
+			dependencies: [
+				"5CE41900F0ACE50B"
+				"20925EC3E1247D59"
+			]
 			id: "1F579F8EC0B67D8B"
 			tasks: [{
 				id: "2391471CC11C0A52"
 				item: { count: 1, id: "advanced_ae:quantum_core" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.5d
+			x: -6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["40FF16AAE9CCEEB6"]
@@ -1628,8 +1626,8 @@
 				item: { count: 1, id: "advanced_ae:quantum_crafter" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5477DDED5B2F166A"]
@@ -1653,6 +1651,247 @@
 			}]
 			x: -8.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["7F30E917DB781CD7"]
+			id: "77928F553358272D"
+			shape: "octagon"
+			tasks: [{
+				count: 8L
+				id: "09682B72DE1E9F84"
+				item: { count: 1, id: "neoecoae:crystal_matrix" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7F30E917DB781CD7"]
+			id: "6B88D48F1BBE5373"
+			shape: "octagon"
+			tasks: [{
+				count: 8L
+				id: "4EA36EE8E81FE349"
+				item: { count: 1, id: "neoecoae:energized_superconductive_ingot" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"77928F553358272D"
+				"6B88D48F1BBE5373"
+			]
+			id: "6423F4384CD0AD7D"
+			tasks: [{
+				count: 4L
+				id: "76B1FD170DA7B2D4"
+				item: { count: 1, id: "neoecoae:superconducting_processor" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6423F4384CD0AD7D"]
+			id: "38020B892F099857"
+			shape: "pentagon"
+			tasks: [{
+				id: "559F90F965A12A3F"
+				item: { count: 1, id: "neoecoae:integrated_working_station" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6423F4384CD0AD7D"]
+			id: "18D196D601B2898E"
+			tasks: [{
+				id: "1F21C11AE97A7971"
+				item: { count: 1, id: "neoecoae:computation_casing" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"18D196D601B2898E"
+				"1F579F8EC0B67D8B"
+			]
+			id: "50ADE41D25D8F0F5"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4D8F406E9D7F5AB3"
+					item: { count: 1, id: "neoecoae:computation_system_l4" }
+					type: "item"
+				}
+				{
+					id: "569C51EE6E548170"
+					item: { count: 1, id: "neoecoae:computation_interface" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "25B7983A95DF3747"
+					item: { count: 1, id: "neoecoae:computation_drive" }
+					type: "item"
+				}
+				{
+					id: "68C4C9DC7DE01821"
+					item: { count: 1, id: "neoecoae:computation_cooling_controller_l4" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3EE80AD7F7EC5A6D"
+					item: { count: 1, id: "neoecoae:computation_parallel_core_l4" }
+					type: "item"
+				}
+				{
+					id: "03676C7E8DEAA1DA"
+					item: { count: 1, id: "neoecoae:computation_threading_core_l4" }
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "08B1B1CE5F2898CD"
+					item: { count: 1, id: "neoecoae:computation_casing" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"73C68E5C9F1AFCCD"
+				"5C3F58FDD8969A16"
+				"5B04F9E37F2CAEDE"
+				"378D3F2A2726A2FB"
+			]
+			id: "10F6BE403A7BE0C7"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7E37843F0E92B331"
+					item: { count: 1, id: "neoecoae:crafting_system_l4" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "28616A654404B441"
+					item: { count: 1, id: "neoecoae:crafting_parallel_core_l4" }
+					type: "item"
+				}
+				{
+					id: "25A807D4C667E80A"
+					item: { count: 1, id: "neoecoae:crafting_worker" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "10987261AA995459"
+					item: { count: 1, id: "neoecoae:crafting_pattern_bus" }
+					type: "item"
+				}
+				{
+					id: "5C9255E592EA2C27"
+					item: { count: 1, id: "neoecoae:crafting_vent" }
+					type: "item"
+				}
+				{
+					id: "0FA0E5E08912D595"
+					item: { count: 1, id: "neoecoae:crafting_interface" }
+					type: "item"
+				}
+				{
+					id: "18E21384E2DE1288"
+					item: { count: 1, id: "neoecoae:output_hatch" }
+					type: "item"
+				}
+				{
+					id: "4591C0BFB98169F1"
+					item: { count: 1, id: "neoecoae:input_hatch" }
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "3F353C8B82436B8A"
+					item: { count: 1, id: "neoecoae:crafting_casing" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"527D82EDAB1CE5DC"
+				"77928F553358272D"
+			]
+			id: "73C68E5C9F1AFCCD"
+			tasks: [{
+				id: "1F8EFD67F9EC2DEE"
+				item: { count: 1, id: "neoecoae:crafting_casing" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7F30E917DB781CD7"]
+			id: "527D82EDAB1CE5DC"
+			shape: "octagon"
+			tasks: [{
+				count: 4L
+				id: "54F21D861D835C95"
+				item: { count: 1, id: "neoecoae:black_tungsten_alloy_ingot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			id: "4DB2A602FE8D9503"
+			shape: "octagon"
+			tasks: [{
+				id: "1864773D6BB688DA"
+				item: { count: 1, id: "neoecoae:cryotheum_crystal" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4DB2A602FE8D9503"]
+			id: "2CD972EA34BF5EC9"
+			tasks: [{
+				id: "3E525B01D7E88411"
+				item: { count: 1, id: "neoecoae:cryotheum_solution_bucket" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"2CD972EA34BF5EC9"
+				"10F6BE403A7BE0C7"
+			]
+			id: "54821D4242F25448"
+			shape: "pentagon"
+			tasks: [{
+				id: "068955943F87BEC0"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 8.5d
 		}
 	]
 }

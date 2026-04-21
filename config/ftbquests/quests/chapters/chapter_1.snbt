@@ -970,6 +970,11 @@
 			y: 3.0d
 		}
 		{
+			dependencies: [
+				"565BBA7F49738738"
+				"35593485117C1187"
+				"73B5AA130E914B98"
+			]
 			id: "4D02548969213C92"
 			shape: "octagon"
 			tasks: [{

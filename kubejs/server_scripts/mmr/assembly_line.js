@@ -148,13 +148,13 @@ ServerEvents.recipes(event => {
         3600,
         159744,
         [
-            "4x pneumaticcraft:module_expansion_card",
-            "2x draconicevolution:awakened_core",
+            "2x pneumaticcraft:module_expansion_card",
+            "8x draconicevolution:draconium_core",
             "8x ae2:quartz_vibrant_glass",
             "8x advanced_ae:quantum_processor",
             "8x megacells:accumulation_processor",
-            "2x emextras:cosmic_dense_control_circuit",
-            "24x #ae2:smart_cable"
+            "2x #c:circuits/quantum",
+            "12x #ae2:smart_cable"
         ],
         [
             "1000x pneumaticcraft:plastic",

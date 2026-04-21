@@ -306,6 +306,7 @@
 	quest.27EFF840B488330B.title: "Ruby"
 	quest.28A0123456789EF0.title: "HOP Graphite"
 	quest.291A285F02FEB5F4.title: "Steel"
+	quest.29330205307494F5.title: "Obsidian for a few things"
 	quest.29A2FBE9686A9669.title: "ME Energy Cell"
 	quest.29A5020EE6FF2FC3.quest_desc: [
 		"You can claim chunks to prevent griefing and chunk unloading."
@@ -536,22 +537,29 @@
 	quest.4F6FF9F8C3392635.title: "Kill Wither"
 	quest.4F76E17F571EB959.quest_desc: ["Any ice can be used to cool reactor down and gain efficient. Best of them is \"Dry Ice\" from Powah."]
 	quest.4F8C52E9AE911342.title: "Prosperity Shard"
+	quest.50ADE41D25D8F0F5.quest_desc: ["This is 1st tier of Computation Subsystem Controller. It is equivalent to AdvancedAE's Quantum Computer."]
+	quest.50ADE41D25D8F0F5.title: "Computation Subsystem Controller"
 	quest.50DAEE106FF3C5AF.title: "Kill Snow Queen"
 	quest.5107FC83B1CBEA0C.title: "Refined Obsidian"
 	quest.5121F91BA8E6CFDC.title: "Aether's Altar"
 	quest.518837A751EC5646.title: "Tertium"
 	quest.522B491F7B2B7618.quest_desc: ["Disintegrate a materials into its base components for later use in &#00032EReplicator&r"]
 	quest.5279C4BFCE63CC8F.title: "Your first Router"
+	quest.527D82EDAB1CE5DC.title: "Black Tungsten Alloy"
 	quest.52E661275A2B5499.title: "Yttrium Dust"
 	quest.5323DAD30FA78DF2.title: "Lavium"
 	quest.534A5B38D070561C.title: "Sophisticated Storage upgrades"
 	quest.537F8DE6B38BABC4.quest_desc: ["Allows you to quickly train models to the maximum level, consuming a large amount of energy. Does not produce loot during simulation. Supports 2 upgrades."]
+	quest.545B580AECEE19C2.title: "Some Iron"
+	quest.54821D4242F25448.quest_desc: ["Crafting Controllers can cooled with: Crylotheum which is best cooling fluid, Water which produces Mekanism's Steam in exchange, or Mekanism's Sodium which produces Superheated Sodium which can be exchanged in Thermoelectric Boiler"]
+	quest.54821D4242F25448.title: "Crafting Controller Water Cooling"
 	quest.54B95EA400D84746.title: "Pressure Chamber"
 	quest.54F199F6E6168B4D.title: "Honey"
 	quest.563C8F1BB39AAC68.title: "Advanced Circuits"
 	quest.56A9C90C31DDB96F.quest_desc: ["You might as well take a look at storage chapter, to explore some of the starting storage solutions that modpack offers."]
 	quest.56C2C5E62E9C2AB4.title: "Mekanism Turbine"
 	quest.57573D97AFA0C1B4.title: "Redstone Crystal"
+	quest.57B020D1F988BD05.title: "Osmium"
 	quest.5859F2576E6EA306.title: "Extracting tree juices"
 	quest.59246C6ABFAFA60D.title: "Otherworld Oak"
 	quest.59C809775435980D.title: "Visit The Other"
@@ -562,6 +570,7 @@
 	quest.5BD63C07A64BE9FE.title: "Advanced Beehives"
 	quest.5BE0DF4F2BB0B3B3.title: "DimStorage"
 	quest.5BFC761807764DF1.quest_desc: ["Burning Blutonium in reactor will give you Magnetite"]
+	quest.5C22C42BB9EEF33E.quest_subtitle: "Extract resources from unneeded seeds"
 	quest.5CE41900F0ACE50B.title: "MEGA Crafting Storage"
 	quest.5D14C4CD354FEE53.title: "Awakened Supremium"
 	quest.5D7BE545B3E760A4.title: "Ender Steel"
@@ -584,6 +593,7 @@
 	quest.6222947116621C76.title: "Fuel for your Factory"
 	quest.6225EFBD7287F07E.title: "Emerald"
 	quest.631BFF99364CE548.title: "Salt"
+	quest.6423F4384CD0AD7D.title: "Superconducting Processor"
 	quest.64323A6786208121.title: "Fiery Ingot"
 	quest.6441A910B461C9C4.title: "Blazum"
 	quest.646C9F2F0AAFC724.title: "Magmatic"
@@ -633,6 +643,7 @@
 	quest.6B230DE0D522837F.title: "Gathering Souls"
 	quest.6B24855CE289E49E.title: "Jetpacks"
 	quest.6B46F4613F3D2B95.title: "Enderium"
+	quest.6B88D48F1BBE5373.title: "Energized Superconductive Ingot"
 	quest.6B91A2D589EA6396.quest_desc: [
 		"Found in massive ruined structures."
 		""
@@ -768,6 +779,7 @@
 	quest.75D87951CE54C073.title: "Fire Dragonsteel"
 	quest.75FCA1CF475B9D10.quest_desc: ["These tank allow to store &1Matter.&r You will need separate tank for each &1Matter&r type."]
 	quest.76F458EC8BF1CEBF.title: "As basic as One can get"
+	quest.77928F553358272D.title: "Crystal Matrix"
 	quest.784A0D72B1BE45D7.quest_desc: ["Early game-ish mob farming solution, not as good as HNN tho."]
 	quest.785B1139C8BEA694.title: "Cyanite"
 	quest.78823D47C5EB89B6.title: "Factory Upgrades"
@@ -823,6 +835,7 @@
 	task.059A89C7F523F14C.title: "Visit Unfinished Castle"
 	task.05BFCF971CB13AFD.title: "Any Advanced Beehive"
 	task.05E152377E923B5A.title: "Any Pink Slime Comb"
+	task.068955943F87BEC0.title: "Cooling"
 	task.072B1A0253FD4088.title: "Any Vibrant Alloy Comb"
 	task.07858C3453698AC6.title: "Applied Pneumatics"
 	task.0796C0EA33EF5533.title: "Any Prosperity Shard Comb"

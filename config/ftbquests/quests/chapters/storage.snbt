@@ -56,6 +56,7 @@
 				id: "toms_storage:storage_terminal"
 			}
 			id: "335B0B77E665373A"
+			shape: "pentagon"
 			tasks: [{
 				id: "7B23EAF779701C17"
 				item: { count: 1, id: "toms_storage:storage_terminal" }
@@ -78,6 +79,7 @@
 		{
 			dependencies: ["7362E42C50FEBBB7"]
 			id: "0F7A17BE2FEA3BF8"
+			shape: "pentagon"
 			tasks: [{
 				id: "0BC9CB2768586C1C"
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
@@ -92,6 +94,7 @@
 				"335B0B77E665373A"
 			]
 			id: "04CE815B6B5BE421"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "30C680715B821E71"
