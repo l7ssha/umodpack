@@ -271,6 +271,7 @@ const recipesById = [
     'endermanoverhaul:ender_eye',
     'bigreactors:blasting/yellorium_from_ore',
     'chipped:saw',
+    'bhc:heart_amulet',
 
     // Iglee Lib
     /igleelib:.*_ingot/,
