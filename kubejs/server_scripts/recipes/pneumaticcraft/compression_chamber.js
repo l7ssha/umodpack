@@ -90,7 +90,7 @@ ServerEvents.recipes(event => {
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [
             {
-                "tag": "pneumaticcraft:wiring",
+                "tag": "c:wires/copper",
                 "count": 4
             },
             {
@@ -139,8 +139,8 @@ ServerEvents.recipes(event => {
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [
             {
-                "tag": "pneumaticcraft:wiring",
-                "count": 6
+                "tag": "c:wires/copper",
+                "count": 3
             },
             {
                 "tag": "c:dusts/redstone",
@@ -163,7 +163,7 @@ ServerEvents.recipes(event => {
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [
             {
-                "tag": "pneumaticcraft:wiring",
+                "tag": "c:wires/electrum",
                 "count": 3
             },
             {

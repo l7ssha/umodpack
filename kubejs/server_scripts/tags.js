@@ -11,6 +11,7 @@ ServerEvents.tags('block', tags => {
 ServerEvents.tags('fluid', tags => {
     tags.add('c:ethanol', 'pneumaticcraft:ethanol');
     tags.add("c:experience", "create_enchantment_industry:experience");
+    tags.add("allthemodium:soul_lava", "allthemodium:soul_lava");
 });
 
 ServerEvents.tags('item', tags => {

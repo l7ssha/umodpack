@@ -257,6 +257,10 @@ const recipesById = [
     /neoecoae:eco_.*_cell_housing/,
     /neoecoae:add_item_upgrade\/eco_.*_storage_cell_.*m/,
     /neoecoae:eco_.*_storage_cell_.*m/,
+    'neoecoae:integrated_working_station/energized_superconductive_ingot',
+    'neoecoae:transform/energized_superconductive_ingot',
+    'neoecoae:integrated_working_station/crystal_ingot',
+    'neoecoae:transform/crystal_ingot',
 
     // Ender Drives
     'enderdrives:ender_storage_component_1k_advanced',
@@ -312,6 +316,9 @@ const recipesById = [
     'modularbees:modular_centrifuge_core',
     'modularbees:modular_beehive_core',
     'modularbees:modular_beehive_part',
+    'productivebees:draconicevolution/draconium_bee',
+    'productivebees:draconicevolution/awakened_bee',
+    'productivebees:draconicevolution/chaos_bee',
 
     // Allthemodium
     'allthemodium:teleport_pad',
