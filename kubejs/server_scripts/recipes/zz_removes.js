@@ -112,6 +112,8 @@ const recipesById = [
     'occultism:crafting/netherite_dust',
     /occultism:crushing\/.*_from_ore/,
     'occultism:ritual/craft_storage_controller_base',
+    'occultism:crafting/chalk_purple_impure',
+    'occultism:ritual/craft_dimensional_matrix',
 
     // Avaritia related
     /^avaritia:.*/,

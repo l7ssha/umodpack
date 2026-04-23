@@ -947,5 +947,36 @@
 			x: -3.0d
 			y: -12.0d
 		}
+		{
+			dependencies: ["1ADEEB75BA85A2BC"]
+			id: "5B7B72A12F29087F"
+			tasks: [
+				{
+					id: "1B8B3C17D6FACDDD"
+					structure: "iceandfire:graveyard"
+					type: "structure"
+				}
+				{
+					entity: "iceandfire:ghost"
+					id: "1DCC454D17C0EA75"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B7B72A12F29087F"]
+			id: "37465C861427E9DB"
+			shape: "square"
+			tasks: [{
+				id: "77D168180C7335FC"
+				item: { count: 1, id: "iceandfire:ghost_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
 	]
 }

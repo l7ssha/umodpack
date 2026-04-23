@@ -59,11 +59,13 @@
 		}
 		{
 			dependencies: ["3C5057617AF2E010"]
+			icon: {
+				id: "occultism:spirit_fire"
+			}
 			id: "6F6FCBB26CD74AED"
 			tasks: [{
-				id: "6C1A1AE3C40FE8B0"
-				item: { count: 1, id: "occultism:spirit_fire" }
-				type: "item"
+				id: "04CE5DDC69A8F95A"
+				type: "checkmark"
 			}]
 			x: -5.0d
 			y: -8.5d
@@ -74,19 +76,12 @@
 				"3C5057617AF2E010"
 			]
 			id: "59246C6ABFAFA60D"
-			tasks: [
-				{
-					id: "0DDE22B54010493F"
-					item: { count: 1, id: "occultism:otherworld_sapling_natural" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "71BC0863F3B22E30"
-					item: { count: 1, id: "occultism:otherworld_log_natural" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "10D56D6FFD377C5D"
+				item: { count: 1, id: "occultism:otherworld_log" }
+				type: "item"
+			}]
 			x: -2.5d
 			y: -10.5d
 		}
@@ -162,7 +157,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -8.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["10E19D162B604488"]
@@ -172,8 +167,8 @@
 				item: { count: 1, id: "occultism:chalk_light_gray" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -10.0d
+			x: 0.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["4DA54D07F86CDC9D"]
@@ -273,8 +268,8 @@
 				item: { count: 1, id: "malum:hallowed_gold_ingot" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -300,8 +295,8 @@
 				item: { count: 1, id: "malum:spirit_jar" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4EEB5BE08978FFC2"]
@@ -312,7 +307,7 @@
 				item: { count: 1, id: "reliquary:phoenix_down" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: -1.5d
 		}
 		{
@@ -335,19 +330,22 @@
 				item: { count: 1, id: "aether:altar" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -6.5d
+			x: -9.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["5121F91BA8E6CFDC"]
+			dependencies: [
+				"5121F91BA8E6CFDC"
+				"69A255592227A134"
+			]
 			id: "0A82649A4B5ACE1B"
 			tasks: [{
 				id: "4704365DECA92A32"
 				item: { count: 1, id: "artifacts:eternal_steak" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: -6.5d
+			x: -7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["36E5AB40B180D6AC"]
@@ -359,6 +357,137 @@
 			}]
 			x: -4.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["10E19D162B604488"]
+			id: "2FA2C0914A2CD1DA"
+			tasks: [{
+				id: "58FCF49F99D6A848"
+				item: { count: 1, id: "occultism:chalk_purple" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2FA2C0914A2CD1DA"]
+			icon: {
+				id: "occultism:ritual_dummy/craft_stable_wormhole"
+			}
+			id: "663E8BCC480A07ED"
+			shape: "pentagon"
+			tasks: [{
+				id: "3E3A667590A53910"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["663E8BCC480A07ED"]
+			id: "566473670F115E50"
+			shape: "square"
+			tasks: [{
+				id: "2C63ACBCCA185885"
+				item: { count: 1, id: "occultism:stable_wormhole" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["36E5AB40B180D6AC"]
+			id: "69A255592227A134"
+			tasks: [{
+				id: "61FB3607FFE3FCE1"
+				item: { count: 1, id: "artifacts:everlasting_beef" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["69F150D64EC1DC31"]
+			id: "4F1E8DB65B085D3A"
+			shape: "square"
+			tasks: [{
+				id: "04D3DF6DBC552F94"
+				item: { count: 1, id: "enigmatic_arcana:agroconic_alloy" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["36E5AB40B180D6AC"]
+			id: "40990BBFECADE9BE"
+			tasks: [{
+				id: "1DBF492902CA980F"
+				item: { count: 1, id: "malum:soulwoven_silk" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["40990BBFECADE9BE"]
+			id: "6851E79AF5415FC2"
+			shape: "square"
+			tasks: [{
+				id: "21ADB5ACC41C5850"
+				item: { count: 1, id: "malum:soulwoven_pouch" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["36E5AB40B180D6AC"]
+			id: "21AFCC5334331221"
+			shape: "pentagon"
+			tasks: [{
+				id: "2A7B2584FC1AA87E"
+				item: { components: { "relics:data": { abilities: { abilities: { anchor: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { sinking: { initialValue: 4.25944d }, slowness: { initialValue: 0.27771d } } }, pressure: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.55091d } } }, riptide: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 7.23854d } } }, slots: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { charm: { initialValue: 1.19297d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:drowned_belt" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36E5AB40B180D6AC"]
+			id: "5801FA5585C0BFDB"
+			shape: "pentagon"
+			tasks: [{
+				id: "2E0898F34E163B77"
+				item: { components: { "relics:data": { abilities: { abilities: { slots: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { charm: { initialValue: 1.90805d } } }, training: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.94831d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:hunter_belt" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["36E5AB40B180D6AC"]
+			id: "2DF8EAE6870C7587"
+			shape: "pentagon"
+			tasks: [{
+				id: "7D36BB3CB85B2A06"
+				item: { components: { "relics:data": { abilities: { abilities: { slots: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { charm: { initialValue: 2.43609d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:leather_belt" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["35C80977BA766131"]
+			id: "78D07DE4C1E44550"
+			shape: "square"
+			tasks: [{
+				id: "58A2782D7F9D0FCD"
+				item: { count: 1, id: "occultism:butcher_knife" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -12.0d
 		}
 	]
 }

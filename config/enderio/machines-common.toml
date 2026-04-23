@@ -10,7 +10,7 @@
 		#The amount of energy to consume per vanilla smelting item in uI.
 		# Default: 1500
 		# Range: > 1
-		vanillaItemEnergy = 500
+		vanillaItemEnergy = 250
 
 	[energy.crafter]
 		#The base energy capacity in uI.

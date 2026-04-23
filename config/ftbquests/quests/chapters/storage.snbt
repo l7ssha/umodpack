@@ -350,7 +350,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["56A9C90C31DDB96F"]
+			dependencies: [
+				"56A9C90C31DDB96F"
+				"566473670F115E50"
+			]
 			id: "11CDE1E72A4BF1B8"
 			shape: "octagon"
 			tasks: [{

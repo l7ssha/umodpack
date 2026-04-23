@@ -11,3 +11,7 @@ RecipeViewerEvents.removeEntries('item', event => {
         /immersiveengineering:armor_steel_(helmet|chestplate|leggings|boots)/
     ]);
 });
+
+RecipeViewerEvents.removeCategories(event => {
+	event.remove('extendedae:assembler');
+});

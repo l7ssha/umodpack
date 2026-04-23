@@ -415,6 +415,7 @@
 	]
 	quest.3620D267D486B810.quest_subtitle: "Make life easier"
 	quest.3650ABB426DC3920.title: "Insanium"
+	quest.37465C861427E9DB.title: "Phantasmal"
 	quest.374BE4511E72EB63.title: "Chapter 2"
 	quest.384DF6512D66ADDD.quest_desc: ["Since your starting HP is 5 hearts, you might start farming various fruits and vegetables early on. Each 10 unique meals eaten, you will gain 1 heart."]
 	quest.384DF6512D66ADDD.title: "Farming?"
@@ -567,6 +568,8 @@
 	quest.5B12345678901234.title: "Pulsating Alloy"
 	quest.5B520AB8CDB65058.title: "Redstone"
 	quest.5B6598E2A2BCDA62.title: "Pressurized Reaction Chamber"
+	quest.5B7B72A12F29087F.quest_desc: ["Ghosts are frequent visitors of Graveyards located in The End and The Other dimensions. You will need Phantasmal Ingots in the future, which are Ghosts' drops."]
+	quest.5B7B72A12F29087F.title: "Source of Ectoplasm"
 	quest.5BD63C07A64BE9FE.title: "Advanced Beehives"
 	quest.5BE0DF4F2BB0B3B3.title: "DimStorage"
 	quest.5BFC761807764DF1.quest_desc: ["Burning Blutonium in reactor will give you Magnetite"]
@@ -831,6 +834,7 @@
 	task.02DD6A210167C6A6.title: "Any Quartz Comb"
 	task.034FAB7F3EFAFFC1.title: "Any Arcane Essence  Comb"
 	task.03E5DC025E07EB9B.title: "Advanced Circuits"
+	task.04CE5DDC69A8F95A.title: "Spiritfire"
 	task.04F9980C9AD54568.title: "Any Redstone Crystal Comb"
 	task.059A89C7F523F14C.title: "Visit Unfinished Castle"
 	task.05BFCF971CB13AFD.title: "Any Advanced Beehive"
@@ -935,6 +939,7 @@
 	task.3C2AD9698067AED1.title: "Jetpacks"
 	task.3D4E5F67890AB1C2.title: "Any Sky Steel Comb"
 	task.3DC68EF3387BDCD7.title: "Any Marked Injector"
+	task.3E3A667590A53910.title: "Eziveus' Spectral Compulsion"
 	task.3ECB0CC732C797D8.title: "DimStorage Chest or Tank"
 	task.40AB950DB2DCB4F6.title: "Supercritical Phase Shifter"
 	task.41097F15A0C04636.title: "Applied Energistics 2"
