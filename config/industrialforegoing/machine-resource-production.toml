@@ -74,17 +74,17 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
 		maxProgress = 50
 		#Amount of Power Consumed per Tick - Default: [1000FE]
-		powerPerOperation = 1000
+		powerPerOperation = 10000
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 10000
+		maxStoredPower = 100000
 
 	[MachineResourceProductionConfig.HydroponicBedConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Operation - Default: [1000FE]
-		powerPerOperation = 1000
+		powerPerOperation = 10000
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 10000
+		maxStoredPower = 1000000
 
 	[MachineResourceProductionConfig.WaterCondensatorConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
@@ -108,17 +108,17 @@
 		#Max progress of the machine
 		maxProgress = 100
 		#How much weight of an item the catalyst will increase
-		catalystModifier = 8
+		catalystModifier = 6
 
 	[MachineResourceProductionConfig.SimulatedHydroponicBedConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [600 (30s)]
 		maxProgress = 600
 		#Amount of Power Consumed per Operation - Default: [3000FE]
-		powerPerOperation = 3000
+		powerPerOperation = 30000
 		#Max Stored Power [FE] - Default: [20000 FE]
-		maxStoredPower = 20000
+		maxStoredPower = 1000000
 		#Chance to increase the executions of the current processor, 0.1 = 10% chance - Default: [0.1]
-		chanceToIncreaseExecutions = 0.1
+		chanceToIncreaseExecutions = 0.05
 
 	[MachineResourceProductionConfig.DyeMixerConfig]
 		#Amount of Power Consumed per Tick - Default: [400FE]

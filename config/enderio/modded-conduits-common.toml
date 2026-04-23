@@ -2,11 +2,11 @@
 	#Idle power usage per tick for normal (non dense) ME conduits (AE)
 	# Default: 0.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	normalPowerUsagePerTick = 0.0
+	normalPowerUsagePerTick = 0.1
 	#Idle power usage per tick for dense ME conduits (AE)
 	# Default: 0.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	densePowerUsagePerTick = 0.0
+	densePowerUsagePerTick = 0.4
 
 [mekanism]
 	#Whether players can mix and match chemical conduits

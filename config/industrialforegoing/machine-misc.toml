@@ -2,7 +2,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
 		maxProgress = 50
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerTick = 40
+		powerPerTick = 500
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Essence [mb] - Default: [32000 mb]
@@ -12,7 +12,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (5s)]
 		maxProgress = 50
 		#Amount of Power Consumed per Tick - Default: [400FE]
-		powerPerOperation = 10000
+		powerPerOperation = 100000
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 100000
 		#If true, the boss bar of an entity with the AI disable won't be rendered
@@ -22,7 +22,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 10
 		#Amount of Power Consumed per Tick - Default: [400FE]
-		powerPerOperation = 400
+		powerPerOperation = 800
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 
@@ -30,7 +30,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
 		maxProgress = 50
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerTick = 40
+		powerPerTick = 100
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 
@@ -38,7 +38,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
 		maxProgress = 50
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerTick = 40
+		powerPerTick = 1000
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Essence [mb] - Default: [64000 mb]
@@ -50,7 +50,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
 		maxProgress = 50
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerTick = 40
+		powerPerTick = 1000
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Essence [mb] - Default: [64000 mb]

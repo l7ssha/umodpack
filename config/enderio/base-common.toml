@@ -12,7 +12,7 @@
 		#The chance of a spawner dropping a broken spawner.
 		# Default: 1.0
 		# Range: 0.0 ~ 1.0
-		dropChance = 1.0
+		dropChance = 0.5
 
 	[items.food]
 		#The chance of enderios teleporting the player

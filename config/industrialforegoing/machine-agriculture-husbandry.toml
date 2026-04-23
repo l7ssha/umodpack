@@ -2,7 +2,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 400
+		powerPerOperation = 800
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#How many animals there need to be in the area to stop the machine from working
@@ -12,7 +12,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerOperation = 50
+		powerPerOperation = 200
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Essence [mb] - Default: [32000 mb]
@@ -24,7 +24,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerTick = 40
+		powerPerTick = 120
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
@@ -34,7 +34,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 40
 		#Amount of Power Consumer per Operation - Default: [400FE]
-		powerPerOperation = 400
+		powerPerOperation = 1600
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid for 'Sludge Tank' - Default: [8000mB]
@@ -46,7 +46,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 400
+		powerPerOperation = 1200
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
@@ -54,7 +54,7 @@
 
 	[MachineAgricultureHusbandryConfig.PlantFertilizerConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
-		maxProgress = 50
+		maxProgress = 100
 		#Amount of Power Consumer per Operation - Default: [400FE]
 		powerPerOperation = 1000
 		#Max Stored Power [FE] - Default: [10000 FE]
@@ -64,7 +64,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 400
+		powerPerOperation = 1600
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
@@ -76,7 +76,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 40
 		#Amount of Power Consumer per Operation - Default: [1000FE]
-		powerPerOperation = 1000
+		powerPerOperation = 2000
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 
@@ -84,9 +84,9 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 62
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 5000
+		powerPerOperation = 20000
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 50000
+		maxStoredPower = 500000
 		#Max Essence [mb] - Default: [8000 mb]
 		tankSize = 8000
 		#Exact Copy to spawn - Default: [false]
@@ -98,7 +98,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [40 (5s)]
 		maxProgress = 40
 		#Amount of Power Consumed per Operation - Default: [500FE]
-		powerPerOperation = 20000
+		powerPerOperation = 40000
 		#Max Stored Power [FE] - Default: [70000 FE]
 		maxStoredPower = 70000
 
@@ -106,7 +106,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 400
+		powerPerOperation = 800
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 
@@ -114,7 +114,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Operation - Default: [10FE] - This is Calculated as [VALUE * (amount + 1)]
-		powerPerOperation = 10
+		powerPerOperation = 30
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
