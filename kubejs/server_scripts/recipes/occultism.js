@@ -33,7 +33,9 @@ ServerEvents.recipes(event => {
 
     event.custom({
         "type": "occultism:ritual",
-        "activation_item": "occultism:book_of_binding_bound_foliot",
+        "activation_item": {
+            "item": "occultism:book_of_binding_bound_foliot"
+        },
         "duration": 150,
         "ingredients": [
             {
@@ -49,7 +51,7 @@ ServerEvents.recipes(event => {
                 "tag": "c:storage_blocks/quartz"
             },
             {
-                "tag": "#c:ender_pearls"
+                "tag": "c:ender_pearls"
             }
         ],
         "pentacle_id": "occultism:craft_foliot",
