@@ -130,8 +130,8 @@
 			]
 			id: "3F04BC5CEA587B6A"
 			tasks: [{
-				id: "38246F118B33C752"
-				item: { components: { "ftbfiltersystem:filter": "or(item(evolvedmekanism:dust_plaslitherite)item(evolvedmekanism:enriched_plaslitherite))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "3EE19A7A244DCCDE"
+				item: { count: 1, id: "evolvedmekanism:ingot_plaslitherite" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -188,6 +188,7 @@
 				"682AB75397E2CC9E"
 			]
 			id: "3C6A5E725A5206F2"
+			size: 1.3d
 			tasks: [{
 				id: "102D2A8526674781"
 				item: { count: 1, id: "emextras:infinite_multiversal_control_circuit" }
@@ -932,6 +933,8 @@
 			dependencies: ["39FF084021A5FEAC"]
 			hide_dependent_lines: true
 			id: "682AB75397E2CC9E"
+			shape: "pentagon"
+			size: 1.3d
 			tasks: [{
 				id: "1D77B48594537A1B"
 				item: { count: 1, id: "draconicevolution:chaos_shard" }
@@ -1035,6 +1038,7 @@
 		{
 			dependencies: ["711463B7B43B0B2F"]
 			id: "759FF84A6D06E3D1"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "7231B83458411231"

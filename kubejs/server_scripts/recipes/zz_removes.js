@@ -426,6 +426,7 @@ const recipesById = [
     'draconicevolution:components/draconium_core',
     'draconicevolution:infused_obsidian',
     'draconicevolution:components/wyvern_core',
+    'draconicevolution:machines/reactor_core',
 
     // RFTools
     'rftoolsbase:infused_enderpearl',

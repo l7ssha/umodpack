@@ -408,4 +408,73 @@ ServerEvents.recipes(event => {
         },
         "result": { "id": "draconicevolution:chaotic_core", "count": 1 }
     });
+
+    event.custom({
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": {
+            "item": "draconicevolution:chaos_shard"
+        },
+        "ingredients": [
+            {
+                "consume": true,
+                "ingredient": {
+                    "tag": "c:storage_blocks/draconium_awakened"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "igleelib:lavium_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "tag": "c:storage_blocks/plaslitherite"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "ifeu:dragon_star_block"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "tag": "c:storage_blocks/draconium_awakened"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "tag": "c:storage_blocks/plaslitherite"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "tag": "c:storage_blocks/draconium_awakened"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:large_chaos_frag"
+                }
+            },
+            {
+                "consume": true,
+                "ingredient": {
+                    "item": "draconicevolution:large_chaos_frag"
+                }
+            }
+        ],
+        "result": {
+            "count": 1,
+            "id": "draconicevolution:reactor_core"
+        },
+        "techLevel": "chaotic",
+        "totalEnergy": 640000000
+    });
 });

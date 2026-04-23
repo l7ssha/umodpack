@@ -230,6 +230,7 @@
 	quest.1A360EFF48B7A3C7.title: "Quartz"
 	quest.1ADEEB75BA85A2BC.title: "Visit The End"
 	quest.1AF4A1DF47C4B43D.quest_desc: ["Adds the ability to combine 4 Data Modes equal to the Self Aware tier into a perfect Data Mode that combines all 4 of those models into one."]
+	quest.1B01D6041E20A14B.title: "Dyson Cube Project"
 	quest.1B24F784005F5A9A.title: "Inferium"
 	quest.1B31B1E8D0EEA4AE.title: "Blazegold"
 	quest.1B5DD366A85EB217.title: "Awakening"
@@ -457,6 +458,7 @@
 	quest.3DD2C826F3F98DBC.title: "Ancient Remnant"
 	quest.3EDEA0407CFD4297.title: "Visit Twilight Forest"
 	quest.3EFF5DCAF0077EB9.title: "Valkyrie Queen"
+	quest.3F04BC5CEA587B6A.quest_desc: ["Unobtainium Gas with HDPE sheets and Confusion Ingots in Chemixer"]
 	quest.3F04BC5CEA587B6A.title: "Plaslitherite"
 	quest.3FE75716138F847B.title: "Sulfur"
 	quest.401E7E5835EDB911.quest_subtitle: "It all starts with Honey"
@@ -873,6 +875,7 @@
 	task.155C3C560585AF56.title: "Any Allthemodium Gear"
 	task.1595335CB935CC4C.title: "Antimatter"
 	task.15D7839A42EDCB27.title: "WOOT"
+	task.15EB846E4F7E637A.title: "Draconic Evolution"
 	task.17A2D48FE823FABA.title: "Ruined Citadel"
 	task.17ABA8D7BC454F54.title: "Any Soulstone"
 	task.187857538AC09450.title: "Find Meteorite"
@@ -927,7 +930,6 @@
 	task.375A2C445F1C87CD.title: "Polonium"
 	task.377BD08D7DC67FFC.title: "Any Glowstone Comb"
 	task.37977A92DAF16B82.title: "Any Oily Comb"
-	task.38246F118B33C752.title: "Plaslitherite"
 	task.3953EDDE28548AE0.title: "Any Prudentium Comb"
 	task.39B01234567890A1.title: "Any HOP Graphite Comb"
 	task.3A21E5BFA86CF2B3.title: "Any Crafting Storage"

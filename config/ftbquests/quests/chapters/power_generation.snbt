@@ -232,7 +232,9 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["4715777C0911A9AB"]
 			id: "7F6CECA7680F38B6"
+			shape: "octagon"
 			tasks: [{
 				id: "39C7D7B03C428A15"
 				item: { count: 1, id: "appgen:singularity_generator_1k" }
@@ -603,6 +605,169 @@
 			}]
 			x: -6.5d
 			y: -2.0d
+		}
+		{
+			id: "1B01D6041E20A14B"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "405933526251AECB"
+					item: { count: 1, id: "dysoncubeproject:solar_sail" }
+					type: "item"
+				}
+				{
+					id: "67C19A1848016A20"
+					item: { count: 1, id: "dysoncubeproject:beam" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1B01D6041E20A14B"]
+			id: "71F3838E27FF98B4"
+			tasks: [
+				{
+					id: "159CC53A7AF5471C"
+					item: { count: 1, id: "dysoncubeproject:solar_sail_package" }
+					type: "item"
+				}
+				{
+					id: "493A456C271820CF"
+					item: { count: 1, id: "dysoncubeproject:beam_package" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1B01D6041E20A14B"]
+			id: "534DA478538BF464"
+			tasks: [
+				{
+					id: "486C513CCBAAD5DC"
+					item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
+					type: "item"
+				}
+				{
+					id: "57D4C3F6FC1434E9"
+					item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"572198FF97629766"
+				"6D50F391AE6A7697"
+			]
+			id: "46011A9BCD72F829"
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "7557F3FE96863D0C"
+				item: { count: 1, id: "draconicevolution:reactor_core" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4C854EF3E11C92FA"]
+			id: "6D50F391AE6A7697"
+			tasks: [{
+				count: 4L
+				id: "0317FD28FC586695"
+				item: { count: 1, id: "draconicevolution:reactor_stabilizer" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["322062F97F633689"]
+			id: "0448EE619F9B2525"
+			shape: "square"
+			tasks: [
+				{
+					id: "020DCFD0D5CC5D1E"
+					item: { count: 1, id: "draconicevolution:basic_io_crystal" }
+					type: "item"
+				}
+				{
+					id: "0A73E18E964734C7"
+					item: { count: 1, id: "draconicevolution:wyvern_io_crystal" }
+					type: "item"
+				}
+				{
+					id: "34BA5B7A482CBEEB"
+					item: { count: 1, id: "draconicevolution:draconic_io_crystal" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4C854EF3E11C92FA"]
+			id: "572198FF97629766"
+			tasks: [{
+				id: "51C57D16CDFE0AF0"
+				item: { count: 1, id: "draconicevolution:flux_gate" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C854EF3E11C92FA"]
+			id: "322062F97F633689"
+			tasks: [{
+				id: "5922A1EF38E2C81B"
+				item: { count: 1, id: "draconicevolution:basic_wireless_crystal" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["322062F97F633689"]
+			id: "5CB09B0CF0AB46DF"
+			tasks: [{
+				id: "45842FE23D3B7F38"
+				item: { count: 1, id: "draconicevolution:wyvern_wireless_crystal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5CB09B0CF0AB46DF"]
+			id: "6159920CCA11C097"
+			tasks: [{
+				id: "105260B2D558BE8D"
+				item: { count: 1, id: "draconicevolution:draconic_wireless_crystal" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "draconicevolution:chaotic_core"
+			}
+			id: "4C854EF3E11C92FA"
+			shape: "octagon"
+			tasks: [{
+				id: "15EB846E4F7E637A"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.0d
 		}
 	]
 }
