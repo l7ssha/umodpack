@@ -89,4 +89,37 @@ ServerEvents.recipes(event => {
             "id": "occultism:chalk_purple_impure"
         }
     });
+
+    event.custom({
+        "type": "occultism:ritual",
+        "activation_item": {
+            "item": "occultism:book_of_binding_bound_foliot"
+        },
+        "duration": 150,
+        "ingredients": [
+            {
+                "item": "occultism:storage_stabilizer_tier1"
+            },
+            {
+                "tag": "c:storage_blocks/silver"
+            },
+            {
+                "item": "minecraft:ghast_tear"
+            },
+            {
+                "item": "occultism:spirit_attuned_gem"
+            },
+            {
+                "item": "occultism:spirit_attuned_gem"
+            }
+        ],
+        "pentacle_id": "occultism:craft_foliot",
+        "result": {
+            "id": "occultism:storage_stabilizer_tier2"
+        },
+        "ritual_dummy": {
+            "id": "occultism:ritual_dummy/craft_stabilizer_tier2"
+        },
+        "ritual_type": "occultism:craft"
+    });
 });

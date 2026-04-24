@@ -114,6 +114,7 @@ const recipesById = [
     'occultism:ritual/craft_storage_controller_base',
     'occultism:crafting/chalk_purple_impure',
     'occultism:ritual/craft_dimensional_matrix',
+    'occultism:ritual/craft_stabilizer_tier2',
 
     // Avaritia related
     /^avaritia:.*/,
