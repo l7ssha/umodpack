@@ -278,6 +278,7 @@ const recipesById = [
     'bigreactors:blasting/yellorium_from_ore',
     'chipped:saw',
     'bhc:heart_amulet',
+    'toms_storage:storage_terminal',
 
     // Iglee Lib
     /igleelib:.*_ingot/,
