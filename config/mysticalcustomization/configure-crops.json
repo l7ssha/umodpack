@@ -11,6 +11,9 @@
   "mysticalagriculture:basalt": {
     "enabled": false
   },
+  "mysticalagriculture:cobalt": {
+    "enabled": false
+  },
   "mysticalagriculture:fiery_ingot": {
     "tier": "mysticalagriculture:5"
   },
