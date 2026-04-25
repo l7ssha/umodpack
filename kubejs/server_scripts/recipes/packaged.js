@@ -43,6 +43,7 @@ ServerEvents.recipes(event => {
             "BDEDB",
             "ABCBA"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "item": "mekanism:hdpe_stick"
@@ -65,41 +66,6 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "packagedauto:package_component"
-        }
-    });
-
-    event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-            "AAAAA",
-            "ABCDD",
-            "DBEFD",
-            "DDCFA",
-            "AAAAA"
-        ],
-        "tier": 2,
-        "key": {
-            "A": {
-                "tag": "immersiveengineering:treated_wood_slab"
-            },
-            "B": {
-                "item": "ae2:formation_core"
-            },
-            "C": {
-                "item": "extendedae:concurrent_processor"
-            },
-            "D": {
-                "tag": "c:plates/steel"
-            },
-            "E": {
-                "item": "packagedauto:package_component"
-            },
-            "F": {
-                "item": "ae2:annihilation_core"
-            }
-        },
-        "result": {
-            "id": "packagedauto:me_package_component"
         }
     });
 
@@ -328,6 +294,102 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "packagedmekemicals:chemical_package_filler"
+        }
+    });
+
+    event.custom({
+        "type": "appgen:synthesizing",
+        "input_energy": 100000,
+        "input_fluid": {
+            "amount": 1000,
+            "ingredient": {
+                "fluid": "ifeu:liquid_malic_acid"
+            }
+        },
+        "input_items": [
+            {
+                "amount": 16,
+                "ingredient": {
+                    "tag": "immersiveengineering:treated_wood_slab"
+                }
+            },
+            {
+                "amount": 16,
+                "ingredient": {
+                    "tag": "c:plates/steel"
+                }
+            },
+            {
+                "amount": 3,
+                "ingredient": {
+                    "item": "ae2:formation_core"
+                }
+            },
+            {
+                "amount": 3,
+                "ingredient": {
+                    "item": "ae2:annihilation_core"
+                }
+            },
+            {
+                "amount": 3,
+                "ingredient": {
+                    "item": "extendedae:concurrent_processor"
+                }
+            },
+            {
+                "amount": 1,
+                "ingredient": {
+                    "tag": "c:circuits/absolute"
+                }
+            }
+        ],
+        "output": {
+            "#": 1,
+            "#t": "ae2:i",
+            "id": "packagedauto:me_package_component"
+        }
+    });
+
+    event.custom({
+        "type": "appgen:synthesizing",
+        "input_energy": 100000,
+        "input_fluid": {
+            "amount": 200,
+            "ingredient": {
+                "fluid": "pneumaticcraft:plastic"
+            }
+        },
+        "input_items": [
+            {
+                "amount": 3,
+                "ingredient": {
+                    "tag": "c:ingots/refined_redstone"
+                }
+            },
+            {
+                "amount": 6,
+                "ingredient": {
+                    "tag": "c:ingots/constantan"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "item": "packagedauto:package_component"
+                }
+            },
+            {
+                "amount": 5,
+                "ingredient": {
+                    "tag": "c:glass_blocks/cheap"
+                }
+            }
+        ],
+        "output": {
+            "#": 3,
+            "#t": "ae2:i",
+            "id": "packagedauto:recipe_holder"
         }
     });
 });

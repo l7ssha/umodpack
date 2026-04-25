@@ -7,7 +7,7 @@
 		id: "draconicevolution:awakened_core"
 	}
 	id: "4198791CE7715744"
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -1092,6 +1092,7 @@
 		}
 		{
 			id: "1357B72519ABF081"
+			shape: "octagon"
 			tasks: [{
 				id: "73D0DB307F60BF4F"
 				item: { count: 1, id: "extramodules2:advanced_module_core" }
@@ -1112,6 +1113,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["1357B72519ABF081"]
 			id: "74DC879B2CCC55D0"
 			shape: "square"
 			tasks: [{

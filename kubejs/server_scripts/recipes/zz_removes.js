@@ -241,6 +241,7 @@ const recipesById = [
     'ae2:shaped/not_so_mysterious_cube',
     'advanced_ae:eaequantumaccel',
     'advanced_ae:quantumstorage128',
+    'appgen:crafting/genesis_synthesizer',
 
     // Neo Eco AE
     /neoecoae:aluminum_(axe|shovel|pickaxe|sword)/,
@@ -303,6 +304,7 @@ const recipesById = [
     'packagedauto:crafter_ae',
     'packagedauto:fluid_package_filler',
     /^packagedavaritia:(?!nether_crafter_ae$).*/,
+    'packagedauto:recipe_holder',
 
     // Cataclysm
     'cataclysm:void_eye',

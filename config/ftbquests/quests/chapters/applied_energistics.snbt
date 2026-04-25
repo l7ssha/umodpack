@@ -217,7 +217,7 @@
 				}
 			]
 			x: -2.5d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -231,7 +231,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -244,8 +244,8 @@
 				item: { count: 1, id: "ae2:interface" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.0d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -459,7 +459,7 @@
 				item: { count: 1, id: "megacells:accumulation_processor" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 1.0d
 		}
 		{
@@ -473,7 +473,7 @@
 				item: { count: 1, id: "megacells:sky_steel_ingot" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -569,7 +569,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -582,8 +582,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(megacells:1m_crafting_storage)item(megacells:4m_crafting_storage)item(megacells:16m_crafting_storage)item(megacells:64m_crafting_storage)item(megacells:256m_crafting_storage))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.5d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1284,7 +1284,7 @@
 				item: { count: 1, id: "megacells:radioactive_chemical_cell" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -1521,8 +1521,8 @@
 				item: { count: 1, id: "extendedae:ex_interface" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["40DE06C69D4CB23E"]
@@ -1533,7 +1533,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4B9647ABBD08BE53"]
@@ -1545,8 +1545,8 @@
 				item: { count: 1, id: "ae2tb:terminal_bookmark_interact_card" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: -0.65d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2D246348594A7CFF"]
@@ -1858,6 +1858,8 @@
 			y: 11.5d
 		}
 		{
+			dependencies: ["321A93DE6ECA689B"]
+			hide_dependency_lines: true
 			id: "4DB2A602FE8D9503"
 			shape: "octagon"
 			tasks: [{
