@@ -25,6 +25,10 @@ ServerEvents.tags('item', tags => {
         'utilitarian:fluid_hopper',
     ]);
 
+    tags.add('c:plates/blaze', [
+        'avaritia_integration:blaze_cube_plate',
+    ]);
+
     tags.add('c:dusts/salt', ['pamhc2foodcore:saltitem']);
 
     tags.add('c:storage_blocks/raw_yellorium', 'bigreactors:raw_yellorium_block');

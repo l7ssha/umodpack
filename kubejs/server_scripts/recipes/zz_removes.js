@@ -242,6 +242,10 @@ const recipesById = [
     'advanced_ae:eaequantumaccel',
     'advanced_ae:quantumstorage128',
     'appgen:crafting/genesis_synthesizer',
+    'extendedae_plus:entity_speed_card_x2',
+    'extendedae_plus:entity_speed_card_x4',
+    'extendedae_plus:entity_speed_card_x8',
+    'extendedae_plus:entity_speed_card_x16',
 
     // Neo Eco AE
     /neoecoae:aluminum_(axe|shovel|pickaxe|sword)/,
@@ -358,6 +362,8 @@ const recipesById = [
     'industrialforegoing:infinity_charger',
     'industrialforegoing:stasis_chamber',
     'industrialforegoing:diamond_gear',
+    'industrialforegoingsouls:soul_surge',
+    'industrialforegoingsouls:soul_network_pipe',
 
     // Just Dire Things
     'justdirethings:time_wand',

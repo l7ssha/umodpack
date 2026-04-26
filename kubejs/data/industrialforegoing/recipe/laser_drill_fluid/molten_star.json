@@ -1,0 +1,27 @@
+{
+  "type": "industrialforegoing:laser_drill_fluid",
+  "catalyst": {
+    "item": "ifeu:dragon_star"
+  },
+  "output": {
+    "amount": 5,
+    "fluid": "avaritia_integration:molten_star"
+  },
+  "rarity": [
+    {
+      "biome_filter": {
+        "blacklist": [],
+        "whitelist": []
+      },
+      "depth_max": 128,
+      "depth_min": 100,
+      "dimension_filter": {
+        "blacklist": [],
+        "whitelist": [
+            "allthemodium:the_beyond"
+        ]
+      },
+      "weight": 8
+    }
+  ]
+}

@@ -825,6 +825,7 @@ ServerEvents.recipes(event => {
             " ACE ",
             "  A  "
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "tag": "c:plastics"
@@ -874,6 +875,174 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "id": "extendedae_plus:assembler_matrix_upload_core"
+        }
+    });
+
+    event.custom({
+        "type": "appgen:synthesizing",
+        "input_energy": 1000000,
+        "input_fluid": {
+            "amount": 4000,
+            "ingredient": {
+                "fluid": "pneumaticcraft:plastic"
+            }
+        },
+        "input_items": [
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "extendedae_plus:256x_crafting_accelerator"
+                }
+            },
+            {
+                "amount": 8,
+                "ingredient": {
+                    "item": "ae2:speed_card"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "item": "ae2:spatial_cell_component_16"
+                }
+            },
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "mekanism:upgrade_speed"
+                }
+            }
+        ],
+        "output": {
+            "#": 1,
+            "#t": "ae2:i",
+            "id": "extendedae_plus:entity_speed_card",
+            "components": {
+                "minecraft:custom_data": {
+                    "EAS:mult": 2
+                }
+            },
+            "type": "neoforge:components"
+        }
+    });
+
+    event.custom({
+        "type": "advanced_ae:reaction",
+        "input_energy": 4000000,
+        "input_fluid": {
+            "amount": 3000,
+            "ingredient": {
+                "fluid": "justdirethings:refined_t4_fluid_source"
+            }
+        },
+        "input_items": [
+            {
+                "amount": 5,
+                "ingredient": {
+                    "items": "extendedae_plus:entity_speed_card",
+                    "components": {
+                        "minecraft:custom_data": {
+                            "EAS:mult": 2
+                        }
+                    },
+                    "type": "neoforge:components"
+                }
+            },
+            {
+                "amount": 3,
+                "ingredient": {
+                    "item": "ae2:spatial_cell_component_128"
+                }
+            },
+            {
+                "amount": 3,
+                "ingredient": {
+                    "item": "extendedae_plus:1024x_crafting_accelerator"
+                }
+            },
+            {
+                "amount": 3,
+                "ingredient": {
+                    "item": "ae2:dense_energy_cell"
+                }
+            }
+        ],
+        "output": {
+            "#": 1,
+            "#t": "ae2:i",
+            "id": "extendedae_plus:entity_speed_card",
+            "components": {
+                "minecraft:custom_data": {
+                    "EAS:mult": 4
+                }
+            },
+            "type": "neoforge:components"
+        }
+    });
+
+    event.custom({
+        "type": "advanced_ae:reaction",
+        "input_energy": 40000000,
+        "input_fluid": {
+            "amount": 4000,
+            "ingredient": {
+                "fluid": "avaritia_integration:void_matter_source"
+            }
+        },
+        "input_items": [
+            {
+                "amount": 5,
+                "ingredient": {
+                    "items": "extendedae_plus:entity_speed_card",
+                    "components": {
+                        "minecraft:custom_data": {
+                            "EAS:mult": 4
+                        }
+                    },
+                    "type": "neoforge:components"
+                }
+            },
+            {
+                "amount": 8,
+                "ingredient": {
+                    "item": "ae2:spatial_cell_component_128"
+                }
+            },
+            {
+                "amount": 8,
+                "ingredient": {
+                    "item": "extendedae_plus:1024x_crafting_accelerator"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "item": "megacells:mega_energy_cell"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "items": "ifeu:speed_addon_6",
+                    "components": {
+                        "titanium:augments": {
+                            "Speed": 7.0
+                        }
+                    },
+                    "type": "neoforge:components"
+                }
+            }
+        ],
+        "output": {
+            "#": 1,
+            "#t": "ae2:i",
+            "id": "extendedae_plus:entity_speed_card",
+            "components": {
+                "minecraft:custom_data": {
+                    "EAS:mult": 8
+                }
+            },
+            "type": "neoforge:components"
         }
     });
 });

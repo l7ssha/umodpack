@@ -97,6 +97,7 @@
 	quest.0B3D76D81BC6733F.title: "Tier 2 Factory"
 	quest.0BB12CC02CF8C2FA.title: "Derium"
 	quest.0C4D34A7C14A3191.title: "Meterial Discount"
+	quest.0C51CB7D23A7EF1F.quest_desc: ["Place this card into machine that requries channel to connect it to your network directly, only second Wireless Transceiver  is required."]
 	quest.0C6B7F48C44E7351.quest_desc: [
 		"Small dragons (Stage 1-3) spawn on the surface in roosts."
 		""
@@ -552,6 +553,7 @@
 	quest.5323DAD30FA78DF2.title: "Lavium"
 	quest.534A5B38D070561C.title: "Sophisticated Storage upgrades"
 	quest.537F8DE6B38BABC4.quest_desc: ["Allows you to quickly train models to the maximum level, consuming a large amount of energy. Does not produce loot during simulation. Supports 2 upgrades."]
+	quest.543974917DD06DA1.quest_desc: ["Use Mirror Pattern Binder on Mirror Pattern Provider and another Pattern Provider to link then together. Linked pattern providers work in tandem, Mirror Pattern Provider behaves the same as linked pattern provider, sharing its patterns and settings."]
 	quest.545B580AECEE19C2.title: "Some Iron"
 	quest.54821D4242F25448.quest_desc: ["Crafting Controllers can cooled with: Crylotheum which is best cooling fluid, Water which produces Mekanism's Steam in exchange, or Mekanism's Sodium which produces Superheated Sodium which can be exchanged in Thermoelectric Boiler"]
 	quest.54821D4242F25448.title: "Crafting Controller Water Cooling"

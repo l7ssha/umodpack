@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         "tier": 2,
         "key": {
             "A": {
-                "tag": "c:plates/netherite"
+                "tag": "c:plates/vibranium"
             },
             "B": {
                 "item": "appgen:origination_processor"
@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
                 "item": "ae2:sky_stone_tank"
             },
             "F": {
-                "tag": "c:plates/vibranium"
+                "tag": "c:plates/unobtainium"
             }
         },
         "result": {

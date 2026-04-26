@@ -550,4 +550,24 @@ ServerEvents.recipes(event => {
             '1x extendedae_plus:entity_speed_ticker',
         ]
     );
+
+    mmrRecipe(
+        "mmr:assembly_line",
+        5000,
+        200000,
+        [
+            Item.of("extendedae_plus:entity_speed_card", { "minecraft:custom_data": { "EAS:mult": 8 } }).withCount(5),
+            '1x #c:plates/blaze',
+            '8x minecraft:sculk_shrieker',
+            Item.of('ifeu:speed_addon_6', { 'titanium:augments': { Speed: 7.0 } }).withCount(2),
+            '2x #c:circuits/multiversal',
+            '5x draconicevolution:medium_chaos_frag'
+        ],
+        [
+            '8000x avaritia_integration:molten_star',
+        ],
+        [
+            Item.of("extendedae_plus:entity_speed_card", { "minecraft:custom_data": { "EAS:mult": 16 } })
+        ]
+    );
 });
