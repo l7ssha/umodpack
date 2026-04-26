@@ -332,7 +332,6 @@ const recipesById = [
 
     // Allthemodium
     'allthemodium:teleport_pad',
-    /allthemodium:smithing\/allthemodium_.*_smithing/,
     'alltheores:crafting/steel/alloy_blending_from_dust',
     /alltheores:alloysmelter\/.*\/ingot/,
     'alltheores:alloy_smelting/enderium_ingot',
