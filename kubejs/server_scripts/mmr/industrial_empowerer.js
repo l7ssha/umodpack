@@ -237,7 +237,7 @@ ServerEvents.recipes(event => {
             15000,
             value,
             [
-                "250x actuallyadditions:refined_canola_oil"
+                "250x minecraft:lava"
             ],
             [
                 `1x actuallyadditions:empowered_${key}_crystal_block`
@@ -269,7 +269,7 @@ ServerEvents.recipes(event => {
             "8x cataclysm:witherite_ingot"
         ],
         [
-            "8000x bigreactors:redfrigium",
+            "4000x bigreactors:redfrigium",
         ],
         [
             "3x kubejs:confusion_alloy"

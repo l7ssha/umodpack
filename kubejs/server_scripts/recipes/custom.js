@@ -37,4 +37,18 @@ ServerEvents.recipes(event => {
             }
         }
     });
+
+    event.shapeless({
+        "ingredients": [
+            {
+                "item": "alltheores:copper_ore_hammer",
+            },
+            {
+                "item": "minecraft:obsidian"
+            }
+        ],
+        "result": {
+            "id": "mekanism:dust_obsidian"
+        }
+    });
 });
