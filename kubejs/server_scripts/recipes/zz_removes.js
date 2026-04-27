@@ -107,6 +107,7 @@ const recipesById = [
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,
+    'xycraft:shaped/foil',
 
     // Occultism
     'occultism:crafting/netherite_dust',

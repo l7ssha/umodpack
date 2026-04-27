@@ -18,4 +18,23 @@ ServerEvents.recipes(event => {
             "count": 2,
         },
     });
+
+    event.custom({
+        "type": "industrialforegoing:fluid_extractor",
+        "breakChance": 0.05,
+        "defaultRecipe": false,
+        "input": {
+            "item": "productivetrees:time_traveller_log"
+        },
+        "output": {
+            "amount": 1,
+            "id": "kubejs:digital_time_infusion"
+        },
+        "result": {
+            "Name": "productivetrees:time_traveller_stripped_log",
+            "Properties": {
+                "axis": "y"
+            }
+        }
+    });
 });

@@ -8,10 +8,11 @@ RecipeViewerEvents.removeEntries('item', event => {
         'mysticalagriculture:yellorium_essence',
         'alexscaves:block_of_uranium',
         /immersiveengineering:(pickaxe|sword|axe|shovel|hoe)_steel/,
-        /immersiveengineering:armor_steel_(helmet|chestplate|leggings|boots)/
+        /immersiveengineering:armor_steel_(helmet|chestplate|leggings|boots)/,
+        'xycraft_machines:foil',
     ]);
 });
 
 RecipeViewerEvents.removeCategories(event => {
-	event.remove('extendedae:assembler');
+    event.remove('extendedae:assembler');
 });
