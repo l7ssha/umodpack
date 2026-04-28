@@ -6,11 +6,17 @@ ServerEvents.tags('block', tags => {
     );
 
     tags.add('justdirethings:lawnmowerable', '#c:grass');
+
+    tags.add('kubejs:teslaite_basalt_reprecable', [
+        'minecraft:basalt',
+        'minecraft:polished_basalt',
+        'minecraft:smooth_basalt',
+        'minecraft:blackstone',
+    ]);
 });
 
 ServerEvents.tags('fluid', tags => {
     tags.add('c:ethanol', 'pneumaticcraft:ethanol');
-    tags.add("c:experience", "create_enchantment_industry:experience");
     tags.add("allthemodium:soul_lava", "allthemodium:soul_lava");
 });
 
