@@ -8,4 +8,10 @@ LootJS.modifiers(event => {
         .removeLoot('relics:leather_belt')
         .removeLoot('relics:hunter_belt')
         .removeLoot('relics:drowned_belt');
+
+    event.addLootModifier(LootType.ENTITY)
+        .filter(item => {
+            return item.id.match(/^evolvedmekanism:(plaslitherite|better_gold)_.*/);
+        })
+        .removeLoot();
 });
