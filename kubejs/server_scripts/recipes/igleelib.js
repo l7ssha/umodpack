@@ -32,10 +32,11 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "evolvedmekanism:alloying",
         "extra_input": {
-            "tag": "c:obsidians"
+            "count": 2,
+            "tag": "c:ingots/end_steel"
         },
         "second_extra_input": {
-            "item": "iceandfire:ghost_ingot"
+            "tag": "c:ingots/tungsten"
         },
         "main_input": {
             "tag": "c:ingots/modium"

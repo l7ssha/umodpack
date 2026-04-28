@@ -1105,16 +1105,11 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["0105EA8F796F3943"]
+			dependencies: [
+				"0105EA8F796F3943"
+				"1ADEEB75BA85A2BC"
+			]
 			id: "0BB12CC02CF8C2FA"
-			rewards: [{
-				id: "6EB237B40F920083"
-				item: {
-					count: 1
-					id: "iceandfire:ghost_ingot"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "34F2CC316CDE94AD"
 				item: { count: 1, id: "igleelib:derium_ingot" }
