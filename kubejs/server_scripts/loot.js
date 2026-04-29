@@ -10,5 +10,8 @@ LootJS.modifiers(event => {
         .removeLoot('relics:drowned_belt');
 
     event.addTableModifier(/.*:entities\/.*/)
-        .removeLoot(ItemFilter.custom(item => item.id.match(/^evolvedmekanism:(plaslitherite|better_gold)_.*/)));
+        .removeLoot(/^evolvedmekanism:(plaslitherite|better_gold)_.*/);
+
+    event.addTableModifier(/.*:entities\/.*/)
+        .removeLoot(/^tombstone:scroll_of_.*/);
 });

@@ -11,10 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"20153214A2E62564"
-				"7F30E917DB781CD7"
-			]
+			dependencies: ["20153214A2E62564"]
 			id: "321A93DE6ECA689B"
 			shape: "octagon"
 			size: 1.3d

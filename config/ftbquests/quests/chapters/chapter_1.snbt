@@ -574,12 +574,12 @@
 			tasks: [
 				{
 					id: "2B45F8F95DC1173B"
-					item: { count: 1, id: "re_endergy:crystalline_alloy_ingot" }
+					item: { count: 1, id: "enderio_evolution:crystalline_alloy_ingot" }
 					type: "item"
 				}
 				{
 					id: "523E65096E7D5929"
-					item: { count: 1, id: "re_endergy:crystalline_pink_slime_ingot" }
+					item: { count: 1, id: "enderio_evolution:crystalline_pink_slime_ingot" }
 					type: "item"
 				}
 			]
@@ -747,7 +747,7 @@
 			id: "29B7BFE581546C36"
 			tasks: [{
 				id: "2FE24124AD86F6A1"
-				item: { count: 1, id: "re_endergy:melodic_alloy_ingot" }
+				item: { count: 1, id: "enderio_evolution:melodic_alloy_ingot" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -761,7 +761,7 @@
 			id: "5D4C205812C32E78"
 			tasks: [{
 				id: "00EAD943A481D227"
-				item: { count: 1, id: "re_endergy:stellar_alloy_ingot" }
+				item: { count: 1, id: "enderio_evolution:stellar_alloy_ingot" }
 				type: "item"
 			}]
 			x: 2.0d
