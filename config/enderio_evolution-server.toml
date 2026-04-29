@@ -1,0 +1,17 @@
+[undying_totem_capacitor]
+	#Enable custom calculation logic for the Undying Totem Capacitor.
+	#If false, it uses the hardcoded vanilla tier logic (Efficiency <=1: 3.5, <=3: 4.5, else 6.0).
+	enableCustomMath = false
+	#The maximum Efficiency enchantment level that affects the capacitor.
+	#Set to -1 for unlimited scaling.
+	# Default: 5
+	# Range: -1 ~ 255
+	maxEnchantLimit = 5
+	#The base capacitor level when there is no Efficiency enchantment.
+	# Default: 3.5
+	# Range: 0.0 ~ 100.0
+	baseLevel = 3.5
+	#How much capacitor level is added per Efficiency enchantment level.
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	levelIncrementPerEnchant = 0.5
