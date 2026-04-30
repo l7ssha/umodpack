@@ -160,4 +160,35 @@ ServerEvents.recipes(event => {
             '2x ae2:quantum_entangled_singularity'
         ]
     );
+
+    mmrRecipe(
+        "mmr:electric_implosion_compressor",
+        40,
+        10000,
+        [
+            "1x extendedcrafting:ender_star",
+            "1x extendedcrafting:flux_star",
+            "1x ifeu:dragon_star",
+            "16x skyfalltesla:aether_quartz",
+        ],
+        [
+            '2x skyfalltesla:aether_prism'
+        ]
+    );
+
+    mmrRecipe(
+        "mmr:electric_implosion_compressor",
+        40,
+        10000,
+        [
+            "6x ae2:charged_certus_quartz_crystal",
+            "3x #aether:gems/ambrosium",
+            "3x #aether:gems/zanite",
+            "3x deep_aether:skyjade",
+            "1x aether:enchanted_gravitite"
+        ],
+        [
+            '2x skyfalltesla:aether_quartz'
+        ]
+    );
 });

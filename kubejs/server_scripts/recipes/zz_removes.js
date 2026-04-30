@@ -541,6 +541,10 @@ const recipesById = [
     // Ice and Fire
     /iceandfire:silver_(ingot|nugget)_.*/,
     /enderio:smelting\/iceandfire\/silver_.*/,
+
+    // Skyfall Tesla
+    'skyfalltesla:aether_prism',
+    'skyfalltesla:aether_quartz_x3',
 ];
 
 const recipesByType = [
