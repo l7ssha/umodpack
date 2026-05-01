@@ -274,8 +274,8 @@
 		}
 		{
 			dependencies: [
-				"440F3A94958353A4"
 				"6C3F15940B893707"
+				"7AF9AB95611268F7"
 			]
 			id: "6AE8611CDFAE5A13"
 			tasks: [{
@@ -303,10 +303,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"7F30E917DB781CD7"
-				"20153214A2E62564"
-			]
+			dependencies: ["20153214A2E62564"]
 			id: "5EB33A303050DC53"
 			shape: "octagon"
 			size: 1.3d

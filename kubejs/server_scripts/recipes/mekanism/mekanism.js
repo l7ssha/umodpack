@@ -1982,4 +1982,16 @@ ServerEvents.recipes(event => {
             "id": "mekanism:rotary_condensentrator"
         }
     });
+
+    event.custom({
+        "type": "mekanism:oxidizing",
+        "input": {
+            "count": 1,
+            "item": "alexscaves:unrefined_waste",
+        },
+        "output": {
+            "amount": 100,
+            "id": 'mekanism:nuclear_waste'
+        }
+    });
 });

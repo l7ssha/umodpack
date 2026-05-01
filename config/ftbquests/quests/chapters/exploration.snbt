@@ -978,5 +978,18 @@
 			x: 2.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["0925E2F30E0FA26D"]
+			id: "427E10205575A21D"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "3439139DD4657566"
+				item: { count: 1, id: "twilightforest:naga_scale" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
 	]
 }

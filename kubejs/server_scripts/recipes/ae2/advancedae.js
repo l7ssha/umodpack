@@ -133,7 +133,7 @@ ServerEvents.recipes(event => {
                 "item": "minecraft:sticky_piston"
             },
             "D": {
-                "tag": "c:circuits/absolute_overclocked"
+                "tag": "c:circuits/absolute"
             },
             "E": {
                 "item": "ae2:molecular_assembler"

@@ -40,7 +40,6 @@ ServerEvents.tags('item', tags => {
     tags.add('c:storage_blocks/raw_yellorium', 'bigreactors:raw_yellorium_block');
 
     tags.add('minecraft:bookshelf_books', 'patchouli:guide_book');
-    tags.add('minecraft:bookshelf_books', 'evilcraft:origins_of_darkness');
     tags.add('minecraft:bookshelf_books', 'ae2:guide');
     tags.add('minecraft:bookshelf_books', 'powah:book');
     tags.add('minecraft:bookshelf_books', 'actuallyadditions:booklet');
@@ -53,6 +52,7 @@ ServerEvents.tags('item', tags => {
 
     tags.add('c:plastics', [
         "pneumaticcraft:plastic",
+        "alexscaves:polymer_plate",
     ]);
 
     tags.add('c:ingots', [

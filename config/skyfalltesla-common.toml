@@ -1,0 +1,225 @@
+[generator]
+	#Global multiplier applied to all generator output (FE/t).
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	globalGeneratorOutputMultiplier = 1.0
+
+	[generator.tier_base_fe_per_tick]
+		# Default: 12000
+		# Range: 0 ~ 9223372036854775807
+		t1BaseFEt = 12000
+		# Default: 35000
+		# Range: 0 ~ 9223372036854775807
+		t2BaseFEt = 35000
+		# Default: 90000
+		# Range: 0 ~ 9223372036854775807
+		t3BaseFEt = 90000
+		# Default: 180000
+		# Range: 0 ~ 9223372036854775807
+		t4BaseFEt = 180000
+
+	[generator.tier_output_multiplier]
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		t1Multiplier = 1.0
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		t2Multiplier = 1.0
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		t3Multiplier = 1.0
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		t4Multiplier = 1.0
+
+	[generator.tier_internal_buffer]
+		# Default: 50000000
+		# Range: 0 ~ 9223372036854775807
+		t1Buffer = 50000000
+		# Default: 200000000
+		# Range: 0 ~ 9223372036854775807
+		t2Buffer = 200000000
+		# Default: 500000000
+		# Range: 0 ~ 9223372036854775807
+		t3Buffer = 500000000
+		# Default: 1000000000
+		# Range: 0 ~ 9223372036854775807
+		t4Buffer = 1000000000
+
+	[generator.drive_cells]
+		#Duration in ticks for a normal Resonance Drive Cell. 6000 ticks = 5 minutes.
+		# Default: 6000
+		# Range: > 1
+		driveCellDurationTicks = 6000
+		#Output multiplier while a normal Resonance Drive Cell is active.
+		# Default: 3.0
+		# Range: 1.0 ~ 1000.0
+		driveCellOutputMultiplier = 3.0
+		#If false, Everlasting Resonance Drive Cells provide no bonus and cannot activate.
+		everlastingDriveCellEnabled = true
+		#Output multiplier while an Everlasting Resonance Drive Cell is inserted.
+		# Default: 10.0
+		# Range: 1.0 ~ 1000.0
+		everlastingDriveCellOutputMultiplier = 10.0
+
+[core]
+	#If true: zone is unlimited vertically (Y unbounded). If false: future versions may clamp Y.
+	verticalUnlimitedZone = true
+
+	[core.max_generators_per_tier]
+		# Default: 1
+		# Range: 0 ~ 1000
+		t1MaxGenerators = 1
+		# Default: 2
+		# Range: 0 ~ 1000
+		t2MaxGenerators = 2
+		# Default: 4
+		# Range: 0 ~ 1000
+		t3MaxGenerators = 4
+		# Default: 6
+		# Range: 0 ~ 1000
+		t4MaxGenerators = 6
+		# Default: 8
+		# Range: 0 ~ 1000
+		t5MaxGenerators = 8
+
+	[core.max_frame_size_per_tier]
+		# Default: 7
+		# Range: 7 ~ 25
+		t1MaxFrameSize = 7
+		# Default: 11
+		# Range: 7 ~ 25
+		t2MaxFrameSize = 11
+		# Default: 15
+		# Range: 7 ~ 25
+		t3MaxFrameSize = 15
+		# Default: 19
+		# Range: 7 ~ 25
+		t4MaxFrameSize = 19
+		# Default: 25
+		# Range: 7 ~ 25
+		t5MaxFrameSize = 25
+
+[visual]
+	#0=off, 1=low, 2=medium, 3=high
+	# Default: 2
+	# Range: 0 ~ 3
+	particleIntensity = 2
+	#Enable/disable all Skyfall: Tesla sounds (core crackle, generator hum, etc.)
+	enableSound = true
+
+[white_hole]
+	#Enable the White Hole visual entity and ambient effects.
+	enabled = true
+	#Enable White Hole ambient particles.
+	enableParticles = true
+	#Enable the White Hole downward beam particles.
+	enableBeam = true
+	#Enable White Hole ambient sounds.
+	enableSounds = true
+	#Server tick interval for White Hole ambient FX. Higher = better performance.
+	# Default: 1
+	# Range: 1 ~ 40
+	particleInterval = 1
+	#Legacy common-side White Hole render quality. Client renderer should use client config instead.
+	# Default: 1
+	# Range: 0 ~ 2
+	renderQuality = 1
+
+[quasar]
+	#Enable the Quasar visual entity and ambient effects.
+	enabled = true
+	#Enable Quasar ambient particles.
+	enableParticles = true
+	#Enable link particles from White Holes to the Quasar Caller.
+	enableLinkParticles = true
+	#Enable Quasar ambient sounds.
+	enableSounds = true
+	#Server tick interval for Quasar ambient FX. Higher = better performance.
+	# Default: 1
+	# Range: 1 ~ 40
+	particleInterval = 1
+	#Server tick interval for Quasar link FX. Higher = better performance.
+	# Default: 2
+	# Range: 1 ~ 40
+	linkParticleInterval = 2
+	#Legacy common-side Quasar render quality. Client renderer should use client config instead.
+	# Default: 1
+	# Range: 0 ~ 2
+	renderQuality = 1
+	#Additional height offset for the Quasar above the Quasar Caller.
+	# Default: 15.0
+	# Range: 0.0 ~ 256.0
+	heightOffset = 15.0
+
+[ionization_chamber]
+	#Ionization Chamber internal FE buffer.
+	# Default: 2000000
+	# Range: 0 ~ 9223372036854775807
+	maxEnergy = 2000000
+	#Global multiplier applied to ALL ionization recipe FE/t costs.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	globalFeMultiplier = 1.0
+	#Global multiplier applied to ALL ionization recipe durations (ticks). Lower = faster.
+	# Default: 1.0
+	# Range: 0.001 ~ 1000.0
+	globalTimeMultiplier = 1.0
+	#When an Aether Prism is present, recipe ticks are divided by this value.
+	# Default: 1.35
+	# Range: 0.01 ~ 1000.0
+	prismSpeedMultiplier = 1.35
+	#When an Aether Prism is present, recipe FE/t is multiplied by this value.
+	# Default: 0.7
+	# Range: 0.0 ~ 1000.0
+	prismFeMultiplier = 0.7
+
+[phase_stabilizer]
+	#Phase Stabilizer internal FE buffer.
+	# Default: 10000000
+	# Range: 0 ~ 9223372036854775807
+	maxEnergy = 10000000
+	#Global multiplier applied to ALL phase stabilizing recipe FE/t costs.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	globalFeMultiplier = 1.0
+	#Global multiplier applied to ALL phase stabilizing recipe durations (ticks). Lower = faster.
+	# Default: 1.0
+	# Range: 0.001 ~ 1000.0
+	globalTimeMultiplier = 1.0
+	#Multiplier applied to recipe fuel_stars requirement (stored nether stars).
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	fuelCostMultiplier = 1.0
+
+[space_time_breach]
+	#Space Time Breach internal FE buffer.
+	# Default: 25000000
+	# Range: 0 ~ 9223372036854775807
+	maxEnergy = 25000000
+	#Global multiplier applied to ALL space time breach recipe FE/t costs.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	globalFeMultiplier = 1.0
+	#Global multiplier applied to ALL space time breach recipe durations (ticks). Lower = faster.
+	# Default: 1.0
+	# Range: 0.001 ~ 1000.0
+	globalTimeMultiplier = 1.0
+	#If true: while processing, a singularity spawns above and pulls/kills nearby living entities.
+	enableBlackHole = true
+	#Radius (blocks) around the singularity that entities are pulled from.
+	# Default: 10.0
+	# Range: 0.0 ~ 256.0
+	pullRadius = 10.0
+	#Base pull acceleration added per tick (scaled by distance/progress).
+	# Default: 0.08
+	# Range: 0.0 ~ 5.0
+	pullStrength = 0.08
+	#If an entity gets within this distance of the singularity, it dies.
+	# Default: 1.15
+	# Range: 0.1 ~ 64.0
+	killRadius = 1.15
+	#Additional height offset above the controller where the singularity exists.
+	# Default: 0.85
+	# Range: -64.0 ~ 256.0
+	blackHoleHeight = 0.85

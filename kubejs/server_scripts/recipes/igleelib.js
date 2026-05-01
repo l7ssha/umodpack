@@ -72,11 +72,11 @@ ServerEvents.recipes(event => {
             }
         ],
         "inputFluid": {
-            "amount": 1500,
+            "amount": 1000,
             "fluid": "allthemodium:soul_lava"
         },
         "output": {
-            "count": 1,
+            "count": 4,
             "id": "igleelib:blaze_shard"
         },
         "processingTime": 600

@@ -548,6 +548,9 @@ const recipesById = [
     // Skyfall Tesla
     'skyfalltesla:aether_prism',
     'skyfalltesla:aether_quartz_x3',
+
+    // Alexs Caves
+    'alexscaves:gunpowder_from_sulfur',
 ];
 
 const recipesByType = [

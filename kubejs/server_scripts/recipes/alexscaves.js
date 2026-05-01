@@ -5,6 +5,12 @@ ServerEvents.recipes(event => {
         '#c:ingots/uranium',
     );
 
+    event.replaceInput(
+        { input: 'alexscaves:sulfur_dust' },
+        'alexscaves:sulfur_dust',
+        '#c:dusts/sulfur',
+    );
+
     event.shapeless(
         Item.of('alltheores:sulfur', 1),
         [

@@ -3,14 +3,14 @@ ServerEvents.recipes(event => {
         "pattern": [
             "ABA",
             "CDC",
-            "ACA"
+            "ABA"
         ],
         "key": {
             "A": {
                 "tag": "c:ingots/end_steel"
             },
             "B": {
-                "item": "cataclysm:cursium_ingot"
+                "item": "twilightforest:naga_scale"
             },
             "C": {
                 "tag": "c:ingots/derium"

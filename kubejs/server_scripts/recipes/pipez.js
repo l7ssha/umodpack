@@ -1,3 +1,11 @@
+const pipezUpgrades = [
+    'basic',
+    'improved',
+    'advanced',
+    'ultimate',
+    'infinity',
+];
+
 ServerEvents.recipes(event => {
     event.shaped({
         "pattern": [
@@ -107,5 +115,16 @@ ServerEvents.recipes(event => {
             "count": 1,
             "id": "pipez:ultimate_upgrade"
         }
+    });
+
+    pipezUpgrades.forEach(type => {
+        const item = `pipez:${type}_upgrade`;
+
+        event.shapeless(
+            Item.of(item, 1),
+            [
+                item,
+            ],
+        );
     });
 });
