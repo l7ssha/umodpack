@@ -80,3 +80,5 @@ config/sodium-options.json
 servers.dat*
 config/sodium-fingerprint.json
 kubejs/README.txt
+contributors.json
+contributors.json.etag

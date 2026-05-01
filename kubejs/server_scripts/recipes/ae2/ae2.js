@@ -819,4 +819,104 @@ ServerEvents.recipes(event => {
             "id": "ae2:crafting_accelerator"
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAABC",
+            "ADBEC",
+            "CFE C",
+            "CDEFC",
+            "CCCCC"
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:plates/allthemodium"
+            },
+            "B": {
+                "tag": "c:plates/netherite"
+            },
+            "C": {
+                "tag": "c:plates/steel"
+            },
+            "D": {
+                "item": "mekanism:energy_tablet"
+            },
+            "E": {
+                "tag": "c:rods/electrum"
+            },
+            "F": {
+                "item": "mekanism:ultimate_universal_cable"
+            }
+        },
+        "result": {
+            "id": "ae2:inscriber"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAAA ",
+            "ABCD ",
+            "A    ",
+            "ABCD ",
+            "AAAA "
+        ],
+        "tier": 2,
+        "key": {
+            "A": {
+                "tag": "c:plates/steel"
+            },
+            "B": {
+                "tag": "c:plates/allthemodium"
+            },
+            "C": {
+                "item": "mekanism:energy_tablet"
+            },
+            "D": {
+                "tag": "c:plates/netherite"
+            }
+        },
+        "result": {
+            "id": "ae2:charger"
+        }
+    });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "AAAAAAAAA",
+            "A B   B A",
+            "ABCDDDCBA",
+            "ABED DEBA",
+            "ABCD DCBA",
+            "AB D D BA",
+            "ABCDDDCBA",
+            "ABB E BBA",
+            "AAAAAAAAA"
+        ],
+        "tier": 4,
+        "key": {
+            "A": {
+                "tag": "c:plates/invar"
+            },
+            "B": {
+                "tag": "c:plates/unobtainium"
+            },
+            "C": {
+                "item": "ae2:fluix_block"
+            },
+            "D": {
+                "tag": "ae2:glass_cable"
+            },
+            "E": {
+                "item": "mysticalagriculture:supremium_growth_accelerator"
+            }
+        },
+        "result": {
+            "id": "ae2:growth_accelerator"
+        }
+    });
 });

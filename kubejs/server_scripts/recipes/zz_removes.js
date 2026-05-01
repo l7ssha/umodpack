@@ -247,6 +247,9 @@ const recipesById = [
     'extendedae_plus:entity_speed_card_x4',
     'extendedae_plus:entity_speed_card_x8',
     'extendedae_plus:entity_speed_card_x16',
+    'ae2:network/blocks/inscribers',
+    'ae2:network/blocks/crystal_processing_charger',
+    'ae2:network/blocks/crystal_processing_growth_accelerator',
 
     // Neo Eco AE
     /neoecoae:aluminum_(axe|shovel|pickaxe|sword)/,

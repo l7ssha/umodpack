@@ -67,6 +67,10 @@ const crushingRecipes = {
     "#c:ingots/vibranium_allthemodium_alloy": "allthemodium:vibranium_allthemodium_alloy_dust",
 };
 
+const missingCrusingRecipes = [
+    'aluminum'
+];
+
 ServerEvents.recipes(event => {
     Object.entries(crushingRecipes).forEach(([input, output]) => {
         const inputObject = input.startsWith("#") ? { "tag": input.substring(1) } : { "item": input };
@@ -161,6 +165,19 @@ ServerEvents.recipes(event => {
             "output": {
                 "count": 1,
                 "id": `allthemodium:${material}_plate`
+            }
+        });
+    });
+
+    missingCrusingRecipes.forEach(ingredient => {
+        event.custom({
+            "type": "mekanism:crushing",
+            "input": {
+                "tag": `c:dirty_dusts/${ingredient}`
+            },
+            "output": {
+                "count": 1,
+                "id": `alltheores:${ingredient}_dust`
             }
         });
     });
