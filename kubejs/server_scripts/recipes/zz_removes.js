@@ -98,6 +98,7 @@ const recipesById = [
     'evolvedmekanism:nucleosynthesizing/alloy_subatomic',
     'mekanism_extras:reaction/naquadah_uranium_fuel',
     'mekanism:rotary_condensentrator',
+    'mekanism:chemical_infuser',
 
     // Ender IO
     'enderio:void_chassis',

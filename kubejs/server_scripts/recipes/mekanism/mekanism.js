@@ -1994,4 +1994,49 @@ ServerEvents.recipes(event => {
             "id": 'mekanism:nuclear_waste'
         }
     });
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            " AB BA ",
+            "ACDEDCA",
+            "ADFCGDA",
+            "AEHEHEA",
+            "DCGEFCD",
+            "ADDDDDA",
+            "IAAAAAI"
+        ],
+        "key": {
+            "A": {
+                "tag": "c:plates/osmium"
+            },
+            "B": {
+                "tag": "c:pistons"
+            },
+            "C": {
+                "tag": "c:circuits/ultimate"
+            },
+            "D": {
+                "tag": "c:plates/steel"
+            },
+            "E": {
+                "item": "mekanism:ultimate_pressurized_tube"
+            },
+            "F": {
+                "item": "mekanism:energy_tablet"
+            },
+            "G": {
+                "tag": "c:plates/netherite"
+            },
+            "H": {
+                "item": "mekanism_extras:absolute_chemical_tank"
+            },
+            "I": {
+                "item": "minecraft:smooth_stone"
+            }
+        },
+        "result": {
+            "id": "mekanism:chemical_infuser"
+        }
+    });
 });
