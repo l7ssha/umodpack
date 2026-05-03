@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
                 "tag": "c:gears/diamond"
             },
             "G": {
-                "tag": "c:circuits/supreme_quantum"
+                "tag": "c:circuits/supreme"
             },
             "H": {
                 "tag": "c:storage_blocks/redstone"

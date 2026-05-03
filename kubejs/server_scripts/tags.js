@@ -21,6 +21,8 @@ ServerEvents.tags('fluid', tags => {
 });
 
 ServerEvents.tags('item', tags => {
+    tags.removeAll("c:slimeballs");
+    
     tags.add('c:pistons', [
         'minecraft:piston',
         'minecraft:sticky_piston',
