@@ -4,4 +4,16 @@ ServerEvents.recipes(event => {
         "#c:slimeballs",
         "#c:slime_balls",
     );
+
+    event.replaceInput(
+        { input: "pneumaticcraft:plastic" },
+        "pneumaticcraft:plastic",
+        "#c:plastics",
+    );
+
+    event.replaceInput(
+        { input: "#pneumaticcraft:plastic_sheets" },
+        "#pneumaticcraft:plastic",
+        "#c:plastics",
+    );
 });

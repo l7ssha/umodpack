@@ -380,6 +380,7 @@ const recipesById = [
     'pneumaticcraft:drill_pipe',
     'pneumaticcraft:thermopneumatic_processing_plant',
     'pneumaticcraft:module_expansion_card',
+    'pneumaticcraft:amadron_tablet',
 
     // EnderStorage
     'enderstorage:ender_chest',
