@@ -62,4 +62,55 @@ ServerEvents.recipes(event => {
         'minecraft:redstone_block',
         'mekanism:energy_tablet',
     );
+
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "  AAAAA  ",
+            " ABBB BA ",
+            "AB C   A ",
+            "ADCECCCCA",
+            "A EFFFFFA",
+            "ADFGGGGGA",
+            "AHIFFFFA ",
+            " AHHH HA ",
+            "  AAAAA  "
+        ],
+        "key": {
+            "A": {
+                "item": "modular_machinery_reborn:casing_reinforced"
+            },
+            "B": {
+                "tag": "c:circuits/absolute"
+            },
+            "C": {
+                "tag": "c:ingots/stellar_alloy"
+            },
+            "D": {
+                "item": "mekanism:ultimate_bin"
+            },
+            "E": {
+                "item": "ae2:controller"
+            },
+            "F": {
+                "item": "immersiveengineering:conveyor_basic"
+            },
+            "G": {
+                "tag": "c:plates/unobtainium"
+            },
+            "H": {
+                "tag": "c:circuits/overclocked"
+            },
+            "I": {
+                "item": "functionalstorage:storage_controller"
+            }
+        },
+        "result": {
+            "id": "modular_machinery_reborn:controller",
+            "components": {
+                "modular_machinery_reborn:machine": "mmr:assembly_line"
+            },
+            "type": "neoforge:components"
+        }
+    });
 });

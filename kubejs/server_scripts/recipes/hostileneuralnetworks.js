@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
             "AMJKHKJMA",
             "AAAJJJAAA"
         ],
+        "tier": 4,
         "key": {
             "A": {
                 "tag": "c:ingots/refined_redstone"
@@ -71,6 +72,7 @@ ServerEvents.recipes(event => {
             "AKIG GIKA",
             "AAAIIIAAA"
         ],
+        "tier": 4,
         "key": {
             "A": {
                 "tag": "c:ingots/refined_redstone"
@@ -120,6 +122,7 @@ ServerEvents.recipes(event => {
             "ACBBA",
             "AAAAA"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "tag": "c:plastics"
@@ -151,6 +154,7 @@ ServerEvents.recipes(event => {
             "FBCBF",
             "FF FF"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "tag": "c:ingots/dark_steel"
@@ -185,6 +189,7 @@ ServerEvents.recipes(event => {
             "BCCCB",
             "ABBBA"
         ],
+        "tier": 2,
         "key": {
             "A": {
                 "item": "hazennstuff:demonite_ingot"

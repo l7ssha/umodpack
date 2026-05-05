@@ -105,6 +105,9 @@ const recipesById = [
     'enderio:alloy_smelter',
     /re_endergy:conduit\/.*_energy_conduit/,
     /^enderio:.*item_conduit$/,
+    'enderio_evolution:alloy_smelter/stellar_alloy_ingot',
+    'enderio_evolution:alloy_smelter/melodic_alloy_ingot',
+    'pneumaticcraft:pressure_chamber/empty_pcb',
 
     // Xycraft
     /xycraft_machines:compat\/mek\/.*/,

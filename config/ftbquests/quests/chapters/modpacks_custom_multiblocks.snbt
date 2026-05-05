@@ -25,7 +25,13 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["253D0F408001DF0F"]
+			dependencies: [
+				"253D0F408001DF0F"
+				"5D4C205812C32E78"
+				"7AF9AB95611268F7"
+				"6AEC30C45D80423E"
+				"78CA7E3F388673C0"
+			]
 			id: "38F39A9DE5D88EEF"
 			tasks: [{
 				id: "5878FB08AC66D610"
@@ -86,6 +92,72 @@
 			}]
 			x: -5.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["15A5EF4A937A8619"]
+			id: "564BACB54CE12B20"
+			tasks: [{
+				id: "4E694D562DBF69FF"
+				item: { count: 1, id: "modular_machinery_reborn:energyinputhatch_tiny" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["15A5EF4A937A8619"]
+			id: "454E8B876F25FCAF"
+			tasks: [{
+				id: "48EF1B167BA9545C"
+				item: { count: 1, id: "modular_machinery_reborn:inputbus_tiny" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["15A5EF4A937A8619"]
+			id: "7E6D948F001C5869"
+			tasks: [{
+				id: "0113F12E00DD438D"
+				item: { count: 1, id: "modular_machinery_reborn:outputbus_tiny" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["15A5EF4A937A8619"]
+			id: "76D312E58C94A84C"
+			tasks: [{
+				id: "7C97A3A6A6137767"
+				item: { count: 1, id: "modular_machinery_reborn:fluidinputhatch_tiny" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["15A5EF4A937A8619"]
+			id: "7E41540DC6D63D77"
+			tasks: [{
+				id: "5916ACBFF6BC6FF6"
+				item: { count: 1, id: "modular_machinery_reborn:energyoutputhatch_tiny" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["15A5EF4A937A8619"]
+			id: "184D2072E5995ACF"
+			tasks: [{
+				id: "6496B307D685FCEB"
+				item: { count: 1, id: "modular_machinery_reborn:fluidoutputhatch_tiny" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
 		}
 	]
 }

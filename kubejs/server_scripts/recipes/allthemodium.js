@@ -55,8 +55,8 @@ ServerEvents.recipes(event => {
         "type": "draconicevolution:fusion_crafting",
         "catalyst": {
             "type": "draconicevolution:stack",
-            "count": 1,
-            "items": "igleelib:modium_block"
+            "count": 4,
+            "items": "igleelib:modium_ingot"
         },
         "ingredients": [
             {
@@ -84,8 +84,8 @@ ServerEvents.recipes(event => {
         "type": "draconicevolution:fusion_crafting",
         "catalyst": {
             "type": "draconicevolution:stack",
-            "count": 1,
-            "items": "igleelib:modium_block"
+            "count": 4,
+            "items": "igleelib:modium_ingot"
         },
         "ingredients": [
             {
@@ -113,8 +113,8 @@ ServerEvents.recipes(event => {
         "type": "draconicevolution:fusion_crafting",
         "catalyst": {
             "type": "draconicevolution:stack",
-            "count": 1,
-            "items": "igleelib:derium_block"
+            "count": 4,
+            "items": "igleelib:derium_ingot"
         },
         "ingredients": [
             {

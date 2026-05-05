@@ -287,7 +287,7 @@ ServerEvents.recipes(event => {
             "12x minecraft:spider_eye",
         ],
         [
-            "6000x pneumaticcraft:plastic",
+            "6000x justdirethings:polymorphic_fluid_source",
         ],
         [],
         [

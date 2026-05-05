@@ -157,7 +157,7 @@ ServerEvents.recipes(event => {
             "12x #ae2:smart_cable"
         ],
         [
-            "1000x pneumaticcraft:plastic",
+            "1000x justdirethings:polymorphic_fluid_source",
             "2000x advanced_ae:quantum_infusion_source",
         ],
         [
@@ -178,7 +178,7 @@ ServerEvents.recipes(event => {
             "8x #c:dusts/draconium"
         ],
         [
-            "1000x pneumaticcraft:plastic",
+            "1000x justdirethings:polymorphic_fluid_source",
         ],
         [
             "1x megacells:cell_component_1m"
@@ -198,7 +198,7 @@ ServerEvents.recipes(event => {
             "8x #c:dusts/draconium"
         ],
         [
-            "1000x pneumaticcraft:plastic",
+            "1000x justdirethings:polymorphic_fluid_source",
         ],
         [
             "1x megacells:cell_component_4m"
@@ -218,7 +218,7 @@ ServerEvents.recipes(event => {
             "8x #c:dusts/draconium_awakened"
         ],
         [
-            "1000x pneumaticcraft:plastic",
+            "1000x justdirethings:polymorphic_fluid_source",
         ],
         [
             "1x megacells:cell_component_16m"
@@ -238,7 +238,7 @@ ServerEvents.recipes(event => {
             "8x #c:dusts/draconium_awakened"
         ],
         [
-            "1000x pneumaticcraft:plastic",
+            "1000x justdirethings:polymorphic_fluid_source",
         ],
         [
             "1x megacells:cell_component_64m"
@@ -258,7 +258,7 @@ ServerEvents.recipes(event => {
             "16x #c:dusts/draconium_awakened"
         ],
         [
-            "1000x pneumaticcraft:plastic",
+            "1000x justdirethings:polymorphic_fluid_source",
         ],
         [
             "1x megacells:cell_component_256m"
@@ -402,7 +402,7 @@ ServerEvents.recipes(event => {
             '16x #c:dusts/vibranium_allthemodium_alloy'
         ],
         [
-            '144x pneumaticcraft:lubricant'
+            '144x justdirethings:unrefined_t2_fluid_source'
         ],
         [
             '1x emextras:absolute_overclocked_control_circuit',
@@ -422,7 +422,7 @@ ServerEvents.recipes(event => {
             '8x kubejs:abbysal_alloy'
         ],
         [
-            '144x pneumaticcraft:lubricant'
+            '144x justdirethings:unrefined_t2_fluid_source'
         ],
         [
             '1x emextras:supreme_quantum_control_circuit',
@@ -442,7 +442,7 @@ ServerEvents.recipes(event => {
             '6x #c:ingots/draconium_awakened'
         ],
         [
-            '288x pneumaticcraft:lubricant'
+            '288x justdirethings:unrefined_t2_fluid_source'
         ],
         [
             '1x emextras:cosmic_dense_control_circuit',
