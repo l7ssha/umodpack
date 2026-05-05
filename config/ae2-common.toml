@@ -24,7 +24,7 @@
 	#Number of ticks between two crystal growth accelerator ticks
 	# Default: 10
 	# Range: 1 ~ 100
-	growthAccelerator = 10
+	growthAccelerator = 15
 	#If enabled, an annihilation placed face up at the maximum world height will generate sky stone passively.
 	annihilationPlaneSkyDustGeneration = true
 
@@ -75,10 +75,10 @@
 [wireless]
 	# Default: 8.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	wirelessBaseCost = 24.0
+	wirelessBaseCost = 48.0
 	# Default: 1.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	wirelessCostMultiplier = 2.0
+	wirelessCostMultiplier = 4.0
 	# Default: 16.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
 	wirelessBaseRange = 16.0
@@ -87,13 +87,13 @@
 	wirelessBoosterRangeMultiplier = 1.0
 	# Default: 1.5
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	wirelessBoosterExp = 1.5
+	wirelessBoosterExp = 1.8
 	# Default: 64.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
 	wirelessHighWirelessCount = 64.0
 	# Default: 1.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	wirelessTerminalDrainMultiplier = 1.25
+	wirelessTerminalDrainMultiplier = 1.5
 
 [powerRatios]
 	# Default: 0.5
@@ -101,7 +101,7 @@
 	forgeEnergy = 0.5
 	# Default: 1.0
 	# Range: 0.01 ~ 1.7976931348623157E308
-	usageMultiplier = 2.0
+	usageMultiplier = 3.0
 	#How much energy can the internal grid buffer storage per node attached to the grid.
 	# Default: 25.0
 	# Range: 1.0 ~ 1000000.0
@@ -109,15 +109,15 @@
 	#How much energy a crystal resonance generator generates per tick.
 	# Default: 20.0
 	# Range: 0.0 ~ 1000000.0
-	crystalResonanceGeneratorRate = 20.0
+	crystalResonanceGeneratorRate = 40.0
 	#The cost to transport energy through an energy P2P tunnel expressed as a factor of the transported energy.
 	# Default: 0.025
 	# Range: 0.0 ~ 1.0
-	p2pTunnelEnergyTax = 0.05
+	p2pTunnelEnergyTax = 0.08
 	#The cost to transport items/fluids/etc. through P2P tunnels, expressed in AE energy per equivalent I/O bus operation for the transported object type (i.e. items=per 1 item, fluids=per 125mb).
 	# Default: 0.025
 	# Range: 0.0 ~ 1.0
-	p2pTunnelTransportTax = 0.05
+	p2pTunnelTransportTax = 0.08
 
 [condenser]
 	# Default: 256
