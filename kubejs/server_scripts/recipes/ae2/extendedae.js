@@ -782,7 +782,7 @@ ServerEvents.recipes(event => {
                 "item": "ae2:quartz_vibrant_glass"
             },
             "E": {
-                "item": "avaritia_integration:blaze_cube_double_plate"
+                "tag": "c:plates/diamond"
             }
         },
         "result": {

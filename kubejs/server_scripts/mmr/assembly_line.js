@@ -402,7 +402,7 @@ ServerEvents.recipes(event => {
             '16x #c:dusts/vibranium_allthemodium_alloy'
         ],
         [
-            '144x justdirethings:unrefined_t2_fluid_source'
+            '1000x justdirethings:unrefined_t2_fluid_source'
         ],
         [
             '1x emextras:absolute_overclocked_control_circuit',
@@ -422,7 +422,7 @@ ServerEvents.recipes(event => {
             '8x kubejs:abbysal_alloy'
         ],
         [
-            '144x justdirethings:unrefined_t2_fluid_source'
+            '1000x justdirethings:unrefined_t2_fluid_source'
         ],
         [
             '1x emextras:supreme_quantum_control_circuit',
@@ -442,7 +442,7 @@ ServerEvents.recipes(event => {
             '6x #c:ingots/draconium_awakened'
         ],
         [
-            '288x justdirethings:unrefined_t2_fluid_source'
+            '1000x justdirethings:unrefined_t2_fluid_source'
         ],
         [
             '1x emextras:cosmic_dense_control_circuit',
@@ -460,10 +460,11 @@ ServerEvents.recipes(event => {
             '32x #c:dusts/unobtainium_vibranium_alloy',
             '4x draconicevolution:chaos_shard',
             '2x kubejs:divinium_essence',
+            '2x avaritia_integration:blaze_cube_dense_plate',
         ],
         [
-            '288x avaritia_integration:elderly_medulla_source',
-            '1000x avaritia_integration:void_matter_source',
+            '200x avaritia_integration:elderly_medulla_source',
+            '4000x avaritia_integration:void_matter_source',
         ],
         [
             '1x emextras:infinite_multiversal_control_circuit',
