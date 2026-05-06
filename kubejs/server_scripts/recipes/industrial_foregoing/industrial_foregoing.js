@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
         "tier": 2,
         "key": {
             "A": {
-                "tag": "c:ingots/iron"
+                "tag": "c:plates/unobtainium"
             },
             "B": {
                 "tag": "c:chests"

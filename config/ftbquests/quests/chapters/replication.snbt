@@ -30,6 +30,7 @@
 			]
 			id: "644AB7EB80D5A04B"
 			shape: "pentagon"
+			size: 1.3d
 			tasks: [{
 				id: "7B716D9CB3DD8BAF"
 				item: { count: 1, id: "replication:replicator" }
